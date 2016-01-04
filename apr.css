@@ -24,25 +24,11 @@ body {
   line-height: 40px;
 }
 
-.year-header {
-  margin-top: 30;
-  margin-bottom: 30;
-}
-
 /* Custom page footer */
 .footer {
   padding-top: 19px;
   color: #777;
   border-top: 1px solid #e5e5e5;
-}
-
-.apr-media {
-  margin-top: 30;
-  margin-bottom: 30;
-}
-
-.apr-media-heading {
-     line-height: 20px;
 }
 
 /* Customize container */
@@ -90,4 +76,12 @@ body {
   .jumbotron {
     border-bottom: 0;
   }
+}
+
+.bibliography h3 {
+  line-height: 50px;
+}
+
+.apr-media-heading {
+     line-height: 20px;
 }

@@ -83,6 +83,12 @@ body {
   padding-bottom: 15px;
 }
 
+.apr-about {
+    font-size: 16px;
+    line-height: 25px;    
+}
+
+
 .media-list > li {
   padding-top: 5px;
   padding-bottom: 5px;

@@ -78,8 +78,9 @@ body {
   }
 }
 
-.bibliography h3 {
-  line-height: 50px;
+.apr > h3 {
+  padding-top: 10px;
+  padding-bottom: 15px;
 }
 
 .media-list > li {

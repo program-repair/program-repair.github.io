@@ -21,21 +21,21 @@
   <body>
 
     <div class="container">
+
       <div class="header clearfix">
-        <nav>
-          <ul class="nav nav-pills pull-right" role="tablist">
-            <li role="presentation" class="active"><a href="#bibliography" aria-controls="bibliography" role="tab" data-toggle="tab">Bibliography</a></li>
-            <li role="presentation"><a href="#tools" aria-controls="tools" role="tab" data-toggle="tab">Tools</a></li>
-            <li role="presentation"><a href="#about" aria-controls="about" role="tab" data-toggle="tab">About</a></li>
-          </ul>
-        </nav>
+        <ul class="nav nav-pills pull-right" role="tablist">
+          <li role="presentation" class="active"><a href="#bibliography" aria-controls="bibliography" role="tab" data-toggle="tab">Bibliography</a></li>
+          <li role="presentation"><a href="#tools" aria-controls="tools" role="tab" data-toggle="tab">Tools</a></li>
+          <li role="presentation"><a href="#about" aria-controls="about" role="tab" data-toggle="tab">About</a></li>
+        </ul>
         <h3 class="text-muted">Automated Program Repair</h3>
       </div>
 
-      <div class="tab-content">
-        <div class="bibliography" role="tabpanel" class="tab-pane active" id="bibliography">
+      <div>
+        <div class="tab-content">
+          <div role="tabpanel" class="apr tab-pane active" id="bibliography">
 
-          <h3 class="text-info"><strong>2016</strong></h3>
+          <h3 class="text-info">2016</h3>
 
           <ul class="media-list">
 
@@ -57,7 +57,7 @@
 
           </ul>
           
-          <h3 class="text-info"><strong>2015</strong></h3>
+          <h3 class="text-info">2015</h3>
 
           <ul class="media-list">
 
@@ -178,7 +178,7 @@
 
           </ul>
 
-          <h3 class="text-info"><strong>2014</strong></h3>
+          <h3 class="text-info">2014</h3>
 
           <ul class="media-list">
 
@@ -277,7 +277,7 @@
             
           </ul>
 
-          <h3 class="text-info"><strong>2013</strong></h3>
+          <h3 class="text-info">2013</h3>
 
           <ul class="media-list">
 
@@ -316,7 +316,7 @@
 
           </ul>
 
-          <h3 class="text-info"><strong>2012</strong></h3>
+          <h3 class="text-info">2012</h3>
 
           <ul class="media-list">
 
@@ -352,7 +352,7 @@
 
           </ul>
 
-          <h3 class="text-info"><strong>2011</strong></h3>
+          <h3 class="text-info">2011</h3>
 
           <ul class="media-list">
 
@@ -385,7 +385,7 @@
 
           </ul>
 
-          <h3 class="text-info"><strong>2010</strong></h3>
+          <h3 class="text-info">2010</h3>
 
           <ul class="media-list">
 
@@ -443,7 +443,7 @@
 
           </ul>
 
-          <h3 class="text-info"><strong>2009</strong></h3>
+          <h3 class="text-info">2009</h3>
 
           <ul class="media-list">
 
@@ -501,7 +501,7 @@
 
           </ul>
 
-          <h3 class="text-info"><strong>2008</strong></h3>
+          <h3 class="text-info">2008</h3>
 
           <ul class="media-list">
 
@@ -517,7 +517,7 @@
 
 
 
-          <h3 class="text-info"><strong>2005</strong></h3>
+          <h3 class="text-info">2005</h3>
 
           <ul class="media-list">
 
@@ -535,7 +535,7 @@
           </ul>
 
           <!--
-              <h3 class="text-info"><strong>2006</strong></h3>
+              <h3 class="text-info">2006</h3>
 
               <ul class="media-list">
 
@@ -553,12 +553,55 @@
               </ul>
               -->
 
+          </div>
+
+    
+          <div role="tabpanel" class="apr tab-pane" id="tools">
+
+            <h3>GenProg</h3>
+
+            <dl class="dl-horizontal">
+              <dt>URL</dt>
+              <dd><a href="http://dijkstra.cs.virginia.edu/genprog/">http://dijkstra.cs.virginia.edu/genprog/</a></dd>
+              <dt>Target</dt>
+              <dd>C source code</dd>
+              <dt>Related Publication</dt>
+              <dd>C. Le Goues, M. Dewey-Vogt, S. Forrest, W. Weimer. A Systematic Study of Automated Program Repair: Fixing 55 out of 105 bugs for $8 Each. <em>International Conference on Software Engineering (ICSE)</em>. 2012</dd>
+            </dl>
+
+            <h3>Nopol</h3>
+
+            <dl class="dl-horizontal">
+              <dt>URL</dt>
+              <dd><a href="https://github.com/SpoonLabs/nopol/">https://github.com/SpoonLabs/nopol/</a></dd>
+              <dt>Target</dt>
+              <dd>Java source code</dd>
+              <dt>Related Publication</dt>
+              <dd>F. DeMarco, J. Xuan, D. Le Berre, M. Monperrus. Automatic Repair of Buggy If Conditions and Missing Preconditions with SMT. <em>International Workshop on Constraints in Software Testing, Verification, and Analysis (CSTVA)</em>. 2014</dd>
+            </dl>
+
+            <h3>SPR</h3>
+
+            <dl class="dl-horizontal">
+              <dt>URL</dt>
+              <dd><a href="http://rhino.csail.mit.edu/spr-rep/">http://rhino.csail.mit.edu/spr-rep/</a></dd>
+              <dt>Target</dt>
+              <dd>C source code</dd>
+              <dt>Related Publication</dt>                            
+              <dd>F. Long, M. C. Rinard. Staged Program Repair with Condition Synthesis. <em> Symposium on the Foundations of Software Engineering (FSE)</em>. 2015</dd>
+            </dl>
+
+          </div>
+          
+          <div role="tabpanel" class="apr tab-pane" id="about">
+
+            <p>Automated program repair is an emerging area of research that focuses on reducing the cost of software bug fixing. Most automated program repair approaches automatically or semi-automatically modify buggy program to satisfy given correctness criteria (oracle). Examples of oracles are test suite and formal specification. Typical program repair works in the following three steps: identifying faulty locations, inferring desired specification, and generating a patch. Existing approaches differ in the underlying techniques used for localization, inference and patch generation. Roughly, they can be divided into two groups: syntactical (e.g., GenProg) and semantical (e.g., SemFix). Important attributes of automated program repair are scalability, repairability, and the quality of generated patches.</p>
+
+            <p>The goal of this website is to maintain a non-comprehensive up-to-date bibliography of papers on automated program repair published in a wide range of venues (e.g., PLDI, POPL, ICSE, FSE, ASE, ISSTA, CAV) and a list publicly available research tools. <a href="https://github.com/automated-program-repair/automated-program-repair.github.io">Contributions</a> and <a href="https://github.com/automated-program-repair/automated-program-repair.github.io/issues">bug reports</a> are welcomed.</p>
+
+          </div>
+
         </div>
-
-        <div id="tools" role="tabpanel" class="tab-pane">Tools</div>
-
-        <div id="about" role="tabpanel" class="tab-pane">About</div>        
-        
       </div>
 
       <footer class="footer">
@@ -569,6 +612,5 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
-    <script src="apr.js"></script>
   </body>
 </html>

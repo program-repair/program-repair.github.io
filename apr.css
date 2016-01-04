@@ -24,7 +24,7 @@ body {
   line-height: 40px;
 }
 
-h3 {
+.year-header {
   margin-top: 30;
   margin-bottom: 30;
 }
@@ -36,12 +36,12 @@ h3 {
   border-top: 1px solid #e5e5e5;
 }
 
-.media {
+.apr-media {
   margin-top: 30;
   margin-bottom: 30;
 }
 
-.media-heading {
+.apr-media-heading {
      line-height: 20px;
 }
 

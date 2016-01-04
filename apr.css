@@ -82,6 +82,11 @@ body {
   line-height: 50px;
 }
 
+.media-list > li {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
 .apr-media-heading {
      line-height: 20px;
 }

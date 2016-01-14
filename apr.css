@@ -96,3 +96,20 @@ body {
 .apr-media-heading {
      line-height: 20px;
 }
+
+
+.nav-pills > .active > a,
+.nav-pills > .active > a:hover {
+    text-decoration: none;
+    font-weight: bold;
+    border-radius:0px;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    color: #000 !important;
+    background-color: transparent !important;
+}
+
+.nav-pills > li > a {
+    border-radius: 0px;
+    color: #000 !important;
+}

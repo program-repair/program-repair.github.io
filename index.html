@@ -1,703 +1,124 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
+<html>
+
+<head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="msvalidate.01" content="E572D702116BEE430579AF2944F3C567" />
-    <meta name="google-site-verification" content="N9gZIFBnsoRXktOOC3LsdZqp5sm2F6q2OVjI0zc64_E" />
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="Automated program repair (automatic bug fixing) bibliography and resources">
-    <meta name="author" content="Sergey Mechtaev">
-    <!--    <link rel="icon" href="../../favicon.ico"> -->
+<meta name="google-site-verification" content="N9gZIFBnsoRXktOOC3LsdZqp5sm2F6q2OVjI0zc64_E" />
+
+<meta name="description" content="Community-driven website on automated program repair (automatic bug fixing). Up-to-date references to bibliography and resources">
+<meta name="author" content="Sergey Mechtaev">
 
     <title>Automated Program Repair</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="apr.css" rel="stylesheet">
-    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
-    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
-
-  </head>
-
-  <body>
-
-    <div class="container">
-
-      <div class="header clearfix">
-	<a class="btn" href="#"><i class="text-danger fa fa-cogs fa-2x"></i></a><strong class="text-uppercase">automated-program-repair.org</strong>
-        <ul class="nav nav-pills pull-right" role="tablist">
-          <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
-	  <li role="presentation"><a href="#bibliography" aria-controls="bibliography" role="tab" data-toggle="tab">Bibliography</a></li>
-          <li role="presentation"><a href="#tools" aria-controls="tools" role="tab" data-toggle="tab">Tools</a></li>
-          <li role="presentation"><a href="#about" aria-controls="about" role="tab" data-toggle="tab">About</a></li>
-        </ul>
-      </div>
-
-      <div>
-
-        <div class="tab-content">
-
-          <div role="tabpanel" class="apr-about tab-pane active" id="home">
-
-            <p>Automated program repair (automatic bug fixing) is an emerging area of research that focuses on reducing the cost of software bug fixing. Automated program repair approaches automatically or semi-automatically modify buggy program to satisfy given correctness criteria (oracle). Examples of oracles are test suite and formal specification. Typical program repair works in the following three steps: identifying faulty locations, inferring desired specification, and generating a patch. Existing approaches differ in the underlying techniques used for localization, inference, and patch generation. Roughly, they can be divided into two groups: syntactical (e.g., GenProg) and semantical (e.g., SemFix). Important attributes of automated program repair are scalability, repairability, and the quality of generated patches.</p>
-
-	    <div class="page-header">
-	      <h1><small>Latest news</small></h1>
-	    </div>
-
-            <ul class="media-list">
-
-              <li class="media">
-		<div class="media-left">
-                  <i class="fa fa-book fa-2x"></i>
-		</div>
-		<div class="media-body">
-                  <h4 class="media-heading apr-media-heading">Program repair at POPL'16</h4>
-		  The following program repair works are presented at Symposium on Principles of Programming Languages 2016 held in St. Petersburg, Florida, USA:<br/><br/>
-		  Prophet: Automatic Patch Generation via Learning From Successful Patches<br/>
-                  F. Long, M. C. Rinard<br/>
-
-		<!-- <i class="fa fa-book fa-2x"></i> -->
-	  
-		</div>
-              </li>
-	    
-	    </ul>
-	    
-
-	  </div>
-	  
-          <div role="tabpanel" class="apr tab-pane" id="bibliography">
-
-	    <div class="page-header">
-	      <h1><small>2016</small></h1>
-	    </div>
-	    
-            <ul class="media-list">
-
-              <li class="media">
-		<div class="media-body">
-                  <h4 class="media-heading apr-media-heading">Prophet: Automatic Patch Generation via Learning From Successful Patches</h4>
-                  F. Long, M. C. Rinard<br/>
-                  Symposium on Principles of Programming Languages (POPL)
-		</div>
-              </li>
-
-              <li class="media">
-		<div class="media-body">
-                  <h4 class="media-heading apr-media-heading">Angelix: Scalable Multiline Program Patch Synthesis via Symbolic Analysis</h4>
-                  S. Mechtaev, J. Yi, A. Roychoudhury<br/>
-                  International Conference on Software Engineering (ICSE)
-		</div>
-              </li>
-
-            </ul>
-
-	    <div class="page-header">
-	      <h1><small>2015</small></h1>
-	    </div>
-
-            <ul class="media-list">
-
-              <li class="media">
-		<div class="media-body">
-                  <h4 class="media-heading apr-media-heading">Automatic Error Elimination by Horizontal Code Transfer Across Multiple Applications</h4>
-                  S. Sidiroglou-Douskos, E. Lahtinen, F. Long, M. Rinard<br/>
-                  Conference on Programming Language Design and Implementation (PLDI)
-		</div>
-		<div class="media-right">
-                  <a class="btn btn-default" href="https://people.csail.mit.edu/rinard/paper/pldi15.pdf" role="button"><span class="glyphicon glyphicon-save" aria-hidden="true"></span></a>
-		</div>
-              </li>
-
-              <li class="media">
-		<div class="media-body">
-                  <h4 class="media-heading apr-media-heading">An Empirical Study on Real Bug Fixes</h4>
-                  H. Zhong, Z. Su<br/>
-                  International Conference on Software Engineering (ICSE)
-		</div>
-		<div class="media-right">
-                  <a class="btn btn-default" href="http://web.cs.ucdavis.edu/~su/publications/icse15-bugstudy.pdf" role="button"><span class="glyphicon glyphicon-save" aria-hidden="true"></span></a>
-		</div>
-              </li>
-
-              <li class="media">
-		<div class="media-body">
-                  <h4 class="media-heading apr-media-heading">DirectFix: Looking for Simple Program Repairs</h4>
-                  S. Mechtaev, J. Yi, A. Roychoudhury<br/>
-                  International Conference on Software Engineering (ICSE)
-		</div>
-		<div class="media-right">
-                  <a class="btn btn-default" href="https://www.comp.nus.edu.sg/~abhik/pdf/ICSE15-directfix.pdf" role="button"><span class="glyphicon glyphicon-save" aria-hidden="true"></span></a>
-		</div>
-              </li>
-
-              <li class="media">
-		<div class="media-body">
-                  <h4 class="media-heading apr-media-heading">Relifix: Automated  Repair of Software Regressions</h4>
-                  S. Tan, A. Roychoudhury<br/>
-                  International Conference on Software Engineering (ICSE)
-		</div>
-		<div class="media-right">
-                  <a class="btn btn-default" href="https://www.comp.nus.edu.sg/~abhik/pdf/ICSE15-relifix.pdf" role="button"><span class="glyphicon glyphicon-save" aria-hidden="true"></span></a>
-		</div>
-              </li>
-
-              <li class="media">
-		<div class="media-body">
-                  <h4 class="media-heading apr-media-heading">Is the Cure Worse Than the Disease? Overfitting in Automated Program Repair</h4>
-                  E. K. Smith, E. Barr, C. Le Goues, Y. Brun<br/>
-                  Symposium on the Foundations of Software Engineering (FSE)
-		</div>
-		<div class="media-right">
-                  <a class="btn btn-default" href="https://people.cs.umass.edu/~brun/pubs/pubs/Smith15fse.pdf" role="button"><span class="glyphicon glyphicon-save" aria-hidden="true"></span></a>
-		</div>
-              </li>
-
-              <li class="media">
-		<div class="media-body">
-                  <h4 class="media-heading apr-media-heading">Staged Program Repair with Condition Synthesis</h4>
-                  F. Long, M. C. Rinard<br/>
-                  Symposium on the Foundations of Software Engineering (FSE)
-		</div>
-		<div class="media-right">
-                  <a class="btn btn-default" href="http://people.csail.mit.edu/fanl/papers/spr-fse15.pdf" role="button"><span class="glyphicon glyphicon-save" aria-hidden="true"></span></a>
-		</div>
-              </li>
-
-              <li class="media">
-		<div class="media-body">
-                  <h4 class="media-heading apr-media-heading">Deductive Program Repair</h4>
-                  E. Kneuss, M. Koukoutos, V. Kuncak<br/>
-                  Computer Aided Verification (CAV)
-		</div>
-              </li>
-
-              <li class="media">
-		<div class="media-body">
-                  <h4 class="media-heading apr-media-heading">An Analysis of Patch Plausibility and Correctness for Generate-And-Validate Patch Generation Systems</h4>
-                  Z. Qi, F. Long, S. Achour, M. Rinard<br/>
-                  International Symposium on Software Testing and Analysis (ISSTA)
-		</div>
-              </li>
-
-              <li class="media">
-		<div class="media-body">
-                  <h4 class="media-heading apr-media-heading">Repairing Programs with Semantic Code Search</h4>
-                  Y. Ke, K. T. Stolee, C. Le Goues, Y. Brun<br/>
-                  International Conference on Automated Software Engineering (ASE)
-		</div>
-		<div class="media-right">
-                  <a class="btn btn-default" href="https://people.cs.umass.edu/~brun/pubs/pubs/Ke15ase.pdf" role="button"><span class="glyphicon glyphicon-save" aria-hidden="true"></span></a>
-		</div>
-              </li>
-
-              <li class="media">
-		<div class="media-body">
-                  <h4 class="media-heading apr-media-heading">Mining Software Repair Models for Reasoning on the Search Space of Automated Program Fixing</h4>
-                  M. Martinez, M. Monperrus<br/>
-                  Empirical Software Engineering 20.1
-		</div>
-		<div class="media-right">
-                  <a class="btn btn-default" href="https://hal.inria.fr/hal-00903808/PDF/mining-software-repair-models.pdf" role="button"><span class="glyphicon glyphicon-save" aria-hidden="true"></span></a>
-		</div>
-              </li>
-
-              <li class="media">
-		<div class="media-body">
-                  <h4 class="media-heading apr-media-heading">The ManyBugs and IntroClass Benchmarks for Automated Repair of C Programs</h4>
-                  C. Le Goues, N. Holtschulte, E. K. Smith, Y. Brun, P. Devanbu, S. Forrest, W. Weimer<br/>
-                  IEEE Transactions on Software Engineering (TSE)
-		</div>
-		<div class="media-right">
-                  <a class="btn btn-default" href="http://dijkstra.cs.virginia.edu/genprog/resources/autorepairbenchmarks//docs/benchmarkse-tse-preprint.pdf" role="button"><span class="glyphicon glyphicon-save" aria-hidden="true"></span></a>
-		</div>
-              </li>
-
-            </ul>
-
-	    
-	    <div class="page-header">
-	      <h1><small>2014</small></h1>
-	    </div>
-
-            <ul class="media-list">
-
-              <li class="media">
-		<div class="media-body">
-                  <h4 class="media-heading apr-media-heading">The Strength of Random Search on Automated Program Repair</h4>
-                  Y. Qi, X. Mao, Y. Lei, Z. Dai, C. Wang<br/>
-                  International Conference on Software Engineering (ICSE)
-		</div>
-		<div class="media-right">
-                  <a class="btn btn-default" href="http://www.utdallas.edu/~lxz144130/cs6301-readings/repair-qi-icse14.pdf" role="button"><span class="glyphicon glyphicon-save" aria-hidden="true"></span></a>
-		</div>
-              </li>          
-
-              <li class="media">
-		<div class="media-body">
-                  <h4 class="media-heading apr-media-heading">Do the Fix Ingredients Already Exist? An Empirical Inquiry into the Redundancy Assumptions of Program Repair Approaches</h4>
-                  M. Martinez, W. Weimer, M. Monperrus<br/>
-                  International Conference on Software Engineering (ICSE)
-		</div>
-		<div class="media-right">
-                  <a class="btn btn-default" href="https://hal.inria.fr/hal-00965410/document" role="button"><span class="glyphicon glyphicon-save" aria-hidden="true"></span></a>
-		</div>
-              </li>
-
-              <li class="media">
-		<div class="media-body">
-                  <h4 class="media-heading apr-media-heading">A Critical Review of "Automatic Patch Generation Learned from Human-Written Patches": Essay on the Problem Statement and the Evaluation of Automatic Software Repair</h4>
-                  M. Monperrus<br/>
-                  International Conference on Software Engineering (ICSE)
-		</div>
-              </li>
-
-              <li class="media">
-		<div class="media-body">
-                  <h4 class="media-heading apr-media-heading">MintHint: Automated Synthesis of Repair Hints</h4>
-                  S. Kaleeswaran, V. Tulsian, A. Kanade, A. Orso<br/>
-                  International Conference on Software Engineering (ICSE)
-		</div>
-		<div class="media-right">
-                  <a class="btn btn-default" href="clweb.csa.iisc.ernet.in/shalinik/minthint.preprint.pdf" role="button"><span class="glyphicon glyphicon-save" aria-hidden="true"></span></a>
-		</div>
-              </li>
-
-              <li class="media">
-		<div class="media-body">
-                  <h4 class="media-heading apr-media-heading">The Plastic Surgery Hypothesis</h4>
-                  E. T. Barr, Y. Brun, P. T. Devanbu, M. Harman, F. Sarro<br/>
-                  International Symposium on Foundations of Software Engineering (FSE)
-		</div>
-		<div class="media-right">
-                  <a class="btn btn-default" href="https://people.cs.umass.edu/~brun/pubs/pubs/Barr14fse.pdf" role="button"><span class="glyphicon glyphicon-save" aria-hidden="true"></span></a>
-		</div>
-              </li>
-
-              <li class="media">
-		<div class="media-body">
-                  <h4 class="media-heading apr-media-heading">Automatically Generated Patches As Debugging Aids: a Human Study</h4>
-                  Y. Tao, J. Kim, S. Kim, C. Xu.<br/>
-                  International Symposium on Foundations of Software Engineering (FSE)
-		</div>
-		<div class="media-right">
-                  <a class="btn btn-default" href="https://www.cse.ust.hk/~hunkim/papers/tao-fse2014.pdf" role="button"><span class="glyphicon glyphicon-save" aria-hidden="true"></span></a>
-		</div>
-              </li>
-
-              <li class="media">
-		<div class="media-body">
-                  <h4 class="media-heading apr-media-heading">Towards Self-healing Smartphone Software via Automated Patching</h4>
-                  T. Azim, I. Neamtiu, L. Marvel<br/>
-                  International Conference on Automated Software Engineering (ASE)
-		</div>
-		<div class="media-right">
-                  <a class="btn btn-default" href="http://www.cs.ucr.edu/~neamtiu/pubs/ase14azim.pdf" role="button"><span class="glyphicon glyphicon-save" aria-hidden="true"></span></a>
-		</div>
-              </li>
-
-              <li class="media">
-		<div class="media-body">
-                  <h4 class="media-heading apr-media-heading">Automated Fixing of Programs with Contracts</h4>
-                  A. Zeller, Y. Wei, B. Meyer, M. Nordio, C. A. Furia, Y. Pei<br/>
-                  IEEE Transactions on Software Engineering 40.5
-		</div>
-              </li>
-
-              <li class="media">
-		<div class="media-body">
-                  <h4 class="media-heading apr-media-heading">Automatic Repair of Buggy If Conditions and Missing Preconditions with SMT</h4>
-                  F. DeMarco, J. Xuan, D. Le Berre, M. Monperrus<br/>
-                  International Workshop on Constraints in Software Testing, Verification, and Analysis (CSTVA)
-		</div>
-		<div class="media-right">
-                  <a class="btn btn-default" href="http://arxiv.org/pdf/1404.3186.pdf" role="button"><span class="glyphicon glyphicon-save" aria-hidden="true"></span></a>
-		</div>
-              </li>
-              
-            </ul>
-
-	    <div class="page-header">
-	      <h1><small>2013</small></h1>
-	    </div>
-	    
-
-            <ul class="media-list">
-
-              <li class="media">
-		<div class="media-body">
-                  <h4 class="media-heading apr-media-heading">Automatic Patch Generation Learned From Human-Written Patches</h4>
-                  D. Kim, J. Nam, J. Song, S. Kim<br/>
-                  International Conference on Software Engineering (ICSE)
-		</div>
-		<div class="media-right">
-                  <a class="btn btn-default" href="http://people.csail.mit.edu/hunkim/papers/kim-icse2013.pdf" role="button"><span class="glyphicon glyphicon-save" aria-hidden="true"></span></a>
-		</div>
-              </li>
-
-              <li class="media">
-		<div class="media-body">
-                  <h4 class="media-heading apr-media-heading">SemFix: Program Repair via Semantic Analysis</h4>
-                  H.D.T. Nguyen, D. Qi, A. Roychoudhury, S. Chandra<br/>
-                  International Conference on Software Engineering (ICSE)
-		</div>
-		<div class="media-right">
-                  <a class="btn btn-default" href="https://www.comp.nus.edu.sg/~abhik/pdf/ICSE13-SEMFIX.pdf" role="button"><span class="glyphicon glyphicon-save" aria-hidden="true"></span></a>
-		</div>
-              </li>
-
-              <li class="media">
-		<div class="media-body">
-                  <h4 class="media-heading apr-media-heading">R2Fix: Automatically Generating Bug Fixes From Bug Reports</h4>
-                  C. Liu, J. Yang, L. Tan, M. Hafiz<br/>
-                  International Conference on Software Testing, Verification and Validation (ICST)
-		</div>
-		<div class="media-right">
-                  <a class="btn btn-default" href="http://digitalmeasures.auburn.edu/dm/mzh0034/intellcont/paper-1.pdf" role="button"><span class="glyphicon glyphicon-save" aria-hidden="true"></span></a>
-		</div>
-              </li>
-
-            </ul>
-
-	    <div class="page-header">
-	      <h1><small>2012</small></h1>
-	    </div>
-
-            <ul class="media-list">
-
-              <li class="media">
-		<div class="media-body">
-                  <h4 class="media-heading apr-media-heading">A Systematic Study of Automated Program Repair: Fixing 55 Out of 105 Bugs for $8 Each</h4>
-                  C. Le Goues, M. Dewey-Vogt, S. Forrest, W. Weimer<br/>
-                  International Conference on Software Engineering (ICSE)
-		</div>
-		<div class="media-right">
-                  <a class="btn btn-default" href="https://www.cs.virginia.edu/.../p/weimer-icse2012-genprog-preprint.pdf" role="button"><span class="glyphicon glyphicon-save" aria-hidden="true"></span></a>
-		</div>
-              </li>
-
-              <li class="media">
-		<div class="media-body">
-                  <h4 class="media-heading apr-media-heading">A Human Study of Patch Maintainability</h4>
-                  Z. P. Fry, B. Landau, W. Weimer<br/>
-                  International Symposium on Software Testing and Analysis (ISSTA)
-		</div>
-		<div class="media-right">
-                  <a class="btn btn-default" href="https://www.cs.virginia.edu/~weimer/p/FryISSTA12_PREPRINT.pdf" role="button"><span class="glyphicon glyphicon-save" aria-hidden="true"></span></a>
-		</div>
-              </li>
-
-              <li class="media">
-		<div class="media-body">
-                  <h4 class="media-heading apr-media-heading">GenProg: a Generic Method for Automatic Software Repair</h4>
-                  C. L. Goues, T. Nguyen, S. Forrest, W. Weimer<br/>
-                  IEEE Transactions on Software Engineering 38
-		</div>
-              </li>
-
-            </ul>
-
-	    <div class="page-header">
-	      <h1><small>2011</small></h1>
-	    </div>
-
-            <ul class="media-list">
-
-              <li class="media">
-		<div class="media-body">
-                  <h4 class="media-heading apr-media-heading">Automated Atomicity-violation Fixing</h4>
-                  G. Jin, L. Song, W. Zhang, S. Lu, B. Liblit<br/>
-                  Conference on Programming Language Design and Implementation (PLDI)
-		</div>
-		<div class="media-right">
-                  <a class="btn btn-default" href="http://pages.cs.wisc.edu/~liblit/pldi-2011/pldi-2011.pdf" role="button"><span class="glyphicon glyphicon-save" aria-hidden="true"></span></a>
-		</div>
-              </li>
-
-              <li class="media">
-		<div class="media-body">
-                  <h4 class="media-heading apr-media-heading">Automated Error Localization and Correction for Imperative Programs</h4>
-                  R. Könighofer, R. Bloem<br/>
-                  Formal Methods in Computer-Aided Design (FMCAD)
-		</div>
-              </li>
-
-              <li class="media">
-		<div class="media-body">
-                  <h4 class="media-heading apr-media-heading">Specification-based Program Repair Using SAT</h4>
-                  D. Gopinath, M. Z. Malik, S. Khurshid<br/>
-                  International Conference on Tools and Algorithms for the Construction and Analysis of Systems (TACAS)
-		</div>
-              </li>
-
-            </ul>
-
-	    <div class="page-header">
-	      <h1><small>2010</small></h1>
-	    </div>
-
-            <ul class="media-list">
-
-              <li class="media">
-		<div class="media-body">
-                  <h4 class="media-heading apr-media-heading">Automated Fixing of Programs with Contracts</h4>
-                  Y. Wei, Y. Pei, C. A. Furia, L. S. Silva, S. Buchholz, B. Meyer, A. Zeller<br/>
-                  International Symposium on Software Testing and Analysis (ISSTA)
-		</div>
-		<div class="media-right">
-                  <a class="btn btn-default" href="http://se.ethz.ch/~meyer/publications/testing/autofix_e.pdf" role="button"><span class="glyphicon glyphicon-save" aria-hidden="true"></span></a>
-		</div>
-              </li>
-
-              <li class="media">
-		<div class="media-body">
-                  <h4 class="media-heading apr-media-heading">Using Mutation to Automatically Suggest Fixes for Faulty Programs</h4>
-                  V. Debroy, W. Wong<br/>
-                  International Conference on Software Testing, Verification and Validation (ICST)
-		</div>
-              </li>
-
-              <li class="media">
-		<div class="media-body">
-                  <h4 class="media-heading apr-media-heading">Automated Program Repair Through the Evolution of Assembly Code</h4>
-                  E. Schulte, S. Forrest, W. Weimer<br/>
-                  International Conference on Automated Software Engineering (ASE)
-		</div>
-		<div class="media-right">
-                  <a class="btn btn-default" href="https://www.cs.virginia.edu/~weimer/p/weimer-ase2010-asm-preprint.pdf" role="button"><span class="glyphicon glyphicon-save" aria-hidden="true"></span></a>
-		</div>
-              </li>
-
-              <li class="media">
-		<div class="media-body">
-                  <h4 class="media-heading apr-media-heading">Automatic Error Correction of Java Program</h4>
-                  C. Kern, J. Esparza<br/>
-                  Formal Methods for Industrial Critical Systems (FMICS)
-		</div>
-		<div class="media-right">
-                  <a class="btn btn-default" href="http://sachaproject.gforge.inria.fr/papers/fmics10.pdf" role="button"><span class="glyphicon glyphicon-save" aria-hidden="true"></span></a>
-		</div>
-              </li>
-
-              <li class="media">
-		<div class="media-body">
-                  <h4 class="media-heading apr-media-heading">Automatic Program Repair with Evolutionary Computation</h4>
-                  W. Weimer, S. Forrest, C. Le Goues, T. Nguyen<br/>
-                  Communications of the ACM 53.5
-		</div>
-		<div class="media-right">
-                  <a class="btn btn-default" href="https://www.cs.virginia.edu/~weimer/p/p109-weimer.pdf" role="button"><span class="glyphicon glyphicon-save" aria-hidden="true"></span></a>
-		</div>
-              </li>
-
-            </ul>
-
-	    <div class="page-header">
-	      <h1><small>2009</small></h1>
-	    </div>
-
-            <ul class="media-list">
-
-              <li class="media">
-		<div class="media-body">
-                  <h4 class="media-heading apr-media-heading">Automatically Finding Patches Using Genetic Programming</h4>
-                  W. Weimer, T. Nguyen, C. L. Goues, S. Forrest<br/>
-                  International Conference on Software Engineering (ICSE)
-		</div>
-		<div class="media-right">
-                  <a class="btn btn-default" href="https://www.cs.cmu.edu/~clegoues/docs/legoues-icse09.pdf" role="button"><span class="glyphicon glyphicon-save" aria-hidden="true"></span></a>
-		</div>
-              </li>
-
-              <li class="media">
-		<div class="media-body">
-                  <h4 class="media-heading apr-media-heading">Generating Fixes From Object Behavior Anomalies</h4>
-                  V. Dallmeier, A. Zeller, B. Meyer<br/>
-                  International Conference on Automated Software Engineering (ASE)
-		</div>
-		<div class="media-right">
-                  <a class="btn btn-default" href="http://se.ethz.ch/~meyer/publications/testing/fix_ase.pdf" role="button"><span class="glyphicon glyphicon-save" aria-hidden="true"></span></a>
-		</div>
-              </li>
-
-              <li class="media">
-		<div class="media-body">
-                  <h4 class="media-heading apr-media-heading">Automatically Patching Errors in Deployed Software</h4>
-                  J. H. Perkins, G. Sullivan, W.-F. Wong, Y. Zibin, M. D. Ernst, M. Rinard, S. Kim, S. Larsen, S. Amarasinghe, J. Bachrach, M. Carbin, C. Pacheco, F. Sherwood, S. Sidiroglou<br/>
-                  Symposium on Operating Systems Principles (SOSP)
-		</div>
-              </li>
-
-              <li class="media">
-		<div class="media-body">
-                  <h4 class="media-heading apr-media-heading">A Genetic Programming Approach to Automated Software Repair</h4>
-                  S. Forrest, T. Nguyen, W. Weimer, C. Le Goues<br/>
-                  Conference on Genetic and Evolutionary Computation (GECCO)
-		</div>
-		<div class="media-right">
-                  <a class="btn btn-default" href="https://www.cs.cmu.edu/~clegoues/docs/legoues-gecco09.pdf" role="button"><span class="glyphicon glyphicon-save" aria-hidden="true"></span></a>
-		</div>
-              </li>
-
-              <li class="media">
-		<div class="media-body">
-                  <h4 class="media-heading apr-media-heading">BugFix: a Learning-based Tool to Assist Developers in Fixing Bugs</h4>
-                  D. Jeffrey, M. Feng, N. Gupta, R. Gupta<br/>
-                  International Conference on Program Comprehension (ICPC)
-		</div>
-		<div class="media-right">
-                  <a class="btn btn-default" href="http://dennisjeffrey.com/student_site/ICPC09.pdf" role="button"><span class="glyphicon glyphicon-save" aria-hidden="true"></span></a>
-		</div>
-              </li>
-
-            </ul>
-
-	    <div class="page-header">
-	      <h1><small>2008</small></h1>
-	    </div>
-
-            <ul class="media-list">
-
-              <li class="media">
-		<div class="media-body">
-                  <h4 class="media-heading apr-media-heading">A Novel Co-evolutionary Approach to Automatic Software Bug Fixing</h4>
-                  A. Arcuri, X. Yao<br/>
-                  IEEE Congress on Evolutionary Computation
-		</div>
-              </li>
-
-            </ul>
-
-
-
-	    <div class="page-header">
-	      <h1><small>2005</small></h1>
-	    </div>
-
-            <ul class="media-list">
-
-              <li class="media">
-		<div class="media-body">
-                  <h4 class="media-heading apr-media-heading">Program Repair As a Game</h4>
-                  B. Jobstmann, A. Griesmayer, R. Bloem<br/>
-                  Computer Aided Verification (CAV)
-		</div>
-		<div class="media-right">
-                  <a class="btn btn-default" href="http://www-verimag.imag.fr/~jobstman/bib/files/repair.pdf" role="button"><span class="glyphicon glyphicon-save" aria-hidden="true"></span></a>
-		</div>
-              </li>
-
-            </ul>
-
-            <!--
-		<h3 class="text-info">2006</h3>
-
-		<ul class="media-list">
-
-                  <li class="media">
-                    <div class="media-body">
-                      <h4 class="media-heading apr-media-heading">TODO</h4>
-                      TODO<br/>
-                      TODO
-                    </div>
-                    <div class="media-right">
-                      <a class="btn btn-default" href="TODO" role="button"><span class="glyphicon glyphicon-save" aria-hidden="true"></span></a>
-                    </div>
-                  </li>
-
-		</ul>
-		-->
-
-          </div>
-
-	  
-          <div role="tabpanel" class="apr tab-pane" id="tools">
-
-            <h3>GenProg</h3>
-
-            <dl class="dl-horizontal">
-              <dt>URL</dt>
-              <dd><a href="http://dijkstra.cs.virginia.edu/genprog/">http://dijkstra.cs.virginia.edu/genprog/</a></dd>
-              <dt>Target</dt>
-              <dd>C source code</dd>
-              <dt>Related Publication</dt>
-              <dd>C. Le Goues, M. Dewey-Vogt, S. Forrest, W. Weimer. A Systematic Study of Automated Program Repair: Fixing 55 out of 105 bugs for $8 Each. <em>International Conference on Software Engineering (ICSE)</em>. 2012</dd>
-            </dl>
-
-            <h3>Nopol</h3>
-
-            <dl class="dl-horizontal">
-              <dt>URL</dt>
-              <dd><a href="https://github.com/SpoonLabs/nopol/">https://github.com/SpoonLabs/nopol/</a></dd>
-              <dt>Target</dt>
-              <dd>Java source code</dd>
-              <dt>Related Publication</dt>
-              <dd>F. DeMarco, J. Xuan, D. Le Berre, M. Monperrus. Automatic Repair of Buggy If Conditions and Missing Preconditions with SMT. <em>International Workshop on Constraints in Software Testing, Verification, and Analysis (CSTVA)</em>. 2014</dd>
-            </dl>
-
-            <h3>SPR</h3>
-
-            <dl class="dl-horizontal">
-              <dt>URL</dt>
-              <dd><a href="http://rhino.csail.mit.edu/spr-rep/">http://rhino.csail.mit.edu/spr-rep/</a></dd>
-              <dt>Target</dt>
-              <dd>C source code</dd>
-              <dt>Related Publication</dt>                            
-              <dd>F. Long, M. C. Rinard. Staged Program Repair with Condition Synthesis. <em> Symposium on the Foundations of Software Engineering (FSE)</em>. 2015</dd>
-            </dl>
-
-          </div>
-          
-          <div role="tabpanel" class="apr-about tab-pane" id="about">
-
-	    <p>This website is a community-driven effort to provide up-to-date references about automated program repair. The bibliography section includes papers published in top computer science venues:
-	      <ul>
-		<li>Conference on Programming Language Design and Implementation (PLDI)</li>
-		<li>Symposium on Principles of Programming Languages (POPL)</li>
-		<li>International Conference on Software Engineering (ICSE)</li>
-		<li>Symposium on the Foundations of Software Engineering (FSE)</li>
-		<li>International Conference on Computer-Aided Verification (CAV)</li>
-		<li>International Symposium on Software Testing and Analysis (ISSTA)</li>
-		<li>International Conference on Automated Software Engineering (ASE)</li>
-		<li>IEEE Transactions on Software Engineering (TSE)</li>
-		<li>ACM Transactions on Software Engineering and Methodology (TOSEM)</li>
-		<li>International Conference on Software Testing, Verification and Validation (ICST)</li>
-	      </ul>
-
-	      The bibliography also contains several early works published in unlisted conferences.</p>
-
-	    <p>The tools section contains references to related research tools, benchmarks, etc. We display only artifacts that are publicly available and have correspoding publications in the venues listed above.</p>
-
-	    <p><a href="https://github.com/automated-program-repair/automated-program-repair.github.io">Contributions</a> and <a href="https://github.com/automated-program-repair/automated-program-repair.github.io/issues">bug reports</a> are welcomed.</p>
-
-          </div>
-
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/bootstrap/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/user.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header"><a class="navbar-brand navbar-link" href="index.html"><span class="fa fa-cogs"></span> automated-program-repair.org</a>
+                <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+            </div>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active" role="presentation"><a href="index.html">Home </a></li>
+                    <li role="presentation"><a href="bibliography.html">Bibliography</a></li>
+                    <li role="presentation"><a href="tools.html">Tools </a></li>
+                    <li role="presentation"><a href="about.html">About </a></li>
+                </ul>
+            </div>
         </div>
-      </div>
+    </nav>
+    <div class="jumbotron hero">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6"></div>
+                <div class="col-md-6 get-it">
+                    <h1>Automated Program Repair</h1>
+                    <p>Community-driven effort to facilitate discovery, access and systematization of data related to automated program repair research</p>
+                    <p><a class="btn btn-success btn-lg" role="button" href="subscribe.html"><span class="fa fa-feed"></span> Subscribe</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="testimonials">
+        <blockquote>
+            <p>What one would like ideally [...] is the automatic detection and correction of bugs</p>
+            <footer>R. J. Abbot, 1990</footer>
+        </blockquote>
+    </section>
+    <section class="features">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>Resources</h2>
+                    <p>Up-to-date references to publicly available resources on automated program repair, related fields, and commercial applications</p>
+                </div>
+                <div class="col-md-6">
+                    <div class="row icon-features">
+                        <div class="col-xs-4 icon-feature"><span class="glyphicon glyphicon-book"></span>
+                            <p>Bibliography </p>
+                        </div>
+                        <div class="col-xs-4 icon-feature"><span class="glyphicon glyphicon-wrench"></span>
+                            <p>Tools </p>
+                        </div>
+                        <div class="col-xs-4 icon-feature"><span class="glyphicon glyphicon-flag"></span>
+                            <p>Benchmarks </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="testimonials">
+        <div class="container">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h1>Latest news</h1></div>
+                <div class="panel-body">
+                    <div class="media">
+                        <div class="media-left">
+                            <a>
+                                <div class="col-md-12"><span class="glyphicon glyphicon-wrench news-icon"></span></div>
+                            </a>
+                        </div>
+                        <div class="media-body">
+                            <h4>Angelix — new open source repair tool</h4>
+                            <p>Angelix is a new program repair tools released under MIT licence. Information about this tool can be found on the following website:</p>
+                            <p><a href="https://github.com/mechtaev/angelix">https://github.com/mechtaev/angelix</a> </p>
+                        </div>
+                    </div>
+                    <div class="media">
+                        <div class="media-left">
+                            <a>
+                                <div class="col-md-12"><span class="glyphicon glyphicon-book news-icon"></span></div>
+                            </a>
+                        </div>
+                        <div class="media-body">
+                            <h4>Program repair at POPL'16 </h4>
+                            <p>The following program repair works are presented at Symposium on Principles of Programming Languages 2016 held in St. Petersburg, Florida, USA: </p>
+                            <p>F. Long, M. C. Rinard. Prophet: Automatic Patch Generation via Learning From Successful Patches</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h5>Last update: 5 February 2016</h5></div>
+                <div class="col-sm-6 social-icons"><a href="https://github.com/automated-program-repair"><span class="fa fa-github-alt"></span></a></div>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <iframe src="https://docs.google.com/forms/d/1cq4Dzw9nwMhYYlz8LOWsRON-aCP8soSjULDGfn0l-sc/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+</body>
 
-      <footer class="footer">
-        <p>Last update: 14 January 2016</p>
-      </footer>
-
-    </div> <!-- /container -->
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="bootstrap/js/bootstrap.min.js"></script>
-
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-71971425-1', 'auto');
-      ga('send', 'pageview');
-
-    </script>    
-  </body>
 </html>

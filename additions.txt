@@ -1,0 +1,8 @@
+<iframe src="https://docs.google.com/forms/d/1cq4Dzw9nwMhYYlz8LOWsRON-aCP8soSjULDGfn0l-sc/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+
+<meta name="msvalidate.01" content="E572D702116BEE430579AF2944F3C567" />
+<meta name="google-site-verification" content="N9gZIFBnsoRXktOOC3LsdZqp5sm2F6q2OVjI0zc64_E" />
+
+<meta name="description" content="Community-driven website on automated program repair (automatic bug fixing). Up-to-date references to bibliography and resources">
+<meta name="author" content="Sergey Mechtaev">
+

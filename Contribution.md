@@ -1,8 +1,8 @@
-* Contribution guidelines *
+# Contribution guidelines #
 
 We'd love you to contribute new publications, tools and benchmarks to make information on automated-program-repair.org more objective, complete and correct. Please use GitHub Issues to submit your suggestions and reports.
 
-** Publications **
+## Publications ##
 
 Our website lists publications
 
@@ -17,7 +17,7 @@ To submit a new publication, you need to provide the following:
 * URL to pdf file (if it is publicly available)
 * Short description of why it is relevant to automated program repair
 
-** Tools and benchmarks **
+## Tools and benchmarks ##
 
 Our website displays only tools and benchmarks that
 

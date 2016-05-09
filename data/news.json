@@ -1,0 +1,14 @@
+{
+    "news": [
+	{
+	    "title": "Angelix — new open source repair tool",
+	    "content": "<p>Angelix is a new program repair tool released under MIT licence. Information about this tool can be found on the following website:</p><p><a href=\"https://github.com/mechtaev/angelix\">https://github.com/mechtaev/angelix</a></p>",
+	    "publication": false
+	},
+	{
+	    "title": "Program repair at POPL'16",
+	    "content": "<p>The following program repair works are presented at Symposium on Principles of Programming Languages 2016 held in St. Petersburg, Florida, USA:</p> <p>F. Long, M. C. Rinard. Prophet: Automatic Patch Generation via Learning From Successful Patches</p>",
+	    "publication": true
+	}
+    ]
+}

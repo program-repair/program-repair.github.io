@@ -20,8 +20,8 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li role="presentation"><a href="index.html">Home </a></li>
                     <li role="presentation"><a href="bibliography.html">Bibliography</a></li>
-                    <li role="presentation"><a href="tools.html">Tools </a></li>
-                    <li class="active" role="presentation"><a href="benchmarks.html">Benchmarks </a></li>
+                    <li class="active" role="presentation"><a href="#">Tools </a></li>
+                    <li role="presentation"><a href="benchmarks.html">Benchmarks </a></li>
                     <li role="presentation"><a href="about.html">About </a></li>
                 </ul>
             </div>
@@ -29,7 +29,8 @@
     </nav>
     <section class="testimonials">
       <div class="container">
-        <h1>ManyBugs</h1>
+	{{#tools}}
+        <h1>{{name}}</h1>
         <div class="table-responsive tool-table">
           <table class="table">
             <thead>
@@ -41,55 +42,25 @@
             <tbody>
               <tr>
                 <td>Description</td>
-                <td>Automated program repair benchmark that consists of 185 defects from large popular open-source projects</td>
+                <td>{{description}}</td>
               </tr>
               <tr>
                 <td>URL </td>
-                <td><a href="http://repairbenchmarks.cs.umass.edu"><span style="text-decoration: underline;">http://repairbenchmarks.cs.umass.edu</span></a> </td>
+                <td><a href="{{url}}"><span style="text-decoration: underline;">{{url}}</span></a> </td>
               </tr>
               <tr>
                 <td>Target</td>
-                <td>C source code</td>
+                <td>{{target}}</td>
               </tr>
               <tr>
                 <td>Related publication</td>
-                <td><strong>The ManyBugs and IntroClass Benchmarks for Automated Repair of C Programs</strong>, by C. L. Goues, N. Holtschulte, E. K. Smith, Y. Brun, P.Devanbu, S. Forrest, W. Weimer. <em>IEEE Transactions on Software Engineering (TSE)</em>.
-                  2015 </td>
+                <td><strong>{{title}}</strong>, by {{authors}}. <em>{{venue}}</em>.
+                  {{year}} </td>
               </tr>
             </tbody>
           </table>
         </div>
-        <h1>IntroClass</h1>
-        <div class="table-responsive tool-table">
-          <table class="table">
-            <thead>
-              <tr>
-                <th> </th>
-                <th> </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Description</td>
-                <td>Automated program repair benchmark that consists of 998 defects in small student-written programming assignments</td>
-              </tr>
-              <tr>
-                <td>URL </td>
-                <td><a href="http://repairbenchmarks.cs.umass.edu"><span style="text-decoration: underline;">http://repairbenchmarks.cs.umass.edu</span></a> </td>
-              </tr>
-              <tr>
-                <td>Target</td>
-                <td>C source code</td>
-              </tr>
-              <tr>
-                <td>Related publication</td>
-                <td><strong>The ManyBugs and IntroClass Benchmarks for Automated Repair of C Programs</strong>, by C. L. Goues, N. Holtschulte, E. K. Smith, Y. Brun, P.Devanbu, S. Forrest, W. Weimer. <em>IEEE Transactions on Software Engineering (TSE)</em>.
-                  2015 </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        </div>
+	{{/tools}}
     </section>
     <footer class="site-footer">
         <div class="container">

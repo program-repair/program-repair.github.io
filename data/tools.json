@@ -1,0 +1,64 @@
+{
+    "tools": [
+	{
+	    "name": "GenProg",
+	    "description": "Automated program repair tool based on genetic programming",
+	    "url": "http://dijkstra.cs.virginia.edu/genprog/",
+	    "target": "C source code",
+	    "title": "A Systematic Study of Automated Program Repair: Fixing 55 out of 105 bugs for $8 Each",
+	    "authors": "C. Le Goues, M. Dewey-Vogt, S. Forrest, W. Weimer",
+	    "venue": "International Conference on Software Engineering (ICSE)",
+	    "year": "2012"
+	},
+	{
+	    "name": "SemFix",
+	    "description": "Automated program repair tool based on symbolic analysis",
+	    "url": "http://www.comp.nus.edu.sg/~abhik/tools/angelix",
+	    "target": "C source code",
+	    "title": "SemFix: Program Repair via Semantic Analysis",
+	    "authors": "H.D.T. Nguyen, D. Qi, A. Roychoudhury, S. Chandra",
+	    "venue": "International Conference on Software Engineering (ICSE)",
+	    "year": "2013"
+	},
+	{
+	    "name": "Nopol",
+	    "description": "Automated program repair tool for conditional expressions",
+	    "url": "https://github.com/SpoonLabs/nopol/",
+	    "target": "Java source code",
+	    "title": "Automatic Repair of Buggy If Conditions and Missing Preconditions with SMT",
+	    "authors": "F. DeMarco, J. Xuan, D. Le Berre, M. Monperrus",
+	    "venue": "International Workshop on Constraints in Software Testing, Verification, and Analysis (CSTVA)",
+	    "year": "2014"
+	},
+	{
+	    "name": "SPR",
+	    "description": "Automated program repair tool with condition synthesis",
+	    "url": "http://rhino.csail.mit.edu/spr-rep/",
+	    "target": "C source code",
+	    "title": "Staged Program Repair with Condition Synthesis",
+	    "authors": "F. Long, M. C. Rinard",
+	    "venue": "Symposium on the Foundations of Software Engineering (FSE)",
+	    "year": "2015"
+	},
+	{
+	    "name": "Prophet",
+	    "description": "Automated program repair that learns from correct patches",
+	    "url": "http://groups.csail.mit.edu/pac/prophet/",
+	    "target": "C source code",
+	    "title": "Automatic Patch Generation by Learning Correct Code",
+	    "authors": "F. Long, M. C. Rinard",
+	    "venue": "Symposium on Principles of Programming Languages (POPL)",
+	    "year": "2016"
+	},
+	{
+	    "name": "Angelix",
+	    "description": "Automated program repair tool based on symbolic analysis",
+	    "url": "http://angelix.io",
+	    "target": "C source code",
+	    "title": "Angelix: Scalable Multiline Program Patch Synthesis via Symbolic Analysis",
+	    "authors": "S. Mechtaev, J. Yi, A. Roychoudhury",
+	    "venue": "International Conference on Software Engineering (ICSE)",
+	    "year": "2016"
+	}
+    ]
+}

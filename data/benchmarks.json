@@ -1,0 +1,24 @@
+{
+    "benchmarks": [
+    	{
+	    "name": "ManyBugs",
+	    "description": "Automated program repair benchmark that consists of 185 defects from large popular open-source projects",
+	    "url": "http://repairbenchmarks.cs.umass.edu",
+	    "target": "C source code",
+	    "title": "The ManyBugs and IntroClass Benchmarks for Automated Repair of C Programs",
+	    "authors": "C. L. Goues, N. Holtschulte, E. K. Smith, Y. Brun, P.Devanbu, S. Forrest, W. Weimer",
+	    "venue": "IEEE Transactions on Software Engineering (TSE)",
+	    "year": "2015"
+	},
+	{
+	    "name": "IntroClass",
+	    "description": "Automated program repair benchmark that consists of 998 defects in small student-written programming assignments",
+	    "url": "http://repairbenchmarks.cs.umass.edu",
+	    "target": "C source code",
+	    "title": "The ManyBugs and IntroClass Benchmarks for Automated Repair of C Programs",
+	    "authors": "C. L. Goues, N. Holtschulte, E. K. Smith, Y. Brun, P.Devanbu, S. Forrest, W. Weimer",
+	    "venue": "IEEE Transactions on Software Engineering (TSE)",
+	    "year": "2015"
+	}
+    ]
+}

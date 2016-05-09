@@ -4,11 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="msvalidate.01" content="E572D702116BEE430579AF2944F3C567" />
-<meta name="google-site-verification" content="eI9O2togakFiQo794TlhjwhGrTD6qp2OoaCFg6HLgHI" />
-<meta name="description" content="Community-driven website on automated program repair (automatic bug fixing). Up-to-date references to bibliography and resources">
-<meta name="author" content="Sergey Mechtaev">
-
+    {{{meta}}}
     <title>Automated Program Repair</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
@@ -80,28 +76,24 @@
                 <div class="panel-heading">
                     <h1>Latest news</h1></div>
                 <div class="panel-body">
+		  {{#news}}
                   <div class="media">
                         <div class="media-left">
                           <a>
-                            <div class="col-md-12"><i class="glyphicon glyphicon-wrench news-icon"></i></div>
-                            </a>
-                        </div>
-                        <div class="media-body">
-                            <h4>Angelix — new open source repair tool</h4>
-                            <p>Angelix is a new program repair tool released under MIT licence. Information about this tool can be found on the following website:</p><p><a href="https://github.com/mechtaev/angelix">https://github.com/mechtaev/angelix</a></p>
-                        </div>
-                  </div>
-                  <div class="media">
-                        <div class="media-left">
-                          <a>
+			    {{#publication}}
 			    <div class="col-md-12"><i class="glyphicon glyphicon-book news-icon"></i></div>
+			    {{/publication}}
+			    {{^publication}}
+                            <div class="col-md-12"><i class="glyphicon glyphicon-wrench news-icon"></i></div>
+			    {{/publication}}
                             </a>
                         </div>
                         <div class="media-body">
-                            <h4>Program repair at POPL&#x27;16</h4>
-                            <p>The following program repair works are presented at Symposium on Principles of Programming Languages 2016 held in St. Petersburg, Florida, USA:</p> <p>F. Long, M. C. Rinard. Prophet: Automatic Patch Generation via Learning From Successful Patches</p>
+                            <h4>{{title}}</h4>
+                            {{{content}}}
                         </div>
                   </div>
+		  {{/news}}
                 </div>
             </div>
         </div>
@@ -116,14 +108,7 @@
     </footer>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-        <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-      ga('create', 'UA-71971425-1', 'auto');
-      ga('send', 'pageview');
-    </script>
+    {{{analytics}}}
 </body>
 
 </html>

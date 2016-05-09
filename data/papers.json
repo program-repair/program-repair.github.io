@@ -1,0 +1,364 @@
+{
+    "bibliography": [
+	{
+	    "year": "2016",
+	    "papers": [
+		{
+		    "title": "Qlose: Program Repair with Quantiative Objectives",
+		    "authors": "L. D'Antoni, R. Samanta, R. Singh",
+                    "venue": "Computer Aided Verification (CAV)"
+		},
+		{
+		    "title": "Nopol: Automatic Repair of Conditional Statement Bugs in Java Programs",
+		    "authors": "J. Xuan, M. Martinez, F. Demarco, M. Clement, S. Lamelas, T. Durieux, D. Le Berre, M. Monperrus",
+                    "venue": "IEEE Transactions on Software Engineering (TSE)"
+		},
+		{
+		    "title": "Automatic Patch Generation by Learning Correct Code",
+		    "authors": "F. Long, M. C. Rinard",
+                    "venue": "Symposium on Principles of Programming Languages (POPL)",
+		    "url": "http://people.csail.mit.edu/rinard/paper/popl16.pdf"
+		},
+		{
+		    "title": "Angelix: Scalable Multiline Program Patch Synthesis via Symbolic Analysis",
+                    "authors": "S. Mechtaev, J. Yi, A. Roychoudhury",
+                    "venue": "International Conference on Software Engineering (ICSE)",
+		    "url": "http://www.comp.nus.edu.sg/~abhik/pdf/ICSE16-angelix.pdf"
+		},
+		{
+		    "title": "Analysis of the Search Spaces for Generate and Validate Patch Generation Systems",
+                    "authors": "F. Long, M. C. Rinard",
+                    "venue": "International Conference on Software Engineering (ICSE)",
+		    "url": "http://people.csail.mit.edu/rinard/paper/icse16.searchspace.pdf"
+		}
+	    ]
+	},
+	{
+	    "year": "2015",
+	    "papers": [
+		{
+		    "title": "Automatic Error Elimination by Horizontal Code Transfer Across Multiple Applications",
+		    "authors": "S. Sidiroglou-Douskos, E. Lahtinen, F. Long, M. Rinard",
+		    "venue": "Conference on Programming Language Design and Implementation (PLDI)",
+		    "url": "https://people.csail.mit.edu/rinard/paper/pldi15.pdf"
+		},
+		{
+		    "title": "An Empirical Study on Real Bug Fixes",
+                    "authors": "H. Zhong, Z. Su",
+                    "venue": "International Conference on Software Engineering (ICSE)",
+		    "url": "http://web.cs.ucdavis.edu/~su/publications/icse15-bugstudy.pdf"
+		},
+		{
+		    "title": "DirectFix: Looking for Simple Program Repairs",
+                    "authors": "S. Mechtaev, J. Yi, A. Roychoudhury",
+                    "venue": "International Conference on Software Engineering (ICSE)",
+		    "url": "https://www.comp.nus.edu.sg/~abhik/pdf/ICSE15-directfix.pdf"
+		},
+		{
+		    "title": "Relifix: Automated Repair of Software Regressions",
+                    "authors": "S. Tan, A. Roychoudhury",
+                    "venue": "International Conference on Software Engineering (ICSE)",
+		    "url": "https://www.comp.nus.edu.sg/~abhik/pdf/ICSE15-relifix.pdf"
+		},
+		{
+		    "title": "Is the Cure Worse Than the Disease? Overfitting in Automated Program Repair",
+                    "authors": "E. K. Smith, E. Barr, C. Le Goues, Y. Brun",
+                    "venue": "Symposium on the Foundations of Software Engineering (FSE)",
+		    "url": "https://people.cs.umass.edu/~brun/pubs/pubs/Smith15fse.pdf"
+		},
+		{
+		    "title": "Staged Program Repair with Condition Synthesis",
+                    "authors": "F. Long, M. C. Rinard",
+                    "venue": "Symposium on the Foundations of Software Engineering (FSE)",
+		    "url": "http://people.csail.mit.edu/fanl/papers/spr-fse15.pdf"
+		},
+		{
+		    "title": "Deductive Program Repair",
+                    "authors": "E. Kneuss, M. Koukoutos, V. Kuncak",
+                    "venue": "Computer Aided Verification (CAV)"
+		},
+		{
+		    "title": "An Analysis of Patch Plausibility and Correctness for Generate-And-Validate Patch Generation Systems",
+                    "authors": "Z. Qi, F. Long, S. Achour, M. Rinard",
+                    "venue": "International Symposium on Software Testing and Analysis (ISSTA)"
+		},
+		{
+		    "title": "Repairing Programs with Semantic Code Search",
+                    "authors": "Y. Ke, K. T. Stolee, C. Le Goues, Y. Brun",
+                    "venue": "International Conference on Automated Software Engineering (ASE)",
+		    "url": "https://people.cs.umass.edu/~brun/pubs/pubs/Ke15ase.pdf"
+		},
+		{
+		    "title": "Fixing Recurring Crash Bugs via Analyzing Q&A Sites",
+                    "authors": "Q. Gao, H. Zhang, J. Wang, Y. Xiong, L. Zhang, H. Mei",
+                    "venue": "International Conference on Automated Software Engineering (ASE)",
+		    "url": "http://sei.pku.edu.cn/~xiongyf04/papers/ASE15.pdf"
+		},
+		{
+		    "title": "Mining Software Repair Models for Reasoning on the Search Space of Automated Program Fixing",
+                    "authors": "M. Martinez, M. Monperrus",
+                    "venue": "Empirical Software Engineering 20.1",
+		    "url": "https://hal.inria.fr/hal-00903808/PDF/mining-software-repair-models.pdf"
+		},
+		{
+		    "title": "The ManyBugs and IntroClass Benchmarks for Automated Repair of C Programs",
+                    "authors": "C. Le Goues, N. Holtschulte, E. K. Smith, Y. Brun, P. Devanbu, S. Forrest, W. Weimer",
+                    "venue": "IEEE Transactions on Software Engineering (TSE)",
+		    "url": "http://dijkstra.cs.virginia.edu/genprog/resources/autorepairbenchmarks//docs/benchmarkse-tse-preprint.pdf"
+		}
+	    ]
+	},
+	{
+	    "year": "2014",
+	    "papers": [
+		{
+		    "title": "The Strength of Random Search on Automated Program Repair",
+		    "authors": "Y. Qi, X. Mao, Y. Lei, Z. Dai, C. Wang",
+		    "venue": "International Conference on Software Engineering (ICSE)",
+		    "url": "http://www.utdallas.edu/~lxz144130/cs6301-readings/repair-qi-icse14.pdf"
+		},
+		{
+		    "title": "Do the Fix Ingredients Already Exist? An Empirical Inquiry into the Redundancy Assumptions of Program Repair Approaches",
+                    "authors": "M. Martinez, W. Weimer, M. Monperrus",
+                    "venue": "International Conference on Software Engineering (ICSE)",
+		    "url": "https://hal.inria.fr/hal-00965410/document"
+		},
+		{
+		    "title": "A Critical Review of \"Automatic Patch Generation Learned from Human-Written Patches\": Essay on the Problem Statement and the Evaluation of Automatic Software Repair",
+		    "authors": "M. Monperrus",
+                    "venue": "International Conference on Software Engineering (ICSE)"
+		},
+		{
+		    "title": "MintHint: Automated Synthesis of Repair Hints", 
+		    "authors": "S. Kaleeswaran, V. Tulsian, A. Kanade, A. Orso", 
+		    "venue": "International Conference on Software Engineering (ICSE) ",
+		    "url": "http://automated-program-repair.org/clweb.csa.iisc.ernet.in/shalinik/minthint.preprint.pdf"
+		},
+		{
+		    "title": "The Plastic Surgery Hypothesis", 
+		    "authors": "E. T. Barr, Y. Brun, P. T. Devanbu, M. Harman, F. Sarro", 
+		    "venue": "International Symposium on Foundations of Software Engineering (FSE)",
+		    "url": "https://people.cs.umass.edu/~brun/pubs/pubs/Barr14fse.pdf"
+		},
+		{
+		    "title": "Automatically Generated Patches As Debugging Aids: a Human Study", 
+		    "authors": "Y. Tao, J. Kim, S. Kim, C. Xu", 
+		    "venue": "International Symposium on Foundations of Software Engineering (FSE)",
+		    "url": "https://www.cse.ust.hk/~hunkim/papers/tao-fse2014.pdf"
+		},
+		{
+		    "title": "Towards Self-healing Smartphone Software via Automated Patching", 
+		    "authors": "T. Azim, I. Neamtiu, L. Marvel", 
+		    "venue": "International Conference on Automated Software Engineering (ASE)",
+		    "url": "http://www.cs.ucr.edu/~neamtiu/pubs/ase14azim.pdf"
+		},
+		{
+		    "title": "Automated Fixing of Programs with Contracts", 
+		    "authors": "A. Zeller, Y. Wei, B. Meyer, M. Nordio, C. A. Furia, Y. Pei", 
+		    "venue": "IEEE Transactions on Software Engineering 40.5"
+		},
+		{
+		    "title": "Automatic Repair of Buggy If Conditions and Missing Preconditions with SMT", 
+		    "authors": "F. DeMarco, J. Xuan, D. Le Berre, M. Monperrus", 
+		    "venue": "International Workshop on Constraints in Software Testing, Verification, and Analysis (CSTVA)",
+		    "url": "http://arxiv.org/pdf/1404.3186.pdf"
+		},
+		{
+		    "title": "Cost-Aware Automatic Program Repair", 
+		    "authors": "R. Samanta, O. Olivo, E. A. Emerson", 
+		    "venue": "International Static Analysis Symposium (SAS)",
+		    "url": "http://pub.ist.ac.at/~rsamanta/costrepair.pdf"
+		}
+	    ]
+	},
+	{
+	    "year": "2013",
+	    "papers": [
+		{
+		    "title": "Automatic Patch Generation Learned From Human-Written Patches", 
+		    "authors": "D. Kim, J. Nam, J. Song, S. Kim", 
+		    "venue": "International Conference on Software Engineering (ICSE)",
+		    "url": "http://people.csail.mit.edu/hunkim/papers/kim-icse2013.pdf"
+		},
+		{
+		    "title": "SemFix: Program Repair via Semantic Analysis", 
+		    "authors": "H.D.T. Nguyen, D. Qi, A. Roychoudhury, S. Chandra", 
+		    "venue": "International Conference on Software Engineering (ICSE)",
+		    "url": "https://www.comp.nus.edu.sg/~abhik/pdf/ICSE13-SEMFIX.pdf"
+		},
+		{
+		    "title": "Using Automated Program Repair for Evaluating the Effectiveness of Fault Localization Techniques", 
+		    "authors": "Y Qi, X Mao, Y Lei, C Wang", 
+		    "venue": "International Symposium on Software Testing and Analysis (ISSTA)",
+		    "url": "http://qiyuhua.github.io/publications/issta2013.pdf"
+		},
+		{
+		    "title": "R2Fix: Automatically Generating Bug Fixes From Bug Reports", 
+		    "authors": "C. Liu, J. Yang, L. Tan, M. Hafiz", 
+		    "venue": "International Conference on Software Testing, Verification and Validation (ICST)",
+		    "url": "http://digitalmeasures.auburn.edu/dm/mzh0034/intellcont/paper-1.pdf"
+		},
+		{
+		    "title": "Program Repair without Regret", 
+		    "authors": "C. v. Essen, B. Jobstmann", 
+		    "venue": "Computer Aided Verification (CAV)",
+		    "url": "http://www-verimag.imag.fr/~jobstman/bib/files/repair_without_regret.pdf"
+		}
+	    ]
+	},
+	{
+	    "year": "2012",
+	    "papers": [
+		{
+		    "title": "A Systematic Study of Automated Program Repair: Fixing 55 Out of 105 Bugs for $8 Each", 
+		    "authors": "C. Le Goues, M. Dewey-Vogt, S. Forrest, W. Weimer", 
+		    "venue": "International Conference on Software Engineering (ICSE)",
+		    "url": "https://www.cs.virginia.edu/.../p/weimer-icse2012-genprog-preprint.pdf"
+		},
+		{
+		    "title": "A Human Study of Patch Maintainability", 
+		    "authors": "Z. P. Fry, B. Landau, W. Weimer", 
+		    "venue": "International Symposium on Software Testing and Analysis (ISSTA)",
+		    "url": "https://www.cs.virginia.edu/~weimer/p/FryISSTA12_PREPRINT.pdf"
+		},
+		{
+		    "title": "GenProg: a Generic Method for Automatic Software Repair", 
+		    "authors": "C. L. Goues, T. Nguyen, S. Forrest, W. Weimer", 
+		    "venue": "IEEE Transactions on Software Engineering 38 "
+		}
+	    ]
+	},
+	{
+	    "year": "2011",
+	    "papers": [
+		{
+		    "title": "Automated Atomicity-violation Fixing", 
+		    "authors": "G. Jin, L. Song, W. Zhang, S. Lu, B. Liblit", 
+		    "venue": "Conference on Programming Language Design and Implementation (PLDI)",
+		    "url": "http://pages.cs.wisc.edu/~liblit/pldi-2011/pldi-2011.pdf"
+		},
+		{
+		    "title": "Automated Error Localization and Correction for Imperative Programs", 
+		    "authors": "R. Konighofer, R. Bloem", 
+		    "venue": "Formal Methods in Computer-Aided Design (FMCAD) "
+		},
+		{
+		    "title": "Specification-based Program Repair Using SAT", 
+		    "authors": "D. Gopinath, M. Z. Malik, S. Khurshid", 
+		    "venue": "International Conference on Tools and Algorithms for the Construction and Analysis of Systems (TACAS)"
+		}
+	    ]
+	},
+	{
+	    "year": "2010",
+	    "papers": [
+		{
+		    "title": "Automated Fixing of Programs with Contracts",
+		    "authors": "Y. Wei, Y. Pei, C. A. Furia, L. S. Silva, S. Buchholz, B. Meyer, A. Zeller",
+		    "venue": "International Symposium on Software Testing and Analysis (ISSTA)",
+		    "url": "http://se.ethz.ch/~meyer/publications/testing/autofix_e.pdf"
+		},
+		{
+		    "title": "Using Mutation to Automatically Suggest Fixes for Faulty Programs", 
+		    "authors": "V. Debroy, W. Wong", 
+		    "venue": "International Conference on Software Testing, Verification and Validation (ICST) "
+		},
+		{
+		    "title": "Automated Program Repair Through the Evolution of Assembly Code", 
+		    "authors": "E. Schulte, S. Forrest, W. Weimer", 
+		    "venue": "International Conference on Automated Software Engineering (ASE)",
+		    "url": "https://www.cs.virginia.edu/~weimer/p/weimer-ase2010-asm-preprint.pdf"
+		},
+		{
+		    "title": "Automatic Error Correction of Java Programs", 
+		    "authors": "C. Kern, J. Esparza", 
+		    "venue": "Formal Methods for Industrial Critical Systems (FMICS)",
+		    "url": "http://sachaproject.gforge.inria.fr/papers/fmics10.pdf"
+		},
+		{
+		    "title": "Automatic Program Repair with Evolutionary Computation", 
+		    "authors": "W. Weimer, S. Forrest, C. Le Goues, T. Nguyen", 
+		    "venue": "Communications of the ACM 53.5",
+		    "url": "https://www.cs.virginia.edu/~weimer/p/p109-weimer.pdf"
+		}
+	    ]
+	},
+	{
+	    "year": "2009",
+	    "papers": [
+		{
+		    "title": "Automatically Finding Patches Using Genetic Programming", 
+		    "authors": "W. Weimer, T. Nguyen, C. L. Goues, S. Forrest", 
+		    "venue": "International Conference on Software Engineering (ICSE)",
+		    "url": "https://www.cs.cmu.edu/~clegoues/docs/legoues-icse09.pdf"
+		},
+		{
+		    "title": "Generating Fixes From Object Behavior Anomalies", 
+		    "authors": "V. Dallmeier, A. Zeller, B. Meyer", 
+		    "venue": "International Conference on Automated Software Engineering (ASE)",
+		    "url": "http://se.ethz.ch/~meyer/publications/testing/fix_ase.pdf"
+		},
+		{
+		    "title": "Automatically Patching Errors in Deployed Software", 
+		    "authors": "J. H. Perkins, G. Sullivan, W.-F. Wong, Y. Zibin, M. D. Ernst, M. Rinard, S. Kim, S. Larsen, S. Amarasinghe, J. Bachrach, M. Carbin, C. Pacheco, F. Sherwood, S. Sidiroglou", 
+		    "venue": "Symposium on Operating Systems Principles (SOSP)"
+		},
+		{
+		    "title": "A Genetic Programming Approach to Automated Software Repair", 
+		    "authors": "S. Forrest, T. Nguyen, W. Weimer, C. Le Goues", 
+		    "venue": "Conference on Genetic and Evolutionary Computation (GECCO)",
+		    "url": "https://www.cs.cmu.edu/~clegoues/docs/legoues-gecco09.pdf"
+		},
+		{
+		    "title": "BugFix: a Learning-based Tool to Assist Developers in Fixing Bugs", 
+		    "authors": "D. Jeffrey, M. Feng, N. Gupta, R. Gupta", 
+		    "venue": "International Conference on Program Comprehension (ICPC) ",
+		    "url": "http://dennisjeffrey.com/student_site/ICPC09.pdf"
+		}
+	    ]
+	},
+	{
+	    "year": "2008",
+	    "papers": [
+		{
+		    "title": "Automatic Generation of Local Repairs for Boolean Programs", 
+		    "authors": "R. Samanta, J. V. Deshmukh, E. A. Emerson",
+		    "venue": "Formal Methods in Computer-Aided Design (FMCAD)",
+		    "url": "http://pub.ist.ac.at/~rsamanta/boolprogrep.pdf"
+		},
+		{
+		    "title": "A Novel Co-evolutionary Approach to Automatic Software Bug Fixing",
+		    "authors": "A. Arcuri, X. Yao", 
+		    "venue": "IEEE Congress on Evolutionary Computation"
+		}
+	    ]
+	},
+	{
+	    "year": "2006",
+	    "papers": [
+		{
+		    "title": "Repair of Boolean Programs with an Application to C", 
+		    "authors": "A. Griesmayer, R. Bloem, B. Cook", 
+		    "venue": "Computer Aided Verification (CAV)",
+		    "url": "http://research.microsoft.com/en-us/um/cambridge/projects/terminator/repairc.pdf"
+		}
+	    ]
+	},
+	{
+	    "year": "2005",
+	    "papers": [
+		{
+		    "title": "Program Repair As a Game", 
+		    "authors": "B. Jobstmann, A. Griesmayer, R. Bloem", 
+		    "venue": "Computer Aided Verification (CAV)",
+		    "url": "http://www-verimag.imag.fr/~jobstman/bib/files/repair.pdf"
+		},
+		{
+		    "title": "Finding and Fixing Faults", 
+		    "authors": "S. Staber, B. Jobstmann, R. Bloem", 
+		    "venue": "Conference on Correct Hardware Design and Verification Methods (CHARME)"
+		}
+	    ]
+	}
+    ]
+}

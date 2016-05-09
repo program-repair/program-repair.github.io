@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automated Program Repair</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/user.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header"><a class="navbar-brand navbar-link" href="index.html"><i class="fa fa-cogs"></i> automated-program-repair.org</a>
+                <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+            </div>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li role="presentation"><a href="index.html">Home </a></li>
+                    <li class="active" role="presentation"><a href="#">Bibliography</a></li>
+                    <li role="presentation"><a href="tools.html">Tools </a></li>
+                    <li role="presentation"><a href="benchmarks.html">Benchmarks </a></li>
+                    <li role="presentation"><a href="about.html">About </a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="testimonials">
+      <div class="container">
+	{{#bibliography}}
+        <h1>{{year}}</h1>
+	{{#papers}}
+            <div class="media">
+                <div class="media-body">
+                    <h4>{{title}}</h4>
+                    <p class="authors">{{authors}}</p>
+                    <p>{{venue}}</p>
+                </div>
+                <div class="media-right">
+		  {{#url}}
+		  <a><a class="btn btn-default" role="button" href="{{url}}"><i class="glyphicon glyphicon-download-alt"></i></a></a>
+		  {{/url}}
+		  {{^url}}
+		  <a><button class="btn btn-default" type="button" disabled="disabled"><i class="glyphicon glyphicon-download-alt"></i></button></a>
+		  {{/url}}
+                </div>
+            </div>
+	{{/papers}}
+	{{/bibliography}}
+      </div>
+    </section>
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6"></div>
+                <div class="col-sm-6 social-icons"><a href="https://github.com/automated-program-repair"><i class="fa fa-github-alt"></i></a></div>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>

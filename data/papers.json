@@ -6,7 +6,8 @@
 		{
 		    "title": "Qlose: Program Repair with Quantiative Objectives",
 		    "authors": "L. D'Antoni, R. Samanta, R. Singh",
-                    "venue": "Computer Aided Verification (CAV)"
+                    "venue": "Computer Aided Verification (CAV)",
+		    "url": "http://pub.ist.ac.at/~rsamanta/qlose.pdf"
 		},
 		{
 		    "title": "Nopol: Automatic Repair of Conditional Statement Bugs in Java Programs",
@@ -59,6 +60,12 @@
                     "authors": "S. Tan, A. Roychoudhury",
                     "venue": "International Conference on Software Engineering (ICSE)",
 		    "url": "https://www.comp.nus.edu.sg/~abhik/pdf/ICSE15-relifix.pdf"
+		},
+		{
+		    "title": "Safe Memory-Leak Fixing for C Programs",
+		    "authors": "Q. Gao, Y. Xiong, Y. Mi, L. Zhang, W. Yang, Z. Zhou, B. Xie, H. Mei",
+		    "venue": "International Conference on Software Engineering (ICSE)",
+		    "url": "http://sei.pku.edu.cn/~gaoqing11/leakfix/leakfix-icse15.pdf"
 		},
 		{
 		    "title": "Is the Cure Worse Than the Disease? Overfitting in Automated Program Repair",

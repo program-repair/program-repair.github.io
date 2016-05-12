@@ -31,6 +31,16 @@
 	    "year": "2014"
 	},
 	{
+	    "name": "RSRepair",
+	    "description": "GenProg modification that uses random search",
+	    "url": "http://qiyuhua.github.io/projects/rsrepair",
+	    "target": "C source code",
+	    "title": "The Strength of Random Search on Automated Program Repair",
+	    "authors": "Y. Qi, X. Mao, Y. Lei, Z. Dai, C. Wang",
+	    "venue": "International Conference on Software Engineering (ICSE)",
+	    "year": "2014"
+	},
+	{
 	    "name": "SPR",
 	    "description": "Automated program repair tool with condition synthesis",
 	    "url": "http://rhino.csail.mit.edu/spr-rep/",
@@ -38,6 +48,26 @@
 	    "title": "Staged Program Repair with Condition Synthesis",
 	    "authors": "F. Long, M. C. Rinard",
 	    "venue": "Symposium on the Foundations of Software Engineering (FSE)",
+	    "year": "2015"
+	},
+	{
+	    "name": "Kali",
+	    "description": "Generate-and-validate patch generation system that only deletes functionality",
+	    "url": "http://groups.csail.mit.edu/pac/kali/",
+	    "target": "C source code",
+	    "title": "An Analysis of Patch Plausibility and Correctness for Generate-And-Validate Patch Generation Systems",
+            "authors": "Z. Qi, F. Long, S. Achour, M. Rinard",
+            "venue": "International Symposium on Software Testing and Analysis (ISSTA)",
+	    "year": "2015"
+	},
+	{
+	    "name": "LeakFix",
+	    "description": "Safe memory-leak fixing tool for C programs",
+	    "url": "http://sei.pku.edu.cn/~gaoqing11/leakfix/",
+	    "target": "C source code",
+	    "title": "Safe Memory-Leak Fixing for C Programs",
+	    "authors": "Q. Gao, Y. Xiong, Y. Mi, L. Zhang, W. Yang, Z. Zhou, B. Xie, H. Mei",
+	    "venue": "International Conference on Software Engineering (ICSE)",
 	    "year": "2015"
 	},
 	{

@@ -167,3 +167,11 @@ section.testimonials{
   width:20%;
 }
 
+a.text-neutral:hover, a.text-neutral:focus{
+  color:#999999;
+}
+
+.text-neutral{
+  color:#fff;
+}
+

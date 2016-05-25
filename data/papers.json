@@ -223,6 +223,12 @@
 		    "url": "https://www.cs.virginia.edu/.../p/weimer-icse2012-genprog-preprint.pdf"
 		},
 		{
+		    "title": "Modular and Verified Automatic Program Repair", 
+		    "authors": "F. Logozzo, T. Ball",
+		    "venue": "International Conference on Object Oriented Programming Systems Languages and Applications (OOPSLA)",
+		    "url": "http://www.msr-waypoint.net/pubs/170385/res0099-logozzo.pdf"
+		},
+		{
 		    "title": "A Human Study of Patch Maintainability", 
 		    "authors": "Z. P. Fry, B. Landau, W. Weimer", 
 		    "venue": "International Symposium on Software Testing and Analysis (ISSTA)",

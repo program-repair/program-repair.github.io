@@ -4,6 +4,11 @@
 	    "year": "2016",
 	    "papers": [
 		{
+		    "title": "Anti-patterns in Search-based Program Repair",
+		    "authors": "S. Tan, H. Yoshida, M. Prasad, A. Roychoudhury",
+                    "venue": "Symposium on the Foundations of Software Engineering (FSE)"
+		},
+		{
 		    "title": "Qlose: Program Repair with Quantiative Objectives",
 		    "authors": "L. D'Antoni, R. Samanta, R. Singh",
                     "venue": "Computer Aided Verification (CAV)",
@@ -198,6 +203,12 @@
 		    "authors": "Y Qi, X Mao, Y Lei, C Wang", 
 		    "venue": "International Symposium on Software Testing and Analysis (ISSTA)",
 		    "url": "http://qiyuhua.github.io/publications/issta2013.pdf"
+		},
+		{
+		    "title": "Leveraging Program Equivalence for Adaptive. Program Repair: Models and First Results",
+		    "authors": "W. Weimer, Z. P. Fry, S. Forrest",
+		    "venue": "International Conference on Automated Software Engineering (ASE)",
+		    "url": "https://www.cs.virginia.edu/~weimer/p/weimer-ase2013-preprint.pdf"
 		},
 		{
 		    "title": "R2Fix: Automatically Generating Bug Fixes From Bug Reports", 

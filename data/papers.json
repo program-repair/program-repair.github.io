@@ -214,7 +214,7 @@
 		    "title": "R2Fix: Automatically Generating Bug Fixes From Bug Reports", 
 		    "authors": "C. Liu, J. Yang, L. Tan, M. Hafiz", 
 		    "venue": "International Conference on Software Testing, Verification and Validation (ICST)",
-		    "url": "http://digitalmeasures.auburn.edu/dm/mzh0034/intellcont/paper-1.pdf"
+		    "url": "https://ece.uwaterloo.ca/~lintan/publications/r2fix-icst13.pdf"
 		},
 		{
 		    "title": "Program Repair without Regret", 

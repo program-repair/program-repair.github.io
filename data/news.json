@@ -1,6 +1,11 @@
 {
     "news": [
 	{
+	    "title": "Program repair at FSE'16",
+	    "content": "<p>The following program repair works are presented at International Symposium on the Foundations of Software Engineering 2016 held in Seattle, WA, USA:</p> <p>S. Tan, H. Yoshida, M. Prasad, A. Roychoudhury. Anti-patterns in Search-based Program Repair</p>",
+	    "publication": true
+	},
+	{
 	    "title": "Program repair at CAV'16",
 	    "content": "<p>The following program repair works are presented at International Conference on Computer Aided Verification 2016 held in Toronto, Ontario, Canada:</p> <p>L. D'Antoni, R. Samanta, R. Singh. Qlose: Program Repair with Quantiative Objectives</p>",
 	    "publication": true

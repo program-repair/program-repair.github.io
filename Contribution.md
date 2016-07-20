@@ -1,6 +1,6 @@
 # Contribution guidelines #
 
-We'd love you to contribute new publications, tools and benchmarks to make information on automated-program-repair.org more objective, complete and correct. Please use GitHub Issues to submit your suggestions and reports.
+We'd love you to contribute new publications, tools and benchmarks to make information on automated-program-repair.org more objective, complete and accurate. Please use GitHub Issues to submit your suggestions and reports.
 
 ## Publications ##
 

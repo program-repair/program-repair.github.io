@@ -4,6 +4,12 @@
 	    "year": "2016",
 	    "papers": [
 		{
+		    "title": "History Driven Program Repair",
+		    "authors": "X. B. D. Le,  D. Lo,  C. Le Goues",
+                    "venue": "International Conference on Software Analysis, Evolution, and Reengineering (SANER)",
+		    "url": "https://www.researchgate.net/profile/Xuan_Bach_D_Le/publication/299487436_History_Driven_Program_Repair/links/56fb550608ae3c0f264c0cf4.pdf"
+		},		
+		{
 		    "title": "Anti-patterns in Search-based Program Repair",
 		    "authors": "S. Tan, H. Yoshida, M. Prasad, A. Roychoudhury",
                     "venue": "Symposium on the Foundations of Software Engineering (FSE)",

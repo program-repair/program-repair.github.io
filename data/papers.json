@@ -80,6 +80,12 @@
 		    "url": "http://sei.pku.edu.cn/~gaoqing11/leakfix/leakfix-icse15.pdf"
 		},
 		{
+		    "title": "Automated Program Repair in an Integrated Development Environment",
+                    "authors": "Y. Pei, C. A. Furia, M. Nordio, B. Meyer",
+                    "venue": "International Conference on Software Engineering (ICSE) &mdash; Demonstrations Track",
+		    "url": "http://bugcounting.net/pubs/icse15-demo-autofix.pdf"
+		},		
+		{
 		    "title": "Is the Cure Worse Than the Disease? Overfitting in Automated Program Repair",
                     "authors": "E. K. Smith, E. Barr, C. Le Goues, Y. Brun",
                     "venue": "Symposium on the Foundations of Software Engineering (FSE)",
@@ -172,9 +178,16 @@
 		    "url": "http://www.cs.ucr.edu/~neamtiu/pubs/ase14azim.pdf"
 		},
 		{
+		    "title": "Automatic Program Repair by Fixing Contracts",
+		    "authors": "Y. Pei, C. A. Furia, M. Nordio, B. Meyer", 
+		    "venue": "International Conference on Fundamental Approaches to Software Engineering (FASE)",
+		    "url": "http://bugcounting.net/pubs/fase14.pdf"
+		},
+		{
 		    "title": "Automated Fixing of Programs with Contracts", 
-		    "authors": "A. Zeller, Y. Wei, B. Meyer, M. Nordio, C. A. Furia, Y. Pei", 
-		    "venue": "IEEE Transactions on Software Engineering 40.5"
+		    "authors": "Y. Pei, C. A. Furia, M. Nordio, Y. Wei, B. Meyer, A. Zeller",
+		    "venue": "IEEE Transactions on Software Engineering 40.5",
+		    "url": "http://bugcounting.net/pubs/tse14-autofix.pdf"
 		},
 		{
 		    "title": "Automatic Repair of Buggy If Conditions and Missing Preconditions with SMT", 
@@ -269,6 +282,12 @@
 		    "url": "http://pages.cs.wisc.edu/~liblit/pldi-2011/pldi-2011.pdf"
 		},
 		{
+		    "title": "Code-Based Automated Program Fixing", 
+		    "authors": "Y. Pei, Y. Wei, C. A. Furia, M. Nordio, B. Meyer", 
+		    "venue": "International Conference on Automated Software Engineering (ASE)",
+		    "url": "http://bugcounting.net/pubs/ase11-autofix.pdf"
+		},
+		{
 		    "title": "Automated Error Localization and Correction for Imperative Programs", 
 		    "authors": "R. Konighofer, R. Bloem", 
 		    "venue": "Formal Methods in Computer-Aided Design (FMCAD) "
@@ -287,7 +306,7 @@
 		    "title": "Automated Fixing of Programs with Contracts",
 		    "authors": "Y. Wei, Y. Pei, C. A. Furia, L. S. Silva, S. Buchholz, B. Meyer, A. Zeller",
 		    "venue": "International Symposium on Software Testing and Analysis (ISSTA)",
-		    "url": "http://se.ethz.ch/~meyer/publications/testing/autofix_e.pdf"
+		    "url": "http://bugcounting.net/pubs/issta10.pdf"
 		},
 		{
 		    "title": "Using Mutation to Automatically Suggest Fixes for Faulty Programs", 

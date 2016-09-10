@@ -19,7 +19,7 @@
 		    "title": "Qlose: Program Repair with Quantiative Objectives",
 		    "authors": "L. D'Antoni, R. Samanta, R. Singh",
                     "venue": "Computer Aided Verification (CAV)",
-		    "url": "http://pub.ist.ac.at/~rsamanta/qlose.pdf"
+		    "url": "http://research.microsoft.com/en-us/um/people/risin/papers/cav16.pdf"
 		},
 		{
 		    "title": "Nopol: Automatic Repair of Conditional Statement Bugs in Java Programs",

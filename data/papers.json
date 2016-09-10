@@ -46,7 +46,7 @@
 		},
 		{
                     "title": "ASTOR: A Program Repair Library for Java",
-                    "authors": "Matias Martinez and Martin Monperrus",
+                    "authors": "M. Martinez, M. Monperrus",
                     "venue": "International Symposium on Software Testing and Analysis (ISSTA) &mdash; Demonstration Track",
                     "url": "https://hal.archives-ouvertes.fr/hal-01321615/document"
 		}
@@ -317,7 +317,7 @@
 		{
 		    "title": "Using Mutation to Automatically Suggest Fixes for Faulty Programs", 
 		    "authors": "V. Debroy, W. Wong", 
-		    "venue": "International Conference on Software Testing, Verification and Validation (ICST) "
+		    "url": "http://www.utdallas.edu/~ewong/SE6367/01-Project/08-SFL-papers/10-Automatically-Suggest-Fixes.pdf"
 		},
 		{
 		    "title": "Automated Program Repair Through the Evolution of Assembly Code", 

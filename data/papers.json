@@ -47,7 +47,7 @@
 		{
                     "title": "ASTOR: A Program Repair Library for Java",
                     "authors": "Matias Martinez and Martin Monperrus",
-                    "venue": "Proceedings of ISSTA",
+                    "venue": "International Symposium on Software Testing and Analysis (ISSTA) &mdash; Demonstration Track",
                     "url": "https://hal.archives-ouvertes.fr/hal-01321615/document"
 		}
 	    ]
@@ -257,7 +257,7 @@
 		    "title": "A Systematic Study of Automated Program Repair: Fixing 55 Out of 105 Bugs for $8 Each", 
 		    "authors": "C. Le Goues, M. Dewey-Vogt, S. Forrest, W. Weimer", 
 		    "venue": "International Conference on Software Engineering (ICSE)",
-		    "url": "https://www.cs.virginia.edu/.../p/weimer-icse2012-genprog-preprint.pdf"
+		    "url": "https://www.cs.virginia.edu/~weimer/p/weimer-icse2012-genprog-preprint.pdf"
 		},
 		{
 		    "title": "Modular and Verified Automatic Program Repair", 

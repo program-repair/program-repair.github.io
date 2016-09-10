@@ -96,8 +96,8 @@
 	    "url": "https://github.com/SpoonLabs/astor",
 	    "target": "Java source code",
 	    "title": "ASTOR: A Program Repair Library for Java",
-	    "authors": "Matias Martinez and Martin Monperrus",
-	    "venue": "Proceedings of ISSTA, Demonstration Track",
+	    "authors": "M. Martinez, M. Monperrus",
+	    "venue": "International Symposium on Software Testing and Analysis (ISSTA) &mdash; Demonstration Track",
 	    "year": "2016"
 	}
     ]

@@ -89,6 +89,16 @@
 	    "authors": "S. Mechtaev, J. Yi, A. Roychoudhury",
 	    "venue": "International Conference on Software Engineering (ICSE)",
 	    "year": "2016"
+	},
+	{
+	    "name": "Astor",
+	    "description": "Automatic software repair framework for Java (incl. GenProg, Kali and mutation repair for Java)",
+	    "url": "https://github.com/SpoonLabs/astor",
+	    "target": "Java source code",
+	    "title": "ASTOR: A Program Repair Library for Java",
+	    "authors": "Matias Martinez and Martin Monperrus",
+	    "venue": "Proceedings of ISSTA, Demonstration Track",
+	    "year": "2016"
 	}
     ]
 }

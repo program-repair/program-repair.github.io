@@ -22,7 +22,7 @@ All data (papers, tools, news, etc.) is stored in JSON format (see `data` direct
 
 To update information on the website:
 
-1. Install Python 3 and pystache (e.g. `aptitude install python-pystache`).
+1. Install Python 3 and pystache (e.g. `aptitude install python3-pystache`).
 2. Modify files in the `data` directory.
 3. Run build script (e.g. `python3 build.py`).
 4. Open `index.html` in your browser to verify your modifications.

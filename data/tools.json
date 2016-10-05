@@ -21,6 +21,16 @@
 	    "year": "2013"
 	},
 	{
+	    "name": "AutoFix",
+	    "description": "Automatic program repair of object-oriented programs with contracts",
+	    "url": "https://bit.ly/autofix-tool",
+	    "target": "Eiffel source code",
+	    "title": "Automated Fixing of Programs with Contracts",
+	    "authors": "Y. Pei, C. A. Furia, M. Nordio, Y. Wei, B. Meyer, A. Zeller",
+	    "venue": "IEEE Transactions on Software Engineering (TSE)",
+	    "year": "2014"
+	},
+	{
 	    "name": "Nopol",
 	    "description": "Automated program repair tool for conditional expressions",
 	    "url": "https://github.com/SpoonLabs/nopol/",

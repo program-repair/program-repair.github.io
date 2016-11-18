@@ -1,8 +1,13 @@
 {
     "news": [
 	{
+	    "title": "Program repair at FM'16",
+	    "content": "<p>The following program repair works are presented at International Symposium on Formal Methods 2016 held in Limassol, Cyprus:</p> <p>B. Rothenberg and O. Grumberg. Sound and Complete Mutation-Based Program Repair</p>",
+	    "publication": true
+	},	
+	{
 	    "title": "Program repair at FSE'16",
-	    "content": "<p>The following program repair works are presented at International Symposium on the Foundations of Software Engineering 2016 held in Seattle, WA, USA:</p> <p>S. Tan, H. Yoshida, M. Prasad, A. Roychoudhury. Anti-patterns in Search-based Program Repair</p>",
+	    "content": "<p>The following program repair works are presented at International Symposium on the Foundations of Software Engineering 2016 held in Seattle, WA, USA:</p> <p>S. Tan, H. Yoshida, M. Prasad, A. Roychoudhury. Anti-patterns in Search-based Program Repair</p> <p>H. Liu, Y. Chen, S. Lu. Understanding and Generating High Quality Patches for Concurrency Bugs</p>",
 	    "publication": true
 	},
 	{
@@ -13,16 +18,6 @@
 	{
 	    "title": "Program repair at ICSE'16",
 	    "content": "<p>The following program repair works are presented at International Conference on Software Engineering 2016 held in Austin, Texas, USA:</p> <p>S. Mechtaev, J. Yi, A. Roychoudhury. Angelix: Scalable Multiline Program Patch Synthesis via Symbolic Analysis</p> <p>F. Long, M. C. Rinard. Analysis of the Search Spaces for Generate and Validate Patch Generation Systems</p>",
-	    "publication": true
-	},
-	{
-	    "title": "Angelix — new open source repair tool",
-	    "content": "<p>Angelix is a new program repair tool released under MIT licence. Information about this tool can be found on the following website:</p><p><a href=\"https://github.com/mechtaev/angelix\">https://github.com/mechtaev/angelix</a></p>",
-	    "publication": false
-	},
-	{
-	    "title": "Program repair at POPL'16",
-	    "content": "<p>The following program repair works are presented at Symposium on Principles of Programming Languages 2016 held in St. Petersburg, Florida, USA:</p> <p>F. Long, M. C. Rinard. Prophet: Automatic Patch Generation via Learning From Successful Patches</p>",
 	    "publication": true
 	}
     ]

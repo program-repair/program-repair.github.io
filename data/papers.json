@@ -4,6 +4,11 @@
 	    "year": "2016",
 	    "papers": [
 		{
+		    "title": "Sound and Complete Mutation-Based Program Repair",
+		    "authors": "B. Rothenberg, O. Grumberg",
+                    "venue": "International Symposium on Formal Methods (FM)"
+		},		
+		{
 		    "title": "History Driven Program Repair",
 		    "authors": "X. B. D. Le,  D. Lo,  C. Le Goues",
                     "venue": "International Conference on Software Analysis, Evolution, and Reengineering (SANER)",
@@ -15,6 +20,12 @@
                     "venue": "Symposium on the Foundations of Software Engineering (FSE)",
 		    "url": "http://www.comp.nus.edu.sg/~shinhwei/anti-patterns-camera-ready.pdf"
 		},
+		{
+		    "title": "Understanding and Generating High Quality Patches for Concurrency Bugs",
+		    "authors": "H. Liu, Y. Chen, S. Lu",
+                    "venue": "Symposium on the Foundations of Software Engineering (FSE)",
+		    "url": "https://people.cs.uchicago.edu/~shanlu/paper/HFix_FSE2016.pdf"
+		},		
 		{
 		    "title": "Qlose: Program Repair with Quantiative Objectives",
 		    "authors": "L. D'Antoni, R. Samanta, R. Singh",

@@ -3,6 +3,12 @@
 	{
 	    "year": "2016",
 	    "papers": [
+                {
+		    "title": "Automatic Repair of Real Bugs in Java: A Large-Scale Experiment on the Defects4J Dataset",
+		    "authors": "Matias Martinez, Thomas Durieux, Romain Sommerard, Jifeng Xuan and Martin Monperrus",
+                    "venue": "Springer Empirical Software Engineering",
+		    "url": "https://hal.archives-ouvertes.fr/hal-01387556/document"
+		},
 		{
 		    "title": "Sound and Complete Mutation-Based Program Repair",
 		    "authors": "B. Rothenberg, O. Grumberg",

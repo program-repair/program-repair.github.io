@@ -1,5 +1,10 @@
 {
     "news": [
+   {
+       "title": "Astor — program repair framework for Java",
+       "content": "<p>Astor is a new automatic software repair framework for Java (incl. GenProg, Kali and mutation repair for Java). Information about this tool can be found on the following website:</p><p><a href=\"https://github.com/SpoonLabs/astor\">https://github.com/SpoonLabs/astor</a></p>",
+       "publication": false
+   },
 	{
 	    "title": "Program repair at FM'16",
 	    "content": "<p>The following program repair works are presented at International Symposium on Formal Methods 2016 held in Limassol, Cyprus:</p> <p>B. Rothenberg and O. Grumberg. Sound and Complete Mutation-Based Program Repair</p>",

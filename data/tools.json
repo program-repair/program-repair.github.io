@@ -70,6 +70,16 @@
             "venue": "International Symposium on Software Testing and Analysis (ISSTA)",
 	    "year": "2015"
 	},
+  {
+      "name": "QACrashFix",
+      "description": "Fixing Java crash bugs by querying StackOverflow",
+      "url": "http://sei.pku.edu.cn/~gaoqing11/qacrashfix/",
+      "target": "Java source code",
+      "title": "Fixing Recurring Crash Bugs via Analyzing Q&A Sites",
+      "authors": "Q. Gao, H. Zhang, J. Wang, Y. Xiong, L. Zhang, H. Mei",
+      "venue": "International Conference on Automated Software Engineering (ASE)",
+      "year": "2015"
+  },
 	{
 	    "name": "LeakFix",
 	    "description": "Safe memory-leak fixing tool for C programs",

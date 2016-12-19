@@ -14,6 +14,12 @@
 		  "year": "2016",
 		  "papers": [
     {
+		    "title": "A Deeper Look into Bug Fixes: Patterns, Replacements, Deletions, and Additions",
+		    "authors": "M. Soto, F. Thung, C. Wong, C. Le Goues, D. Lo",
+		    "venue": "International Conference on Mining Software Repositories (MSR)",
+        "url": "https://www.cs.cmu.edu/~msotogon/Papers/ADeeperLookIntoBugFixes.pdf"
+		},
+    {
 		    "title": "Improved Crossover Operators for Genetic Programming for Program Repair",
 		    "authors": "V. P. L. Oliveira, E. F. D. Souza, C. Le Goues, C. G. Camilo-Junior",
 		    "venue": "Symposium on Search-Based Software Engineering (SSBSE)"

@@ -1,9 +1,24 @@
 {
     "bibliography": [
-	{
-	    "year": "2016",
-	    "papers": [
-                {
+    {
+		  "year": "2017",
+		  "papers": [
+		{
+		    "title": "Precise Condition Synthesis for Program Repair",
+		    "authors": "Y. Xiong, J. Wang, R. Yan, J. Zhang, S. Han, G. Huang, L. Zhang",
+		    "venue": "International Conference on Software Engineering (ICSE)"
+		}
+		  ]
+		},
+		{
+		  "year": "2016",
+		  "papers": [
+    {
+		    "title": "Improved Crossover Operators for Genetic Programming for Program Repair",
+		    "authors": "V. P. L. Oliveira, E. F. D. Souza, C. Le Goues, C. G. Camilo-Junior",
+		    "venue": "Symposium on Search-Based Software Engineering (SSBSE)"
+		},
+    {
 		    "title": "Automatic Repair of Real Bugs in Java: A Large-Scale Experiment on the Defects4J Dataset",
 		    "authors": "Matias Martinez, Thomas Durieux, Romain Sommerard, Jifeng Xuan and Martin Monperrus",
                     "venue": "Springer Empirical Software Engineering",
@@ -60,6 +75,12 @@
                     "authors": "F. Long, M. C. Rinard",
                     "venue": "International Conference on Software Engineering (ICSE)",
 		    "url": "http://people.csail.mit.edu/rinard/paper/icse16.searchspace.pdf"
+		},
+		{
+                    "title": "ARROW: Automated Repair of Races on Client-Side Web Pages",
+                    "authors": "W. Wang, Y. Zheng, P. Liu, L. Xu, X. Zhang, P. Eugster",
+                    "venue": "International Symposium on Software Testing and Analysis (ISSTA)",
+                    "url": "http://researcher.ibm.com/researcher/files/us-liup/arrow.pdf"
 		},
 		{
                     "title": "ASTOR: A Program Repair Library for Java",

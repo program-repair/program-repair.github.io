@@ -1,6 +1,16 @@
 {
     "benchmarks": [
     	{
+	    "name": "Defects4j",
+	    "description": "A database of existing faults to enable controlled testing studies for Java",
+	    "url": "https://github.com/rjust/defects4j",
+	    "target": "Java source code",
+	    "title": "Defects4J: A Database of Existing Faults to Enable Controlled Testing Studies for Java Programs",
+	    "authors": "R. Just, D. Jalali, M. D. Ernst",
+	    "venue": "International Symposium on Software Testing and Analysis (ISSTA)",
+	    "year": "2014"
+	},
+    	{
 	    "name": "ManyBugs",
 	    "description": "Automated program repair benchmark that consists of 185 defects from large popular open-source projects",
 	    "url": "http://repairbenchmarks.cs.umass.edu",

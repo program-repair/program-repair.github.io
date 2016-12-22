@@ -1,6 +1,6 @@
-# automated-program-repair.org #
+# program-repair.org #
 
-This website is a community-driven effort to provide up-to-date references about automated program repair. We'd love you to contribute new publications, tools and benchmarks to make information on automated-program-repair.org more objective, complete and accurate.
+This website is a community-driven effort to provide up-to-date references about automated program repair. We'd love you to contribute new publications, tools and benchmarks to make information on program-repair.org more objective, complete and accurate.
 
 ## Website content ##
 

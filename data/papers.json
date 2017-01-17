@@ -381,6 +381,12 @@
 		    "authors": "W. Weimer, S. Forrest, C. Le Goues, T. Nguyen", 
 		    "venue": "Communications of the ACM 53.5",
 		    "url": "https://www.cs.virginia.edu/~weimer/p/p109-weimer.pdf"
+		},
+		{
+		    "title": "Designing Better Fitness Functions for Automated Program Repair",
+		    "authors": "E. Fast, C. Le Goues, S. Forrest, W. Weimer",
+		    "venue": "Conference on Genetic and Evolutionary Computation (GECCO)",
+		    "url": "https://www.cs.virginia.edu/~weimer/p/weimer-gecco2010.pdf"
 		}
 	    ]
 	},

@@ -51,6 +51,16 @@
 	    "year": "2016"
 	},
 	{
+	    "name": "SearchRepair",
+	    "description": "Automated program repair that uses semantic code search over large repositories of candidate code bases to produce high-quality bug patches",
+	    "url": "https://github.com/ProgramRepair/SearchRepair",
+	    "target": "C source code",
+	    "title": "Repairing Programs with Semantic Code Search",
+	    "authors": "Y. Ke, K. T. Stolee, C. Le Goues, Y. Brun",
+	    "venue": "International Conference on Automated Software Engineering (ASE)",
+	    "year": "2015"
+	},
+	{
 	    "name": "LeakFix",
 	    "description": "Safe memory-leak fixing tool for C programs",
 	    "url": "http://sei.pku.edu.cn/~gaoqing11/leakfix/",

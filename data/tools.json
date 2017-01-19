@@ -1,103 +1,33 @@
 {
     "tools": [
 	{
-	    "name": "GenProg",
-	    "description": "Automated program repair tool based on genetic programming",
-	    "url": "http://dijkstra.cs.virginia.edu/genprog/",
-	    "target": "C source code",
-	    "title": "A Systematic Study of Automated Program Repair: Fixing 55 out of 105 bugs for $8 Each",
-	    "authors": "C. Le Goues, M. Dewey-Vogt, S. Forrest, W. Weimer",
-	    "venue": "International Conference on Software Engineering (ICSE)",
-	    "year": "2012"
-	},
-	{
-	    "name": "SemFix",
-	    "description": "Automated program repair tool based on symbolic analysis",
-	    "url": "http://www.comp.nus.edu.sg/~abhik/tools/angelix",
-	    "target": "C source code",
-	    "title": "SemFix: Program Repair via Semantic Analysis",
-	    "authors": "H.D.T. Nguyen, D. Qi, A. Roychoudhury, S. Chandra",
-	    "venue": "International Conference on Software Engineering (ICSE)",
-	    "year": "2013"
-	},
-	{
-	    "name": "AutoFix",
-	    "description": "Automatic program repair of object-oriented programs with contracts",
-	    "url": "https://bit.ly/autofix-tool",
-	    "target": "Eiffel source code",
-	    "title": "Automated Fixing of Programs with Contracts",
-	    "authors": "Y. Pei, C. A. Furia, M. Nordio, Y. Wei, B. Meyer, A. Zeller",
-	    "venue": "IEEE Transactions on Software Engineering (TSE)",
-	    "year": "2014"
-	},
-	{
-	    "name": "Nopol",
-	    "description": "Automated program repair tool for conditional expressions",
-	    "url": "https://github.com/SpoonLabs/nopol/",
+	    "name": "ACS",
+	    "description": "Automated program repair tool with accurate condition synthesis",
+	    "url": "https://github.com/Adobee/ACS",
 	    "target": "Java source code",
-	    "title": "Automatic Repair of Buggy If Conditions and Missing Preconditions with SMT",
-	    "authors": "F. DeMarco, J. Xuan, D. Le Berre, M. Monperrus",
-	    "venue": "International Workshop on Constraints in Software Testing, Verification, and Analysis (CSTVA)",
-	    "year": "2014"
-	},
-	{
-	    "name": "RSRepair",
-	    "description": "GenProg modification that uses random search",
-	    "url": "http://qiyuhua.github.io/projects/rsrepair",
-	    "target": "C source code",
-	    "title": "The Strength of Random Search on Automated Program Repair",
-	    "authors": "Y. Qi, X. Mao, Y. Lei, Z. Dai, C. Wang",
+	    "title": "Precise Condition Synthesis for Program Repair",
+	    "authors": "Y. Xiong, J. Wang, R. Yan, J. Zhang, S. Han, G. Huang, L. Zhang",
 	    "venue": "International Conference on Software Engineering (ICSE)",
-	    "year": "2014"
+	    "year": "2017"
 	},
 	{
-	    "name": "SPR",
-	    "description": "Automated program repair tool with condition synthesis",
-	    "url": "http://rhino.csail.mit.edu/spr-rep/",
-	    "target": "C source code",
-	    "title": "Staged Program Repair with Condition Synthesis",
-	    "authors": "F. Long, M. C. Rinard",
-	    "venue": "Symposium on the Foundations of Software Engineering (FSE)",
-	    "year": "2015"
+	    "name": "Astor",
+	    "description": "Automatic software repair framework for Java (incl. GenProg, Kali and mutation repair for Java)",
+	    "url": "https://github.com/SpoonLabs/astor",
+	    "target": "Java source code",
+	    "title": "ASTOR: A Program Repair Library for Java",
+	    "authors": "M. Martinez, M. Monperrus",
+	    "venue": "International Symposium on Software Testing and Analysis (ISSTA) &mdash; Demonstration Track",
+	    "year": "2016"
 	},
 	{
-	    "name": "Kali",
-	    "description": "Generate-and-validate patch generation system that only deletes functionality",
-	    "url": "http://groups.csail.mit.edu/pac/kali/",
-	    "target": "C source code",
-	    "title": "An Analysis of Patch Plausibility and Correctness for Generate-And-Validate Patch Generation Systems",
-            "authors": "Z. Qi, F. Long, S. Achour, M. Rinard",
-            "venue": "International Symposium on Software Testing and Analysis (ISSTA)",
-	    "year": "2015"
-	},
-  {
-      "name": "QACrashFix",
-      "description": "Fixing Java crash bugs by querying StackOverflow",
-      "url": "http://sei.pku.edu.cn/~gaoqing11/qacrashfix/",
-      "target": "Java source code",
-      "title": "Fixing Recurring Crash Bugs via Analyzing Q&A Sites",
-      "authors": "Q. Gao, H. Zhang, J. Wang, Y. Xiong, L. Zhang, H. Mei",
-      "venue": "International Conference on Automated Software Engineering (ASE)",
-      "year": "2015"
-  },
-	{
-	    "name": "LeakFix",
-	    "description": "Safe memory-leak fixing tool for C programs",
-	    "url": "http://sei.pku.edu.cn/~gaoqing11/leakfix/",
-	    "target": "C source code",
-	    "title": "Safe Memory-Leak Fixing for C Programs",
-	    "authors": "Q. Gao, Y. Xiong, Y. Mi, L. Zhang, W. Yang, Z. Zhou, B. Xie, H. Mei",
-	    "venue": "International Conference on Software Engineering (ICSE)",
-	    "year": "2015"
-	},
-	{
-	    "name": "Prophet",
-	    "description": "Automated program repair that learns from correct patches",
-	    "url": "http://groups.csail.mit.edu/pac/prophet/",
-	    "target": "C source code",
-	    "title": "Automatic Patch Generation by Learning Correct Code",
-	    "authors": "F. Long, M. C. Rinard",
-	    "venue": "Symposium on Principles of Programming Languages (POPL)",
+	    "name": "HistoricalFix",
+	    "description": "Automated program repair tool that leverages bug fix history",
+	    "url": "https://github.com/xuanbachle/bugfixes",
+	    "target": "Java source code",
+	    "title": "History Driven Program Repair",
+	    "authors": "X. B. D. Le,  D. Lo,  C. Le Goues",
+	    "venue": "International Conference on Software Analysis, Evolution, and Reengineering (SANER)",
 	    "year": "2016"
 	},
 	{
@@ -111,14 +41,104 @@
 	    "year": "2016"
 	},
 	{
-	    "name": "Astor",
-	    "description": "Automatic software repair framework for Java (incl. GenProg, Kali and mutation repair for Java)",
-	    "url": "https://github.com/SpoonLabs/astor",
-	    "target": "Java source code",
-	    "title": "ASTOR: A Program Repair Library for Java",
-	    "authors": "M. Martinez, M. Monperrus",
-	    "venue": "International Symposium on Software Testing and Analysis (ISSTA) &mdash; Demonstration Track",
+	    "name": "Prophet",
+	    "description": "Automated program repair that learns from correct patches",
+	    "url": "http://groups.csail.mit.edu/pac/prophet/",
+	    "target": "C source code",
+	    "title": "Automatic Patch Generation by Learning Correct Code",
+	    "authors": "F. Long, M. C. Rinard",
+	    "venue": "Symposium on Principles of Programming Languages (POPL)",
 	    "year": "2016"
+	},
+	{
+	    "name": "LeakFix",
+	    "description": "Safe memory-leak fixing tool for C programs",
+	    "url": "http://sei.pku.edu.cn/~gaoqing11/leakfix/",
+	    "target": "C source code",
+	    "title": "Safe Memory-Leak Fixing for C Programs",
+	    "authors": "Q. Gao, Y. Xiong, Y. Mi, L. Zhang, W. Yang, Z. Zhou, B. Xie, H. Mei",
+	    "venue": "International Conference on Software Engineering (ICSE)",
+	    "year": "2015"
+	},
+	{
+	    "name": "QACrashFix",
+	    "description": "Fixing Java crash bugs by querying StackOverflow",
+	    "url": "http://sei.pku.edu.cn/~gaoqing11/qacrashfix/",
+	    "target": "Java source code",
+	    "title": "Fixing Recurring Crash Bugs via Analyzing Q&A Sites",
+	    "authors": "Q. Gao, H. Zhang, J. Wang, Y. Xiong, L. Zhang, H. Mei",
+	    "venue": "International Conference on Automated Software Engineering (ASE)",
+	    "year": "2015"
+	},
+	{
+	    "name": "Kali",
+	    "description": "Generate-and-validate patch generation system that only deletes functionality",
+	    "url": "http://groups.csail.mit.edu/pac/kali/",
+	    "target": "C source code",
+	    "title": "An Analysis of Patch Plausibility and Correctness for Generate-And-Validate Patch Generation Systems",
+            "authors": "Z. Qi, F. Long, S. Achour, M. Rinard",
+            "venue": "International Symposium on Software Testing and Analysis (ISSTA)",
+	    "year": "2015"
+	},
+	{
+	    "name": "SPR",
+	    "description": "Automated program repair tool with condition synthesis",
+	    "url": "http://rhino.csail.mit.edu/spr-rep/",
+	    "target": "C source code",
+	    "title": "Staged Program Repair with Condition Synthesis",
+	    "authors": "F. Long, M. C. Rinard",
+	    "venue": "Symposium on the Foundations of Software Engineering (FSE)",
+	    "year": "2015"
+	},
+	{
+	    "name": "RSRepair",
+	    "description": "GenProg modification that uses random search",
+	    "url": "http://qiyuhua.github.io/projects/rsrepair",
+	    "target": "C source code",
+	    "title": "The Strength of Random Search on Automated Program Repair",
+	    "authors": "Y. Qi, X. Mao, Y. Lei, Z. Dai, C. Wang",
+	    "venue": "International Conference on Software Engineering (ICSE)",
+	    "year": "2014"
+	},
+	{
+	    "name": "Nopol",
+	    "description": "Automated program repair tool for conditional expressions",
+	    "url": "https://github.com/SpoonLabs/nopol/",
+	    "target": "Java source code",
+	    "title": "Automatic Repair of Buggy If Conditions and Missing Preconditions with SMT",
+	    "authors": "F. DeMarco, J. Xuan, D. Le Berre, M. Monperrus",
+	    "venue": "International Workshop on Constraints in Software Testing, Verification, and Analysis (CSTVA)",
+	    "year": "2014"
+	},
+	{
+	    "name": "AutoFix",
+	    "description": "Automatic program repair of object-oriented programs with contracts",
+	    "url": "https://bit.ly/autofix-tool",
+	    "target": "Eiffel source code",
+	    "title": "Automated Fixing of Programs with Contracts",
+	    "authors": "Y. Pei, C. A. Furia, M. Nordio, Y. Wei, B. Meyer, A. Zeller",
+	    "venue": "IEEE Transactions on Software Engineering (TSE)",
+	    "year": "2014"
+	},
+	{
+	    "name": "SemFix",
+	    "description": "Automated program repair tool based on symbolic analysis",
+	    "url": "http://www.comp.nus.edu.sg/~abhik/tools/angelix",
+	    "target": "C source code",
+	    "title": "SemFix: Program Repair via Semantic Analysis",
+	    "authors": "H.D.T. Nguyen, D. Qi, A. Roychoudhury, S. Chandra",
+	    "venue": "International Conference on Software Engineering (ICSE)",
+	    "year": "2013"
+	},
+	{
+	    "name": "GenProg",
+	    "description": "Automated program repair tool based on genetic programming",
+	    "url": "http://dijkstra.cs.virginia.edu/genprog/",
+	    "target": "C source code",
+	    "title": "A Systematic Study of Automated Program Repair: Fixing 55 out of 105 bugs for $8 Each",
+	    "authors": "C. Le Goues, M. Dewey-Vogt, S. Forrest, W. Weimer",
+	    "venue": "International Conference on Software Engineering (ICSE)",
+	    "year": "2012"
 	}
     ]
 }

@@ -147,6 +147,11 @@
 		    "url": "http://sei.pku.edu.cn/~gaoqing11/leakfix/leakfix-icse15.pdf"
 		},
 		{
+		    "title": "Automatically Fixing Real-World JavaScript Performance Bugs",
+		    "authors": "M. Selakovic, M. Pradel",
+		    "venue": "International Conference on Software Engineering (ICSE) &mdash; Poster"
+		},
+		{
 		    "title": "Automated Program Repair in an Integrated Development Environment",
 		    "authors": "Y. Pei, C. A. Furia, M. Nordio, B. Meyer",
 		    "venue": "International Conference on Software Engineering (ICSE) &mdash; Demonstrations Track",

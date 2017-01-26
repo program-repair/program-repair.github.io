@@ -4,6 +4,12 @@
 	    "year": "2017",
 	    "papers": [
 		{
+		    "title": "DeepFix: Fixing Common C Language Errors by Deep Learning",
+		    "authors": "R. Gupta, S. Pal, A. Kanade, S. Shevade",
+		    "venue": "Conference on Artificial Intelligence (AAAI)",
+		    "url": "http://www.iisc-seal.net/publications/aaai17.pdf"
+		},
+		{
 		    "title": "Dynamic Patch Generation for Null Pointer Exceptions Using Metaprogramming",
 		    "authors": "T. Durieux, B. Cornu, L. Seinturier,  M. Monperrus",
 		    "venue": "International Conference on Software Analysis, Evolution and Reengineering (SANER)",

@@ -1,5 +1,10 @@
 {
     "news": [
+	{
+	    "title": "DeepFix: Fixing Common C Language Errors by Deep Learning @AAAI'17",
+	    "content": "<p>The following program repair work is presented at Conference on Artificial Intelligence (AAAI) 2017 held in San Francisco, California, USA:</p> <p><strong>DeepFix: Fixing Common C Language Errors by Deep Learning</strong><br/>R. Gupta, S. Pal, A. Kanade, S. Shevade.</p>",
+	    "publication": true
+	},
    {
        "title": "Dynamic Patch Generation for Null Pointer Exceptions Using Metaprogramming @SANER'17",
        "content": "<p>The following program repair work is presented at International Conference on Software Analysis, Evolution and Reengineering (SANER) 2017 held at the Alpen-Adria University Klagenfurt, Austria:</p> <p><strong>Dynamic Patch Generation for Null Pointer Exceptions Using Metaprogramming</strong><br/>T. Durieux, B. Cornu, L. Seinturier,  M. Monperrus.</p>",

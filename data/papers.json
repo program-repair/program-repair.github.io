@@ -48,6 +48,11 @@
 		    "venue": "International Symposium on Formal Methods (FM)"
 		},
 		{
+		    "title": "A Sketching-Based Approach for Debugging Using Test Cases",
+		    "authors": "J. Hua, S. Khurshid",
+		    "venue": "Automated Technology for Verification and Analysis (ATVA)"
+		},
+		{
 		    "title": "History Driven Program Repair",
 		    "authors": "X. B. D. Le,  D. Lo,  C. Le Goues",
 		    "venue": "International Conference on Software Analysis, Evolution, and Reengineering (SANER)",

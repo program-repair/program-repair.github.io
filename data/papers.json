@@ -339,7 +339,7 @@
 		},
 		{
 		    "title": "GenProg: a Generic Method for Automatic Software Repair", 
-		    "authors": "C. L. Goues, T. Nguyen, S. Forrest, W. Weimer", 
+		    "authors": "C. Le Goues, T. Nguyen, S. Forrest, W. Weimer", 
 		    "venue": "IEEE Transactions on Software Engineering 38 "
 		}
 	    ]
@@ -417,7 +417,7 @@
 	    "papers": [
 		{
 		    "title": "Automatically Finding Patches Using Genetic Programming", 
-		    "authors": "W. Weimer, T. Nguyen, C. L. Goues, S. Forrest", 
+		    "authors": "W. Weimer, T. Nguyen, C. Le Goues, S. Forrest", 
 		    "venue": "International Conference on Software Engineering (ICSE)",
 		    "url": "https://www.cs.cmu.edu/~clegoues/docs/legoues-icse09.pdf"
 		},

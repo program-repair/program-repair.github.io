@@ -1,6 +1,21 @@
 {
     "news": [
 	{
+	    "title": "Learning Syntactic Program Transformations from Examples @ICSE'17",
+	    "content": "<p>The following program repair work is presented at International Conference on Software Engineering 2017 held in Buenos Aires, Argentina:</p> <p><strong>Learning Syntactic Program Transformations from Examples</strong><br/>R. Rolim, G. Soares, L. D'Antoni, O. Polozov, S. Gulwani, R. Gheyi, R. Suzuki, B. Hartmann.</p>",
+	    "publication": true
+	},
+	{
+	    "title": "Repairing Event Race Errors by Controlling Nondeterminism @ICSE'17",
+	    "content": "<p>The following program repair work is presented at International Conference on Software Engineering 2017 held in Buenos Aires, Argentina:</p> <p><strong>Repairing Event Race Errors by Controlling Nondeterminism</strong><br/>C. Adamsen, A. Møller, R. Karim, M. Sridharan, F. Tip, K. Sen.</p>",
+	    "publication": true
+	},
+   {
+       "title": "DeepFix — program repair tool for C",
+       "content": "<p>DeepFix is a new tool for fixing common programming errors based on deep learning:</p><p><a href=\"http://www.iisc-seal.net/deepfix\">http://www.iisc-seal.net/deepfix</a></p>",
+       "publication": false
+   },
+	{
 	    "title": "DeepFix: Fixing Common C Language Errors by Deep Learning @AAAI'17",
 	    "content": "<p>The following program repair work is presented at Conference on Artificial Intelligence (AAAI) 2017 held in San Francisco, California, USA:</p> <p><strong>DeepFix: Fixing Common C Language Errors by Deep Learning</strong><br/>R. Gupta, S. Pal, A. Kanade, S. Shevade.</p>",
 	    "publication": true
@@ -19,16 +34,6 @@
        "title": "Precise Condition Synthesis for Program Repair @ICSE'17",
        "content": "<p>The following program repair work is presented at International Conference on Software Engineering 2017 held in Buenos Aires, Argentina:</p> <p><strong>Precise Condition Synthesis for Program Repair</strong><br/>Y. Xiong, J. Wang, R. Yan, J. Zhang, S. Han, G. Huang, L. Zhang.</p>",
        "publication": true
-   },
-   {
-       "title": "Astor — program repair framework for Java",
-       "content": "<p>Astor is a new automatic software repair framework for Java (incl. GenProg, Kali and mutation repair for Java):</p><p><a href=\"https://github.com/SpoonLabs/astor\">https://github.com/SpoonLabs/astor</a></p>",
-       "publication": false
-   },
-	{
-	    "title": "Sound and Complete Mutation-Based Program Repair @FM'16",
-	    "content": "<p>The following program repair work is presented at International Symposium on Formal Methods 2016 held in Limassol, Cyprus:</p> <p><strong>Sound and Complete Mutation-Based Program Repair</strong><br/>B. Rothenberg, O. Grumberg.</p>",
-	    "publication": true
-	}
+   }
     ]
 }

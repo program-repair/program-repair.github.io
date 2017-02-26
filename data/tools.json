@@ -1,6 +1,16 @@
 {
     "tools": [
 	{
+	    "name": "DeepFix",
+	    "description": "Tool for fixing common programming errors based on deep learning",
+	    "url": "http://www.iisc-seal.net/deepfix",
+	    "target": "C source code",
+	    "title": "DeepFix: Fixing Common C Language Errors by Deep Learning",
+	    "authors": "R. Gupta, S. Pal, A. Kanade, S. Shevade",
+	    "venue": "Conference on Artificial Intelligence (AAAI)",
+	    "year": "2017"
+	},
+	{
 	    "name": "ACS",
 	    "description": "Automated program repair tool with accurate condition synthesis",
 	    "url": "https://github.com/Adobee/ACS",
@@ -9,6 +19,16 @@
 	    "authors": "Y. Xiong, J. Wang, R. Yan, J. Zhang, S. Han, G. Huang, L. Zhang",
 	    "venue": "International Conference on Software Engineering (ICSE)",
 	    "year": "2017"
+	},
+	{
+	    "name": "CoderAssist",
+	    "description": "System for feedback generation",
+	    "url": "https://bitbucket.org/iiscseal/coderassist",
+	    "target": "C source code",
+	    "title": "Semi-supervised Verified Feedback Generation",
+	    "authors": "S. Kaleeswaran, A. Santhiar, A. Kanade, S. Gulwani",
+	    "venue": "Symposium on the Foundations of Software Engineering (FSE)",
+	    "year": "2016"
 	},
 	{
 	    "name": "Astor",
@@ -99,6 +119,16 @@
 	    "authors": "F. Long, M. C. Rinard",
 	    "venue": "Symposium on the Foundations of Software Engineering (FSE)",
 	    "year": "2015"
+	},
+	{
+	    "name": "MintHint",
+	    "description": "Program repair tool that generates repair hints to assist the programmer",
+	    "url": "http://www.iisc-seal.net/minthint",
+	    "target": "C source code",
+	    "title": "MintHint: Automated Synthesis of Repair Hints",
+	    "authors": "S. Kaleeswaran, V. Tulsian, A. Kanade, A. Orso",
+	    "venue": "International Conference on Software Engineering (ICSE)",
+	    "year": "2014"
 	},
 	{
 	    "name": "RSRepair",

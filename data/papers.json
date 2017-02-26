@@ -16,6 +16,18 @@
 		    "url": "https://hal.archives-ouvertes.fr/hal-01419861/document"
 		},
 		{
+		    "title": "Learning Syntactic Program Transformations from Examples",
+		    "authors": "R. Rolim, G. Soares, L. D'Antoni, O. Polozov, S. Gulwani, R. Gheyi, R. Suzuki, B. Hartmann",
+		    "venue": "International Conference on Software Engineering (ICSE)",
+        "url": "http://homes.cs.washington.edu/~polozov/papers/icse2017-refactoring.pdf"
+		},
+		{
+		    "title": "Repairing Event Race Errors by Controlling Nondeterminism",
+		    "authors": "C. Adamsen, A. Møller, R. Karim, M. Sridharan, F. Tip, K. Sen",
+		    "venue": "International Conference on Software Engineering (ICSE)",
+        "url": "http://cs.au.dk/~amoeller/papers/eventracecommander/paper.pdf"
+		},
+		{
 		    "title": "Precise Condition Synthesis for Program Repair",
 		    "authors": "Y. Xiong, J. Wang, R. Yan, J. Zhang, S. Han, G. Huang, L. Zhang",
 		    "venue": "International Conference on Software Engineering (ICSE)"
@@ -69,6 +81,12 @@
 		    "authors": "H. Liu, Y. Chen, S. Lu",
 		    "venue": "Symposium on the Foundations of Software Engineering (FSE)",
 		    "url": "https://people.cs.uchicago.edu/~shanlu/paper/HFix_FSE2016.pdf"
+		},
+		{
+		    "title": "Semi-supervised Verified Feedback Generation",
+		    "authors": "S. Kaleeswaran, A. Santhiar, A. Kanade, S. Gulwani",
+		    "venue": "Symposium on the Foundations of Software Engineering (FSE)",
+		    "url": "https://sites.google.com/site/santhiaranirudh/research/fse16.pdf"
 		},
 		{
 		    "title": "Qlose: Program Repair with Quantiative Objectives",
@@ -228,7 +246,7 @@
 		{
 		    "title": "MintHint: Automated Synthesis of Repair Hints", 
 		    "authors": "S. Kaleeswaran, V. Tulsian, A. Kanade, A. Orso", 
-		    "venue": "International Conference on Software Engineering (ICSE) ",
+		    "venue": "International Conference on Software Engineering (ICSE)",
 		    "url": "http://automated-program-repair.org/clweb.csa.iisc.ernet.in/shalinik/minthint.preprint.pdf"
 		},
 		{
@@ -297,7 +315,7 @@
 		    "url": "http://qiyuhua.github.io/publications/issta2013.pdf"
 		},
 		{
-		    "title": "Leveraging Program Equivalence for Adaptive. Program Repair: Models and First Results",
+		    "title": "Leveraging Program Equivalence for Adaptive Program Repair: Models and First Results",
 		    "authors": "W. Weimer, Z. P. Fry, S. Forrest",
 		    "venue": "International Conference on Automated Software Engineering (ASE)",
 		    "url": "https://www.cs.virginia.edu/~weimer/p/weimer-ase2013-preprint.pdf"

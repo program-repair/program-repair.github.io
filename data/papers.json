@@ -4,6 +4,12 @@
 	    "year": "2017",
 	    "papers": [
 		{
+		    "title": "Connecting Program Synthesis and Reachability: Automatic Program Repair using Test-Input Generation",
+		    "authors": "T. Nguyen, D. Kapur, S. Forrest, W. Weimer",
+		    "venue": "International Conference on Tools and Algorithms for the Construction and Analysis of Systems (TACAS)",
+		    "url": "http://www.cs.virginia.edu/~weimer/p/weimer-tacas2017.pdf"
+		},
+		{
 		    "title": "DeepFix: Fixing Common C Language Errors by Deep Learning",
 		    "authors": "R. Gupta, S. Pal, A. Kanade, S. Shevade",
 		    "venue": "Conference on Artificial Intelligence (AAAI)",
@@ -14,6 +20,12 @@
 		    "authors": "T. Durieux, B. Cornu, L. Seinturier,  M. Monperrus",
 		    "venue": "International Conference on Software Analysis, Evolution and Reengineering (SANER)",
 		    "url": "https://hal.archives-ouvertes.fr/hal-01419861/document"
+		},
+		{
+		    "title": "Production-Driven Patch Generation",
+		    "authors": "T. Durieux, Y. Hamadi, M. Monperrus",
+		    "venue": "International Conference on Software Engineering (ICSE) &mdash; NIER Track",
+        "url": "https://hal.archives-ouvertes.fr/hal-01463689/document"
 		},
 		{
 		    "title": "Learning Syntactic Program Transformations from Examples",
@@ -30,7 +42,8 @@
 		{
 		    "title": "Precise Condition Synthesis for Program Repair",
 		    "authors": "Y. Xiong, J. Wang, R. Yan, J. Zhang, S. Han, G. Huang, L. Zhang",
-		    "venue": "International Conference on Software Engineering (ICSE)"
+		    "venue": "International Conference on Software Engineering (ICSE)",
+		    "url": "http://sei.pku.edu.cn/~xiongyf04/papers/ICSE17a.pdf"
 		}
 	    ]
 	},

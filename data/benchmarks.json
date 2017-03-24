@@ -1,5 +1,15 @@
 {
     "benchmarks": [
+	{
+	    "name": "Codeflaws",
+	    "description": "3902 bugs from Codeforces programming competition for evaluating program repair tools across different defect classes",
+	    "url": "https://codeflaws.github.io/",
+	    "target": "C source code",
+	    "title": "Codeflaws: A Programming Competition Benchmark for Evaluating Automated Program Repair Tools",
+	    "authors": "S.H. Tan, J. Yi, Yulis, S. Mechtaev, A. Roychoudhury",
+	    "venue": "International Conference on Software Engineering (ICSE) &mdash; Poster Track",
+	    "year": "2017"
+	},
     	{
 	    "name": "ManyBugs",
 	    "description": "Automated program repair benchmark that consists of 185 defects from large popular open-source projects",

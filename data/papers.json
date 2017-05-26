@@ -51,6 +51,12 @@
 	    "year": "2016",
 	    "papers": [
 		{
+		    "title": "Automated Memory Leak Fixing on Value-Flow Slices for C Programs",
+		    "authors": "H. Yan, Y.Sui, S.Chen, J.Xue",
+		    "venue": "ACM Symposium on Applied Computing (SAC)",
+		    "url": "http://www.cse.unsw.edu.au/~jingling/papers/sac16.pdf"
+		},
+		{
 		    "title": "Optimizing Horn Solvers for Network Repair",
 		    "authors": "H. Hojjat, P. Ruemmer, J. McClurg, P. Cerny, N. Foster",
 		    "venue": "Formal Methods in Computer-Aided Design (FMCAD)",

@@ -4,6 +4,27 @@
 	    "year": "2017",
 	    "papers": [
 		{
+		    "title": "Identifying Test-Suite-Overfitted Patches through Test Case Generation",
+		    "authors": "Q. Xin, S. Reiss",
+		    "venue": "International Symposium on Software Testing and Analysis (ISSTA)"
+		},
+		{
+		    "title": "Automated Repair of Layout Cross Browser Issues Using Search-Based Techniques",
+		    "authors": "S. Mahajan, A. Alameer, P. McMinn, W.G.J. Halfond",
+		    "venue": "International Symposium on Software Testing and Analysis (ISSTA)",
+		    "url": "http://www-scf.usc.edu/~spmahaja/papers/mahajan17issta.pdf"
+		},
+		{
+		    "title": "JFIX: Semantics-Based Repair of Java Programs via Symbolic PathFinder",
+		    "authors": "D.X.B. Le, D.H. Chu, D. Lo, C. Le Goues, W. Visser",
+		    "venue": "International Symposium on Software Testing and Analysis (ISSTA) &mdash; Demonstration Track"
+		},
+		{
+		    "title": "XFix: Automated Tool for Repair of Layout Cross Browser Issues",
+		    "authors": "S. Mahajan, A. Alameer, P. McMinn, W.G.J. Halfond",
+		    "venue": "International Symposium on Software Testing and Analysis (ISSTA) &mdash; Demonstration Track"
+		},
+		{
 		    "title": "Connecting Program Synthesis and Reachability: Automatic Program Repair using Test-Input Generation",
 		    "authors": "T. Nguyen, D. Kapur, S. Forrest, W. Weimer",
 		    "venue": "International Conference on Tools and Algorithms for the Construction and Analysis of Systems (TACAS)",

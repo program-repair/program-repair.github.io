@@ -1,6 +1,21 @@
 {
     "news": [
 	{
+	    "title": "JFix — program repair tool for Java",
+	    "content": "<p>Semantics-based repair framework for Java programs based on Symbolic PathFinder:</p><p><a href=\"https://xuanbachle.github.io/semanticsrepair/\">https://xuanbachle.github.io/semanticsrepair/</a></p>",
+	    "publication": false
+	},
+	{
+	    "title": "Identifying Test-Suite-Overfitted Patches through Test Case Generation @ISSTA'17",
+	    "content": "<p>The following program repair work is presented at International Symposium on Software Testing and Analysis 2017 held in Santa Barbara, California, United States:</p> <p><strong>Identifying Test-Suite-Overfitted Patches through Test Case Generation</strong><br/>Q. Xin, S. Reiss</p>",
+	    "publication": true
+	},
+	{
+	    "title": "Automated Repair of Layout Cross Browser Issues Using Search-Based Techniques @ISSTA'17",
+	    "content": "<p>The following program repair work is presented at International Symposium on Software Testing and Analysis 2017 held in Santa Barbara, California, United States:</p> <p><strong>Automated Repair of Layout Cross Browser Issues Using Search-Based Techniques</strong><br/>S. Mahajan, A. Alameer, P. McMinn, W.G.J. Halfond</p>",
+	    "publication": true
+	},
+	{
 	    "title": "Connecting Program Synthesis and Reachability: Automatic Program Repair using Test-Input Generation @TACAS'17",
 	    "content": "<p>The following program repair work is presented at International Conference on Tools and Algorithms for the Construction and Analysis of Systems (TACAS) held in Uppsala, Sweden:</p> <p><strong>Connecting Program Synthesis and Reachability: Automatic Program Repair using Test-Input Generation</strong><br/>T. Nguyen, D. Kapur, S. Forrest, W. Weimer</p>",
 	    "publication": true
@@ -24,31 +39,6 @@
 	    "title": "Repairing Event Race Errors by Controlling Nondeterminism @ICSE'17",
 	    "content": "<p>The following program repair work is presented at International Conference on Software Engineering 2017 held in Buenos Aires, Argentina:</p> <p><strong>Repairing Event Race Errors by Controlling Nondeterminism</strong><br/>C. Adamsen, A. Møller, R. Karim, M. Sridharan, F. Tip, K. Sen.</p>",
 	    "publication": true
-	},
-   {
-       "title": "DeepFix — program repair tool for C",
-       "content": "<p>DeepFix is a new tool for fixing common programming errors based on deep learning:</p><p><a href=\"http://www.iisc-seal.net/deepfix\">http://www.iisc-seal.net/deepfix</a></p>",
-       "publication": false
-   },
-	{
-	    "title": "DeepFix: Fixing Common C Language Errors by Deep Learning @AAAI'17",
-	    "content": "<p>The following program repair work is presented at Conference on Artificial Intelligence (AAAI) 2017 held in San Francisco, California, USA:</p> <p><strong>DeepFix: Fixing Common C Language Errors by Deep Learning</strong><br/>R. Gupta, S. Pal, A. Kanade, S. Shevade.</p>",
-	    "publication": true
-	},
-   {
-       "title": "Dynamic Patch Generation for Null Pointer Exceptions Using Metaprogramming @SANER'17",
-       "content": "<p>The following program repair work is presented at International Conference on Software Analysis, Evolution and Reengineering (SANER) 2017 held at the Alpen-Adria University Klagenfurt, Austria:</p> <p><strong>Dynamic Patch Generation for Null Pointer Exceptions Using Metaprogramming</strong><br/>T. Durieux, B. Cornu, L. Seinturier,  M. Monperrus.</p>",
-       "publication": true
-   },
-   {
-       "title": "ACS — program repair tool for Java",
-       "content": "<p>ACS is a new program repair tool for Java with accurate condition synthesis:</p><p><a href=\"https://github.com/Adobee/ACS\">https://github.com/Adobee/ACS</a></p>",
-       "publication": false
-   },
-   {
-       "title": "Precise Condition Synthesis for Program Repair @ICSE'17",
-       "content": "<p>The following program repair work is presented at International Conference on Software Engineering 2017 held in Buenos Aires, Argentina:</p> <p><strong>Precise Condition Synthesis for Program Repair</strong><br/>Y. Xiong, J. Wang, R. Yan, J. Zhang, S. Han, G. Huang, L. Zhang.</p>",
-       "publication": true
-   }
+	}
     ]
 }

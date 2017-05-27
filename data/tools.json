@@ -1,6 +1,16 @@
 {
     "tools": [
 	{
+	    "name": "JFix",
+	    "description": "Semantics-based repair framework for Java programs",
+	    "url": "https://xuanbachle.github.io/semanticsrepair/",
+	    "target": "Java source code",
+	    "title": "JFIX: Semantics-Based Repair of Java Programs via Symbolic PathFinder",
+	    "authors": "D.X.B. Le, D.H. Chu, D. Lo, C. Le Goues, W. Visser",
+	    "venue": "International Symposium on Software Testing and Analysis (ISSTA) &mdash; Demonstration Track",
+	    "year": "2017"
+	},
+	{
 	    "name": "DeepFix",
 	    "description": "Tool for fixing common programming errors based on deep learning",
 	    "url": "http://www.iisc-seal.net/deepfix",

@@ -1,6 +1,16 @@
 {
     "benchmarks": [
 	{
+	    "name": "DBGBench",
+	    "description": "291 (in)correct patches from real software professionals for 27 real bugs in C for the qualitative evaluation of automated repair techniques",
+	    "url": "https://dbgbench.github.io",
+	    "target": "C source code",
+	    "title": "Where is the Bug and How is it Fixed? An Experiment with Practitioners",
+	    "authors": "M. Boehme, E.O. Soremekun, S. Chattopadhyay, E. Ugherughe, A. Zeller",
+	    "venue": "European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE)",
+	    "year": "2017"
+	},
+	{
 	    "name": "Codeflaws",
 	    "description": "3902 bugs from Codeforces programming competition for evaluating program repair tools across different defect classes",
 	    "url": "https://codeflaws.github.io/",
@@ -16,7 +26,7 @@
 	    "url": "http://repairbenchmarks.cs.umass.edu",
 	    "target": "C source code",
 	    "title": "The ManyBugs and IntroClass Benchmarks for Automated Repair of C Programs",
-	    "authors": "C. L. Goues, N. Holtschulte, E. K. Smith, Y. Brun, P.Devanbu, S. Forrest, W. Weimer",
+	    "authors": "C. Le Goues, N. Holtschulte, E. K. Smith, Y. Brun, P.Devanbu, S. Forrest, W. Weimer",
 	    "venue": "IEEE Transactions on Software Engineering (TSE)",
 	    "year": "2015"
 	},
@@ -26,7 +36,7 @@
 	    "url": "http://repairbenchmarks.cs.umass.edu",
 	    "target": "C source code",
 	    "title": "The ManyBugs and IntroClass Benchmarks for Automated Repair of C Programs",
-	    "authors": "C. L. Goues, N. Holtschulte, E. K. Smith, Y. Brun, P.Devanbu, S. Forrest, W. Weimer",
+	    "authors": "C. Le Goues, N. Holtschulte, E. K. Smith, Y. Brun, P. Devanbu, S. Forrest, W. Weimer",
 	    "venue": "IEEE Transactions on Software Engineering (TSE)",
 	    "year": "2015"
 	},

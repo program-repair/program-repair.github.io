@@ -4,6 +4,52 @@
 	    "year": "2017",
 	    "papers": [
 		{
+		    "title": "S3: Syntax- and Semantic-Guided Repair Synthesis via Programming by Examples",
+		    "authors": "D.X.B. Le, D.H. Chu, D. Lo, C. Le Goues, W. Visser",
+		    "venue": "European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE)"
+		},
+		{
+		    "title": "Automatically Diagnosing and Repairing Error Handling Bugs in C",
+		    "authors": "Y. Tian, B. Ray",
+		    "venue": "European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE)"
+		},
+		{
+		    "title": "Synergistic Debug-Repair of Heap Manipulations",
+		    "authors": "S. Verma, S. Roy",
+		    "venue": "European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE)"
+		},
+		{
+		    "title": "Better Test Cases for Better Automated Program Repair",
+		    "authors": "J. Yang, A. Zhikhartsev, Y. Liu, L. Tan",
+		    "venue": "European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE)"
+		},
+		{
+		    "title": "A Feasibility Study of Using Automated Program Repair for Introductory Programming Assignments",
+		    "authors": "J. Yi, U. Ahmed, A. Karkare, S.H. Tan, A. Roychoudhury",
+		    "venue": "European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE)"
+		},
+		{
+		    "title": "Where is the Bug and How is it Fixed? An Experiment with Practitioners",
+		    "authors": "M. Boehme, E.O. Soremekun, S. Chattopadhyay, E. Ugherughe, A. Zeller",
+		    "venue": "European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE)"
+		},
+		{
+		    "title": "Automatic Inference of Code Transforms for Patch Generation Systems",
+		    "authors": "F. Long, P. Amidon, M. Rinard",
+		    "venue": "European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE)"
+		},
+		{
+		    "title": "NoFAQ: Synthesizing Command Repairs from Examples",
+		    "authors": "L. D'Antoni, R. Singh, M. Vaughn",
+		    "venue": "European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE)"
+		},
+		{
+		    "title": "Repairing Decision-Making Programs Under Uncertainty",
+		    "authors": "A. Albarghouthi, L. D'Antoni, S. Drews",
+		    "venue": "Computer Aided Verification (CAV)",
+		    "url": "http://pages.cs.wisc.edu/~aws/papers/cav17.pdf"
+		},
+		{
 		    "title": "A Generic Algorithm for Program Repair",
 		    "authors": "B. Khaireddine, A. Zakharchenko, A. Mili",
 		    "venue": "International FME Workshop on Formal Methods in Software Engineering (FormaliSE)",

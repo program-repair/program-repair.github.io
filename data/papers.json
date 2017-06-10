@@ -4,15 +4,36 @@
 	    "year": "2017",
 	    "papers": [
 		{
+		    "title": "A Generic Algorithm for Program Repair",
+		    "authors": "B. Khaireddine, A. Zakharchenko, A. Mili",
+		    "venue": "International FME Workshop on Formal Methods in Software Engineering (FormaliSE)",
+		    "url": "https://web.njit.edu/~mili/bar.pdf"
+		},
+		{
+		    "title": "A Revisit of the Integration of Metamorphic Testing and Test Suite Based Automated Program Repair",
+		    "authors": "M. Jiang, T.Y. Chen, F.C. Kuo, Z. Ding, E.H. Choi, O. Mizuno",
+		    "venue": "International Workshop on Metamorphic Testing (MET)"
+		},
+		{
+		    "title": "An Analysis of the Suitability of Test-based Patch Acceptance Criteria",
+		    "authors": "L. Zemin, S.G. Brida, A. Godio, C. Cornejo, R. Degiovanni, G. Regis, N. Aguirre, M. Frias",
+		    "venue": "International Workshop on Search-Based Software Testing (SBST)"
+		},
+		{
+		    "title": "Impact of Tool Support in Patch Construction",
+		    "authors": "A. Koyuncu, T.F. Bissyande, D. Kim, J. Klein, M. Monperrus, Y. Le Traon",
+		    "venue": "International Symposium on Software Testing and Analysis (ISSTA)"
+		},
+		{
 		    "title": "Identifying Test-Suite-Overfitted Patches through Test Case Generation",
 		    "authors": "Q. Xin, S. Reiss",
-		    "venue": "International Symposium on Software Testing and Analysis (ISSTA)"
+		    "venue": "International Symposium on Software Testing and Analysis (ISSTA)",
+		    "url": "http://cs.brown.edu/~qx5/papers/testgen_issta17.pdf"
 		},
 		{
 		    "title": "Automated Repair of Layout Cross Browser Issues Using Search-Based Techniques",
 		    "authors": "S. Mahajan, A. Alameer, P. McMinn, W.G.J. Halfond",
-		    "venue": "International Symposium on Software Testing and Analysis (ISSTA)",
-		    "url": "http://www-scf.usc.edu/~spmahaja/papers/mahajan17issta.pdf"
+		    "venue": "International Symposium on Software Testing and Analysis (ISSTA)"
 		},
 		{
 		    "title": "JFIX: Semantics-Based Repair of Java Programs via Symbolic PathFinder",
@@ -484,6 +505,11 @@
 		    "url": "http://bugcounting.net/pubs/issta10.pdf"
 		},
 		{
+		    "title": "Recurring Bug Fixes in Object-oriented Programs",
+		    "authors": "T.T. Nguyen, H.A. Nguyen, N.H. Pham, J. Al-Kofahi, T.N. Nguyen",
+		    "venue": "International Conference on Software Engineering (ICSE)"
+		},
+		{
 		    "title": "Using Mutation to Automatically Suggest Fixes for Faulty Programs", 
 		    "authors": "V. Debroy, W. Wong", 
 		    "venue": "International Conference on Software Testing, Verification and Validation (ICST)",
@@ -544,8 +570,13 @@
 		{
 		    "title": "BugFix: a Learning-based Tool to Assist Developers in Fixing Bugs", 
 		    "authors": "D. Jeffrey, M. Feng, N. Gupta, R. Gupta", 
-		    "venue": "International Conference on Program Comprehension (ICPC) ",
+		    "venue": "International Conference on Program Comprehension (ICPC)",
 		    "url": "http://dennisjeffrey.com/student_site/ICPC09.pdf"
+		},
+		{
+		    "title": "Program Repair as Sound Optimization of Broken Programs", 
+		    "authors": "B. Fischer, A. Saabas, T. Uustalu", 
+		    "venue": "International Symposium on Theoretical Aspects of Software Engineering (TASE)"
 		}
 	    ]
 	},
@@ -595,6 +626,16 @@
 		    "authors": "S. Staber, B. Jobstmann, R. Bloem", 
 		    "venue": "Conference on Correct Hardware Design and Verification Methods (CHARME)",
         "url": "http://www-verimag.imag.fr/~jobstman/bib/files/combining.pdf"
+		}
+	    ]
+	},
+	{
+	    "year": "1983",
+	    "papers": [
+		{
+		    "title": "Algorithmic Program DeBugging", 
+		    "authors": "E.Y. Shapiro", 
+		    "venue": "MIT Press"
 		}
 	    ]
 	}

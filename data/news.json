@@ -1,6 +1,11 @@
 {
     "news": [
 	{
+	    "title": "Impact of Tool Support in Patch Construction @ISSTA'17",
+	    "content": "<p>The following program repair work is presented at International Symposium on Software Testing and Analysis 2017 held in Santa Barbara, California, United States:</p> <p><strong>Impact of Tool Support in Patch Construction</strong><br/>A. Koyuncu, T.F. Bissyande, D. Kim, J. Klein, M. Monperrus, Y. Le Traon</p>",
+	    "publication": true
+	},
+	{
 	    "title": "JFix — program repair tool for Java",
 	    "content": "<p>Semantics-based repair framework for Java programs based on Symbolic PathFinder:</p><p><a href=\"https://xuanbachle.github.io/semanticsrepair/\">https://xuanbachle.github.io/semanticsrepair/</a></p>",
 	    "publication": false
@@ -13,31 +18,6 @@
 	{
 	    "title": "Automated Repair of Layout Cross Browser Issues Using Search-Based Techniques @ISSTA'17",
 	    "content": "<p>The following program repair work is presented at International Symposium on Software Testing and Analysis 2017 held in Santa Barbara, California, United States:</p> <p><strong>Automated Repair of Layout Cross Browser Issues Using Search-Based Techniques</strong><br/>S. Mahajan, A. Alameer, P. McMinn, W.G.J. Halfond</p>",
-	    "publication": true
-	},
-	{
-	    "title": "Connecting Program Synthesis and Reachability: Automatic Program Repair using Test-Input Generation @TACAS'17",
-	    "content": "<p>The following program repair work is presented at International Conference on Tools and Algorithms for the Construction and Analysis of Systems (TACAS) held in Uppsala, Sweden:</p> <p><strong>Connecting Program Synthesis and Reachability: Automatic Program Repair using Test-Input Generation</strong><br/>T. Nguyen, D. Kapur, S. Forrest, W. Weimer</p>",
-	    "publication": true
-	},
-	{
-	    "title": "Codeflaws — program repair benchmark",
-	    "content": "<p>Codeflaws benchmark contains 3902 bugs from Codeforces programming competition for evaluating program repair tools across different defect classes:</p><p><a href=\"https://codeflaws.github.io/\">https://codeflaws.github.io/</a></p>",
-	    "publication": false
-	},
-	{
-	    "title": "Production-Driven Patch Generation @ICSE'17",
-	    "content": "<p>The following program repair work is presented at International Conference on Software Engineering 2017 (NIER Track) held in Buenos Aires, Argentina:</p> <p><strong>Production-Driven Patch Generation</strong><br/>T. Durieux, Y. Hamadi, M. Monperrus</p>",
-	    "publication": true
-	},
-	{
-	    "title": "Learning Syntactic Program Transformations from Examples @ICSE'17",
-	    "content": "<p>The following program repair work is presented at International Conference on Software Engineering 2017 held in Buenos Aires, Argentina:</p> <p><strong>Learning Syntactic Program Transformations from Examples</strong><br/>R. Rolim, G. Soares, L. D'Antoni, O. Polozov, S. Gulwani, R. Gheyi, R. Suzuki, B. Hartmann.</p>",
-	    "publication": true
-	},
-	{
-	    "title": "Repairing Event Race Errors by Controlling Nondeterminism @ICSE'17",
-	    "content": "<p>The following program repair work is presented at International Conference on Software Engineering 2017 held in Buenos Aires, Argentina:</p> <p><strong>Repairing Event Race Errors by Controlling Nondeterminism</strong><br/>C. Adamsen, A. Møller, R. Karim, M. Sridharan, F. Tip, K. Sen.</p>",
 	    "publication": true
 	}
     ]

@@ -4,6 +4,43 @@
 	    "year": "2017",
 	    "papers": [
 		{
+		    "title": "Automatic Software Repair: a Bibliography",
+		    "authors": "Martin Monperrus",
+		    "venue": "ACM Computing Surveys",
+        "url": "http://www.monperrus.net/martin/survey-automatic-repair.pdf"
+		},
+		{
+		    "title": "Contract-Based Program Repair without the Contracts",
+		    "authors": "L. Chen, Y. Pei, C.A. Furia",
+		    "venue": "International Conference on Automated Software Engineering (ASE)"
+		},
+		{
+		    "title": "ELIXIR: Effective Object Oriented Program Repair",
+		    "authors": "R. Saha, Y. Lyu, H. Yoshida, M.R. Prasad",
+		    "venue": "International Conference on Automated Software Engineering (ASE)"
+		},
+		{
+		    "title": "Leveraging Syntax-Related Code for Automated Program Repair",
+		    "authors": "Q. Xin, S.P. Reiss",
+		    "venue": "International Conference on Automated Software Engineering (ASE)"
+		},
+		{
+		    "title": "Tortoise: Interactive System Configuration Repair",
+		    "authors": "A. Weiss, A. Guha, Y. Brun",
+		    "venue": "International Conference on Automated Software Engineering (ASE)"
+		},
+		{
+		    "title": "IntPTI: Automatic Integer Error Repair with Proper-Type Inference",
+		    "authors": "X. Cheng, M. Zhou, X. Song, M. Gu, J. Sun",
+		    "venue": "International Conference on Automated Software Engineering (ASE) &mdash; Demonstration Track"
+		},
+		{
+		    "title": "An Investigation into the Use of Mutation Analysis for Automated Program Repair",
+		    "authors": "C.S. Timperley, S. Stepney, C. Le Goues",
+		    "venue": "Symposium on Search-Based Software Engineering (SSBSE)",
+        "url": "http://www.cs.cmu.edu/~clegoues/docs/legoues-ssbse17.pdf"
+		},
+		{
 		    "title": "S3: Syntax- and Semantic-Guided Repair Synthesis via Programming by Examples",
 		    "authors": "D.X.B. Le, D.H. Chu, D. Lo, C. Le Goues, W. Visser",
 		    "venue": "European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE)"

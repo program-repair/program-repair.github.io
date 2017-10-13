@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:dblp="http://dblp.org/rdf/schema-2017-04-18#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1" xmlns:bibtex="http://data.bibbase.org/ontology/#">
+<dblp:Publication rdf:about="http://dblp.org/rec/conf/icse/ZeminBGCDRAF17">
+<owl:sameAs rdf:resource="http://dx.doi.org/10.1109/SBST.2017.12" />
+<dblp:title>An Analysis of the Suitability of Test-Based Patch Acceptance Criteria.</dblp:title>
+<dblp:bibtexType rdf:resource="http://data.bibbase.org/ontology/#Inproceedings" />
+<dblp:publicationType rdf:resource="http://dblp.org/rdf/schema-2017-04-18#Inproceedings" />
+<dblp:authoredBy rdf:resource="http://dblp.org/pers/z/Zem=iacute=n:Luciano" />
+<dblp:authoredBy rdf:resource="http://dblp.org/pers/b/Brida:Sim=oacute=n_Guti=eacute=rrez" />
+<dblp:authoredBy rdf:resource="http://dblp.org/pers/g/Godio:Ariel" />
+<dblp:authoredBy rdf:resource="http://dblp.org/pers/c/Cornejo:C=eacute=sar" />
+<dblp:authoredBy rdf:resource="http://dblp.org/pers/d/Degiovanni:Renzo" />
+<dblp:authoredBy rdf:resource="http://dblp.org/pers/r/Regis:Germ=aacute=n" />
+<dblp:authoredBy rdf:resource="http://dblp.org/pers/a/Aguirre:Nazareno" />
+<dblp:authoredBy rdf:resource="http://dblp.org/pers/f/Frias:Marcelo_F=" />
+<dblp:primaryElectronicEdition rdf:resource="https://doi.org/10.1109/SBST.2017.12" />
+<dblp:listedOnTocPage rdf:resource="http://dblp.org/db/conf/icse/sbst2017" />
+<dblp:publishedInBook>SBST@ICSE</dblp:publishedInBook>
+<dblp:pageNumbers>14-20</dblp:pageNumbers>
+<dblp:yearOfPublication>2017</dblp:yearOfPublication>
+<dblp:publishedAsPartOf rdf:resource="http://dblp.org/rec/conf/icse/2017sbst" />
+</dblp:Publication>
+<rdf:Description rdf:about="http://dblp.org/rec/conf/icse/ZeminBGCDRAF17.rdf">
+<rdfs:label>provenance information for RDF data of dblp record 'conf/icse/ZeminBGCDRAF17'</rdfs:label>
+<dcterms:creator rdf:resource="http://dblp.org" />
+<dcterms:isPartOf rdf:resource="http://dblp.org/rdf/dblp.rdf" />
+<dcterms:license rdf:resource="https://opendatacommons.org/licenses/by/1.0" />
+<dcterms:modified>2017-08-16T08:09:30+0200</dcterms:modified>
+</rdf:Description>
+</rdf:RDF>

@@ -1,8 +1,8 @@
 # program-repair.org #
 
-This website is a community-driven effort to provide up-to-date references about automated program repair. We'd love you to contribute new publications, tools and benchmarks to make information on program-repair.org more objective, complete and accurate.
+This website is a community-driven effort to provide up-to-date references about automated program repair.
 
-## Website content ##
+## Bibliography ##
 
 Our website lists publications
 
@@ -10,35 +10,43 @@ Our website lists publications
 * Describing domain-specific automated program repair algorithms and tools
 * Describing applications of automated program repair
 
+The bibliographic records on this website are automatically extracted from dblp.org.
+
+## Tools and benchmarks ##
+
 Our website displays only tools and benchmarks that
 
-* Have corresponding publications
+* Have corresponding publications in the bibliography section
 * Publicly available
-* Designed specifically for automated program repair
+* Designed for program repair
 
-## Contrubiting via pull requests ##
+## Community projects ##
 
-All data (papers, tools, news, etc.) is stored in JSON format (see `data` directory). The HTML pages are rendered from the templates in `templates` directory.
+The goal of program-repair.org community projects is to make automated program repair research, data and dissemination accessible to all levels of an inquiring society in accordance with the principles of open science.
+If you would like to maintain a community project under program-repair.org GitHub organization, please create an issue.
+
+## Contributing via pull requests ##
+
+The website is automatically generated from data in the `data` directory. The HTML pages are rendered from the templates in `templates` directory.
 
 To update information on the website:
 
-1. Install Python 3 and pystache (e.g. `aptitude install python3-pystache`).
+1. Install Python 3 and dependencies (e.g. `pip3 install -r requirements.txt`).
 2. Modify files in the `data` directory.
 3. Run build script (e.g. `python3 build.py`).
 4. Open `index.html` in your browser to verify your modifications.
 5. Commit changes and create a pull request.
 
-## Contributing via Github Issues ##
+## Contributing via GitHub Issues ##
 
 To submit a new publication, you need to provide the following:
 
-* Title and authors
-* Journal/conference
-* URL to pdf file (if it is publicly available)
+* dblp key (find the publication on dblp.org and click `export record -> dblp key`)
 
 To submit a new tool or benchmark, you need to provide the following:
 
+* Name
 * One line description
-* Target (e.g. C source code, i386 binaries, etc)
-* URL
-* Related publication
+* Target (e.g. C/C++, Binaries, etc)
+* Website and/or repository
+* dblp key of the related publication

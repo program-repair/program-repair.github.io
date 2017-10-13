@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:dblp="http://dblp.org/rdf/schema-2017-04-18#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1" xmlns:bibtex="http://data.bibbase.org/ontology/#">
+<dblp:Publication rdf:about="http://dblp.org/rec/conf/icse/KaleeswaranTKO14">
+<owl:sameAs rdf:resource="http://dx.doi.org/10.1145/2568225.2568258" />
+<dblp:title>MintHint: automated synthesis of repair hints.</dblp:title>
+<dblp:bibtexType rdf:resource="http://data.bibbase.org/ontology/#Inproceedings" />
+<dblp:publicationType rdf:resource="http://dblp.org/rdf/schema-2017-04-18#Inproceedings" />
+<dblp:authoredBy rdf:resource="http://dblp.org/pers/k/Kaleeswaran:Shalini" />
+<dblp:authoredBy rdf:resource="http://dblp.org/pers/t/Tulsian:Varun" />
+<dblp:authoredBy rdf:resource="http://dblp.org/pers/k/Kanade:Aditya" />
+<dblp:authoredBy rdf:resource="http://dblp.org/pers/o/Orso:Alessandro" />
+<dblp:primaryElectronicEdition rdf:resource="http://doi.acm.org/10.1145/2568225.2568258" />
+<dblp:listedOnTocPage rdf:resource="http://dblp.org/db/conf/icse/icse2014" />
+<dblp:publishedInBook>ICSE</dblp:publishedInBook>
+<dblp:pageNumbers>266-276</dblp:pageNumbers>
+<dblp:yearOfPublication>2014</dblp:yearOfPublication>
+<dblp:publishedAsPartOf rdf:resource="http://dblp.org/rec/conf/icse/2014" />
+</dblp:Publication>
+<rdf:Description rdf:about="http://dblp.org/rec/conf/icse/KaleeswaranTKO14.rdf">
+<rdfs:label>provenance information for RDF data of dblp record 'conf/icse/KaleeswaranTKO14'</rdfs:label>
+<dcterms:creator rdf:resource="http://dblp.org" />
+<dcterms:isPartOf rdf:resource="http://dblp.org/rdf/dblp.rdf" />
+<dcterms:license rdf:resource="https://opendatacommons.org/licenses/by/1.0" />
+<dcterms:modified>2014-05-18T16:12:57+0200</dcterms:modified>
+</rdf:Description>
+</rdf:RDF>

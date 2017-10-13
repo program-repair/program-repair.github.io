@@ -1,165 +1,108 @@
 <!DOCTYPE html>
-<html>
-
-<head>
+<html lang="en">
+  <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="msvalidate.01" content="E572D702116BEE430579AF2944F3C567" />
 <meta name="google-site-verification" content="N9gZIFBnsoRXktOOC3LsdZqp5sm2F6q2OVjI0zc64_E" />
 <meta name="description" content="Community-driven website on automated program repair (automatic bug fixing). Up-to-date references to bibliography and resources">
 <meta name="author" content="Sergey Mechtaev">
 
-    <title>Program repair</title>
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/css/user.css">
-</head>
 
-<body>
-    <nav class="navbar navbar-default">
-        <div class="container">
-            <div class="navbar-header"><a class="navbar-brand navbar-link" href="index.html"><i class="fa fa-cogs"></i> program-repair.org</a>
-                <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
-            </div>
-            <div class="collapse navbar-collapse" id="navcol-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="active" role="presentation"><a href="index.html">Home </a></li>
-                    <li role="presentation"><a href="bibliography.html">Bibliography</a></li>
-                    <li role="presentation"><a href="tools.html">Tools </a></li>
-                    <li role="presentation"><a href="benchmarks.html">Benchmarks </a></li>
-                    <li role="presentation"><a href="about.html">About </a></li>
-                </ul>
-            </div>
-        </div>
+    <title>program-repair.org</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <link href="style.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+      <a class="navbar-brand" href="#"><i class="fa fa-cogs"></i> PROGRAM-REPAIR.ORG</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="bibliography.html">Bibliography</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="tools.html">Tools</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="benchmarks.html">Benchmarks</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="projects.html">Projects</a>
+          </li>
+        </ul>
+	<div class="btn-group" role="group">
+	  <a role="button" href="https://groups.google.com/forum/#!forum/program-repair" class="btn btn-outline-secondary"><i class="fa fa-envelope" aria-hidden="true"></i> Subscribe</a>
+	  <a role="button" href="https://groups.google.com/forum/#!forum/program-repair" class="btn btn-outline-secondary"><i class="fa fa-comments" aria-hidden="true"></i> Discuss</a>
+	  <a role="button" href="https://github.com/program-repair/program-repair.github.io/" class="btn btn-outline-secondary"><i class="fa fa-code-fork" aria-hidden="true"></i> Contribute</a>
+	</div>
+      </div>
     </nav>
-    <div class="jumbotron hero">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6"></div>
-                <div class="col-md-6 get-it">
-                    <h1>Program repair</h1>
-                    <p>Community-driven effort to facilitate discovery, access and systematization of data related to automated program repair research</p>
-                    <p><a class="btn btn-primary btn-lg" role="button" href="https://github.com/program-repair/program-repair.github.io/"><i class="fa fa-group"></i> Contribute</a><a class="btn btn-success btn-lg"
-                        role="button" href="https://groups.google.com/forum/#!forum/program-repair"><i class="fa fa-feed"></i> Mailing list</a></p>
-                </div>
-            </div>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron bg">
+      <div class="container">
+        <h1 class="h1">Program repair</h1>
+	<div class="row">
+          <div class="col-md-6">
+            <p>Community-driven effort to facilitate discovery, access and systematization of data related to automated program repair research</p>
+          </div>
         </div>
+      </div>
     </div>
-    <section class="testimonials">
-        <blockquote>
-            <p>What one would like ideally [...] is the automatic detection and correction of bugs</p>
-            <footer>R. J. Abbot, 1990</footer>
-        </blockquote>
-    </section>
-    <section class="features">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <h2>Resources</h2>
-                    <p>Up-to-date references to publicly available resources on automated program repair, related fields, and commercial applications</p>
-                </div>
-                <div class="col-md-6">
-                    <div class="row icon-features">
-                        <div class="col-xs-4 icon-feature"><a href="bibliography.html" class="text-neutral"><i class="glyphicon glyphicon-book"></i></a>
-                            <p>Bibliography </p>
-                        </div>
-                        <div class="col-xs-4 icon-feature"><a href="tools.html" class="text-neutral"><i class="glyphicon glyphicon-wrench"></i></a>
-                            <p>Tools </p>
-                        </div>
-                        <div class="col-xs-4 icon-feature"><a href="benchmarks.html" class="text-neutral"><i class="glyphicon glyphicon-flag"></i></a>
-                            <p>Benchmarks </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-6">
+          <h2>Bibliography</h2>
+	  <p><a id="conf_ssbse_TimperleySG17" href="https://doi.org/10.1007/978-3-319-66299-2_7">An Investigation into the Use of Mutation Analysis for Automated Program Repair</a></br>Christopher Steven Timperley, Susan Stepney, Claire Le Goues</br>SSBSE 2017: 99-114</p>
+	  <p><a id="conf_sigsoft_LeCLGV17" href="http://doi.acm.org/10.1145/3106237.3106309">S3: syntax- and semantic-guided repair synthesis via programming by examples</a></br>Xuan-Bach D. Le, Duc-Hiep Chu, David Lo, Claire Le Goues, Willem Visser</br>ESEC/SIGSOFT FSE 2017: 593-604</p>
+	  <p><a id="conf_sigsoft_TianR17" href="http://doi.acm.org/10.1145/3106237.3106300">Automatically diagnosing and repairing error handling bugs in C</a></br>Yuchi Tian, Baishakhi Ray</br>ESEC/SIGSOFT FSE 2017: 752-762</p>
+	  <p><a id="conf_sigsoft_VermaR17" href="http://doi.acm.org/10.1145/3106237.3106263">Synergistic debug-repair of heap manipulations</a></br>Sahil Verma, Subhajit Roy</br>ESEC/SIGSOFT FSE 2017: 163-173</p>
+	  <p><a id="conf_sigsoft_YangZLT17" href="http://doi.acm.org/10.1145/3106237.3106274">Better test cases for better automated program repair</a></br>Jinqiu Yang, Alexey Zhikhartsev, Yuefei Liu, Lin Tan</br>ESEC/SIGSOFT FSE 2017: 831-841</p>
+	  <p><a id="conf_sigsoft_YiAKTR17" href="http://doi.acm.org/10.1145/3106237.3106262">A feasibility study of using automated program repair for introductory programming assignments</a></br>Jooyong Yi, Umair Z. Ahmed, Amey Karkare, Shin Hwei Tan, Abhik Roychoudhury</br>ESEC/SIGSOFT FSE 2017: 740-751</p>
+	  <p><a class="btn btn-secondary" href="bibliography.html" role="button">View all &raquo;</a></p>
         </div>
-    </section>
-    <section class="testimonials">
-        <div class="container">
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                  <h1>Latest news</h1></div>
-                <div class="panel-body">
-                  <div class="media">
-                        <div class="media-left">
-                          <a>
-			    <div class="col-md-12"><i class="glyphicon glyphicon-book news-icon"></i></div>
-                            </a>
-                        </div>
-                        <div class="media-body">
-                            <h4>Automatic Software Repair: a Bibliography @ACM Computing Surveys</h4>
-                            <p>The following program repair work will appear in ACM Computing Surveys:</p> <p><strong>Automatic Software Repair: a Bibliography</strong><br/>Martin Monperrus</p>
-                        </div>
-                  </div>
-                  <div class="media">
-                        <div class="media-left">
-                          <a>
-			    <div class="col-md-12"><i class="glyphicon glyphicon-book news-icon"></i></div>
-                            </a>
-                        </div>
-                        <div class="media-body">
-                            <h4>Program repair @ASE&#x27;17</h4>
-                            <p>The following program repair works are presented at International Conference on Automated Software Engineering (ASE) 2017 held in Urbana-Champaign, Illinois, USA:</p> <p><strong>Contract-Based Program Repair without the Contracts</strong><br/>L. Chen, Y. Pei, C.A. Furia</p> <p><strong>ELIXIR: Effective Object Oriented Program Repair</strong><br/>R. Saha, Y. Lyu, H. Yoshida, M.R. Prasad</p> <p><strong>Leveraging Syntax-Related Code for Automated Program Repair</strong><br/>Q. Xin, S.P. Reiss</p> <p><strong>Tortoise: Interactive System Configuration Repair</strong><br/>A. Weiss, A. Guha, Y. Brun</p> <p><strong>IntPTI: Automatic Integer Error Repair with Proper-Type Inference</strong><br/>X. Cheng, M. Zhou, X. Song, M. Gu, J. Sun</p>
-                        </div>
-                  </div>
-                  <div class="media">
-                        <div class="media-left">
-                          <a>
-			    <div class="col-md-12"><i class="glyphicon glyphicon-book news-icon"></i></div>
-                            </a>
-                        </div>
-                        <div class="media-body">
-                            <h4>An Investigation into the Use of Mutation Analysis for Automated Program Repair @SSBSE&#x27;17</h4>
-                            <p>The following program repair work is presented at Symposium on Search-Based Software Engineering (SSBSE) 2017 held in Paderborn, Germany:</p> <p><strong>An Investigation into the Use of Mutation Analysis for Automated Program Repair</strong><br/>C.S. Timperley, S. Stepney, C. Le Goues</p>
-                        </div>
-                  </div>
-                  <div class="media">
-                        <div class="media-left">
-                          <a>
-                            <div class="col-md-12"><i class="glyphicon glyphicon-wrench news-icon"></i></div>
-                            </a>
-                        </div>
-                        <div class="media-body">
-                            <h4>DBGBench — program repair benchmark</h4>
-                            <p>291 (in)correct patches from real software professionals for 27 real bugs in C for the qualitative evaluation of automated repair techniques:</p><p><a href="https://dbgbench.github.io">https://dbgbench.github.io</a></p>
-                        </div>
-                  </div>
-                  <div class="media">
-                        <div class="media-left">
-                          <a>
-			    <div class="col-md-12"><i class="glyphicon glyphicon-book news-icon"></i></div>
-                            </a>
-                        </div>
-                        <div class="media-body">
-                            <h4>Program repair @ESEC/FSE&#x27;17</h4>
-                            <p>The following program repair works are presented at European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE) 2017 held in Paderborn, Germany:</p> <p><strong>S3: Syntax- and Semantic-Guided Repair Synthesis via Programming by Examples</strong><br/>D.X.B. Le, D.H. Chu, D. Lo, C. Le Goues, W. Visser</p> <p><strong>Automatically Diagnosing and Repairing Error Handling Bugs in C</strong><br/>Y. Tian, B. Ray</p> <p><strong>Synergistic Debug-Repair of Heap Manipulations</strong><br/>S. Verma, S. Roy</p> <p><strong>Better Test Cases for Better Automated Program Repair</strong><br/>J. Yang, A. Zhikhartsev, Y. Liu, L. Tan</p> <p><strong>A Feasibility Study of Using Automated Program Repair for Introductory Programming Assignments</strong><br/>J. Yi, U. Ahmed, A. Karkare, S.H. Tan, A. Roychoudhury</p> <p><strong>Where is the Bug and How is it Fixed? An Experiment with Practitioners</strong><br/>M. Boehme, E.O. Soremekun, S. Chattopadhyay, E. Ugherughe, A. Zeller</p> <p><strong>Automatic Inference of Code Transforms for Patch Generation Systems</strong><br/>F. Long, P. Amidon, M. Rinard</p> <p><strong>NoFAQ: Synthesizing Command Repairs from Examples</strong><br/>L. D'Antoni, R. Singh, M. Vaughn</p>
-                        </div>
-                  </div>
-                  <div class="media">
-                        <div class="media-left">
-                          <a>
-			    <div class="col-md-12"><i class="glyphicon glyphicon-book news-icon"></i></div>
-                            </a>
-                        </div>
-                        <div class="media-body">
-                            <h4>Repairing Decision-Making Programs Under Uncertainty @CAV&#x27;17</h4>
-                            <p>The following program repair work is presented at Computer Aided Verification (CAV) 2017 held in Heidelberg, Germany:</p> <p><strong>Repairing Decision-Making Programs Under Uncertainty</strong><br/>A. Albarghouthi, L. D'Antoni, S. Drews</p>
-                        </div>
-                  </div>
-                </div>
-            </div>
+        <div class="col-md-6">
+          <h2>Tools</h2>
+	  <p><a id="DeepFix" href="http://www.iisc-seal.net/deepfix">DeepFix</a> &mdash; tool for fixing common programming errors based on deep learning</p>
+	  <p><a id="ACS" href="https://github.com/Adobee/ACS">ACS</a> &mdash; automated program repair tool with accurate condition synthesis</p>
+	  <p><a id="JFix" href="https://xuanbachle.github.io/semanticsrepair/">JFix</a> &mdash; semantics-based repair framework for Java programs</p>
+	  <p><a class="btn btn-secondary" href="tools.html" role="button">View all &raquo;</a></p>
+          <h2>Benchmarks</h2>
+	  <p><a id="Codeflaws" href="https://codeflaws.github.io/">Codeflaws</a> &mdash; 3902 bugs from Codeforces programming competition for evaluating program repair tools across different defect classes</p>
+	  <p><a id="DBGBench" href="https://dbgbench.github.io">DBGBench</a> &mdash; 291 (in)correct patches from real software professionals for 27 real bugs in C for the qualitative evaluation of automated repair techniques</p>
+	  <p><a id="ManyBugs" href="http://repairbenchmarks.cs.umass.edu">ManyBugs</a> &mdash; automated program repair benchmark that consists of 185 defects from large popular open-source projects</p>
+          <p><a class="btn btn-secondary" href="benchmarks.html" role="button">View all &raquo;</a></p>  
+          <h2>Projects</h2>
+	  <p> <a id="Defects4J_Dissection" href="http://program-repair.org/defects4j-dissection/">Defects4J Dissection</a> &mdash; presents data to help researchers and practitioners to better understand the Defects4J bug dataset </p>
+          <p><a class="btn btn-secondary" href="projects.html" role="button">View all &raquo;</a></p>
         </div>
-    </section>
-    <footer class="site-footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6"></div>
-                <div class="col-sm-6 social-icons"><a href="https://github.com/program-repair"><i class="fa fa-github-alt"></i></a></div>
-            </div>
-        </div>
-    </footer>
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+      </div>
+
+      <hr>
+
+      <footer>
+        <p>The data on this website is released under the <a href="http://opendatacommons.org/licenses/by/summary/">Open Data Commons Attribution License (ODC-BY 1.0)</a>. The bibliographic records are extracted from <a href="http://dblp.uni-trier.de/">dblp</a>.</p>
+      </footer>
+    </div> <!-- /container -->
+
+    <script src="https://use.fontawesome.com/6b17e985fc.js"></script>
+
         <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -167,7 +110,6 @@
       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
       ga('create', 'UA-71971425-1', 'auto');
       ga('send', 'pageview');
-    </script>
-</body>
-
+    </script>    
+  </body>
 </html>

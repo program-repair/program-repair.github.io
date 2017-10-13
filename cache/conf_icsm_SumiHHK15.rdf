@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:dblp="http://dblp.org/rdf/schema-2017-04-18#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1" xmlns:bibtex="http://data.bibbase.org/ontology/#">
+<dblp:Publication rdf:about="http://dblp.org/rec/conf/icsm/SumiHHK15">
+<owl:sameAs rdf:resource="http://dx.doi.org/10.1109/ICSM.2015.7332504" />
+<dblp:title>Toward improving graftability on automated program repair.</dblp:title>
+<dblp:bibtexType rdf:resource="http://data.bibbase.org/ontology/#Inproceedings" />
+<dblp:publicationType rdf:resource="http://dblp.org/rdf/schema-2017-04-18#Inproceedings" />
+<dblp:authoredBy rdf:resource="http://dblp.org/pers/s/Sumi:Soichi" />
+<dblp:authoredBy rdf:resource="http://dblp.org/pers/h/Higo:Yoshiki" />
+<dblp:authoredBy rdf:resource="http://dblp.org/pers/h/Hotta:Keisuke" />
+<dblp:authoredBy rdf:resource="http://dblp.org/pers/k/Kusumoto:Shinji" />
+<dblp:primaryElectronicEdition rdf:resource="https://doi.org/10.1109/ICSM.2015.7332504" />
+<dblp:otherElectronicEdition rdf:resource="http://doi.ieeecomputersociety.org/10.1109/ICSM.2015.7332504" />
+<dblp:listedOnTocPage rdf:resource="http://dblp.org/db/conf/icsm/icsme2015" />
+<dblp:publishedInBook>ICSME</dblp:publishedInBook>
+<dblp:pageNumbers>511-515</dblp:pageNumbers>
+<dblp:yearOfPublication>2015</dblp:yearOfPublication>
+<dblp:publishedAsPartOf rdf:resource="http://dblp.org/rec/conf/icsm/2015" />
+</dblp:Publication>
+<rdf:Description rdf:about="http://dblp.org/rec/conf/icsm/SumiHHK15.rdf">
+<rdfs:label>provenance information for RDF data of dblp record 'conf/icsm/SumiHHK15'</rdfs:label>
+<dcterms:creator rdf:resource="http://dblp.org" />
+<dcterms:isPartOf rdf:resource="http://dblp.org/rdf/dblp.rdf" />
+<dcterms:license rdf:resource="https://opendatacommons.org/licenses/by/1.0" />
+<dcterms:modified>2017-05-22T17:11:02+0200</dcterms:modified>
+</rdf:Description>
+</rdf:RDF>

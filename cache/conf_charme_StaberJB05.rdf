@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:dblp="http://dblp.org/rdf/schema-2017-04-18#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1" xmlns:bibtex="http://data.bibbase.org/ontology/#">
+<dblp:Publication rdf:about="http://dblp.org/rec/conf/charme/StaberJB05">
+<owl:sameAs rdf:resource="http://dx.doi.org/10.1007/11560548_6" />
+<dblp:title>Finding and Fixing Faults.</dblp:title>
+<dblp:bibtexType rdf:resource="http://data.bibbase.org/ontology/#Inproceedings" />
+<dblp:publicationType rdf:resource="http://dblp.org/rdf/schema-2017-04-18#Inproceedings" />
+<dblp:authoredBy rdf:resource="http://dblp.org/pers/s/Staber:Stefan" />
+<dblp:authoredBy rdf:resource="http://dblp.org/pers/j/Jobstmann:Barbara" />
+<dblp:authoredBy rdf:resource="http://dblp.org/pers/b/Bloem:Roderick" />
+<dblp:primaryElectronicEdition rdf:resource="https://doi.org/10.1007/11560548_6" />
+<dblp:listedOnTocPage rdf:resource="http://dblp.org/db/conf/charme/charme2005" />
+<dblp:publishedInBook>CHARME</dblp:publishedInBook>
+<dblp:pageNumbers>35-49</dblp:pageNumbers>
+<dblp:yearOfPublication>2005</dblp:yearOfPublication>
+<dblp:publishedAsPartOf rdf:resource="http://dblp.org/rec/conf/charme/2005" />
+</dblp:Publication>
+<rdf:Description rdf:about="http://dblp.org/rec/conf/charme/StaberJB05.rdf">
+<rdfs:label>provenance information for RDF data of dblp record 'conf/charme/StaberJB05'</rdfs:label>
+<dcterms:creator rdf:resource="http://dblp.org" />
+<dcterms:isPartOf rdf:resource="http://dblp.org/rdf/dblp.rdf" />
+<dcterms:license rdf:resource="https://opendatacommons.org/licenses/by/1.0" />
+<dcterms:modified>2017-05-21T00:18:09+0200</dcterms:modified>
+</rdf:Description>
+</rdf:RDF>

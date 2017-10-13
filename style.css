@@ -1,0 +1,19 @@
+.bg {
+    background:url(bg.jpg) no-repeat center;
+    background-size:cover;
+    border:none;
+}
+
+.bg h1, .bg p {
+    color:#fff;
+    text-shadow:1px 1px 2px rgba(0,0,0,0.3);
+}
+
+.navbar-brand {
+    font-size: 100%;
+    font-weight: bold;
+}
+
+tr.spaceUnder > td {
+  padding-bottom: 0.5rem;
+}

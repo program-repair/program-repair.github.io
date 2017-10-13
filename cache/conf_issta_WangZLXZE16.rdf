@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:dblp="http://dblp.org/rdf/schema-2017-04-18#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1" xmlns:bibtex="http://data.bibbase.org/ontology/#">
+<dblp:Publication rdf:about="http://dblp.org/rec/conf/issta/WangZLXZE16">
+<owl:sameAs rdf:resource="http://dx.doi.org/10.1145/2931037.2931052" />
+<dblp:title>ARROW: automated repair of races on client-side web pages.</dblp:title>
+<dblp:bibtexType rdf:resource="http://data.bibbase.org/ontology/#Inproceedings" />
+<dblp:publicationType rdf:resource="http://dblp.org/rdf/schema-2017-04-18#Inproceedings" />
+<dblp:authoredBy rdf:resource="http://dblp.org/pers/w/Wang:Weihang" />
+<dblp:authoredBy rdf:resource="http://dblp.org/pers/z/Zheng:Yunhui" />
+<dblp:authoredBy rdf:resource="http://dblp.org/pers/l/Liu_0010:Peng" />
+<dblp:authoredBy rdf:resource="http://dblp.org/pers/x/Xu:Lei" />
+<dblp:authoredBy rdf:resource="http://dblp.org/pers/z/Zhang:Xiangyu" />
+<dblp:authoredBy rdf:resource="http://dblp.org/pers/e/Eugster:Patrick" />
+<dblp:primaryElectronicEdition rdf:resource="http://doi.acm.org/10.1145/2931037.2931052" />
+<dblp:listedOnTocPage rdf:resource="http://dblp.org/db/conf/issta/issta2016" />
+<dblp:publishedInBook>ISSTA</dblp:publishedInBook>
+<dblp:pageNumbers>201-212</dblp:pageNumbers>
+<dblp:yearOfPublication>2016</dblp:yearOfPublication>
+<dblp:publishedAsPartOf rdf:resource="http://dblp.org/rec/conf/issta/2016" />
+</dblp:Publication>
+<rdf:Description rdf:about="http://dblp.org/rec/conf/issta/WangZLXZE16.rdf">
+<rdfs:label>provenance information for RDF data of dblp record 'conf/issta/WangZLXZE16'</rdfs:label>
+<dcterms:creator rdf:resource="http://dblp.org" />
+<dcterms:isPartOf rdf:resource="http://dblp.org/rdf/dblp.rdf" />
+<dcterms:license rdf:resource="https://opendatacommons.org/licenses/by/1.0" />
+<dcterms:modified>2016-07-15T08:08:47+0200</dcterms:modified>
+</rdf:Description>
+</rdf:RDF>

@@ -1,619 +1,272 @@
 <!DOCTYPE html>
-<html>
-
-<head>
+<html lang="en">
+  <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Program repair</title>
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/css/user.css">
-</head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
 
-<body>
-    <nav class="navbar navbar-default">
-        <div class="container">
-            <div class="navbar-header"><a class="navbar-brand navbar-link" href="index.html"><i class="fa fa-cogs"></i> program-repair.org</a>
-                <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
-            </div>
-            <div class="collapse navbar-collapse" id="navcol-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li role="presentation"><a href="index.html">Home </a></li>
-                    <li role="presentation"><a href="bibliography.html">Bibliography</a></li>
-                    <li class="active" role="presentation"><a href="#">Tools </a></li>
-                    <li role="presentation"><a href="benchmarks.html">Benchmarks </a></li>
-                    <li role="presentation"><a href="about.html">About </a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <section class="testimonials">
-      <div class="container">
-	<div class="alert alert-info"><strong>Missing tool?</strong>
-	  Contribute through <a href="https://github.com/program-repair/program-repair.github.io/">GitHub</a> or <a href="https://groups.google.com/forum/#!forum/program-repair">mailing list</a>.
+    <title>program-repair.org</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <link href="style.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+      <a class="navbar-brand" href="#"><i class="fa fa-cogs"></i> PROGRAM-REPAIR.ORG</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="bibliography.html">Bibliography</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="tools.html">Tools <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="benchmarks.html">Benchmarks</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="projects.html">Projects</a>
+          </li>
+        </ul>
+	<div class="btn-group" role="group">
+	  <a role="button" href="https://groups.google.com/forum/#!forum/program-repair" class="btn btn-outline-secondary"><i class="fa fa-envelope" aria-hidden="true"></i> Subscribe</a>
+	  <a role="button" href="https://groups.google.com/forum/#!forum/program-repair" class="btn btn-outline-secondary"><i class="fa fa-comments" aria-hidden="true"></i> Discuss</a>
+	  <a role="button" href="https://github.com/program-repair/program-repair.github.io/" class="btn btn-outline-secondary"><i class="fa fa-code-fork" aria-hidden="true"></i> Contribute</a>
 	</div>
+      </div>
+    </nav>
 
-        <h1>JFix</h1>
-        <div class="table-responsive tool-table">
-          <table class="table">
-            <thead>
-              <tr>
-                <th> </th>
-                <th> </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Description</td>
-                <td>Semantics-based repair framework for Java programs</td>
-              </tr>
-              <tr>
-                <td>URL </td>
-                <td><a href="https://xuanbachle.github.io/semanticsrepair/"><span style="text-decoration: underline;">https://xuanbachle.github.io/semanticsrepair/</span></a> </td>
-              </tr>
-              <tr>
-                <td>Target</td>
-                <td>Java source code</td>
-              </tr>
-              <tr>
-                <td>Related publication</td>
-                <td><strong>JFIX: Semantics-Based Repair of Java Programs via Symbolic PathFinder</strong>, by D.X.B. Le, D.H. Chu, D. Lo, C. Le Goues, W. Visser. <em>International Symposium on Software Testing and Analysis (ISSTA) &mdash; Demonstration Track</em>.
-                  2017 </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <h1>DeepFix</h1>
-        <div class="table-responsive tool-table">
-          <table class="table">
-            <thead>
-              <tr>
-                <th> </th>
-                <th> </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Description</td>
-                <td>Tool for fixing common programming errors based on deep learning</td>
-              </tr>
-              <tr>
-                <td>URL </td>
-                <td><a href="http://www.iisc-seal.net/deepfix"><span style="text-decoration: underline;">http://www.iisc-seal.net/deepfix</span></a> </td>
-              </tr>
-              <tr>
-                <td>Target</td>
-                <td>C source code</td>
-              </tr>
-              <tr>
-                <td>Related publication</td>
-                <td><strong>DeepFix: Fixing Common C Language Errors by Deep Learning</strong>, by R. Gupta, S. Pal, A. Kanade, S. Shevade. <em>Conference on Artificial Intelligence (AAAI)</em>.
-                  2017 </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <h1>ACS</h1>
-        <div class="table-responsive tool-table">
-          <table class="table">
-            <thead>
-              <tr>
-                <th> </th>
-                <th> </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Description</td>
-                <td>Automated program repair tool with accurate condition synthesis</td>
-              </tr>
-              <tr>
-                <td>URL </td>
-                <td><a href="https://github.com/Adobee/ACS"><span style="text-decoration: underline;">https://github.com/Adobee/ACS</span></a> </td>
-              </tr>
-              <tr>
-                <td>Target</td>
-                <td>Java source code</td>
-              </tr>
-              <tr>
-                <td>Related publication</td>
-                <td><strong>Precise Condition Synthesis for Program Repair</strong>, by Y. Xiong, J. Wang, R. Yan, J. Zhang, S. Han, G. Huang, L. Zhang. <em>International Conference on Software Engineering (ICSE)</em>.
-                  2017 </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <h1>CoderAssist</h1>
-        <div class="table-responsive tool-table">
-          <table class="table">
-            <thead>
-              <tr>
-                <th> </th>
-                <th> </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Description</td>
-                <td>System for feedback generation</td>
-              </tr>
-              <tr>
-                <td>URL </td>
-                <td><a href="https://bitbucket.org/iiscseal/coderassist"><span style="text-decoration: underline;">https://bitbucket.org/iiscseal/coderassist</span></a> </td>
-              </tr>
-              <tr>
-                <td>Target</td>
-                <td>C source code</td>
-              </tr>
-              <tr>
-                <td>Related publication</td>
-                <td><strong>Semi-supervised Verified Feedback Generation</strong>, by S. Kaleeswaran, A. Santhiar, A. Kanade, S. Gulwani. <em>Symposium on the Foundations of Software Engineering (FSE)</em>.
-                  2016 </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <h1>Astor</h1>
-        <div class="table-responsive tool-table">
-          <table class="table">
-            <thead>
-              <tr>
-                <th> </th>
-                <th> </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Description</td>
-                <td>Automatic software repair framework for Java (incl. GenProg, Kali and mutation repair for Java)</td>
-              </tr>
-              <tr>
-                <td>URL </td>
-                <td><a href="https://github.com/SpoonLabs/astor"><span style="text-decoration: underline;">https://github.com/SpoonLabs/astor</span></a> </td>
-              </tr>
-              <tr>
-                <td>Target</td>
-                <td>Java source code</td>
-              </tr>
-              <tr>
-                <td>Related publication</td>
-                <td><strong>ASTOR: A Program Repair Library for Java</strong>, by M. Martinez, M. Monperrus. <em>International Symposium on Software Testing and Analysis (ISSTA) &mdash; Demonstration Track</em>.
-                  2016 </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <h1>HistoricalFix</h1>
-        <div class="table-responsive tool-table">
-          <table class="table">
-            <thead>
-              <tr>
-                <th> </th>
-                <th> </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Description</td>
-                <td>Automated program repair tool that leverages bug fix history</td>
-              </tr>
-              <tr>
-                <td>URL </td>
-                <td><a href="https://github.com/xuanbachle/bugfixes"><span style="text-decoration: underline;">https://github.com/xuanbachle/bugfixes</span></a> </td>
-              </tr>
-              <tr>
-                <td>Target</td>
-                <td>Java source code</td>
-              </tr>
-              <tr>
-                <td>Related publication</td>
-                <td><strong>History Driven Program Repair</strong>, by X. B. D. Le,  D. Lo,  C. Le Goues. <em>International Conference on Software Analysis, Evolution, and Reengineering (SANER)</em>.
-                  2016 </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <h1>Angelix</h1>
-        <div class="table-responsive tool-table">
-          <table class="table">
-            <thead>
-              <tr>
-                <th> </th>
-                <th> </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Description</td>
-                <td>Automated program repair tool based on symbolic analysis</td>
-              </tr>
-              <tr>
-                <td>URL </td>
-                <td><a href="http://angelix.io"><span style="text-decoration: underline;">http://angelix.io</span></a> </td>
-              </tr>
-              <tr>
-                <td>Target</td>
-                <td>C source code</td>
-              </tr>
-              <tr>
-                <td>Related publication</td>
-                <td><strong>Angelix: Scalable Multiline Program Patch Synthesis via Symbolic Analysis</strong>, by S. Mechtaev, J. Yi, A. Roychoudhury. <em>International Conference on Software Engineering (ICSE)</em>.
-                  2016 </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <h1>Prophet</h1>
-        <div class="table-responsive tool-table">
-          <table class="table">
-            <thead>
-              <tr>
-                <th> </th>
-                <th> </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Description</td>
-                <td>Automated program repair that learns from correct patches</td>
-              </tr>
-              <tr>
-                <td>URL </td>
-                <td><a href="http://groups.csail.mit.edu/pac/prophet/"><span style="text-decoration: underline;">http://groups.csail.mit.edu/pac/prophet/</span></a> </td>
-              </tr>
-              <tr>
-                <td>Target</td>
-                <td>C source code</td>
-              </tr>
-              <tr>
-                <td>Related publication</td>
-                <td><strong>Automatic Patch Generation by Learning Correct Code</strong>, by F. Long, M. C. Rinard. <em>Symposium on Principles of Programming Languages (POPL)</em>.
-                  2016 </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <h1>SearchRepair</h1>
-        <div class="table-responsive tool-table">
-          <table class="table">
-            <thead>
-              <tr>
-                <th> </th>
-                <th> </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Description</td>
-                <td>Automated program repair that uses semantic code search over large repositories of candidate code bases to produce high-quality bug patches</td>
-              </tr>
-              <tr>
-                <td>URL </td>
-                <td><a href="https://github.com/ProgramRepair/SearchRepair"><span style="text-decoration: underline;">https://github.com/ProgramRepair/SearchRepair</span></a> </td>
-              </tr>
-              <tr>
-                <td>Target</td>
-                <td>C source code</td>
-              </tr>
-              <tr>
-                <td>Related publication</td>
-                <td><strong>Repairing Programs with Semantic Code Search</strong>, by Y. Ke, K. T. Stolee, C. Le Goues, Y. Brun. <em>International Conference on Automated Software Engineering (ASE)</em>.
-                  2015 </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <h1>LeakFix</h1>
-        <div class="table-responsive tool-table">
-          <table class="table">
-            <thead>
-              <tr>
-                <th> </th>
-                <th> </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Description</td>
-                <td>Safe memory-leak fixing tool for C programs</td>
-              </tr>
-              <tr>
-                <td>URL </td>
-                <td><a href="http://sei.pku.edu.cn/~gaoqing11/leakfix/"><span style="text-decoration: underline;">http://sei.pku.edu.cn/~gaoqing11/leakfix/</span></a> </td>
-              </tr>
-              <tr>
-                <td>Target</td>
-                <td>C source code</td>
-              </tr>
-              <tr>
-                <td>Related publication</td>
-                <td><strong>Safe Memory-Leak Fixing for C Programs</strong>, by Q. Gao, Y. Xiong, Y. Mi, L. Zhang, W. Yang, Z. Zhou, B. Xie, H. Mei. <em>International Conference on Software Engineering (ICSE)</em>.
-                  2015 </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <h1>QACrashFix</h1>
-        <div class="table-responsive tool-table">
-          <table class="table">
-            <thead>
-              <tr>
-                <th> </th>
-                <th> </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Description</td>
-                <td>Fixing Java crash bugs by querying StackOverflow</td>
-              </tr>
-              <tr>
-                <td>URL </td>
-                <td><a href="http://sei.pku.edu.cn/~gaoqing11/qacrashfix/"><span style="text-decoration: underline;">http://sei.pku.edu.cn/~gaoqing11/qacrashfix/</span></a> </td>
-              </tr>
-              <tr>
-                <td>Target</td>
-                <td>Java source code</td>
-              </tr>
-              <tr>
-                <td>Related publication</td>
-                <td><strong>Fixing Recurring Crash Bugs via Analyzing Q&amp;A Sites</strong>, by Q. Gao, H. Zhang, J. Wang, Y. Xiong, L. Zhang, H. Mei. <em>International Conference on Automated Software Engineering (ASE)</em>.
-                  2015 </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <h1>Kali</h1>
-        <div class="table-responsive tool-table">
-          <table class="table">
-            <thead>
-              <tr>
-                <th> </th>
-                <th> </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Description</td>
-                <td>Generate-and-validate patch generation system that only deletes functionality</td>
-              </tr>
-              <tr>
-                <td>URL </td>
-                <td><a href="http://groups.csail.mit.edu/pac/kali/"><span style="text-decoration: underline;">http://groups.csail.mit.edu/pac/kali/</span></a> </td>
-              </tr>
-              <tr>
-                <td>Target</td>
-                <td>C source code</td>
-              </tr>
-              <tr>
-                <td>Related publication</td>
-                <td><strong>An Analysis of Patch Plausibility and Correctness for Generate-And-Validate Patch Generation Systems</strong>, by Z. Qi, F. Long, S. Achour, M. Rinard. <em>International Symposium on Software Testing and Analysis (ISSTA)</em>.
-                  2015 </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <h1>SPR</h1>
-        <div class="table-responsive tool-table">
-          <table class="table">
-            <thead>
-              <tr>
-                <th> </th>
-                <th> </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Description</td>
-                <td>Automated program repair tool with condition synthesis</td>
-              </tr>
-              <tr>
-                <td>URL </td>
-                <td><a href="http://rhino.csail.mit.edu/spr-rep/"><span style="text-decoration: underline;">http://rhino.csail.mit.edu/spr-rep/</span></a> </td>
-              </tr>
-              <tr>
-                <td>Target</td>
-                <td>C source code</td>
-              </tr>
-              <tr>
-                <td>Related publication</td>
-                <td><strong>Staged Program Repair with Condition Synthesis</strong>, by F. Long, M. C. Rinard. <em>Symposium on the Foundations of Software Engineering (FSE)</em>.
-                  2015 </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <h1>MintHint</h1>
-        <div class="table-responsive tool-table">
-          <table class="table">
-            <thead>
-              <tr>
-                <th> </th>
-                <th> </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Description</td>
-                <td>Program repair tool that generates repair hints to assist the programmer</td>
-              </tr>
-              <tr>
-                <td>URL </td>
-                <td><a href="http://www.iisc-seal.net/minthint"><span style="text-decoration: underline;">http://www.iisc-seal.net/minthint</span></a> </td>
-              </tr>
-              <tr>
-                <td>Target</td>
-                <td>C source code</td>
-              </tr>
-              <tr>
-                <td>Related publication</td>
-                <td><strong>MintHint: Automated Synthesis of Repair Hints</strong>, by S. Kaleeswaran, V. Tulsian, A. Kanade, A. Orso. <em>International Conference on Software Engineering (ICSE)</em>.
-                  2014 </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <h1>RSRepair</h1>
-        <div class="table-responsive tool-table">
-          <table class="table">
-            <thead>
-              <tr>
-                <th> </th>
-                <th> </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Description</td>
-                <td>GenProg modification that uses random search</td>
-              </tr>
-              <tr>
-                <td>URL </td>
-                <td><a href="http://qiyuhua.github.io/projects/rsrepair"><span style="text-decoration: underline;">http://qiyuhua.github.io/projects/rsrepair</span></a> </td>
-              </tr>
-              <tr>
-                <td>Target</td>
-                <td>C source code</td>
-              </tr>
-              <tr>
-                <td>Related publication</td>
-                <td><strong>The Strength of Random Search on Automated Program Repair</strong>, by Y. Qi, X. Mao, Y. Lei, Z. Dai, C. Wang. <em>International Conference on Software Engineering (ICSE)</em>.
-                  2014 </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <h1>Nopol</h1>
-        <div class="table-responsive tool-table">
-          <table class="table">
-            <thead>
-              <tr>
-                <th> </th>
-                <th> </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Description</td>
-                <td>Automated program repair tool for conditional expressions</td>
-              </tr>
-              <tr>
-                <td>URL </td>
-                <td><a href="https://github.com/SpoonLabs/nopol/"><span style="text-decoration: underline;">https://github.com/SpoonLabs/nopol/</span></a> </td>
-              </tr>
-              <tr>
-                <td>Target</td>
-                <td>Java source code</td>
-              </tr>
-              <tr>
-                <td>Related publication</td>
-                <td><strong>Automatic Repair of Buggy If Conditions and Missing Preconditions with SMT</strong>, by F. DeMarco, J. Xuan, D. Le Berre, M. Monperrus. <em>International Workshop on Constraints in Software Testing, Verification, and Analysis (CSTVA)</em>.
-                  2014 </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <h1>AutoFix</h1>
-        <div class="table-responsive tool-table">
-          <table class="table">
-            <thead>
-              <tr>
-                <th> </th>
-                <th> </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Description</td>
-                <td>Automatic program repair of object-oriented programs with contracts</td>
-              </tr>
-              <tr>
-                <td>URL </td>
-                <td><a href="https://bit.ly/autofix-tool"><span style="text-decoration: underline;">https://bit.ly/autofix-tool</span></a> </td>
-              </tr>
-              <tr>
-                <td>Target</td>
-                <td>Eiffel source code</td>
-              </tr>
-              <tr>
-                <td>Related publication</td>
-                <td><strong>Automated Fixing of Programs with Contracts</strong>, by Y. Pei, C. A. Furia, M. Nordio, Y. Wei, B. Meyer, A. Zeller. <em>IEEE Transactions on Software Engineering (TSE)</em>.
-                  2014 </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <h1>SemFix</h1>
-        <div class="table-responsive tool-table">
-          <table class="table">
-            <thead>
-              <tr>
-                <th> </th>
-                <th> </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Description</td>
-                <td>Automated program repair tool based on symbolic analysis</td>
-              </tr>
-              <tr>
-                <td>URL </td>
-                <td><a href="http://www.comp.nus.edu.sg/~abhik/tools/angelix"><span style="text-decoration: underline;">http://www.comp.nus.edu.sg/~abhik/tools/angelix</span></a> </td>
-              </tr>
-              <tr>
-                <td>Target</td>
-                <td>C source code</td>
-              </tr>
-              <tr>
-                <td>Related publication</td>
-                <td><strong>SemFix: Program Repair via Semantic Analysis</strong>, by H.D.T. Nguyen, D. Qi, A. Roychoudhury, S. Chandra. <em>International Conference on Software Engineering (ICSE)</em>.
-                  2013 </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <h1>GenProg</h1>
-        <div class="table-responsive tool-table">
-          <table class="table">
-            <thead>
-              <tr>
-                <th> </th>
-                <th> </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Description</td>
-                <td>Automated program repair tool based on genetic programming</td>
-              </tr>
-              <tr>
-                <td>URL </td>
-                <td><a href="http://dijkstra.cs.virginia.edu/genprog/"><span style="text-decoration: underline;">http://dijkstra.cs.virginia.edu/genprog/</span></a> </td>
-              </tr>
-              <tr>
-                <td>Target</td>
-                <td>C source code</td>
-              </tr>
-              <tr>
-                <td>Related publication</td>
-                <td><strong>A Systematic Study of Automated Program Repair: Fixing 55 out of 105 bugs for $8 Each</strong>, by C. Le Goues, M. Dewey-Vogt, S. Forrest, W. Weimer. <em>International Conference on Software Engineering (ICSE)</em>.
-                  2012 </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-    </section>
-    <footer class="site-footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6"></div>
-                <div class="col-sm-6 social-icons"><a href="https://github.com/program-repair"><i class="fa fa-github-alt"></i></a></div>
-            </div>
-        </div>
+    <div class="container"><p/>
+    </div>
+
+    <div class="container">
+      <p style="text-align:right"><i class="fa fa-book" aria-hidden="true"></i> &mdash; publication, <i class="fa fa-code-fork" aria-hidden="true"></i> &mdash; repository</p>
+    </div>
+
+    <div class="container">
+      <table style="width:100%">
+	<tr>
+	  <th colspan="2">
+	    <h3>C/C++</h3>
+	  </th>
+	</tr>
+	<tr class="spaceUnder">
+	  <th style="vertical-align:top" width="10%">
+	    <a href="bibliography.html#conf_icse_MechtaevYR16"><i class="fa fa-book" aria-hidden="true"></i></a>
+	    <a href="https://github.com/mechtaev/angelix"><i class="fa fa-code-fork" aria-hidden="true"></i></a>
+	    	    
+	  </th>
+	  <td style="vertical-align:top">
+	    <a id="Angelix" href="http://angelix.io">Angelix</a> &mdash; automated program repair tool based on symbolic analysis
+	  </td>
+	</tr>
+	<tr class="spaceUnder">
+	  <th style="vertical-align:top" width="10%">
+	    <a href="bibliography.html#conf_sigsoft_KaleeswaranSKG16"><i class="fa fa-book" aria-hidden="true"></i></a>
+	    <a href="https://bitbucket.org/iiscseal/coderassist"><i class="fa fa-code-fork" aria-hidden="true"></i></a>
+	    	    
+	  </th>
+	  <td style="vertical-align:top">
+	    <a id="CoderAssist" href="https://bitbucket.org/iiscseal/coderassist">CoderAssist</a> &mdash; system for feedback generation
+	  </td>
+	</tr>
+	<tr class="spaceUnder">
+	  <th style="vertical-align:top" width="10%">
+	    <a href="bibliography.html#conf_aaai_GuptaPKS17"><i class="fa fa-book" aria-hidden="true"></i></a>
+	    <a href="https://bitbucket.org/iiscseal/deepfix"><i class="fa fa-code-fork" aria-hidden="true"></i></a>
+	    	    
+	  </th>
+	  <td style="vertical-align:top">
+	    <a id="DeepFix" href="http://www.iisc-seal.net/deepfix">DeepFix</a> &mdash; tool for fixing common programming errors based on deep learning
+	  </td>
+	</tr>
+	<tr class="spaceUnder">
+	  <th style="vertical-align:top" width="10%">
+	    <a href="bibliography.html#conf_icse_GouesDFW12"><i class="fa fa-book" aria-hidden="true"></i></a>
+	    <a href="https://github.com/squaresLab/genprog-code"><i class="fa fa-code-fork" aria-hidden="true"></i></a>
+	    	    
+	  </th>
+	  <td style="vertical-align:top">
+	    <a id="GenProg" href="https://squareslab.github.io/genprog-code/">GenProg</a> &mdash; automated program repair tool based on genetic programming
+	  </td>
+	</tr>
+	<tr class="spaceUnder">
+	  <th style="vertical-align:top" width="10%">
+	    <a href="bibliography.html#conf_issta_QiLAR15"><i class="fa fa-book" aria-hidden="true"></i></a>
+	    
+	  </th>
+	  <td style="vertical-align:top">
+	    <a id="Kali" href="http://groups.csail.mit.edu/pac/kali/">Kali</a> &mdash; generate-and-validate patch generation system that only deletes functionality
+	  </td>
+	</tr>
+	<tr class="spaceUnder">
+	  <th style="vertical-align:top" width="10%">
+	    <a href="bibliography.html#conf_icse_GaoXMZYZXM15"><i class="fa fa-book" aria-hidden="true"></i></a>
+	    
+	  </th>
+	  <td style="vertical-align:top">
+	    <a id="LeakFix" href="http://sei.pku.edu.cn/~gaoqing11/leakfix/">LeakFix</a> &mdash; safe memory-leak fixing tool for C programs
+	  </td>
+	</tr>
+	<tr class="spaceUnder">
+	  <th style="vertical-align:top" width="10%">
+	    <a href="bibliography.html#conf_icse_KaleeswaranTKO14"><i class="fa fa-book" aria-hidden="true"></i></a>
+	    <a href="https://bitbucket.org/iiscseal/minthint"><i class="fa fa-code-fork" aria-hidden="true"></i></a>
+	    	    
+	  </th>
+	  <td style="vertical-align:top">
+	    <a id="MintHint" href="http://www.iisc-seal.net/minthint">MintHint</a> &mdash; program repair tool that generates repair hints to assist the programmer
+	  </td>
+	</tr>
+	<tr class="spaceUnder">
+	  <th style="vertical-align:top" width="10%">
+	    <a href="bibliography.html#conf_popl_LongR16"><i class="fa fa-book" aria-hidden="true"></i></a>
+	    
+	  </th>
+	  <td style="vertical-align:top">
+	    <a id="Prophet" href="http://groups.csail.mit.edu/pac/prophet/">Prophet</a> &mdash; automated program repair that learns from correct patches
+	  </td>
+	</tr>
+	<tr class="spaceUnder">
+	  <th style="vertical-align:top" width="10%">
+	    <a href="bibliography.html#conf_icse_QiMLDW14"><i class="fa fa-book" aria-hidden="true"></i></a>
+	    <a href="http://qiyuhua.github.io/projects/rsrepair"><i class="fa fa-code-fork" aria-hidden="true"></i></a>
+	    	    
+	  </th>
+	  <td style="vertical-align:top">
+	    <a id="RSRepair" href="http://qiyuhua.github.io/projects/rsrepair">RSRepair</a> &mdash; GenProg modification that uses random search
+	  </td>
+	</tr>
+	<tr class="spaceUnder">
+	  <th style="vertical-align:top" width="10%">
+	    <a href="bibliography.html#conf_sigsoft_LongR15"><i class="fa fa-book" aria-hidden="true"></i></a>
+	    
+	  </th>
+	  <td style="vertical-align:top">
+	    <a id="SPR" href="http://rhino.csail.mit.edu/spr-rep/">SPR</a> &mdash; automated program repair tool with condition synthesis
+	  </td>
+	</tr>
+	<tr class="spaceUnder">
+	  <th style="vertical-align:top" width="10%">
+	    <a href="bibliography.html#conf_kbse_KeSGB15"><i class="fa fa-book" aria-hidden="true"></i></a>
+	    <a href="https://github.com/ProgramRepair/SearchRepair"><i class="fa fa-code-fork" aria-hidden="true"></i></a>
+	    	    
+	  </th>
+	  <td style="vertical-align:top">
+	    <a id="SearchRepair" href="https://github.com/ProgramRepair/SearchRepair">SearchRepair</a> &mdash; automated program repair that uses semantic code search over large repositories of candidate code bases to produce high-quality bug patches
+	  </td>
+	</tr>
+	<tr class="spaceUnder">
+	  <th style="vertical-align:top" width="10%">
+	    <a href="bibliography.html#conf_icse_NguyenQRC13"><i class="fa fa-book" aria-hidden="true"></i></a>
+	    <a href="https://github.com/mechtaev/angelix"><i class="fa fa-code-fork" aria-hidden="true"></i></a>
+	    	    
+	  </th>
+	  <td style="vertical-align:top">
+	    <a id="SemFix" href="http://www.comp.nus.edu.sg/~abhik/tools/angelix">SemFix</a> &mdash; automated program repair tool based on symbolic analysis
+	  </td>
+	</tr>
+	<tr>
+	  <th colspan="2">
+	    <h3>Eiffel</h3>
+	  </th>
+	</tr>
+	<tr class="spaceUnder">
+	  <th style="vertical-align:top" width="10%">
+	    <a href="bibliography.html#journals_tse_0001FNWMZ14"><i class="fa fa-book" aria-hidden="true"></i></a>
+	    
+	  </th>
+	  <td style="vertical-align:top">
+	    <a id="AutoFix" href="https://bit.ly/autofix-tool">AutoFix</a> &mdash; automatic program repair of object-oriented programs with contracts
+	  </td>
+	</tr>
+	<tr>
+	  <th colspan="2">
+	    <h3>Java</h3>
+	  </th>
+	</tr>
+	<tr class="spaceUnder">
+	  <th style="vertical-align:top" width="10%">
+	    <a href="bibliography.html#conf_icse_XiongWYZH0017"><i class="fa fa-book" aria-hidden="true"></i></a>
+	    <a href="https://github.com/Adobee/ACS"><i class="fa fa-code-fork" aria-hidden="true"></i></a>
+	    	    
+	  </th>
+	  <td style="vertical-align:top">
+	    <a id="ACS" href="https://github.com/Adobee/ACS">ACS</a> &mdash; automated program repair tool with accurate condition synthesis
+	  </td>
+	</tr>
+	<tr class="spaceUnder">
+	  <th style="vertical-align:top" width="10%">
+	    <a href="bibliography.html#conf_issta_MartinezM16"><i class="fa fa-book" aria-hidden="true"></i></a>
+	    <a href="https://github.com/SpoonLabs/astor"><i class="fa fa-code-fork" aria-hidden="true"></i></a>
+	    	    
+	  </th>
+	  <td style="vertical-align:top">
+	    <a id="Astor" href="https://github.com/SpoonLabs/astor">Astor</a> &mdash; automatic software repair framework for Java (incl. GenProg, Kali and mutation repair for Java)
+	  </td>
+	</tr>
+	<tr class="spaceUnder">
+	  <th style="vertical-align:top" width="10%">
+	    <a href="bibliography.html#conf_wcre_LeLG16"><i class="fa fa-book" aria-hidden="true"></i></a>
+	    <a href="https://github.com/xuanbachle/bugfixes"><i class="fa fa-code-fork" aria-hidden="true"></i></a>
+	    	    
+	  </th>
+	  <td style="vertical-align:top">
+	    <a id="HistoricalFix" href="https://github.com/xuanbachle/bugfixes">HistoricalFix</a> &mdash; automated program repair tool that leverages bug fix history
+	  </td>
+	</tr>
+	<tr class="spaceUnder">
+	  <th style="vertical-align:top" width="10%">
+	    <a href="bibliography.html#conf_issta_LeCLGV17"><i class="fa fa-book" aria-hidden="true"></i></a>
+	    
+	  </th>
+	  <td style="vertical-align:top">
+	    <a id="JFix" href="https://xuanbachle.github.io/semanticsrepair/">JFix</a> &mdash; semantics-based repair framework for Java programs
+	  </td>
+	</tr>
+	<tr class="spaceUnder">
+	  <th style="vertical-align:top" width="10%">
+	    <a href="bibliography.html#conf_icse_DemarcoXBM14"><i class="fa fa-book" aria-hidden="true"></i></a>
+	    <a href="https://github.com/SpoonLabs/nopol/"><i class="fa fa-code-fork" aria-hidden="true"></i></a>
+	    	    
+	  </th>
+	  <td style="vertical-align:top">
+	    <a id="Nopol" href="https://github.com/SpoonLabs/nopol/">Nopol</a> &mdash; automated program repair tool for conditional expressions
+	  </td>
+	</tr>
+	<tr class="spaceUnder">
+	  <th style="vertical-align:top" width="10%">
+	    <a href="bibliography.html#conf_kbse_GaoZWXZM15"><i class="fa fa-book" aria-hidden="true"></i></a>
+	    
+	  </th>
+	  <td style="vertical-align:top">
+	    <a id="QACrashFix" href="http://sei.pku.edu.cn/~gaoqing11/qacrashfix/">QACrashFix</a> &mdash; fixing Java crash bugs by querying StackOverflow
+	  </td>
+	</tr>
+      </table>
+
+    <hr>
+
+    <footer>
+      <p>The data on this website is released under the <a href="http://opendatacommons.org/licenses/by/summary/">Open Data Commons Attribution License (ODC-BY 1.0)</a>. The bibliographic records are extracted from <a href="http://dblp.uni-trier.de/">dblp</a>.</p>
     </footer>
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-</body>
 
+    </div>
+
+    <script src="https://use.fontawesome.com/6b17e985fc.js"></script>
+  </body>
 </html>

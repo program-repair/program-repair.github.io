@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:dblp="http://dblp.org/rdf/schema-2017-04-18#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1" xmlns:bibtex="http://data.bibbase.org/ontology/#">
+<dblp:Publication rdf:about="http://dblp.org/rec/conf/wcre/LeLG16">
+<owl:sameAs rdf:resource="http://dx.doi.org/10.1109/SANER.2016.76" />
+<dblp:title>History Driven Program Repair.</dblp:title>
+<dblp:bibtexType rdf:resource="http://data.bibbase.org/ontology/#Inproceedings" />
+<dblp:publicationType rdf:resource="http://dblp.org/rdf/schema-2017-04-18#Inproceedings" />
+<dblp:authoredBy rdf:resource="http://dblp.org/pers/l/Le:Xuan=Bach_D=" />
+<dblp:authoredBy rdf:resource="http://dblp.org/pers/l/Lo:David" />
+<dblp:authoredBy rdf:resource="http://dblp.org/pers/g/Goues:Claire_Le" />
+<dblp:primaryElectronicEdition rdf:resource="https://doi.org/10.1109/SANER.2016.76" />
+<dblp:otherElectronicEdition rdf:resource="http://doi.ieeecomputersociety.org/10.1109/SANER.2016.76" />
+<dblp:listedOnTocPage rdf:resource="http://dblp.org/db/conf/wcre/saner2016" />
+<dblp:publishedInBook>SANER</dblp:publishedInBook>
+<dblp:pageNumbers>213-224</dblp:pageNumbers>
+<dblp:yearOfPublication>2016</dblp:yearOfPublication>
+<dblp:publishedAsPartOf rdf:resource="http://dblp.org/rec/conf/wcre/2016" />
+</dblp:Publication>
+<rdf:Description rdf:about="http://dblp.org/rec/conf/wcre/LeLG16.rdf">
+<rdfs:label>provenance information for RDF data of dblp record 'conf/wcre/LeLG16'</rdfs:label>
+<dcterms:creator rdf:resource="http://dblp.org" />
+<dcterms:isPartOf rdf:resource="http://dblp.org/rdf/dblp.rdf" />
+<dcterms:license rdf:resource="https://opendatacommons.org/licenses/by/1.0" />
+<dcterms:modified>2017-05-26T00:48:18+0200</dcterms:modified>
+</rdf:Description>
+</rdf:RDF>

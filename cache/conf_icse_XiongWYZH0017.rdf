@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:dblp="http://dblp.org/rdf/schema-2017-04-18#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1" xmlns:bibtex="http://data.bibbase.org/ontology/#">
+<dblp:Publication rdf:about="http://dblp.org/rec/conf/icse/XiongWYZH0017">
+<owl:sameAs rdf:resource="http://dx.doi.org/10.1109/ICSE.2017.45" />
+<dblp:title>Precise condition synthesis for program repair.</dblp:title>
+<dblp:bibtexType rdf:resource="http://data.bibbase.org/ontology/#Inproceedings" />
+<dblp:publicationType rdf:resource="http://dblp.org/rdf/schema-2017-04-18#Inproceedings" />
+<dblp:authoredBy rdf:resource="http://dblp.org/pers/x/Xiong:Yingfei" />
+<dblp:authoredBy rdf:resource="http://dblp.org/pers/w/Wang:Jie" />
+<dblp:authoredBy rdf:resource="http://dblp.org/pers/y/Yan:Runfa" />
+<dblp:authoredBy rdf:resource="http://dblp.org/pers/z/Zhang:Jiachen" />
+<dblp:authoredBy rdf:resource="http://dblp.org/pers/h/Han:Shi" />
+<dblp:authoredBy rdf:resource="http://dblp.org/pers/h/Huang_0001:Gang" />
+<dblp:authoredBy rdf:resource="http://dblp.org/pers/z/Zhang_0023:Lu" />
+<dblp:primaryElectronicEdition rdf:resource="https://doi.org/10.1109/ICSE.2017.45" />
+<dblp:otherElectronicEdition rdf:resource="http://doi.ieeecomputersociety.org/10.1109/ICSE.2017.45" />
+<dblp:otherElectronicEdition rdf:resource="http://dl.acm.org/citation.cfm?id=3097418" />
+<dblp:listedOnTocPage rdf:resource="http://dblp.org/db/conf/icse/icse2017" />
+<dblp:publishedInBook>ICSE</dblp:publishedInBook>
+<dblp:pageNumbers>416-426</dblp:pageNumbers>
+<dblp:yearOfPublication>2017</dblp:yearOfPublication>
+<dblp:publishedAsPartOf rdf:resource="http://dblp.org/rec/conf/icse/2017" />
+</dblp:Publication>
+<rdf:Description rdf:about="http://dblp.org/rec/conf/icse/XiongWYZH0017.rdf">
+<rdfs:label>provenance information for RDF data of dblp record 'conf/icse/XiongWYZH0017'</rdfs:label>
+<dcterms:creator rdf:resource="http://dblp.org" />
+<dcterms:isPartOf rdf:resource="http://dblp.org/rdf/dblp.rdf" />
+<dcterms:license rdf:resource="https://opendatacommons.org/licenses/by/1.0" />
+<dcterms:modified>2017-09-07T09:27:12+0200</dcterms:modified>
+</rdf:Description>
+</rdf:RDF>

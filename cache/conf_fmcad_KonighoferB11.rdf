@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:dblp="http://dblp.org/rdf/schema-2017-04-18#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1" xmlns:bibtex="http://data.bibbase.org/ontology/#">
+<dblp:Publication rdf:about="http://dblp.org/rec/conf/fmcad/KonighoferB11">
+<dblp:title>Automated error localization and correction for imperative programs.</dblp:title>
+<dblp:bibtexType rdf:resource="http://data.bibbase.org/ontology/#Inproceedings" />
+<dblp:publicationType rdf:resource="http://dblp.org/rdf/schema-2017-04-18#Inproceedings" />
+<dblp:authoredBy rdf:resource="http://dblp.org/pers/k/K=ouml=nighofer:Robert" />
+<dblp:authoredBy rdf:resource="http://dblp.org/pers/b/Bloem:Roderick" />
+<dblp:primaryElectronicEdition rdf:resource="http://dl.acm.org/citation.cfm?id=2157671" />
+<dblp:otherElectronicEdition rdf:resource="http://ieeexplore.ieee.org/document/6148916/" />
+<dblp:listedOnTocPage rdf:resource="http://dblp.org/db/conf/fmcad/fmcad2011" />
+<dblp:publishedInBook>FMCAD</dblp:publishedInBook>
+<dblp:pageNumbers>91-100</dblp:pageNumbers>
+<dblp:yearOfPublication>2011</dblp:yearOfPublication>
+<dblp:publishedAsPartOf rdf:resource="http://dblp.org/rec/conf/fmcad/2011" />
+</dblp:Publication>
+<rdf:Description rdf:about="http://dblp.org/rec/conf/fmcad/KonighoferB11.rdf">
+<rdfs:label>provenance information for RDF data of dblp record 'conf/fmcad/KonighoferB11'</rdfs:label>
+<dcterms:creator rdf:resource="http://dblp.org" />
+<dcterms:isPartOf rdf:resource="http://dblp.org/rdf/dblp.rdf" />
+<dcterms:license rdf:resource="https://opendatacommons.org/licenses/by/1.0" />
+<dcterms:modified>2017-04-29T16:20:33+0200</dcterms:modified>
+</rdf:Description>
+</rdf:RDF>

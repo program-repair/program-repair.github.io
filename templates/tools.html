@@ -1,81 +1,94 @@
 <!DOCTYPE html>
-<html>
-
-<head>
+<html lang="en">
+  <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Program repair</title>
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/css/user.css">
-</head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
 
-<body>
-    <nav class="navbar navbar-default">
-        <div class="container">
-            <div class="navbar-header"><a class="navbar-brand navbar-link" href="index.html"><i class="fa fa-cogs"></i> program-repair.org</a>
-                <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
-            </div>
-            <div class="collapse navbar-collapse" id="navcol-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li role="presentation"><a href="index.html">Home </a></li>
-                    <li role="presentation"><a href="bibliography.html">Bibliography</a></li>
-                    <li class="active" role="presentation"><a href="#">Tools </a></li>
-                    <li role="presentation"><a href="benchmarks.html">Benchmarks </a></li>
-                    <li role="presentation"><a href="about.html">About </a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <section class="testimonials">
-      <div class="container">
-	<div class="alert alert-info"><strong>Missing tool?</strong>
-	  Contribute through <a href="https://github.com/program-repair/program-repair.github.io/">GitHub</a> or <a href="https://groups.google.com/forum/#!forum/program-repair">mailing list</a>.
+    <title>program-repair.org</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <link href="style.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+      <a class="navbar-brand" href="#"><i class="fa fa-cogs"></i> PROGRAM-REPAIR.ORG</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="bibliography.html">Bibliography</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="tools.html">Tools <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="benchmarks.html">Benchmarks</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="projects.html">Projects</a>
+          </li>
+        </ul>
+	<div class="btn-group" role="group">
+	  <a role="button" href="https://groups.google.com/forum/#!forum/program-repair" class="btn btn-outline-secondary"><i class="fa fa-envelope" aria-hidden="true"></i> Subscribe</a>
+	  <a role="button" href="https://groups.google.com/forum/#!forum/program-repair" class="btn btn-outline-secondary"><i class="fa fa-comments" aria-hidden="true"></i> Discuss</a>
+	  <a role="button" href="https://github.com/program-repair/program-repair.github.io/" class="btn btn-outline-secondary"><i class="fa fa-code-fork" aria-hidden="true"></i> Contribute</a>
 	</div>
+      </div>
+    </nav>
 
+    <div class="container"><p/>
+    </div>
+
+    <div class="container">
+      <p style="text-align:right"><i class="fa fa-book" aria-hidden="true"></i> &mdash; publication, <i class="fa fa-code-fork" aria-hidden="true"></i> &mdash; repository</p>
+    </div>
+
+    <div class="container">
+      <table style="width:100%">
 	{{#tools}}
-        <h1>{{name}}</h1>
-        <div class="table-responsive tool-table">
-          <table class="table">
-            <thead>
-              <tr>
-                <th> </th>
-                <th> </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Description</td>
-                <td>{{description}}</td>
-              </tr>
-              <tr>
-                <td>URL </td>
-                <td><a href="{{url}}"><span style="text-decoration: underline;">{{url}}</span></a> </td>
-              </tr>
-              <tr>
-                <td>Target</td>
-                <td>{{target}}</td>
-              </tr>
-              <tr>
-                <td>Related publication</td>
-                <td><strong>{{title}}</strong>, by {{authors}}. <em>{{{venue}}}</em>.
-                  {{year}} </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
+	<tr>
+	  <th colspan="2">
+	    <h3>{{target}}</h3>
+	  </th>
+	</tr>
+	{{#tools_for_target}}
+	<tr class="spaceUnder">
+	  <th style="vertical-align:top" width="10%">
+	    <a href="bibliography.html#{{paper_link}}"><i class="fa fa-book" aria-hidden="true"></i></a>
+	    {{#repo}}
+	    <a href="{{repo}}"><i class="fa fa-code-fork" aria-hidden="true"></i></a>
+	    {{/repo}}	    
+	  </th>
+	  <td style="vertical-align:top">
+	    <a id="{{anchor}}" href="{{url}}">{{name}}</a> &mdash; {{description}}
+	  </td>
+	</tr>
+	{{/tools_for_target}}
 	{{/tools}}
-    </section>
-    <footer class="site-footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6"></div>
-                <div class="col-sm-6 social-icons"><a href="https://github.com/program-repair"><i class="fa fa-github-alt"></i></a></div>
-            </div>
-        </div>
-    </footer>
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-</body>
+      </table>
 
+    <hr>
+
+    <footer>
+      <p>The data on this website is released under the <a href="http://opendatacommons.org/licenses/by/summary/">Open Data Commons Attribution License (ODC-BY 1.0)</a>. The bibliographic records are extracted from <a href="http://dblp.uni-trier.de/">dblp</a>.</p>
+    </footer>
+
+    </div>
+
+    <script src="https://use.fontawesome.com/6b17e985fc.js"></script>
+  </body>
 </html>

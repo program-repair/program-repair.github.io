@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:dblp="http://dblp.org/rdf/schema-2017-04-18#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1" xmlns:bibtex="http://data.bibbase.org/ontology/#">
+<dblp:Person rdf:about="http://dblp.org/pers/a/Albarghouthi:Aws">
+<dblp:primaryFullPersonName>Aws Albarghouthi</dblp:primaryFullPersonName>
+<dblp:authorOf rdf:resource="http://dblp.org/rec/conf/cav/AlbarghouthiDD17" />
+<dblp:authorOf rdf:resource="http://dblp.org/rec/conf/cp/AlbarghouthiKNS17" />
+<dblp:authorOf rdf:resource="http://dblp.org/rec/conf/ijcai/MerrellAD17" />
+<dblp:authorOf rdf:resource="http://dblp.org/rec/conf/sas/Albarghouthi17" />
+<dblp:authorOf rdf:resource="http://dblp.org/rec/conf/sigsoft/SmithFA17" />
+<dblp:authorOf rdf:resource="http://dblp.org/rec/journals/corr/AlbarghouthiDDN17" />
+<dblp:authorOf rdf:resource="http://dblp.org/rec/journals/corr/abs-1709-05361" />
+<dblp:authorOf rdf:resource="http://dblp.org/rec/conf/cav/DrewsA16" />
+<dblp:authorOf rdf:resource="http://dblp.org/rec/conf/pldi/SmithA16" />
+<dblp:authorOf rdf:resource="http://dblp.org/rec/conf/popl/AlbarghouthiDG16" />
+<dblp:authorOf rdf:resource="http://dblp.org/rec/journals/corr/AlbarghouthiDDN16" />
+<dblp:authorOf rdf:resource="http://dblp.org/rec/conf/esop/AlbarghouthiBCK15" />
+<dblp:authorOf rdf:resource="http://dblp.org/rec/journals/corr/AlbarghouthiBCK15" />
+<dblp:authorOf rdf:resource="http://dblp.org/rec/conf/popl/LiAKGC14" />
+<dblp:authorOf rdf:resource="http://dblp.org/rec/conf/cav/AlbarghouthiM13" />
+<dblp:authorOf rdf:resource="http://dblp.org/rec/conf/cav/AlbarghouthiGK13" />
+<dblp:authorOf rdf:resource="http://dblp.org/rec/conf/tacas/AlbarghouthiGLCC13" />
+<dblp:authorOf rdf:resource="http://dblp.org/rec/conf/cav/AlbarghouthiLGC12" />
+<dblp:authorOf rdf:resource="http://dblp.org/rec/conf/pldi/AlbarghouthiKNR12" />
+<dblp:authorOf rdf:resource="http://dblp.org/rec/conf/sas/AlbarghouthiGC12" />
+<dblp:authorOf rdf:resource="http://dblp.org/rec/conf/tacas/AlbarghouthiGC12" />
+<dblp:authorOf rdf:resource="http://dblp.org/rec/conf/vmcai/AlbarghouthiGC12" />
+<dblp:authorOf rdf:resource="http://dblp.org/rec/conf/cav/AlbarghouthiGWC10" />
+<dblp:coCreatorWith rdf:resource="http://dblp.org/pers/b/Berdine:Josh" />
+<dblp:coCreatorWith rdf:resource="http://dblp.org/pers/c/Chaki:Sagar" />
+<dblp:coCreatorWith rdf:resource="http://dblp.org/pers/c/Chechik:Marsha" />
+<dblp:coCreatorWith rdf:resource="http://dblp.org/pers/c/Cook:Byron" />
+<dblp:coCreatorWith rdf:resource="http://dblp.org/pers/d/D=Antoni:Loris" />
+<dblp:coCreatorWith rdf:resource="http://dblp.org/pers/d/Dillig:Isil" />
+<dblp:coCreatorWith rdf:resource="http://dblp.org/pers/d/Drews:Samuel" />
+<dblp:coCreatorWith rdf:resource="http://dblp.org/pers/f/Ferns:Gabriel" />
+<dblp:coCreatorWith rdf:resource="http://dblp.org/pers/g/Gulwani:Sumit" />
+<dblp:coCreatorWith rdf:resource="http://dblp.org/pers/g/Gurfinkel:Arie" />
+<dblp:coCreatorWith rdf:resource="http://dblp.org/pers/h/Hsu:Justin" />
+<dblp:coCreatorWith rdf:resource="http://dblp.org/pers/k/Kincaid:Zachary" />
+<dblp:coCreatorWith rdf:resource="http://dblp.org/pers/k/Koutris:Paraschos" />
+<dblp:coCreatorWith rdf:resource="http://dblp.org/pers/k/Kumar:Rahul" />
+<dblp:coCreatorWith rdf:resource="http://dblp.org/pers/l/Li:Yi" />
+<dblp:coCreatorWith rdf:resource="http://dblp.org/pers/m/McMillan:Kenneth_L=" />
+<dblp:coCreatorWith rdf:resource="http://dblp.org/pers/m/Merrell:David" />
+<dblp:coCreatorWith rdf:resource="http://dblp.org/pers/n/Naik:Mayur" />
+<dblp:coCreatorWith rdf:resource="http://dblp.org/pers/n/Nori:Aditya_V=" />
+<dblp:coCreatorWith rdf:resource="http://dblp.org/pers/r/Rajamani:Sriram_K=" />
+<dblp:coCreatorWith rdf:resource="http://dblp.org/pers/s/Smith:Calvin" />
+<dblp:coCreatorWith rdf:resource="http://dblp.org/pers/w/Wei:Ou" />
+</dblp:Person>
+<rdf:Description rdf:about="http://dblp.org/pers/a/Albarghouthi:Aws.rdf">
+<rdfs:label>provenance information for RDF data of dblp person 'a/Albarghouthi:Aws'</rdfs:label>
+<dcterms:creator rdf:resource="http://dblp.org" />
+<dcterms:isPartOf rdf:resource="http://dblp.org/rdf/dblp.rdf" />
+<dcterms:license rdf:resource="https://opendatacommons.org/licenses/by/1.0" />
+<dcterms:modified>2017-10-07T00:29:04+0200</dcterms:modified>
+</rdf:Description>
+</rdf:RDF>

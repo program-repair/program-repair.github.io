@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:dblp="http://dblp.org/rdf/schema-2017-04-18#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1" xmlns:bibtex="http://data.bibbase.org/ontology/#">
+<dblp:Publication rdf:about="http://dblp.org/rec/journals/ese/MartinezDSXM17">
+<owl:sameAs rdf:resource="http://dx.doi.org/10.1007/s10664-016-9470-4" />
+<dblp:title>Automatic repair of real bugs in java: a large-scale experiment on the defects4j dataset.</dblp:title>
+<dblp:bibtexType rdf:resource="http://data.bibbase.org/ontology/#Article" />
+<dblp:publicationType rdf:resource="http://dblp.org/rdf/schema-2017-04-18#Article" />
+<dblp:authoredBy rdf:resource="http://dblp.org/pers/m/Martinez:Matias" />
+<dblp:authoredBy rdf:resource="http://dblp.org/pers/d/Durieux:Thomas" />
+<dblp:authoredBy rdf:resource="http://dblp.org/pers/s/Sommerard:Romain" />
+<dblp:authoredBy rdf:resource="http://dblp.org/pers/x/Xuan:Jifeng" />
+<dblp:authoredBy rdf:resource="http://dblp.org/pers/m/Monperrus:Martin" />
+<dblp:primaryElectronicEdition rdf:resource="https://doi.org/10.1007/s10664-016-9470-4" />
+<dblp:listedOnTocPage rdf:resource="http://dblp.org/db/journals/ese/ese22" />
+<dblp:publishedInJournal>Empirical Software Engineering</dblp:publishedInJournal>
+<dblp:publishedInJournalVolume>22</dblp:publishedInJournalVolume>
+<dblp:publishedInJournalVolumeIssue>4</dblp:publishedInJournalVolumeIssue>
+<dblp:pageNumbers>1936-1964</dblp:pageNumbers>
+<dblp:yearOfPublication>2017</dblp:yearOfPublication>
+</dblp:Publication>
+<rdf:Description rdf:about="http://dblp.org/rec/journals/ese/MartinezDSXM17.rdf">
+<rdfs:label>provenance information for RDF data of dblp record 'journals/ese/MartinezDSXM17'</rdfs:label>
+<dcterms:creator rdf:resource="http://dblp.org" />
+<dcterms:isPartOf rdf:resource="http://dblp.org/rdf/dblp.rdf" />
+<dcterms:license rdf:resource="https://opendatacommons.org/licenses/by/1.0" />
+<dcterms:modified>2017-09-16T12:05:10+0200</dcterms:modified>
+</rdf:Description>
+</rdf:RDF>

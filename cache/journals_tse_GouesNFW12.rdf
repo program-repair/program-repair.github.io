@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:dblp="http://dblp.org/rdf/schema-2017-04-18#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1" xmlns:bibtex="http://data.bibbase.org/ontology/#">
+<dblp:Publication rdf:about="http://dblp.org/rec/journals/tse/GouesNFW12">
+<owl:sameAs rdf:resource="http://dx.doi.org/10.1109/TSE.2011.104" />
+<dblp:title>GenProg: A Generic Method for Automatic Software Repair.</dblp:title>
+<dblp:bibtexType rdf:resource="http://data.bibbase.org/ontology/#Article" />
+<dblp:publicationType rdf:resource="http://dblp.org/rdf/schema-2017-04-18#Article" />
+<dblp:authoredBy rdf:resource="http://dblp.org/pers/g/Goues:Claire_Le" />
+<dblp:authoredBy rdf:resource="http://dblp.org/pers/n/Nguyen:ThanhVu" />
+<dblp:authoredBy rdf:resource="http://dblp.org/pers/f/Forrest:Stephanie" />
+<dblp:authoredBy rdf:resource="http://dblp.org/pers/w/Weimer:Westley" />
+<dblp:primaryElectronicEdition rdf:resource="https://doi.org/10.1109/TSE.2011.104" />
+<dblp:otherElectronicEdition rdf:resource="http://doi.ieeecomputersociety.org/10.1109/TSE.2011.104" />
+<dblp:listedOnTocPage rdf:resource="http://dblp.org/db/journals/tse/tse38" />
+<dblp:publishedInJournal>IEEE Trans. Software Eng.</dblp:publishedInJournal>
+<dblp:publishedInJournalVolume>38</dblp:publishedInJournalVolume>
+<dblp:publishedInJournalVolumeIssue>1</dblp:publishedInJournalVolumeIssue>
+<dblp:pageNumbers>54-72</dblp:pageNumbers>
+<dblp:yearOfPublication>2012</dblp:yearOfPublication>
+</dblp:Publication>
+<rdf:Description rdf:about="http://dblp.org/rec/journals/tse/GouesNFW12.rdf">
+<rdfs:label>provenance information for RDF data of dblp record 'journals/tse/GouesNFW12'</rdfs:label>
+<dcterms:creator rdf:resource="http://dblp.org" />
+<dcterms:isPartOf rdf:resource="http://dblp.org/rdf/dblp.rdf" />
+<dcterms:license rdf:resource="https://opendatacommons.org/licenses/by/1.0" />
+<dcterms:modified>2017-05-17T10:56:36+0200</dcterms:modified>
+</rdf:Description>
+</rdf:RDF>

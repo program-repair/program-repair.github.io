@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:dblp="http://dblp.org/rdf/schema-2017-04-18#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1" xmlns:bibtex="http://data.bibbase.org/ontology/#">
+<dblp:Publication rdf:about="http://dblp.org/rec/conf/msr/SotoTWGL16">
+<owl:sameAs rdf:resource="http://dx.doi.org/10.1145/2901739.2903495" />
+<dblp:title>A deeper look into bug fixes: patterns, replacements, deletions, and additions.</dblp:title>
+<dblp:bibtexType rdf:resource="http://data.bibbase.org/ontology/#Inproceedings" />
+<dblp:publicationType rdf:resource="http://dblp.org/rdf/schema-2017-04-18#Inproceedings" />
+<dblp:authoredBy rdf:resource="http://dblp.org/pers/s/Soto:Mauricio" />
+<dblp:authoredBy rdf:resource="http://dblp.org/pers/t/Thung:Ferdian" />
+<dblp:authoredBy rdf:resource="http://dblp.org/pers/w/Wong:Chu=Pan" />
+<dblp:authoredBy rdf:resource="http://dblp.org/pers/g/Goues:Claire_Le" />
+<dblp:authoredBy rdf:resource="http://dblp.org/pers/l/Lo:David" />
+<dblp:primaryElectronicEdition rdf:resource="http://doi.acm.org/10.1145/2901739.2903495" />
+<dblp:listedOnTocPage rdf:resource="http://dblp.org/db/conf/msr/msr2016" />
+<dblp:publishedInBook>MSR</dblp:publishedInBook>
+<dblp:pageNumbers>512-515</dblp:pageNumbers>
+<dblp:yearOfPublication>2016</dblp:yearOfPublication>
+<dblp:publishedAsPartOf rdf:resource="http://dblp.org/rec/conf/msr/2016" />
+</dblp:Publication>
+<rdf:Description rdf:about="http://dblp.org/rec/conf/msr/SotoTWGL16.rdf">
+<rdfs:label>provenance information for RDF data of dblp record 'conf/msr/SotoTWGL16'</rdfs:label>
+<dcterms:creator rdf:resource="http://dblp.org" />
+<dcterms:isPartOf rdf:resource="http://dblp.org/rdf/dblp.rdf" />
+<dcterms:license rdf:resource="https://opendatacommons.org/licenses/by/1.0" />
+<dcterms:modified>2017-06-04T10:08:15+0200</dcterms:modified>
+</rdf:Description>
+</rdf:RDF>

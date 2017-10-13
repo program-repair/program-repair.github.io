@@ -1,200 +1,132 @@
 <!DOCTYPE html>
-<html>
-
-<head>
+<html lang="en">
+  <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Program repair</title>
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/css/user.css">
-</head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
 
-<body>
-    <nav class="navbar navbar-default">
-        <div class="container">
-            <div class="navbar-header"><a class="navbar-brand navbar-link" href="index.html"><i class="fa fa-cogs"></i> program-repair.org</a>
-                <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
-            </div>
-            <div class="collapse navbar-collapse" id="navcol-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li role="presentation"><a href="index.html">Home </a></li>
-                    <li role="presentation"><a href="bibliography.html">Bibliography</a></li>
-                    <li role="presentation"><a href="tools.html">Tools </a></li>
-                    <li class="active" role="presentation"><a href="benchmarks.html">Benchmarks </a></li>
-                    <li role="presentation"><a href="about.html">About </a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <section class="testimonials">
-      <div class="container">
-	<div class="alert alert-info"><strong>Missing benchmark?</strong>
-	  Contribute through <a href="https://github.com/program-repair/program-repair.github.io/">GitHub</a> or <a href="https://groups.google.com/forum/#!forum/program-repair">mailing list</a>.
+    <title>program-repair.org</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <link href="style.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+      <a class="navbar-brand" href="#"><i class="fa fa-cogs"></i> PROGRAM-REPAIR.ORG</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="bibliography.html">Bibliography</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="tools.html">Tools</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="benchmarks.html">Benchmarks <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="projects.html">Projects</a>
+          </li>
+        </ul>
+	<div class="btn-group" role="group">
+	  <a role="button" href="https://groups.google.com/forum/#!forum/program-repair" class="btn btn-outline-secondary"><i class="fa fa-envelope" aria-hidden="true"></i> Subscribe</a>
+	  <a role="button" href="https://groups.google.com/forum/#!forum/program-repair" class="btn btn-outline-secondary"><i class="fa fa-comments" aria-hidden="true"></i> Discuss</a>
+	  <a role="button" href="https://github.com/program-repair/program-repair.github.io/" class="btn btn-outline-secondary"><i class="fa fa-code-fork" aria-hidden="true"></i> Contribute</a>
 	</div>
-	
-        <h1>DBGBench</h1>
-        <div class="table-responsive tool-table">
-          <table class="table">
-            <thead>
-              <tr>
-                <th> </th>
-                <th> </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Description</td>
-                <td>291 (in)correct patches from real software professionals for 27 real bugs in C for the qualitative evaluation of automated repair techniques</td>
-              </tr>
-              <tr>
-                <td>URL </td>
-                <td><a href="https://dbgbench.github.io"><span style="text-decoration: underline;">https://dbgbench.github.io</span></a> </td>
-              </tr>
-              <tr>
-                <td>Target</td>
-                <td>C source code</td>
-              </tr>
-              <tr>
-                <td>Related publication</td>
-                <td><strong>Where is the Bug and How is it Fixed? An Experiment with Practitioners</strong>, by M. Boehme, E.O. Soremekun, S. Chattopadhyay, E. Ugherughe, A. Zeller. <em>European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE)</em>.
-                  2017 </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <h1>Codeflaws</h1>
-        <div class="table-responsive tool-table">
-          <table class="table">
-            <thead>
-              <tr>
-                <th> </th>
-                <th> </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Description</td>
-                <td>3902 bugs from Codeforces programming competition for evaluating program repair tools across different defect classes</td>
-              </tr>
-              <tr>
-                <td>URL </td>
-                <td><a href="https://codeflaws.github.io/"><span style="text-decoration: underline;">https://codeflaws.github.io/</span></a> </td>
-              </tr>
-              <tr>
-                <td>Target</td>
-                <td>C source code</td>
-              </tr>
-              <tr>
-                <td>Related publication</td>
-                <td><strong>Codeflaws: A Programming Competition Benchmark for Evaluating Automated Program Repair Tools</strong>, by S.H. Tan, J. Yi, Yulis, S. Mechtaev, A. Roychoudhury. <em>International Conference on Software Engineering (ICSE) &mdash; Poster Track</em>.
-                  2017 </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <h1>ManyBugs</h1>
-        <div class="table-responsive tool-table">
-          <table class="table">
-            <thead>
-              <tr>
-                <th> </th>
-                <th> </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Description</td>
-                <td>Automated program repair benchmark that consists of 185 defects from large popular open-source projects</td>
-              </tr>
-              <tr>
-                <td>URL </td>
-                <td><a href="http://repairbenchmarks.cs.umass.edu"><span style="text-decoration: underline;">http://repairbenchmarks.cs.umass.edu</span></a> </td>
-              </tr>
-              <tr>
-                <td>Target</td>
-                <td>C source code</td>
-              </tr>
-              <tr>
-                <td>Related publication</td>
-                <td><strong>The ManyBugs and IntroClass Benchmarks for Automated Repair of C Programs</strong>, by C. Le Goues, N. Holtschulte, E. K. Smith, Y. Brun, P.Devanbu, S. Forrest, W. Weimer. <em>IEEE Transactions on Software Engineering (TSE)</em>.
-                  2015 </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <h1>IntroClass</h1>
-        <div class="table-responsive tool-table">
-          <table class="table">
-            <thead>
-              <tr>
-                <th> </th>
-                <th> </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Description</td>
-                <td>Automated program repair benchmark that consists of 998 defects in small student-written programming assignments</td>
-              </tr>
-              <tr>
-                <td>URL </td>
-                <td><a href="http://repairbenchmarks.cs.umass.edu"><span style="text-decoration: underline;">http://repairbenchmarks.cs.umass.edu</span></a> </td>
-              </tr>
-              <tr>
-                <td>Target</td>
-                <td>C source code</td>
-              </tr>
-              <tr>
-                <td>Related publication</td>
-                <td><strong>The ManyBugs and IntroClass Benchmarks for Automated Repair of C Programs</strong>, by C. Le Goues, N. Holtschulte, E. K. Smith, Y. Brun, P. Devanbu, S. Forrest, W. Weimer. <em>IEEE Transactions on Software Engineering (TSE)</em>.
-                  2015 </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <h1>Defects4j</h1>
-        <div class="table-responsive tool-table">
-          <table class="table">
-            <thead>
-              <tr>
-                <th> </th>
-                <th> </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Description</td>
-                <td>A database of existing faults to enable controlled testing studies for Java</td>
-              </tr>
-              <tr>
-                <td>URL </td>
-                <td><a href="https://github.com/rjust/defects4j"><span style="text-decoration: underline;">https://github.com/rjust/defects4j</span></a> </td>
-              </tr>
-              <tr>
-                <td>Target</td>
-                <td>Java source code</td>
-              </tr>
-              <tr>
-                <td>Related publication</td>
-                <td><strong>Defects4J: A Database of Existing Faults to Enable Controlled Testing Studies for Java Programs</strong>, by R. Just, D. Jalali, M. D. Ernst. <em>International Symposium on Software Testing and Analysis (ISSTA)</em>.
-                  2014 </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        </div>
-    </section>
-    <footer class="site-footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6"></div>
-                <div class="col-sm-6 social-icons"><a href="https://github.com/program-repair"><i class="fa fa-github-alt"></i></a></div>
-            </div>
-        </div>
-    </footer>
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-</body>
+      </div>
+    </nav>
 
+    <div class="container"><p/>
+    </div>
+
+    <div class="container">
+      <p style="text-align:right"><i class="fa fa-book" aria-hidden="true"></i> &mdash; publication, <i class="fa fa-code-fork" aria-hidden="true"></i> &mdash; repository</p>
+    </div>
+
+    <div class="container">
+      <table style="width:100%">
+	<tr>
+	  <th colspan="2">
+	    <h3>C/C++</h3>
+	  </th>
+	</tr>
+	<tr class="spaceUnder">
+	  <th style="vertical-align:top" width="10%">
+	    <a href="bibliography.html#conf_icse_TanYYMR17"><i class="fa fa-book" aria-hidden="true"></i></a>
+	    <a href="https://github.com/codeflaws/codeflaws"><i class="fa fa-code-fork" aria-hidden="true"></i></a>
+	    	    
+	  </th>
+	  <td style="vertical-align:top">
+	    <a id="Codeflaws" href="https://codeflaws.github.io/">Codeflaws</a> &mdash; 3902 bugs from Codeforces programming competition for evaluating program repair tools across different defect classes
+	  </td>
+	</tr>
+	<tr class="spaceUnder">
+	  <th style="vertical-align:top" width="10%">
+	    <a href="bibliography.html#conf_sigsoft_BohmeS0UZ17"><i class="fa fa-book" aria-hidden="true"></i></a>
+	    <a href="https://github.com/dbgbench/dbgbench.github.io"><i class="fa fa-code-fork" aria-hidden="true"></i></a>
+	    	    
+	  </th>
+	  <td style="vertical-align:top">
+	    <a id="DBGBench" href="https://dbgbench.github.io">DBGBench</a> &mdash; 291 (in)correct patches from real software professionals for 27 real bugs in C for the qualitative evaluation of automated repair techniques
+	  </td>
+	</tr>
+	<tr class="spaceUnder">
+	  <th style="vertical-align:top" width="10%">
+	    <a href="bibliography.html#journals_tse_GouesHSBDFW15"><i class="fa fa-book" aria-hidden="true"></i></a>
+	    
+	  </th>
+	  <td style="vertical-align:top">
+	    <a id="IntroClass" href="http://repairbenchmarks.cs.umass.edu">IntroClass</a> &mdash; automated program repair benchmark that consists of 998 defects in small student-written programming assignments
+	  </td>
+	</tr>
+	<tr class="spaceUnder">
+	  <th style="vertical-align:top" width="10%">
+	    <a href="bibliography.html#journals_tse_GouesHSBDFW15"><i class="fa fa-book" aria-hidden="true"></i></a>
+	    
+	  </th>
+	  <td style="vertical-align:top">
+	    <a id="ManyBugs" href="http://repairbenchmarks.cs.umass.edu">ManyBugs</a> &mdash; automated program repair benchmark that consists of 185 defects from large popular open-source projects
+	  </td>
+	</tr>
+	<tr>
+	  <th colspan="2">
+	    <h3>Java</h3>
+	  </th>
+	</tr>
+	<tr class="spaceUnder">
+	  <th style="vertical-align:top" width="10%">
+	    <a href="bibliography.html#conf_issta_JustJE14"><i class="fa fa-book" aria-hidden="true"></i></a>
+	    <a href="https://github.com/rjust/defects4j"><i class="fa fa-code-fork" aria-hidden="true"></i></a>
+	    	    
+	  </th>
+	  <td style="vertical-align:top">
+	    <a id="Defects4J" href="https://github.com/rjust/defects4j">Defects4J</a> &mdash; a database of existing faults to enable controlled testing studies for Java
+	  </td>
+	</tr>
+      </table>
+
+    <hr>
+
+    <footer>
+      <p>The data on this website is released under the <a href="http://opendatacommons.org/licenses/by/summary/">Open Data Commons Attribution License (ODC-BY 1.0)</a>. The bibliographic records are extracted from <a href="http://dblp.uni-trier.de/">dblp</a>.</p>
+    </footer>
+
+    </div>
+
+    <script src="https://use.fontawesome.com/6b17e985fc.js"></script>
+  </body>
 </html>

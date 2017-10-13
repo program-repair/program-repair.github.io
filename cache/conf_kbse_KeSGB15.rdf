@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:dblp="http://dblp.org/rdf/schema-2017-04-18#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1" xmlns:bibtex="http://data.bibbase.org/ontology/#">
+<dblp:Publication rdf:about="http://dblp.org/rec/conf/kbse/KeSGB15">
+<owl:sameAs rdf:resource="http://dx.doi.org/10.1109/ASE.2015.60" />
+<dblp:title>Repairing Programs with Semantic Code Search (T).</dblp:title>
+<dblp:bibtexType rdf:resource="http://data.bibbase.org/ontology/#Inproceedings" />
+<dblp:publicationType rdf:resource="http://dblp.org/rdf/schema-2017-04-18#Inproceedings" />
+<dblp:authoredBy rdf:resource="http://dblp.org/pers/k/Ke:Yalin" />
+<dblp:authoredBy rdf:resource="http://dblp.org/pers/s/Stolee:Kathryn_T=" />
+<dblp:authoredBy rdf:resource="http://dblp.org/pers/g/Goues:Claire_Le" />
+<dblp:authoredBy rdf:resource="http://dblp.org/pers/b/Brun:Yuriy" />
+<dblp:primaryElectronicEdition rdf:resource="https://doi.org/10.1109/ASE.2015.60" />
+<dblp:otherElectronicEdition rdf:resource="http://doi.ieeecomputersociety.org/10.1109/ASE.2015.60" />
+<dblp:listedOnTocPage rdf:resource="http://dblp.org/db/conf/kbse/ase2015" />
+<dblp:publishedInBook>ASE</dblp:publishedInBook>
+<dblp:pageNumbers>295-306</dblp:pageNumbers>
+<dblp:yearOfPublication>2015</dblp:yearOfPublication>
+<dblp:publishedAsPartOf rdf:resource="http://dblp.org/rec/conf/kbse/2015" />
+</dblp:Publication>
+<rdf:Description rdf:about="http://dblp.org/rec/conf/kbse/KeSGB15.rdf">
+<rdfs:label>provenance information for RDF data of dblp record 'conf/kbse/KeSGB15'</rdfs:label>
+<dcterms:creator rdf:resource="http://dblp.org" />
+<dcterms:isPartOf rdf:resource="http://dblp.org/rdf/dblp.rdf" />
+<dcterms:license rdf:resource="https://opendatacommons.org/licenses/by/1.0" />
+<dcterms:modified>2017-06-04T10:04:50+0200</dcterms:modified>
+</rdf:Description>
+</rdf:RDF>

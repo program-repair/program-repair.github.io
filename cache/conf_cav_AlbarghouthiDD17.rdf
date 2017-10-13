@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:dblp="http://dblp.org/rdf/schema-2017-04-18#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1" xmlns:bibtex="http://data.bibbase.org/ontology/#">
+<dblp:Publication rdf:about="http://dblp.org/rec/conf/cav/AlbarghouthiDD17">
+<owl:sameAs rdf:resource="http://dx.doi.org/10.1007/978-3-319-63387-9_9" />
+<dblp:title>Repairing Decision-Making Programs Under Uncertainty.</dblp:title>
+<dblp:bibtexType rdf:resource="http://data.bibbase.org/ontology/#Inproceedings" />
+<dblp:publicationType rdf:resource="http://dblp.org/rdf/schema-2017-04-18#Inproceedings" />
+<dblp:authoredBy rdf:resource="http://dblp.org/pers/a/Albarghouthi:Aws" />
+<dblp:authoredBy rdf:resource="http://dblp.org/pers/d/D=Antoni:Loris" />
+<dblp:authoredBy rdf:resource="http://dblp.org/pers/d/Drews:Samuel" />
+<dblp:primaryElectronicEdition rdf:resource="https://doi.org/10.1007/978-3-319-63387-9_9" />
+<dblp:listedOnTocPage rdf:resource="http://dblp.org/db/conf/cav/cav2017-1" />
+<dblp:publishedInBook>CAV (1)</dblp:publishedInBook>
+<dblp:pageNumbers>181-200</dblp:pageNumbers>
+<dblp:yearOfPublication>2017</dblp:yearOfPublication>
+<dblp:publishedAsPartOf rdf:resource="http://dblp.org/rec/conf/cav/2017-1" />
+</dblp:Publication>
+<rdf:Description rdf:about="http://dblp.org/rec/conf/cav/AlbarghouthiDD17.rdf">
+<rdfs:label>provenance information for RDF data of dblp record 'conf/cav/AlbarghouthiDD17'</rdfs:label>
+<dcterms:creator rdf:resource="http://dblp.org" />
+<dcterms:isPartOf rdf:resource="http://dblp.org/rdf/dblp.rdf" />
+<dcterms:license rdf:resource="https://opendatacommons.org/licenses/by/1.0" />
+<dcterms:modified>2017-07-14T12:55:54+0200</dcterms:modified>
+</rdf:Description>
+</rdf:RDF>

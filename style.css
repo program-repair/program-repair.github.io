@@ -2,6 +2,7 @@
     background:url(bg.jpg) no-repeat center;
     background-size:cover;
     border:none;
+    border-radius: 0 !important;
 }
 
 .bg h1, .bg p {

@@ -23,6 +23,14 @@
 	"dblp": "conf/icse/XiongWYZH0017"
     },
     {
+	"name": "NPEFix",
+	"description": "system that systematically explores and assesses a set of possible runtime patches",
+	"url": "https://github.com/Spirals-Team/npefix",
+	"repo": "https://github.com/Spirals-Team/npefix",
+	"target": "Java",
+	"dblp": "conf/wcre/DurieuxCSM17"
+    },
+    {
 	"name": "CoderAssist",
 	"description": "system for feedback generation",
 	"url": "https://bitbucket.org/iiscseal/coderassist",

@@ -1,3 +1,8 @@
+conf/kbse/WeissGB17
+conf/kbse/Chen0F17
+conf/kbse/SahaLYP17
+conf/kbse/XinR17
+conf/kbse/ChengZS0S17
 conf/ssbse/TimperleySG17
 conf/sigsoft/LeCLGV17
 conf/sigsoft/TianR17
@@ -29,6 +34,7 @@ conf/fmcad/HojjatRMCF16
 conf/msr/SotoTWGL16
 conf/ssbse/OliveiraSGC16
 journals/ese/MartinezDSXM17
+conf/icse/TanYYMR17
 conf/icsm/LeLLG16
 conf/fm/RothenbergG16
 conf/atva/HuaK16

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:dblp="http://dblp.org/rdf/schema-2017-04-18#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1" xmlns:bibtex="http://data.bibbase.org/ontology/#">
+<dblp:Person rdf:about="http://dblp.org/pers/l/Lyu:Yingjun">
+<dblp:primaryFullPersonName>Yingjun Lyu</dblp:primaryFullPersonName>
+<dblp:authorOf rdf:resource="http://dblp.org/rec/conf/kbse/SahaLYP17" />
+<dblp:authorOf rdf:resource="http://dblp.org/rec/conf/icse/LiLGH16" />
+<dblp:authorOf rdf:resource="http://dblp.org/rec/conf/sigsoft/LiLWH15" />
+<dblp:coCreatorWith rdf:resource="http://dblp.org/pers/g/Gui:Jiaping" />
+<dblp:coCreatorWith rdf:resource="http://dblp.org/pers/h/Halfond:William_G=_J=" />
+<dblp:coCreatorWith rdf:resource="http://dblp.org/pers/l/Li:Ding" />
+<dblp:coCreatorWith rdf:resource="http://dblp.org/pers/p/Prasad:Mukul_R=" />
+<dblp:coCreatorWith rdf:resource="http://dblp.org/pers/s/Saha:Ripon_K=" />
+<dblp:coCreatorWith rdf:resource="http://dblp.org/pers/w/Wan:Mian" />
+<dblp:coCreatorWith rdf:resource="http://dblp.org/pers/y/Yoshida:Hiroaki" />
+</dblp:Person>
+<rdf:Description rdf:about="http://dblp.org/pers/l/Lyu:Yingjun.rdf">
+<rdfs:label>provenance information for RDF data of dblp person 'l/Lyu:Yingjun'</rdfs:label>
+<dcterms:creator rdf:resource="http://dblp.org" />
+<dcterms:isPartOf rdf:resource="http://dblp.org/rdf/dblp.rdf" />
+<dcterms:license rdf:resource="https://opendatacommons.org/licenses/by/1.0" />
+<dcterms:modified>2017-10-31T21:44:02+0100</dcterms:modified>
+</rdf:Description>
+</rdf:RDF>

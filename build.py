@@ -124,12 +124,18 @@ for key in tqdm.tqdm(dblp_keys):
     paper_graph = rdflib.Graph()
     paper_graph.parse(data=data, format='xml')
     title = list(paper_graph.objects(None, title_ref))[0].rstrip('.')
-    pageNumbers = list(paper_graph.objects(None, pageNumbers_ref))[0]
+    if len(list(paper_graph.objects(None, pageNumbers_ref))) > 0:
+        pageNumbers = list(paper_graph.objects(None, pageNumbers_ref))[0]
+    else:
+        pageNumbers = ""
     yearOfPublication = list(paper_graph.objects(None, yearOfPublication_ref))[0]
     book_results = list(paper_graph.objects(None, publishedInBook_ref))
     if len(book_results) > 0:
         venue = book_results[0]
-        venue_details = yearOfPublication + ": " + pageNumbers
+        if pageNumbers == "":
+            venue_details = yearOfPublication
+        else:
+            venue_details = yearOfPublication + ": " + pageNumbers
     else:
         journal = list(paper_graph.objects(None, publishedInJournal_ref))[0]
         volume = list(paper_graph.objects(None, publishedInJournalVolume_ref))[0]
@@ -138,7 +144,10 @@ for key in tqdm.tqdm(dblp_keys):
         issue_results = list(paper_graph.objects(None, publishedInJournalVolumeIssue_ref))
         if len(issue_results) > 0:
             venue_details = venue_details + "(" + issue_results[0] + ")"
-        venue_details = venue_details + ": " + pageNumbers + " (" + yearOfPublication + ")"
+        if pageNumbers == "":
+            venue_details = venue_details + " (" + yearOfPublication + ")"
+        else:
+            venue_details = venue_details + ": " + pageNumbers + " (" + yearOfPublication + ")"
     primaryElectronicEdition = list(paper_graph.objects(None, primaryElectronicEdition_ref))[0]
     entry['title'] = title
     entry['anchor'] = key.replace('/', '_')

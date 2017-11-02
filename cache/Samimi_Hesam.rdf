@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:dblp="http://dblp.org/rdf/schema-2017-04-18#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1" xmlns:bibtex="http://data.bibbase.org/ontology/#">
+<dblp:Person rdf:about="http://dblp.org/pers/s/Samimi:Hesam">
+<dblp:primaryFullPersonName>Hesam Samimi</dblp:primaryFullPersonName>
+<dblp:authorOf rdf:resource="http://dblp.org/rec/conf/oopsla/SamimiWEB15" />
+<dblp:authorOf rdf:resource="http://dblp.org/rec/conf/wcet/EslamimehrS15" />
+<dblp:authorOf rdf:resource="http://dblp.org/rec/conf/oopsla/SamimiDOWM14" />
+<dblp:authorOf rdf:resource="http://dblp.org/rec/phd/basesearch/Samimi13" />
+<dblp:authorOf rdf:resource="http://dblp.org/rec/conf/issta/SamimiHFM13" />
+<dblp:authorOf rdf:resource="http://dblp.org/rec/conf/icse/SamirniSAMTH12" />
+<dblp:authorOf rdf:resource="http://dblp.org/rec/conf/ecoop/SamimiR11" />
+<dblp:authorOf rdf:resource="http://dblp.org/rec/conf/ecoop/SamimiAM10" />
+<dblp:coCreatorWith rdf:resource="http://dblp.org/pers/a/Artzi:Shay" />
+<dblp:coCreatorWith rdf:resource="http://dblp.org/pers/a/Aung:Ei_Darli" />
+<dblp:coCreatorWith rdf:resource="http://dblp.org/pers/b/Borning:Alan" />
+<dblp:coCreatorWith rdf:resource="http://dblp.org/pers/d/Deaton:Chris" />
+<dblp:coCreatorWith rdf:resource="http://dblp.org/pers/e/Eslamimehr:Mahdi" />
+<dblp:coCreatorWith rdf:resource="http://dblp.org/pers/f/Fogel:Ari" />
+<dblp:coCreatorWith rdf:resource="http://dblp.org/pers/h/Hendren:Laurie_J=" />
+<dblp:coCreatorWith rdf:resource="http://dblp.org/pers/h/Hicks:Rebecca" />
+<dblp:coCreatorWith rdf:resource="http://dblp.org/pers/m/Millstein:Todd_D=" />
+<dblp:coCreatorWith rdf:resource="http://dblp.org/pers/o/Ohshima:Yoshiki" />
+<dblp:coCreatorWith rdf:resource="http://dblp.org/pers/r/Rajan:Kaushik" />
+<dblp:coCreatorWith rdf:resource="http://dblp.org/pers/s/Sch=auml=fer:Max" />
+<dblp:coCreatorWith rdf:resource="http://dblp.org/pers/t/Tip:Frank" />
+<dblp:coCreatorWith rdf:resource="http://dblp.org/pers/w/Warth:Alessandro" />
+</dblp:Person>
+<rdf:Description rdf:about="http://dblp.org/pers/s/Samimi:Hesam.rdf">
+<rdfs:label>provenance information for RDF data of dblp person 's/Samimi:Hesam'</rdfs:label>
+<dcterms:creator rdf:resource="http://dblp.org" />
+<dcterms:isPartOf rdf:resource="http://dblp.org/rdf/dblp.rdf" />
+<dcterms:license rdf:resource="https://opendatacommons.org/licenses/by/1.0" />
+<dcterms:modified>2017-08-16T15:29:06+0200</dcterms:modified>
+</rdf:Description>
+</rdf:RDF>

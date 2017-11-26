@@ -42,7 +42,6 @@
 	"description": "A parallel corpus of 40 programs in both Python and Java, each with a bug on one line",
 	"url": "https://jkoppel.github.io/QuixBugs/",
 	"repo": "https://github.com/jkoppel/QuixBugs",
-	"target": "Java and Python",
-	"dblp": "conf/q/JustJE14"
+	"target": "Java and Python"
     }
 ]

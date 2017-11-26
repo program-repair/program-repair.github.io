@@ -96,7 +96,8 @@ for target in benchmark_targets:
         if not (benchmark['target'] == target):
             continue
         benchmark['anchor'] = benchmark['name']
-        benchmark['paper_link'] = benchmark['dblp'].replace('/', '_')
+        if 'dblp' in benchmark:
+            benchmark['paper_link'] = benchmark['dblp'].replace('/', '_')
         benchmarks_entry['benchmarks_for_target'].append(benchmark)
         if benchmark['name'] in top_benchmarks:
             home['benchmarks'].append(benchmark)
@@ -189,7 +190,7 @@ for key in tqdm.tqdm(dblp_keys):
             break
 
     for benchmark in benchmarks_data:
-        if benchmark['dblp'] == key:
+        if 'dblp' in benchmark and benchmark['dblp'] == key:
             entry['benchmark'] = benchmark['name']
             break
         

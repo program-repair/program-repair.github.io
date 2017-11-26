@@ -1,5 +1,12 @@
 [
     {
+	"name": "QuixBugs",
+	"description": "A parallel corpus of 40 programs in both Python and Java, each with a bug on one line",
+	"url": "https://jkoppel.github.io/QuixBugs/",
+	"repo": "https://github.com/jkoppel/QuixBugs",
+	"target": "Multilingual"
+    },
+    {
 	"name": "DBGBench",
 	"description": "291 (in)correct patches from real software professionals for 27 real bugs in C for the qualitative evaluation of automated repair techniques",
 	"url": "https://dbgbench.github.io",
@@ -36,12 +43,5 @@
 	"repo": "https://github.com/rjust/defects4j",
 	"target": "Java",
 	"dblp": "conf/issta/JustJE14"
-    },
-    {
-	"name": "QuixBugs",
-	"description": "A parallel corpus of 40 programs in both Python and Java, each with a bug on one line",
-	"url": "https://jkoppel.github.io/QuixBugs/",
-	"repo": "https://github.com/jkoppel/QuixBugs",
-	"target": "Java and Python"
     }
 ]

@@ -1,3 +1,6 @@
+conf/esem/CamposM17
+conf/oopsla/LinKCS17
+conf/compsac/TanikadoYYSHK17
 conf/icsm/YangQM17
 conf/kbse/WeissGB17
 conf/kbse/Chen0F17
@@ -64,6 +67,7 @@ conf/icse/TanR15
 conf/icse/GaoXMZYZXM15
 conf/icse/SelakovicP15
 conf/icse/0001FNM15
+conf/icse/NistorCRL15
 conf/sigsoft/SmithBGB15
 conf/sigsoft/LongR15
 conf/cav/KneussKK15

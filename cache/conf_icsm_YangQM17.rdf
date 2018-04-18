@@ -1,25 +1,26 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="http://dblp.org/rdf/schema-2017-04-18#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1" xmlns:bibtex="http://data.bibbase.org/ontology/#">
-<dblp:Publication rdf:about="http://dblp.org/rec/conf/icsm/YangQM17">
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2017-04-18#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1" xmlns:bibtex="http://data.bibbase.org/ontology/#">
+<dblp:Publication rdf:about="https://dblp.org/rec/conf/icsm/YangQM17">
 <owl:sameAs rdf:resource="http://dx.doi.org/10.1109/ICSME.2017.37" />
 <dblp:title>An Empirical Study on the Usage of Fault Localization in Automated Program Repair.</dblp:title>
 <dblp:bibtexType rdf:resource="http://data.bibbase.org/ontology/#Inproceedings" />
-<dblp:publicationType rdf:resource="http://dblp.org/rdf/schema-2017-04-18#Inproceedings" />
-<dblp:authoredBy rdf:resource="http://dblp.org/pers/y/Yang:Deheng" />
-<dblp:authoredBy rdf:resource="http://dblp.org/pers/q/Qi:Yuhua" />
-<dblp:authoredBy rdf:resource="http://dblp.org/pers/m/Mao:Xiaoguang" />
-<dblp:primaryElectronicEdition rdf:resource="http://doi.ieeecomputersociety.org/10.1109/ICSME.2017.37" />
-<dblp:listedOnTocPage rdf:resource="http://dblp.org/db/conf/icsm/icsme2017" />
+<dblp:publicationType rdf:resource="https://dblp.org/rdf/schema-2017-04-18#Inproceedings" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pers/y/Yang:Deheng" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pers/q/Qi:Yuhua" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pers/m/Mao:Xiaoguang" />
+<dblp:primaryElectronicEdition rdf:resource="https://doi.org/10.1109/ICSME.2017.37" />
+<dblp:otherElectronicEdition rdf:resource="http://doi.ieeecomputersociety.org/10.1109/ICSME.2017.37" />
+<dblp:listedOnTocPage rdf:resource="https://dblp.org/db/conf/icsm/icsme2017" />
 <dblp:publishedInBook>ICSME</dblp:publishedInBook>
 <dblp:pageNumbers>504-508</dblp:pageNumbers>
 <dblp:yearOfPublication>2017</dblp:yearOfPublication>
-<dblp:publishedAsPartOf rdf:resource="http://dblp.org/rec/conf/icsm/2017" />
+<dblp:publishedAsPartOf rdf:resource="https://dblp.org/rec/conf/icsm/2017" />
 </dblp:Publication>
-<rdf:Description rdf:about="http://dblp.org/rec/conf/icsm/YangQM17.rdf">
-<rdfs:label>provenance information for RDF data of dblp record 'conf/icsm/YangQM17'</rdfs:label>
-<dcterms:creator rdf:resource="http://dblp.org" />
-<dcterms:isPartOf rdf:resource="http://dblp.org/rdf/dblp.rdf" />
+<rdf:Description rdf:about="https://dblp.org/rec/conf/icsm/YangQM17.rdf">
+<rdfs:label>provenance information for RDF data of dblp record &apos;conf/icsm/YangQM17&apos;</rdfs:label>
+<dcterms:creator rdf:resource="https://dblp.org" />
+<dcterms:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
 <dcterms:license rdf:resource="https://opendatacommons.org/licenses/by/1.0" />
-<dcterms:modified>2017-11-16T16:30:18+0100</dcterms:modified>
+<dcterms:modified>2017-12-01T22:44:10+0100</dcterms:modified>
 </rdf:Description>
 </rdf:RDF>

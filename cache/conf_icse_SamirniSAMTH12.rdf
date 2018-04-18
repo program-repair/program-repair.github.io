@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="http://dblp.org/rdf/schema-2017-04-18#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1" xmlns:bibtex="http://data.bibbase.org/ontology/#">
-<dblp:Publication rdf:about="http://dblp.org/rec/conf/icse/SamirniSAMTH12">
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2017-04-18#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1" xmlns:bibtex="http://data.bibbase.org/ontology/#">
+<dblp:Publication rdf:about="https://dblp.org/rec/conf/icse/SamirniSAMTH12">
 <owl:sameAs rdf:resource="http://dx.doi.org/10.1109/ICSE.2012.6227186" />
 <dblp:title>Automated repair of HTML generation errors in PHP applications using string constraint solving.</dblp:title>
 <dblp:bibtexType rdf:resource="http://data.bibbase.org/ontology/#Inproceedings" />
-<dblp:publicationType rdf:resource="http://dblp.org/rdf/schema-2017-04-18#Inproceedings" />
-<dblp:authoredBy rdf:resource="http://dblp.org/pers/s/Samimi:Hesam" />
-<dblp:authoredBy rdf:resource="http://dblp.org/pers/s/Sch=auml=fer:Max" />
-<dblp:authoredBy rdf:resource="http://dblp.org/pers/a/Artzi:Shay" />
-<dblp:authoredBy rdf:resource="http://dblp.org/pers/m/Millstein:Todd_D=" />
-<dblp:authoredBy rdf:resource="http://dblp.org/pers/t/Tip:Frank" />
-<dblp:authoredBy rdf:resource="http://dblp.org/pers/h/Hendren:Laurie_J=" />
+<dblp:publicationType rdf:resource="https://dblp.org/rdf/schema-2017-04-18#Inproceedings" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pers/s/Samimi:Hesam" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pers/s/Sch=auml=fer:Max" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pers/a/Artzi:Shay" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pers/m/Millstein:Todd_D=" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pers/t/Tip:Frank" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pers/h/Hendren:Laurie_J=" />
 <dblp:primaryElectronicEdition rdf:resource="https://doi.org/10.1109/ICSE.2012.6227186" />
 <dblp:otherElectronicEdition rdf:resource="http://doi.ieeecomputersociety.org/10.1109/ICSE.2012.6227186" />
 <dblp:otherElectronicEdition rdf:resource="http://dl.acm.org/citation.cfm?id=2337257" />
-<dblp:listedOnTocPage rdf:resource="http://dblp.org/db/conf/icse/icse2012" />
+<dblp:listedOnTocPage rdf:resource="https://dblp.org/db/conf/icse/icse2012" />
 <dblp:publishedInBook>ICSE</dblp:publishedInBook>
 <dblp:pageNumbers>277-287</dblp:pageNumbers>
 <dblp:yearOfPublication>2012</dblp:yearOfPublication>
-<dblp:publishedAsPartOf rdf:resource="http://dblp.org/rec/conf/icse/2012" />
+<dblp:publishedAsPartOf rdf:resource="https://dblp.org/rec/conf/icse/2012" />
 </dblp:Publication>
-<rdf:Description rdf:about="http://dblp.org/rec/conf/icse/SamirniSAMTH12.rdf">
-<rdfs:label>provenance information for RDF data of dblp record 'conf/icse/SamirniSAMTH12'</rdfs:label>
-<dcterms:creator rdf:resource="http://dblp.org" />
-<dcterms:isPartOf rdf:resource="http://dblp.org/rdf/dblp.rdf" />
+<rdf:Description rdf:about="https://dblp.org/rec/conf/icse/SamirniSAMTH12.rdf">
+<rdfs:label>provenance information for RDF data of dblp record &apos;conf/icse/SamirniSAMTH12&apos;</rdfs:label>
+<dcterms:creator rdf:resource="https://dblp.org" />
+<dcterms:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
 <dcterms:license rdf:resource="https://opendatacommons.org/licenses/by/1.0" />
 <dcterms:modified>2017-06-04T10:09:47+0200</dcterms:modified>
 </rdf:Description>

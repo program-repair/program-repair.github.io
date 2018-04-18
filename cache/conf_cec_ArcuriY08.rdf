@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="http://dblp.org/rdf/schema-2017-04-18#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1" xmlns:bibtex="http://data.bibbase.org/ontology/#">
-<dblp:Publication rdf:about="http://dblp.org/rec/conf/cec/ArcuriY08">
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2017-04-18#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1" xmlns:bibtex="http://data.bibbase.org/ontology/#">
+<dblp:Publication rdf:about="https://dblp.org/rec/conf/cec/ArcuriY08">
 <owl:sameAs rdf:resource="http://dx.doi.org/10.1109/CEC.2008.4630793" />
 <dblp:title>A novel co-evolutionary approach to automatic software bug fixing.</dblp:title>
 <dblp:bibtexType rdf:resource="http://data.bibbase.org/ontology/#Inproceedings" />
-<dblp:publicationType rdf:resource="http://dblp.org/rdf/schema-2017-04-18#Inproceedings" />
-<dblp:authoredBy rdf:resource="http://dblp.org/pers/a/Arcuri:Andrea" />
-<dblp:authoredBy rdf:resource="http://dblp.org/pers/y/Yao_0001:Xin" />
+<dblp:publicationType rdf:resource="https://dblp.org/rdf/schema-2017-04-18#Inproceedings" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pers/a/Arcuri:Andrea" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pers/y/Yao_0001:Xin" />
 <dblp:primaryElectronicEdition rdf:resource="https://doi.org/10.1109/CEC.2008.4630793" />
-<dblp:listedOnTocPage rdf:resource="http://dblp.org/db/conf/cec/cec2008" />
+<dblp:listedOnTocPage rdf:resource="https://dblp.org/db/conf/cec/cec2008" />
 <dblp:publishedInBook>IEEE Congress on Evolutionary Computation</dblp:publishedInBook>
 <dblp:pageNumbers>162-168</dblp:pageNumbers>
 <dblp:yearOfPublication>2008</dblp:yearOfPublication>
-<dblp:publishedAsPartOf rdf:resource="http://dblp.org/rec/conf/cec/2008" />
+<dblp:publishedAsPartOf rdf:resource="https://dblp.org/rec/conf/cec/2008" />
 </dblp:Publication>
-<rdf:Description rdf:about="http://dblp.org/rec/conf/cec/ArcuriY08.rdf">
-<rdfs:label>provenance information for RDF data of dblp record 'conf/cec/ArcuriY08'</rdfs:label>
-<dcterms:creator rdf:resource="http://dblp.org" />
-<dcterms:isPartOf rdf:resource="http://dblp.org/rdf/dblp.rdf" />
+<rdf:Description rdf:about="https://dblp.org/rec/conf/cec/ArcuriY08.rdf">
+<rdfs:label>provenance information for RDF data of dblp record &apos;conf/cec/ArcuriY08&apos;</rdfs:label>
+<dcterms:creator rdf:resource="https://dblp.org" />
+<dcterms:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
 <dcterms:license rdf:resource="https://opendatacommons.org/licenses/by/1.0" />
 <dcterms:modified>2017-05-22T14:08:56+0200</dcterms:modified>
 </rdf:Description>

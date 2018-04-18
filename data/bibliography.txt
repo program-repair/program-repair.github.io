@@ -1,3 +1,7 @@
+conf/wcre/LiuZ18
+conf/wcre/MachoM018
+conf/wcre/SotoG18
+conf/wcre/SobreiraDDMM18
 conf/esem/CamposM17
 conf/oopsla/LinKCS17
 conf/compsac/TanikadoYYSHK17

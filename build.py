@@ -32,7 +32,7 @@ bibliography_output_file = join(root_dir, 'bibliography.html')
 tools_output_file = join(root_dir, 'tools.html')
 benchmarks_output_file = join(root_dir, 'benchmarks.html')
 
-dblp_schema = "http://dblp.org/rdf/schema-2017-04-18"
+dblp_schema = "https://dblp.org/rdf/schema-2017-04-18"
 rdf_syntax = "http://www.w3.org/1999/02/22-rdf-syntax-ns"
 title_ref = rdflib.URIRef(dblp_schema + "#title")
 pageNumbers_ref = rdflib.URIRef(dblp_schema + "#pageNumbers")
@@ -116,7 +116,7 @@ top_papers = dblp_keys[:6]
 
 for key in tqdm.tqdm(dblp_keys):
     entry = dict()
-    rdf_xml_url = "http://dblp.org/rec/rdf/{}.rdf".format(key)
+    rdf_xml_url = "https://dblp.org/rec/rdf/{}.rdf".format(key)
     rdf_xml_file = join(cache_dir, key.replace('/', '_') + ".rdf")
     if not os.path.isfile(rdf_xml_file):
         urllib.request.urlretrieve(rdf_xml_url, rdf_xml_file)

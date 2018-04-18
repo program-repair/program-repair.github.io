@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2017-04-18#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1" xmlns:bibtex="http://data.bibbase.org/ontology/#">
+<dblp:Person rdf:about="https://dblp.org/pers/l/Liu:Xuliang">
+<dblp:primaryFullPersonName>Xuliang Liu</dblp:primaryFullPersonName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/wcre/LiuZ18" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/jcphy/LiuZZS15" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/jcphy/LiuZZS13" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/s/Shu:Chi=Wang" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/z/Zhang:Hanxin" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/z/Zhang:Shuhai" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/z/Zhong:Hao" />
+</dblp:Person>
+<rdf:Description rdf:about="https://dblp.org/pers/l/Liu:Xuliang.rdf">
+<rdfs:label>provenance information for RDF data of dblp person &apos;l/Liu:Xuliang&apos;</rdfs:label>
+<dcterms:creator rdf:resource="https://dblp.org" />
+<dcterms:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dcterms:license rdf:resource="https://opendatacommons.org/licenses/by/1.0" />
+<dcterms:modified>2018-04-13T19:41:10+0200</dcterms:modified>
+</rdf:Description>
+</rdf:RDF>

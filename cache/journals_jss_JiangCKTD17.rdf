@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="http://dblp.org/rdf/schema-2017-04-18#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1" xmlns:bibtex="http://data.bibbase.org/ontology/#">
-<dblp:Publication rdf:about="http://dblp.org/rec/journals/jss/JiangCKTD17">
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2017-04-18#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1" xmlns:bibtex="http://data.bibbase.org/ontology/#">
+<dblp:Publication rdf:about="https://dblp.org/rec/journals/jss/JiangCKTD17">
 <owl:sameAs rdf:resource="http://dx.doi.org/10.1016/j.jss.2016.04.002" />
 <dblp:title>A metamorphic testing approach for supporting program repair without the need for a test oracle.</dblp:title>
 <dblp:bibtexType rdf:resource="http://data.bibbase.org/ontology/#Article" />
-<dblp:publicationType rdf:resource="http://dblp.org/rdf/schema-2017-04-18#Article" />
-<dblp:authoredBy rdf:resource="http://dblp.org/pers/j/Jiang:Mingyue" />
-<dblp:authoredBy rdf:resource="http://dblp.org/pers/c/Chen:Tsong_Yueh" />
-<dblp:authoredBy rdf:resource="http://dblp.org/pers/k/Kuo:Fei=Ching" />
-<dblp:authoredBy rdf:resource="http://dblp.org/pers/t/Towey:Dave" />
-<dblp:authoredBy rdf:resource="http://dblp.org/pers/d/Ding:Zuohua" />
+<dblp:publicationType rdf:resource="https://dblp.org/rdf/schema-2017-04-18#Article" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pers/j/Jiang:Mingyue" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pers/c/Chen:Tsong_Yueh" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pers/k/Kuo:Fei=Ching" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pers/t/Towey:Dave" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pers/d/Ding:Zuohua" />
 <dblp:primaryElectronicEdition rdf:resource="https://doi.org/10.1016/j.jss.2016.04.002" />
-<dblp:listedOnTocPage rdf:resource="http://dblp.org/db/journals/jss/jss126" />
+<dblp:listedOnTocPage rdf:resource="https://dblp.org/db/journals/jss/jss126" />
 <dblp:publishedInJournal>Journal of Systems and Software</dblp:publishedInJournal>
 <dblp:publishedInJournalVolume>126</dblp:publishedInJournalVolume>
 <dblp:pageNumbers>127-140</dblp:pageNumbers>
 <dblp:yearOfPublication>2017</dblp:yearOfPublication>
 </dblp:Publication>
-<rdf:Description rdf:about="http://dblp.org/rec/journals/jss/JiangCKTD17.rdf">
-<rdfs:label>provenance information for RDF data of dblp record 'journals/jss/JiangCKTD17'</rdfs:label>
-<dcterms:creator rdf:resource="http://dblp.org" />
-<dcterms:isPartOf rdf:resource="http://dblp.org/rdf/dblp.rdf" />
+<rdf:Description rdf:about="https://dblp.org/rec/journals/jss/JiangCKTD17.rdf">
+<rdfs:label>provenance information for RDF data of dblp record &apos;journals/jss/JiangCKTD17&apos;</rdfs:label>
+<dcterms:creator rdf:resource="https://dblp.org" />
+<dcterms:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
 <dcterms:license rdf:resource="https://opendatacommons.org/licenses/by/1.0" />
 <dcterms:modified>2017-06-06T22:24:04+0200</dcterms:modified>
 </rdf:Description>

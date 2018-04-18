@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="http://dblp.org/rdf/schema-2017-04-18#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1" xmlns:bibtex="http://data.bibbase.org/ontology/#">
-<dblp:Publication rdf:about="http://dblp.org/rec/conf/icse/AdamsenMKSTS17">
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2017-04-18#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1" xmlns:bibtex="http://data.bibbase.org/ontology/#">
+<dblp:Publication rdf:about="https://dblp.org/rec/conf/icse/AdamsenMKSTS17">
 <owl:sameAs rdf:resource="http://dx.doi.org/10.1109/ICSE.2017.34" />
 <dblp:title>Repairing event race errors by controlling nondeterminism.</dblp:title>
 <dblp:bibtexType rdf:resource="http://data.bibbase.org/ontology/#Inproceedings" />
-<dblp:publicationType rdf:resource="http://dblp.org/rdf/schema-2017-04-18#Inproceedings" />
-<dblp:authoredBy rdf:resource="http://dblp.org/pers/a/Adamsen:Christoffer_Quist" />
-<dblp:authoredBy rdf:resource="http://dblp.org/pers/m/M=oslash=ller:Anders" />
-<dblp:authoredBy rdf:resource="http://dblp.org/pers/k/Karim:Rezwana" />
-<dblp:authoredBy rdf:resource="http://dblp.org/pers/s/Sridharan:Manu" />
-<dblp:authoredBy rdf:resource="http://dblp.org/pers/t/Tip:Frank" />
-<dblp:authoredBy rdf:resource="http://dblp.org/pers/s/Sen:Koushik" />
+<dblp:publicationType rdf:resource="https://dblp.org/rdf/schema-2017-04-18#Inproceedings" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pers/a/Adamsen:Christoffer_Quist" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pers/m/M=oslash=ller:Anders" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pers/k/Karim:Rezwana" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pers/s/Sridharan:Manu" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pers/t/Tip:Frank" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pers/s/Sen:Koushik" />
 <dblp:primaryElectronicEdition rdf:resource="https://doi.org/10.1109/ICSE.2017.34" />
 <dblp:otherElectronicEdition rdf:resource="http://doi.ieeecomputersociety.org/10.1109/ICSE.2017.34" />
 <dblp:otherElectronicEdition rdf:resource="http://dl.acm.org/citation.cfm?id=3097403" />
-<dblp:listedOnTocPage rdf:resource="http://dblp.org/db/conf/icse/icse2017" />
+<dblp:listedOnTocPage rdf:resource="https://dblp.org/db/conf/icse/icse2017" />
 <dblp:publishedInBook>ICSE</dblp:publishedInBook>
 <dblp:pageNumbers>289-299</dblp:pageNumbers>
 <dblp:yearOfPublication>2017</dblp:yearOfPublication>
-<dblp:publishedAsPartOf rdf:resource="http://dblp.org/rec/conf/icse/2017" />
+<dblp:publishedAsPartOf rdf:resource="https://dblp.org/rec/conf/icse/2017" />
 </dblp:Publication>
-<rdf:Description rdf:about="http://dblp.org/rec/conf/icse/AdamsenMKSTS17.rdf">
-<rdfs:label>provenance information for RDF data of dblp record 'conf/icse/AdamsenMKSTS17'</rdfs:label>
-<dcterms:creator rdf:resource="http://dblp.org" />
-<dcterms:isPartOf rdf:resource="http://dblp.org/rdf/dblp.rdf" />
+<rdf:Description rdf:about="https://dblp.org/rec/conf/icse/AdamsenMKSTS17.rdf">
+<rdfs:label>provenance information for RDF data of dblp record &apos;conf/icse/AdamsenMKSTS17&apos;</rdfs:label>
+<dcterms:creator rdf:resource="https://dblp.org" />
+<dcterms:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
 <dcterms:license rdf:resource="https://opendatacommons.org/licenses/by/1.0" />
 <dcterms:modified>2017-07-31T09:06:24+0200</dcterms:modified>
 </rdf:Description>

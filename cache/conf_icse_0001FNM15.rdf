@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="http://dblp.org/rdf/schema-2017-04-18#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1" xmlns:bibtex="http://data.bibbase.org/ontology/#">
-<dblp:Publication rdf:about="http://dblp.org/rec/conf/icse/0001FNM15">
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2017-04-18#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1" xmlns:bibtex="http://data.bibbase.org/ontology/#">
+<dblp:Publication rdf:about="https://dblp.org/rec/conf/icse/0001FNM15">
 <owl:sameAs rdf:resource="http://dx.doi.org/10.1109/ICSE.2015.222" />
 <dblp:title>Automated Program Repair in an Integrated Development Environment.</dblp:title>
 <dblp:bibtexType rdf:resource="http://data.bibbase.org/ontology/#Inproceedings" />
-<dblp:publicationType rdf:resource="http://dblp.org/rdf/schema-2017-04-18#Inproceedings" />
-<dblp:authoredBy rdf:resource="http://dblp.org/pers/p/Pei_0001:Yu" />
-<dblp:authoredBy rdf:resource="http://dblp.org/pers/f/Furia:Carlo_A=" />
-<dblp:authoredBy rdf:resource="http://dblp.org/pers/n/Nordio:Mart=iacute=n" />
-<dblp:authoredBy rdf:resource="http://dblp.org/pers/m/Meyer:Bertrand" />
+<dblp:publicationType rdf:resource="https://dblp.org/rdf/schema-2017-04-18#Inproceedings" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pers/p/Pei_0001:Yu" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pers/f/Furia:Carlo_A=" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pers/n/Nordio:Mart=iacute=n" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pers/m/Meyer_0001:Bertrand" />
 <dblp:primaryElectronicEdition rdf:resource="https://doi.org/10.1109/ICSE.2015.222" />
 <dblp:otherElectronicEdition rdf:resource="http://doi.ieeecomputersociety.org/10.1109/ICSE.2015.222" />
 <dblp:otherElectronicEdition rdf:resource="http://dl.acm.org/citation.cfm?id=2819137" />
-<dblp:listedOnTocPage rdf:resource="http://dblp.org/db/conf/icse/icse2015-2" />
+<dblp:listedOnTocPage rdf:resource="https://dblp.org/db/conf/icse/icse2015-2" />
 <dblp:publishedInBook>ICSE (2)</dblp:publishedInBook>
 <dblp:pageNumbers>681-684</dblp:pageNumbers>
 <dblp:yearOfPublication>2015</dblp:yearOfPublication>
-<dblp:publishedAsPartOf rdf:resource="http://dblp.org/rec/conf/icse/2015-2" />
+<dblp:publishedAsPartOf rdf:resource="https://dblp.org/rec/conf/icse/2015-2" />
 </dblp:Publication>
-<rdf:Description rdf:about="http://dblp.org/rec/conf/icse/0001FNM15.rdf">
-<rdfs:label>provenance information for RDF data of dblp record 'conf/icse/0001FNM15'</rdfs:label>
-<dcterms:creator rdf:resource="http://dblp.org" />
-<dcterms:isPartOf rdf:resource="http://dblp.org/rdf/dblp.rdf" />
+<rdf:Description rdf:about="https://dblp.org/rec/conf/icse/0001FNM15.rdf">
+<rdfs:label>provenance information for RDF data of dblp record &apos;conf/icse/0001FNM15&apos;</rdfs:label>
+<dcterms:creator rdf:resource="https://dblp.org" />
+<dcterms:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
 <dcterms:license rdf:resource="https://opendatacommons.org/licenses/by/1.0" />
-<dcterms:modified>2017-09-16T12:11:08+0200</dcterms:modified>
+<dcterms:modified>2017-10-30T11:35:10+0100</dcterms:modified>
 </rdf:Description>
 </rdf:RDF>

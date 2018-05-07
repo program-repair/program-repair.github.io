@@ -1,5 +1,13 @@
 [
     {
+	"name": "JAID",
+	"description": "an APR technique that uses detailed state abstractions to guide both fault localization and fix generation",
+	"url": "https://bitbucket.org/maxpei/jaid/wiki/Home",
+	"repo": "https://bitbucket.org/maxpei/jaid/wiki/Home",
+	"target": "Java",
+	"dblp": "conf/kbse/Chen0F17"
+    },
+	{
 	"name": "JFix",
 	"description": "semantics-based repair framework for Java programs",
 	"url": "https://xuanbachle.github.io/semanticsrepair/",

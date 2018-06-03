@@ -32,7 +32,7 @@
     },
     {
 	"name": "NPEFix",
-	"description": "system that systematically explores and assesses a set of possible runtime patches",
+	"description": "system that generates patches for Null Pointer Exceptions with meta-programming",
 	"url": "https://github.com/Spirals-Team/npefix",
 	"repo": "https://github.com/Spirals-Team/npefix",
 	"target": "Java",

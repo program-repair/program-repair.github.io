@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2017-04-18#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1" xmlns:bibtex="http://data.bibbase.org/ontology/#">
+<dblp:Person rdf:about="https://dblp.org/pers/m/Motwani:Manish">
+<dblp:primaryFullPersonName>Manish Motwani</dblp:primaryFullPersonName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/MotwaniSJB18" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/miip/RubeauxJDFMTGDB16" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sigsoft/GhaisasMBGKV15" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/AnishSMG13" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/kbse/GhaisasMA13" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/dac/GateleyBCCDDEFGGJKKMNNOPSSWW95" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/a/Anish:Preethu_Rose" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/b/Balasubramaniam:Balaji" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/b/Berman:Daniel_S=" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/b/Blatt:Miriam" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/b/Brun:Yuriy" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/c/Chen:Dennis" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/c/Cooke:Scott" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/d/Desai:Piyush" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/d/Dey:Damini" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/d/Doreswamy:Manjunath" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/d/Dweck:Marc_R=" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/e/Elgood:Mark" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/f/Feierbach:Gary" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/f/Fletcher:Alison" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/g/Gajendragadkar:Anjali" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/g/Gateley:James" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/g/Germano:Guido" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/g/Ghaisas:Smita" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/g/Goldsbury:Tim" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/g/Greenley:Dale" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/j/Joshi:Nikhil" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/j/Joshi:Raju" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/j/Just:Ren=eacute=" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/k/Kelkar:Rahul" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/k/Khosraviani:Mike" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/k/Kwong:Robert" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/n/Narasimhaiah:Chitresh" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/n/Newby:David_E=" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/n/Nicolino_Jr=:Sam_J=" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/o/Ozeki:Tooru" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/p/Peterson:Gary" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/r/Rubeaux:Mathieu" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/s/Salzmann:Chris" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/s/Sankaranarayanan:Sandhya" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/s/Sharma:Shashi_Kant" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/s/Shayesteh:Nasser" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/s/Slomka:Piotr_J=" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/t/Thomson:Louise_E=" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/v/Vin:Harrick_M=" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/w/Whitman:Jeffrey" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/w/Wong:Pak" />
+</dblp:Person>
+<rdf:Description rdf:about="https://dblp.org/pers/m/Motwani:Manish.rdf">
+<rdfs:label>provenance information for RDF data of dblp person &apos;m/Motwani:Manish&apos;</rdfs:label>
+<dcterms:creator rdf:resource="https://dblp.org" />
+<dcterms:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dcterms:license rdf:resource="https://opendatacommons.org/licenses/by/1.0" />
+<dcterms:modified>2018-07-08T22:08:47+0200</dcterms:modified>
+</rdf:Description>
+</rdf:RDF>

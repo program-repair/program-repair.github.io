@@ -1,3 +1,6 @@
+conf/issta/WuGS018
+conf/issta/JustPDE18
+conf/issta/JiangXZGC18
 conf/pldi/WangSS18
 conf/pldi/GulwaniRZ18
 conf/icse/HassanW18

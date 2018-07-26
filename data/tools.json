@@ -1,5 +1,13 @@
 [
     {
+        "name": "SimFix",
+        "description": "fixing Java bugs by leveraging existing patches and similar code",
+        "url": "https://github.com/xgdsmileboy/SimFix",
+        "repo": "https://github.com/xgdsmileboy/SimFix",
+        "target": "Java",
+        "dblp": "conf/issta/JiangXZGC18"
+    },
+    {
 	"name": "JAID",
 	"description": "an APR technique that uses detailed state abstractions to guide both fault localization and fix generation",
 	"url": "https://bitbucket.org/maxpei/jaid/wiki/Home",

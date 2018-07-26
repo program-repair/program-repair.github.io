@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2017-04-18#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1" xmlns:bibtex="http://data.bibbase.org/ontology/#">
+<dblp:Person rdf:about="https://dblp.org/pers/j/Jiang:Jiajun">
+<dblp:primaryFullPersonName>Jiajun Jiang</dblp:primaryFullPersonName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/issta/JiangXZGC18" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/JiangX17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ecoop/WangJLXLZH16" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ithings/JiangGLLXYN14" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/greencom/YuanGJN13" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/c/Chen:Xiangqun" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/g/Gao:Qing" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/g/Guo:Yu" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/h/Hu:Zhenjiang" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/l/Li:Jun" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/l/Li:Siguo" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/l/Liao:Wenhe" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/l/Luo:Xiangyu" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/n/Nian:Liyun" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/w/Wang:Chenglong" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/x/Xie:Xinping" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/x/Xiong:Yingfei" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/y/Yuan:Liuyin" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/z/Zhang:Hongyu" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/z/Zhang_0023:Lu" />
+</dblp:Person>
+<rdf:Description rdf:about="https://dblp.org/pers/j/Jiang:Jiajun.rdf">
+<rdfs:label>provenance information for RDF data of dblp person &apos;j/Jiang:Jiajun&apos;</rdfs:label>
+<dcterms:creator rdf:resource="https://dblp.org" />
+<dcterms:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dcterms:license rdf:resource="https://opendatacommons.org/licenses/by/1.0" />
+<dcterms:modified>2018-07-17T20:53:30+0200</dcterms:modified>
+</rdf:Description>
+</rdf:RDF>

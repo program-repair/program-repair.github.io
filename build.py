@@ -112,7 +112,7 @@ bib = dict()
 with open(bibliography_file) as f:
     dblp_keys = [x.strip() for x in f.readlines()]
 
-top_papers = dblp_keys[:7]
+top_papers = dblp_keys[:6]
 
 for key in tqdm.tqdm(dblp_keys):
     entry = dict()

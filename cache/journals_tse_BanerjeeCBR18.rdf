@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2017-04-18#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1" xmlns:bibtex="http://data.bibbase.org/ontology/#">
+<dblp:Publication rdf:about="https://dblp.org/rec/journals/tse/BanerjeeCBR18">
+<owl:sameAs rdf:resource="https://doi.org/10.1109/TSE.2017.2689012" />
+<dblp:title>EnergyPatch: Repairing Resource Leaks to Improve Energy-Efficiency of Android Apps.</dblp:title>
+<dblp:bibtexType rdf:resource="http://data.bibbase.org/ontology/#Article" />
+<dblp:publicationType rdf:resource="https://dblp.org/rdf/schema-2017-04-18#Article" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pers/b/Banerjee:Abhijeet" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pers/c/Chong:Lee_Kee" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pers/b/Ballabriga:Cl=eacute=ment" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pers/r/Roychoudhury:Abhik" />
+<dblp:primaryElectronicEdition rdf:resource="https://doi.org/10.1109/TSE.2017.2689012" />
+<dblp:otherElectronicEdition rdf:resource="http://doi.ieeecomputersociety.org/10.1109/TSE.2017.2689012" />
+<dblp:listedOnTocPage rdf:resource="https://dblp.org/db/journals/tse/tse44" />
+<dblp:publishedInJournal>IEEE Trans. Software Eng.</dblp:publishedInJournal>
+<dblp:publishedInJournalVolume>44</dblp:publishedInJournalVolume>
+<dblp:publishedInJournalVolumeIssue>5</dblp:publishedInJournalVolumeIssue>
+<dblp:pageNumbers>470-490</dblp:pageNumbers>
+<dblp:yearOfPublication>2018</dblp:yearOfPublication>
+</dblp:Publication>
+<rdf:Description rdf:about="https://dblp.org/rec/journals/tse/BanerjeeCBR18.rdf">
+<rdfs:label>provenance information for RDF data of dblp record &apos;journals/tse/BanerjeeCBR18&apos;</rdfs:label>
+<dcterms:creator rdf:resource="https://dblp.org" />
+<dcterms:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dcterms:license rdf:resource="https://opendatacommons.org/licenses/by/1.0/" />
+<dcterms:modified>2018-07-10T09:45:39+0200</dcterms:modified>
+</rdf:Description>
+</rdf:RDF>

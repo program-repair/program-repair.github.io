@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2017-04-18#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1" xmlns:bibtex="http://data.bibbase.org/ontology/#">
+<dblp:Person rdf:about="https://dblp.org/pers/s/Souza:Eduardo_Faria_de">
+<dblp:primaryFullPersonName>Eduardo Faria de Souza</dblp:primaryFullPersonName>
+<dblp:otherFullPersonName>Eduardo F. D. Souza</dblp:otherFullPersonName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/ese/OliveiraSGC18" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/compsac/NascimentoSNSLG18" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/compsac/LunaSNSSNC18" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/gecco/SouzaGC18" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ijcnn/AmorimFDSCM18" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ssbse/OliveiraSGC16" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/a/Amorim:Leonardo_Afonso" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/c/Camilo=Junior:Celso_G=" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/c/Costa:Ronaldo_Martins_da" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/d/Dantas:Altino" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/f/Freitas:Mateus_F=" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/g/Gon=ccedil=alves:Cristhiane" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/g/Goues:Claire_Le" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/l/Luna:Mateus_Machado" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/m/Martins:Wellington_S=" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/n/Nascimento:Hugo_Alexandre_Dantas_do" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/n/Nascimento:Thamer_H=" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/o/Oliveira:Vinicius_Paulo_L=" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/s/Salvini:Rog=eacute=rio_Lopes" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/s/Siqueira:Joyce" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/s/Soares:Fabr=iacute=zzio_Alphonsus_Alves_de_Melo_Nunes" />
+</dblp:Person>
+<rdf:Description rdf:about="https://dblp.org/pers/s/Souza:Eduardo_Faria_de.rdf">
+<rdfs:label>provenance information for RDF data of dblp person &apos;s/Souza:Eduardo_Faria_de&apos;</rdfs:label>
+<dcterms:creator rdf:resource="https://dblp.org" />
+<dcterms:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dcterms:license rdf:resource="https://opendatacommons.org/licenses/by/1.0/" />
+<dcterms:modified>2018-11-22T21:01:57+0100</dcterms:modified>
+</rdf:Description>
+</rdf:RDF>

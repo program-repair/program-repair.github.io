@@ -44,5 +44,21 @@
 	"repo": "https://github.com/rjust/defects4j",
 	"target": "Java",
 	"dblp": "conf/issta/JustJE14"
+    },
+    {
+	"name": "DroixBench",
+	"description": "a collection of 24 reproducible crashes in open-source Android apps",
+	"url": "https://droix2017.github.io/",
+	"repo": "https://github.com/stan6/droixbench",
+	"target": "Android",
+	"dblp": "conf/icse/TanDGR18"
+    },
+    {
+	"name": "Bugs.jar",
+	"description": "a large-scale, diverse dataset of bugs for Java program repair",
+	"url": "https://github.com/bugs-dot-jar/bugs-dot-jar",
+	"repo": "https://github.com/bugs-dot-jar/bugs-dot-jar",
+	"target": "Java",
+	"dblp": "conf/msr/SahaLLYP18"
     }
 ]

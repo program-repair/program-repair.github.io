@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2017-04-18#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1" xmlns:bibtex="http://data.bibbase.org/ontology/#">
+<dblp:Person rdf:about="https://dblp.org/pers/o/Oh:Hakjoo">
+<dblp:primaryFullPersonName>Hakjoo Oh</dblp:primaryFullPersonName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/fmsd/HeoOY18" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/infsof/ChaJO18" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/pacmpl/JeonJO18" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/pacmpl/LeeSSO18" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/toplas/HeoOYY18" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/ChaHLO18" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ijcai/SoO18" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/kbse/ChaLO18" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sigsoft/LeeHO18" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/pacmpl/JeongJCO17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/pacmpl/ChaeOHY17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/spe/HeoOY17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/toplas/LeeLKHOY17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/HeoOY17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ijcai/ChoiJOC17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sas/SoO17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sp/KimWLO17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/SoO17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/ChoiJOC17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/spe/KimHOY16" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/toplas/OhLHYY16" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/aplas/ChaJO16" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/gpce/LeeSO16" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sas/HeoOY16" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sec/LiOOL16" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/ChaeOHY16" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/oopsla/OhYY15" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/cl/KoHO14" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/toplas/OhHLLPKY14" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/pldi/OhLHYY14" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sas/LeeOY14" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/scp/OhY13" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/pldi/OhHLLY12" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/aplas/OhY11" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/vmcai/OhBY11" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/spe/OhY10" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/aplas/Oh09" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/cikm/JungOY09" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/b/Brutschy:Lucas" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/c/Cha:Sooyoung" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/c/Cha:Sung_Deok" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/c/Chae:Kwonsoo" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/c/Choi:Min=Je" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/c/Choo:Jaegul" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/h/Heo:Kihong" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/h/Hong:Seongjoon" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/j/Jeon:Minseok" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/j/Jeong:Sehun" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/j/Jung:Yungbum" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/k/Kang:Dongok" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/k/Kang:Jeehoon" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/k/Kim:Seulbae" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/k/Kim:Sol" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/k/Ko:Yoonseok" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/l/Lee:Heejo" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/l/Lee:Junhee" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/l/Lee:Junho" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/l/Lee_0002:Mina" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/l/Lee:Seonho" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/l/Lee:Wonchan" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/l/Lee:Woosuk" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/l/Li:Hongzhe" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/o/Oh:Jaesang" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/p/Park_0001:Daejun" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/s/So:Sunbeom" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/s/Song:Dowon" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/w/Woo:Seunghoon" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/y/Yang:Hongseok" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/y/Yi:Kwangkeun" />
+</dblp:Person>
+<rdf:Description rdf:about="https://dblp.org/pers/o/Oh:Hakjoo.rdf">
+<rdfs:label>provenance information for RDF data of dblp person &apos;o/Oh:Hakjoo&apos;</rdfs:label>
+<dcterms:creator rdf:resource="https://dblp.org" />
+<dcterms:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dcterms:license rdf:resource="https://opendatacommons.org/licenses/by/1.0/" />
+<dcterms:modified>2019-02-16T22:38:03+0100</dcterms:modified>
+</rdf:Description>
+</rdf:RDF>

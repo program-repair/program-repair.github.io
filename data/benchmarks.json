@@ -1,7 +1,31 @@
 [
     {
+	"name": "Bears",
+	"description": "an extensible Java bug benchmark for automatic program repair studies",
+	"url": "https://bears-bugs.github.io/bears-benchmark",
+	"repo": "https://github.com/bears-bugs/bears-benchmark",
+	"target": "Java",
+	"dblp": "conf/wcre/DelfimUMM19"
+    },    
+    {
+	"name": "DroixBench",
+	"description": "a collection of 24 reproducible crashes in open-source Android apps",
+	"url": "https://droix2017.github.io/",
+	"repo": "https://github.com/stan6/droixbench",
+	"target": "Android",
+	"dblp": "conf/icse/TanDGR18"
+    },
+    {
+	"name": "Bugs.jar",
+	"description": "a large-scale, diverse dataset of bugs for Java program repair",
+	"url": "https://github.com/bugs-dot-jar/bugs-dot-jar",
+	"repo": "https://github.com/bugs-dot-jar/bugs-dot-jar",
+	"target": "Java",
+	"dblp": "conf/msr/SahaLLYP18"
+    },    
+    {
 	"name": "QuixBugs",
-	"description": "A parallel corpus of 40 programs in both Python and Java, each with a bug on one line",
+	"description": "a parallel corpus of 40 programs in both Python and Java, each with a bug on one line",
 	"url": "https://jkoppel.github.io/QuixBugs/",
 	"repo": "https://github.com/jkoppel/QuixBugs",
   "dblp": "conf/oopsla/LinKCS17",
@@ -44,21 +68,5 @@
 	"repo": "https://github.com/rjust/defects4j",
 	"target": "Java",
 	"dblp": "conf/issta/JustJE14"
-    },
-    {
-	"name": "DroixBench",
-	"description": "a collection of 24 reproducible crashes in open-source Android apps",
-	"url": "https://droix2017.github.io/",
-	"repo": "https://github.com/stan6/droixbench",
-	"target": "Android",
-	"dblp": "conf/icse/TanDGR18"
-    },
-    {
-	"name": "Bugs.jar",
-	"description": "a large-scale, diverse dataset of bugs for Java program repair",
-	"url": "https://github.com/bugs-dot-jar/bugs-dot-jar",
-	"repo": "https://github.com/bugs-dot-jar/bugs-dot-jar",
-	"target": "Java",
-	"dblp": "conf/msr/SahaLLYP18"
     }
 ]

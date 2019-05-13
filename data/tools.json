@@ -1,5 +1,29 @@
 [
     {
+	"name": "AVATAR",
+	"description": "fixing Java bugs by the fix patterns of static analysis violations (FindBugs violations)",
+	"url": "https://github.com/SerVal-DTF/AVATAR",
+	"repo": "https://github.com/SerVal-DTF/AVATAR",
+	"target": "Java",
+	"dblp": "conf/wcre/LiuK0B19"
+    },
+    {
+    "name": "Repairnator",
+    "description": "software development bot that automatically repairs build failures on Travis Continuous Integration",
+    "url": "https://github.com/Spirals-Team/repairnator",
+    "repo": "https://github.com/Spirals-Team/repairnator",
+    "target": "Java",
+    "dblp": "conf/icse/UrliYSM18"
+    },
+    {
+	"name": "LSRepair",
+	"description": "fixing Java bugs by leveraging live search of fix ingredients of similar code at method level",
+	"url": "https://github.com/AutoProRepair/LSRepair",
+	"repo": "https://github.com/AutoProRepair/LSRepair",
+	"target": "Java",
+	"dblp": "conf/apsec/LiuK0B18"
+    },
+    {
         "name": "SimFix",
         "description": "fixing Java bugs by leveraging existing patches and similar code",
         "url": "https://github.com/xgdsmileboy/SimFix",
@@ -167,29 +191,5 @@
 	"repo": "https://github.com/squaresLab/genprog-code",
 	"target": "C/C++",
 	"dblp": "conf/icse/GouesDFW12"
-    },
-    {
-    "name": "Repairnator",
-    "description": "software development bot that automatically repairs build failures on Travis Continuous Integration",
-    "url": "https://github.com/Spirals-Team/repairnator",
-    "repo": "https://github.com/Spirals-Team/repairnator",
-    "target": "Java",
-    "dblp": "conf/icse/UrliYSM18"
-    },
-    {
-	"name": "LSRepair",
-	"description": "fixing Java bugs by leveraging live search of fix ingredients of similar code at method level",
-	"url": "https://github.com/AutoProRepair/LSRepair",
-	"repo": "https://github.com/AutoProRepair/LSRepair",
-	"target": "Java",
-	"dblp": "conf/apsec/LiuK0B18"
-    },
-    {
-	"name": "AVATAR",
-	"description": "fixing Java bugs by the fix patterns of static analysis violations (FindBugs violations)",
-	"url": "https://github.com/SerVal-DTF/AVATAR",
-	"repo": "https://github.com/SerVal-DTF/AVATAR",
-	"target": "Java",
-	"dblp": "conf/wcre/LiuK0B19"
     }
 ]

@@ -1,4 +1,6 @@
 conf/wcre/LiuK0B19
+conf/wcre/DelfimUMM19
+conf/wcre/WhiteTMMP19
 journals/ese/YuMDDM19
 conf/msr/SotoG18
 conf/msr/SahaLLYP18
@@ -78,6 +80,7 @@ conf/icse/RolimSDPGGSH17
 conf/icse/AdamsenMKSTS17
 conf/icse/XiongWYZH0017
 journals/tse/XuanMDCMDBM17
+conf/oopsla/PuNSB16
 conf/dsn/WeimerFKGH16
 conf/kbse/GaoWL16
 conf/sac/YanSCX16
@@ -145,6 +148,7 @@ conf/sas/SamantaOE14
 conf/issta/JustJE14
 conf/dsn/ShawDH14
 conf/issta/AlkhalafAB14
+conf/pldi/SinghGS13
 conf/musepat/KelkJB13
 conf/ndss/SonMS13
 conf/icsm/QiML13

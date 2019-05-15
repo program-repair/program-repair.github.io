@@ -1,7 +1,7 @@
 ---
 name: Add new benchmark
 about: To get the DBLP key, find the publication on dblp.org, and hover mouse over
-  "export record"
+  "export record".
 title: ''
 labels: ''
 assignees: ''

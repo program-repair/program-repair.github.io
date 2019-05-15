@@ -1,7 +1,7 @@
 ---
 name: Add new community project
 about: Community project is a separately maintained static webpage with information
-  about program repair
+  about program repair.
 title: ''
 labels: ''
 assignees: ''

@@ -23,7 +23,7 @@ If you would like to maintain a community project under program-repair.org GitHu
 
 ## Contributing via GitHub Issues ##
 
-To submit a new publication via GitHub issues, please provide its dblp key. The dplp key can be found on dblp.org (find the publication and click `export record -> dblp key`). To submit a new tool or benchmark, please provide the dbpl key of its corresponding publication.
+To submit a new publication via GitHub issues, please provide its DBLP key. To get the DBLP key, find the publication on dblp.org, and hover mouse over "export record". To submit a new tool or benchmark, please provide the DBLP key of its corresponding publication.
 
 ## Contributing via pull requests ##
 

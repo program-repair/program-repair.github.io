@@ -1,6 +1,8 @@
 ---
 name: Publication
-about: Add a new program repair publication to the bibliography section
+about: Add a new program repair publication to the bibliography section. To get the
+  publication DBLP key, find the publication on dblp.org, and hover mouse over "export
+  record"
 title: ''
 labels: ''
 assignees: ''

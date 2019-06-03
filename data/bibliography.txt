@@ -192,6 +192,7 @@ conf/kbse/DanielJDM09
 conf/icse/Arcuri08
 conf/fmcad/SamantaDE08
 conf/cec/ArcuriY08
+journals/cacm/NovarkBZ08
 conf/pldi/NovarkBZ07
 conf/cav/GriesmayerBC06
 conf/gpce/Weimer06

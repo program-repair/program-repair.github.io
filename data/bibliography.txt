@@ -1,9 +1,11 @@
+conf/icst/LidO19
+conf/icst/AlameerCH19
 conf/icst/LiuKB0KT19
-conf/apsec/LiuKK0B18
 conf/wcre/LiuK0B19
 conf/wcre/DelfimUMM19
 conf/wcre/WhiteTMMP19
 journals/ese/YuMDDM19
+conf/apsec/LiuKK0B18
 conf/msr/SotoG18
 conf/msr/SahaLLYP18
 conf/sigsoft/MechtaevGCR18

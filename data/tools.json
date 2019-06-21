@@ -85,7 +85,14 @@
 	"repo": "https://github.com/Spirals-Team/npefix",
 	"target": "Java",
 	"dblp": "conf/wcre/DurieuxCSM17"
-    },
+	},
+	{
+		"name": "Genesis",
+		"description": "system that automatically infers sets of code transforms for automatic patch generation",
+		"url": "http://groups.csail.mit.edu/pac/patchgen/",
+		"target": "Java",
+		"dblp": "conf/sigsoft/LongAR17"
+		},	
     {
 	"name": "CoderAssist",
 	"description": "system for feedback generation",
@@ -121,7 +128,7 @@
     {
 	"name": "Prophet",
 	"description": "automated program repair that learns from correct patches",
-	"url": "http://groups.csail.mit.edu/pac/prophet/",
+	"url": "http://groups.csail.mit.edu/pac/patchgen/",
 	"target": "C/C++",
 	"dblp": "conf/popl/LongR16"
     },
@@ -150,14 +157,14 @@
     {
 	"name": "Kali",
 	"description": "generate-and-validate patch generation system that only deletes functionality",
-	"url": "http://groups.csail.mit.edu/pac/kali/",
+	"url": "http://groups.csail.mit.edu/pac/patchgen/",
 	"target": "C/C++",
 	"dblp": "conf/issta/QiLAR15"
     },
     {
 	"name": "SPR",
 	"description": "automated program repair tool with condition synthesis",
-	"url": "http://rhino.csail.mit.edu/spr-rep/",
+	"url": "http://groups.csail.mit.edu/pac/patchgen/",
 	"target": "C/C++",
 	"dblp": "conf/sigsoft/LongR15"
     },

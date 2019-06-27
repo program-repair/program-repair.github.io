@@ -38,6 +38,22 @@
 	"repo": "https://github.com/AutoProRepair/LSRepair",
 	"target": "Java",
 	"dblp": "conf/apsec/LiuKK0B18"
+	},
+	{
+        "name": "SketchFix",
+        "description": "automatic program repair with on-demand candidate generation",
+        "url": "https://github.com/SketchFix/SketchFix",
+        "repo": "https://github.com/SketchFix/SketchFix",
+        "target": "Java",
+        "dblp": "conf/icse/HuaZWK18"
+    },
+	{
+        "name": "Footpatch",
+        "description": "static automated program repair for heap properties",
+        "url": "https://github.com/squaresLab/footpatch",
+        "repo": "https://github.com/squaresLab/footpatch",
+        "target": "Multilingual",
+        "dblp": "conf/icse/TonderG18"
     },
     {
         "name": "SimFix",

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2017-04-18#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1" xmlns:bibtex="http://data.bibbase.org/ontology/#">
+<dblp:Person rdf:about="https://dblp.org/pers/k/Kasikci:Baris">
+<dblp:primaryFullPersonName>Baris Kasikci</dblp:primaryFullPersonName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/micro/BulckMWGKPSWYS19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/asplos/GallagherBCAYAH19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/hotos/MaGJKKS19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/pldi/KhanZPMK19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ccs/KasikciS18" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/iccad/AustinBKMT18" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/osdi/CuiGKNSWY18" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/usenix/ThalheimBFK18" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/uss/BulckMWGKPSWYS18" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sosp/KasikciCGN17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/toplas/KasikciZC15" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/hotos/KasikciPPSMC15" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sosp/KasikciSPPC15" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/usenix/KasikciBCEM14" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/hotos/ZamfirKKBC13" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sosp/KasikciZC13" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/asplos/KasikciZC12" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/hotdep/KasikciZC12" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/a/Aga:Misiker_Tadesse" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/a/Austin:Todd_M=" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/a/Aweke:Zelalem_Birhanu" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/b/Ball:Thomas" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/b/Bertacco:Valeria" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/b/Bhatotia:Pramod" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/b/Biernacki:Lauren" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/b/Bugnion:Edouard" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/b/Bulck:Jo_Van" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/c/Candea:George" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/c/Chen:Shibo" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/c/Cui:Weidong" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/e/Erickson:John" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/f/Fonseca_0001:Pedro" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/g/Gallagher:Mark" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/g/Ge:Xinyang" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/g/Genkin:Daniel" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/g/Goel:Aman" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/h/Harris:Austin" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/j/Jeannin:Jean=Baptiste" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/k/Kapritsos:Manos" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/k/Khan:Tanvir_Ahmed" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/k/Kinder:Johannes" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/m/Ma:Haojun" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/m/Malik:Sharad" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/m/Minkin:Marina" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/m/Mozafari:Barzan" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/m/Musuvathi:Madan" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/n/Niu:Ben" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/p/Pereira:Cristiano" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/p/Piessens:Frank" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/p/Pokam:Gilles" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/s/Sakallah:Karem_A=" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/s/Schubert:Benjamin" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/s/Sharma:Upamanyu" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/s/Silberstein:Mark" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/s/Strackx:Raoul" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/t/Thalheim:J=ouml=rg" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/t/Tiwari:Mohit" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/w/Wang_0011:Ruoyu" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/w/Weisse:Ofir" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/w/Wenisch:Thomas_F=" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/x/Xu:Zhixing" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/y/Yarom:Yuval" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/y/Yitbarek:Salessawi_Ferede" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/y/Yun:Insu" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/z/Zamfir:Cristian" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/z/Zhao:Yifan" />
+</dblp:Person>
+<rdf:Description rdf:about="https://dblp.org/pers/k/Kasikci:Baris.rdf">
+<rdfs:label>provenance information for RDF data of dblp person &apos;k/Kasikci:Baris&apos;</rdfs:label>
+<dcterms:creator rdf:resource="https://dblp.org" />
+<dcterms:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dcterms:license rdf:resource="https://opendatacommons.org/licenses/by/1.0/" />
+<dcterms:modified>2019-06-10T21:43:40+0200</dcterms:modified>
+</rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2017-04-18#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1" xmlns:bibtex="http://data.bibbase.org/ontology/#">
+<dblp:Publication rdf:about="https://dblp.org/rec/journals/tse/GazzolaMM19">
+<owl:sameAs rdf:resource="https://doi.org/10.1109/TSE.2017.2755013" />
+<dblp:title>Automatic Software Repair: A Survey.</dblp:title>
+<dblp:bibtexType rdf:resource="http://data.bibbase.org/ontology/#Article" />
+<dblp:publicationType rdf:resource="https://dblp.org/rdf/schema-2017-04-18#Article" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pers/g/Gazzola:Luca" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pers/m/Micucci:Daniela" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pers/m/Mariani:Leonardo" />
+<dblp:primaryElectronicEdition rdf:resource="https://doi.org/10.1109/TSE.2017.2755013" />
+<dblp:otherElectronicEdition rdf:resource="https://www.wikidata.org/entity/Q61534617" />
+<dblp:listedOnTocPage rdf:resource="https://dblp.org/db/journals/tse/tse45" />
+<dblp:publishedInJournal>IEEE Trans. Software Eng.</dblp:publishedInJournal>
+<dblp:publishedInJournalVolume>45</dblp:publishedInJournalVolume>
+<dblp:publishedInJournalVolumeIssue>1</dblp:publishedInJournalVolumeIssue>
+<dblp:pageNumbers>34-67</dblp:pageNumbers>
+<dblp:yearOfPublication>2019</dblp:yearOfPublication>
+</dblp:Publication>
+<rdf:Description rdf:about="https://dblp.org/rec/journals/tse/GazzolaMM19.rdf">
+<rdfs:label>provenance information for RDF data of dblp record &apos;journals/tse/GazzolaMM19&apos;</rdfs:label>
+<dcterms:creator rdf:resource="https://dblp.org" />
+<dcterms:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dcterms:license rdf:resource="https://opendatacommons.org/licenses/by/1.0/" />
+<dcterms:modified>2019-06-02T21:05:49+0200</dcterms:modified>
+</rdf:Description>
+</rdf:RDF>

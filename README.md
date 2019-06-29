@@ -18,8 +18,8 @@ The website displays tools and benchmarks that
 * publicly available
 * designed for program repair
 
-The website also hosts community projects &mdash; static webpages that present some information that is useful for program repair community.
-If you would like to maintain a community project under program-repair.org GitHub organization, please create an issue.
+The website also hosts community pages &mdash; static webpages that present some information that is useful for program repair community.
+If you would like to maintain a community page under program-repair.org GitHub organization, please create an issue.
 
 ## Contributing via GitHub Issues ##
 

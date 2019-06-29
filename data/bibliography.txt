@@ -1,8 +1,16 @@
 conf/vmcai/NguyenTC19
+conf/pldi/LiLCGL19
+conf/pldi/KhanZPMK19
+conf/pldi/PerryKSZ19
+journals/tse/GazzolaMM19
+conf/icst/LidO19
+conf/icst/AlameerCH19
+conf/icst/LiuKB0KT19
 conf/wcre/LiuK0B19
 conf/wcre/DelfimUMM19
 conf/wcre/WhiteTMMP19
 journals/ese/YuMDDM19
+conf/apsec/LiuKK0B18
 conf/msr/SotoG18
 conf/msr/SahaLLYP18
 conf/sigsoft/MechtaevGCR18
@@ -28,7 +36,6 @@ conf/pldi/GulwaniRZ18
 conf/icse/ZhongM18
 conf/icse/UrliYSM18
 conf/icse/HassanW18
-conf/icse/GazzolaMM18
 conf/icse/XiongLZ0018
 conf/icse/TanDGR18
 conf/icse/LeTLG18
@@ -40,6 +47,7 @@ conf/icse/MotwaniSJB18
 conf/icse/YiTMBR18
 conf/icse/HuaZWK18
 conf/icse/WenCWHC18
+conf/icse/TimperleySG18
 journals/csur/Monperrus18
 conf/wcre/LiuZ18
 conf/wcre/MachoM018
@@ -193,6 +201,8 @@ conf/kbse/DanielJDM09
 conf/icse/Arcuri08
 conf/fmcad/SamantaDE08
 conf/cec/ArcuriY08
+journals/cacm/NovarkBZ08
+conf/pldi/NovarkBZ07
 conf/cav/GriesmayerBC06
 conf/gpce/Weimer06
 conf/cav/JobstmannGB05

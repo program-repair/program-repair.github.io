@@ -1,4 +1,9 @@
+conf/issta/GaoMR19
+conf/issta/GhanbariBZ19
+conf/issta/LiuK0B19
+conf/issta/Lou0ZH019
 conf/vmcai/NguyenTC19
+conf/cav/KolblLW19
 conf/pldi/LiLCGL19
 conf/pldi/KhanZPMK19
 conf/pldi/PerryKSZ19

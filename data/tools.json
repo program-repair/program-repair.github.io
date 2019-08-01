@@ -116,7 +116,15 @@
 	"repo": "https://bitbucket.org/iiscseal/coderassist",
 	"target": "C/C++",
 	"dblp": "conf/sigsoft/KaleeswaranSKG16"
-    },
+	},
+	{
+		"name": "AllRepair",
+		"description": "mutation-based repair tool for C programs equipped with assertions in the code",
+		"url": "https://github.com/batchenRothenberg/AllRepair",
+		"repo": "https://github.com/batchenRothenberg/AllRepair",
+		"target": "C/C++",
+		"dblp": "conf/fm/RothenbergG16"
+	},	
     {
 	"name": "Astor",
 	"description": "automatic software repair framework for Java (incl. GenProg, Kali and mutation repair for Java)",

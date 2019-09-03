@@ -15,6 +15,7 @@ conf/wcre/LiuK0B19
 conf/wcre/DelfimUMM19
 conf/wcre/WhiteTMMP19
 journals/ese/YuMDDM19
+conf/icse/AhmedKKKG18
 conf/apsec/LiuKK0B18
 conf/msr/SotoG18
 conf/msr/SahaLLYP18

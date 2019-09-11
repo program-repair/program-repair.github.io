@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2017-04-18#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1" xmlns:bibtex="http://data.bibbase.org/ontology/#">
+<dblp:Person rdf:about="https://dblp.org/pers/s/Souza:Jerffeson_Teixeira_de">
+<owl:sameAs rdf:resource="https://scholar.google.com/citations?user=9VrXXEYAAAAJ" />
+<dblp:primaryFullPersonName>Jerffeson Teixeira de Souza</dblp:primaryFullPersonName>
+<dblp:otherFullPersonName>Jerffeson Teixeira</dblp:otherFullPersonName>
+<dblp:otherFullPersonName>Jerffeson Souza</dblp:otherFullPersonName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ssbse/DantasSSC19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/iceis/SantosJANRWS18" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ssbse/SouzaASSM18" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ssbse/SouzaAYSS18" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/ase/AraujoPYDS17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/infsof/FerreiraVS17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/jbcs/SaraivaADYS17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/asc/FerreiraADS16" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ssbse/DreytonADSS16" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ssbse/RoqueADSS16" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ssbse/VelosoODS16" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/jss/PaixaoS15" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ssbse/DreytonADFS15" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ssbse/DantasYAS15" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/ese/FraserS14" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/jserd/AssuncaoBCDPSV14" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/tedu/GuerraSF13" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/gecco/PaixaoS13" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ssbse/PaixaoS13" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/ijesdf/DamascenoTC12" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icaart/FeitosaAGLCS12" />
+<dblp:editorOf rdf:resource="https://dblp.org/rec/conf/ssbse/2012" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/iceis/BrasilSFSC11" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/iceis/BrasilSFSC11a" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icgs3/MeloTC11" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ssbse/FreitasS11" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ssbse/LimaFCS11" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ssbse/SouzaMFCB11" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ssbse/FreitasSCS11" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/advse/MaiaCFCS10" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icmla/CarmoFS10" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/laser/HarmanMSY10" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sugarloafplop/SouzaAF10" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sugarloafplop/FreitasAMS10" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sugarloafplop/AndradeFAS10" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sbes/ColaresSCPM09" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/algorithmica/SouzaMJ06" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/pkdd/SouzaJM05" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/a/Andrade:Dalmo_D=_J=" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/a/Andrade:Rossana_M=_de_Castro" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/a/Andrade:Tarciane_de_C=" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/a/Ara=uacute=jo:Allysson_Allex" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/a/Assun=ccedil==atilde=o:Wesley_Klewerton_Guez" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/b/Barros:M=aacute=rcio_de_Oliveira" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/b/Brasil:M=aacute=rcia_Maria_Albuquerque" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/c/Camilo=Junior:Celso_G=" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/c/Campos:Gustavo_A=_L=" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/c/Campos:Gustavo_Augusto_Lima_de" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/c/Campos:Gutavo" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/c/Carmo:Rafael_Augusto_Ferreira_do" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/c/Colanzi:Thelma_Elita" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/c/Colares:Felipe" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/c/Cort=eacute=s:Mariela_In=eacute=s" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/d/Dantas:Altino" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/d/Dias=Neto:Arilo_Claudio" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/d/Dreyton:Duany" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/f/Feitosa:Robson_Gon=ccedil=alves_Fechine" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/f/Fernandes:Clovis_Torres" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/f/Ferreira:Thiago_do_Nascimento" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/f/Fraser:Gordon" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/f/Freitas:=Aacute=tila" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/f/Freitas:Fabricio_Gomes_de" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/g/Gon=ccedil=alves:Enyo_Jos=eacute=_Tavares" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/g/Guerra:Eduardo_Martins" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/h/Harman:Mark" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/j/Japkowicz:Nathalie" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/j/Junior:Evil=aacute=sio_Costa" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/l/Lacerda:Yuri_Almeida" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/l/Lima:Dayvison_Chaves" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/m/Maia:Camila_Loiola_Brito" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/m/Mateus:Geraldo_Robson" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/m/Matwin:Stan" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/m/McMinn:Phil" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/m/Melo:Marcelo_Damasceno_de" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/n/Neto:Pedro_de_Alc=acirc=ntara_dos_Santos" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/o/Oliveira:Thiago" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/p/P=aacute=dua:Clarindo_Isa=iacute=as_Pereira_da_Silva_e" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/p/Paix=atilde=o:Matheus" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/r/Rocha:Leonardo_Sampaio" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/r/Roque:Lucas" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/s/Santos:Ismayle_de_Sousa" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/s/Saraiva:Raphael" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/s/Silva:Thiago_Gomes_Nepomuceno_da" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/s/Soares:Pamella" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/s/Souza:Eduardo_Faria_de" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/v/Veloso:Vanessa" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/v/Vergilio:Silvia_Regina" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/w/Werner:Cl=aacute=udia_Maria_Lima" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/y/Yeltsin:Italo" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/y/Yoo:Shin" />
+</dblp:Person>
+<rdf:Description rdf:about="https://dblp.org/pers/s/Souza:Jerffeson_Teixeira_de.rdf">
+<rdfs:label>provenance information for RDF data of dblp person &apos;s/Souza:Jerffeson_Teixeira_de&apos;</rdfs:label>
+<dcterms:creator rdf:resource="https://dblp.org" />
+<dcterms:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dcterms:license rdf:resource="https://opendatacommons.org/licenses/by/1.0/" />
+<dcterms:modified>2019-08-28T00:20:34+0200</dcterms:modified>
+</rdf:Description>
+</rdf:RDF>

@@ -1,4 +1,11 @@
 [
+	{
+		"name": "BugSwarm",
+		"description": "a dataset of thousands of real software bugs and their fixes",
+		"url": "http://www.bugswarm.org/",
+		"target": "Multilingual",
+		"dblp": "conf/icse/DmeiriTWBLDVR19"
+	},
     {
 	"name": "Bears",
 	"description": "an extensible Java bug benchmark for automatic program repair studies",
@@ -6,7 +13,7 @@
 	"repo": "https://github.com/bears-bugs/bears-benchmark",
 	"target": "Java",
 	"dblp": "conf/wcre/DelfimUMM19"
-    },    
+    },
     {
 	"name": "DroixBench",
 	"description": "a collection of 24 reproducible crashes in open-source Android apps",

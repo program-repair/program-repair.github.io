@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2017-04-18#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1" xmlns:bibtex="http://data.bibbase.org/ontology/#">
+<dblp:Person rdf:about="https://dblp.org/pers/r/Rubio=Gonz=aacute=lez:Cindy">
+<dblp:primaryFullPersonName>Cindy Rubio-Gonz&#225;lez</dblp:primaryFullPersonName>
+<dblp:primaryAffiliation>University of California, Davis, USA</dblp:primaryAffiliation>
+<dblp:primaryHomepage rdf:resource="http://web.cs.ucdavis.edu/~rubio/" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/DmeiriTWBLDVR19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sigsoft/DeFreezBRT19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-1903-06725" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/DeFreezTR18" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/issta/GuoR18" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sigsoft/DeFreezTR18" />
+<dblp:editorOf rdf:resource="https://dblp.org/rec/conf/sc/2018correctness" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-1802-07779" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/issta/CasalnuovoSRR17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/kbse/FrancoGR17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sigsoft/DevanbuKRV17" />
+<dblp:editorOf rdf:resource="https://dblp.org/rec/conf/sc/2017correctness" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/dagstuhl-reports/DarulovaDRR17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/Rubio-Gonzalez016" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/WeissRL15" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/nfm/ArltRRSS14" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/oopsla/GalensonRCG14" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sc/Rubio-GonzalezNNDKSBIH13" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/issta/Rubio-GonzalezL11" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sas/GodefroidLR11" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/paste/Rubio-GonzalezL10" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/pldi/Rubio-GonzalezGLAA09" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/fast/GunawiRAAL08" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/a/Arlt:Stephan" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/a/Arpaci=Dusseau:Andrea_C=" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/a/Arpaci=Dusseau:Remzi_H=" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/b/Bailey:David_H=" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/b/Baldwin:Haaken_Martinson" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/b/Bhowmick:Antara" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/c/Casalnuovo:Casey" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/c/Chasins:Sarah" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/d/Darulova:Eva" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/d/DeFreez:Daniel" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/d/Demmel:James" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/d/Devanbu:Premkumar_T=" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/d/Dmeiri:Naji" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/d/Donaldson:Alastair_F=" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/f/Franco:Anthony_Di" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/g/Galenson:Joel" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/g/Godefroid:Patrice" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/g/Gong:Liang" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/g/Gunawi:Haryadi_S=" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/g/Guo:Hui" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/h/Hough:David" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/i/Iancu:Costin" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/k/Kahan:William" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/k/Kudigrama:Pallavi" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/l/Laguna:Ignacio" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/l/Lahiri:Shuvendu_K=" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/l/Lavrijsen:Wim_T=_L=_P=" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/l/Liblit:Ben" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/l/Liu:Yen=Chuan" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/m/Mehne:Benjamin" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/n/Nguyen_0001:Cuong" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/n/Nguyen:Hong_Diep" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/r/Rakamaric:Zvonimir" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/r/Ray:Baishakhi" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/r/R=uuml=mmer:Philipp" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/s/Sch=auml=f:Martin" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/s/Sen:Koushik" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/s/Shankar:Natarajan" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/s/Suchak:Yagnik" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/t/Thakur:Aditya_V=" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/t/Tomassi:David_A=" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/v/Vasilescu:Bogdan" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/w/Wang:Yichen" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/w/Weiss:Cathrin" />
+</dblp:Person>
+<rdf:Description rdf:about="https://dblp.org/pers/r/Rubio=Gonz=aacute=lez:Cindy.rdf">
+<rdfs:label>provenance information for RDF data of dblp person &apos;r/Rubio=Gonz=aacute=lez:Cindy&apos;</rdfs:label>
+<dcterms:creator rdf:resource="https://dblp.org" />
+<dcterms:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dcterms:license rdf:resource="https://opendatacommons.org/licenses/by/1.0/" />
+<dcterms:modified>2019-08-30T23:26:17+0200</dcterms:modified>
+</rdf:Description>
+</rdf:RDF>

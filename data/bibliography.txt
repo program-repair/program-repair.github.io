@@ -1,3 +1,10 @@
+conf/icse/DmeiriTWBLDVR19
+conf/icse/MaozRS19
+conf/icse/GhorbaniGM19
+conf/icse/LeB00LP19
+conf/icse/XuSYX19
+conf/icse/ZhangHMBLU19
+conf/icse/SahaSP19
 conf/issta/GaoMR19
 conf/issta/GhanbariBZ19
 conf/issta/LiuK0B19

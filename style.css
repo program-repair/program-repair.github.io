@@ -27,3 +27,16 @@
 tr.spaceUnder > td {
   padding-bottom: 0.5rem;
 }
+
+.portrait {
+    width: 60px;
+    height: 60px;
+}
+
+.affiliation {
+    font-size: 80%;
+    margin-bottom: 0;
+}
+
+
+

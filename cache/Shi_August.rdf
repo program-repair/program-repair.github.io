@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2017-04-18#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1" xmlns:bibtex="http://data.bibbase.org/ontology/#">
+<dblp:Person rdf:about="https://dblp.org/pers/s/Shi:August">
+<dblp:primaryFullPersonName>August Shi</dblp:primaryFullPersonName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/pacmpl/ShiHZML19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/hpdc/KrafczykSBMS19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/ZhuLSG19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icst/HaririSFMM19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icst/LamOSM019" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/issta/Shi0M19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sigsoft/ShiLO0M19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/GroceHMSZ18" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icst/HaririSLGKM18" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/issta/ShiGMZM18" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/kbse/HaririS18" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/GligoricKMS17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/ShiTLBC17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/kbse/LegunsenSM17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icst/ShiGLM16" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/issre/HaririSCKM16" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/kbse/AlipourSGMG16" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sigsoft/LegunsenHSLZM16" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sigsoft/GyoriLSLM16" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/issta/GyoriSHM15" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sigsoft/ShiYGM15" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sbac-pad/GranSTG14" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sigsoft/ShiGGZM14" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/a/Alipour:Mohammad_Amin" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/b/Bell_0001:Jonathan" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/b/Bhaskar:Adhithya" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/b/Bj=oslash=rner:Nikolaj" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/c/Converse:Hayes" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/c/Czerwonka:Jacek" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/f/Fernando:Vimuth" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/g/Garzar=aacute=n:Mar=iacute=a_Jes=uacute=s" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/g/Gligoric:Milos" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/g/Gopinath:Rahul" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/g/Groce:Alex" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/g/Gyori:Alex" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/h/Hadzi=Tanovic:Milica" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/h/Hariri:Farah" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/h/Holmes:Josie" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/k/Khurshid:Sarfraz" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/k/Krafczyk:Matthew" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/l/Lahiri:Shuvendu_K=" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/l/Lam:Wing" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/l/Lambeth:Ben" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/l/Legunsen:Owolabi" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/l/Lu:Yafeng" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/m/Mahmood:Suleman" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/m/Marinov:Darko" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/m/Misailovic:Sasa" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/o/Oei:Reed" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/s/Stodden:Victoria" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/t/Tejero:Ruben_Gran" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/t/Thummalapenta:Suresh" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/t/Totoni:Ehsan" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/x/Xie_0001:Tao" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/y/Yung:Tifany" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/z/Zaytsev:Andrey" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/z/Zhang:Lingming" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/z/Zhao:Peiyuan" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/z/Zhu:Chenguang" />
+</dblp:Person>
+<rdf:Description rdf:about="https://dblp.org/pers/s/Shi:August.rdf">
+<rdfs:label>provenance information for RDF data of dblp person &apos;s/Shi:August&apos;</rdfs:label>
+<dcterms:creator rdf:resource="https://dblp.org" />
+<dcterms:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dcterms:license rdf:resource="https://opendatacommons.org/licenses/by/1.0/" />
+<dcterms:modified>2019-10-22T23:10:21+0200</dcterms:modified>
+</rdf:Description>
+</rdf:RDF>

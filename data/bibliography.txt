@@ -1,3 +1,8 @@
+conf/sigsoft/ShiLO0M19
+conf/sigsoft/DurieuxDMA19
+conf/sigsoft/KoyuncuLB0MKT19
+conf/sigsoft/BavishiYP19
+conf/sigsoft/0001RJGA19
 conf/ssbse/DantasSSC19
 conf/icse/DmeiriTWBLDVR19
 conf/icse/MaozRS19

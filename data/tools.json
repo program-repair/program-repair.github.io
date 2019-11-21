@@ -1,4 +1,12 @@
 [
+	{
+		"name": "kGenProg",
+		"description": "automated program repair tool written in Java for Java",
+		"url": "https://github.com/kusumotolab/kGenProg",
+		"repo": "https://github.com/kusumotolab/kGenProg",
+		"target": "Java",
+		"dblp": "conf/apsec/HigoMATNMTK18"
+	},
     {
 	"name": "kPAR",
 	"description": "Java implementation of PAR: fixing Java bugs with pre-defined fix patterns",

@@ -1,17 +1,10 @@
 .bg {
-    background:url(bg.jpg) no-repeat center;
-    background-size:cover;
-    border:none;
+    background-image: linear-gradient(to right, #667db6,#0082c8,#0082c8,#667db6);
     border-radius: 0 !important;
 }
 
-.aprbg {
-    background-size:cover;
-    border:none;
+.aprgb {
     border-radius: 0 !important;
-    background-color:#22295c;
-    padding-top: 30px;
-    padding-bottom: 30px;
 }
 
 .bg h1, .bg p {
@@ -37,6 +30,7 @@ tr.spaceUnder > td {
     font-size: 80%;
     margin-bottom: 0;
 }
+
 
 
 

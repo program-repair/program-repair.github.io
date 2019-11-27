@@ -70,43 +70,17 @@
         <mj-text font-size="18px" color="#0082c8" font-family="helvetica">
           Organizing Committee
         </mj-text>
-      </mj-column>
-    </mj-section>
-    <mj-section padding-top="0">
-      <mj-column>
-        <mj-image width="100px" src="http://program-repair.org/workshop-2020/shinhwei.jpg"/>
         <mj-text font-size="14px" line-height="120%" font-family="helvetica" padding-bottom="0">
-            <strong>Shin Hwei Tan</strong>
+            Shin Hwei Tan, <em>Southern University of Science and Technology, China</em>
         </mj-text>
-        <mj-text font-size="14px" line-height="120%" font-family="helvetica">
-            Southern University of Science and Technology, China
-        </mj-text>
-      </mj-column>
-      <mj-column>
-        <mj-image width="100px" src="http://program-repair.org/workshop-2020/sergey.jpg"/>
         <mj-text font-size="14px" line-height="120%" font-family="helvetica" padding-bottom="0">
-            <strong>Sergey Mechtaev</strong>
+            Sergey Mechtaev, <em>University College London, UK</em>
         </mj-text>
-        <mj-text font-size="14px" line-height="120%" font-family="helvetica">
-            University College London, UK
-        </mj-text>
-      </mj-column>
-      <mj-column>
-        <mj-image width="100px" src="http://program-repair.org/workshop-2020/martin.jpg"/>
         <mj-text font-size="14px" line-height="120%" font-family="helvetica" padding-bottom="0">
-            <strong>Martin Monperrus</strong>
+            Martin Monperrus, <em>KTH Royal Institute of Technology, Sweden</em>
         </mj-text>
-        <mj-text font-size="14px" line-height="120%" font-family="helvetica">
-            KTH Royal Institute of Technology, Sweden
-        </mj-text>
-      </mj-column>
-      <mj-column>
-        <mj-image width="100px" src="http://program-repair.org/workshop-2020/mukul.jpg"/>
         <mj-text font-size="14px" line-height="120%" font-family="helvetica" padding-bottom="0">
-            <strong>Mukul Prasad</strong>
-        </mj-text>
-        <mj-text font-size="14px" line-height="120%" font-family="helvetica">
-            Fujitsu Labs of America, USA
+            Mukul Prasad, <em>Fujitsu Labs of America, USA</em>
         </mj-text>
       </mj-column>
     </mj-section>

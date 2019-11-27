@@ -38,7 +38,7 @@
         <mj-text font-size="18px" color="#0082c8" font-family="helvetica">
           Important Dates
         </mj-text>
-        <mj-table>
+        <mj-table font-size="14px" line-height="120%" font-family="helvetica">
           <tr>
             <td>Submission deadline</td>
             <td>January 22, 2020</td>
@@ -59,7 +59,7 @@
         <mj-text font-size="18px" color="#0082c8" font-family="helvetica">
           Submission
         </mj-text>
-        <mj-text font-size="14px" line-height="120%" font-family="helvetica">
+        <mj-text font-size="14px" font-family="helvetica">
         We elicit the following types of papers:
           <ul>
             <li><strong>Research papers (8 pages inc. references)</strong>: technical research, experience reports, empirical studies, etc.</li>
@@ -70,18 +70,24 @@
         <mj-text font-size="18px" color="#0082c8" font-family="helvetica">
           Organizing Committee
         </mj-text>
-        <mj-text font-size="14px" line-height="120%" font-family="helvetica" padding-bottom="0">
-            Shin Hwei Tan, <em>Southern University of Science and Technology, China</em>
-        </mj-text>
-        <mj-text font-size="14px" line-height="120%" font-family="helvetica" padding-bottom="0">
-            Sergey Mechtaev, <em>University College London, UK</em>
-        </mj-text>
-        <mj-text font-size="14px" line-height="120%" font-family="helvetica" padding-bottom="0">
-            Martin Monperrus, <em>KTH Royal Institute of Technology, Sweden</em>
-        </mj-text>
-        <mj-text font-size="14px" line-height="120%" font-family="helvetica" padding-bottom="0">
-            Mukul Prasad, <em>Fujitsu Labs of America, USA</em>
-        </mj-text>
+        <mj-table font-size="14px" line-height="120%" font-family="helvetica">
+          <tr>
+            <td>Shin Hwei Tan</td>
+            <td>Southern University of Science and Technology, China</td>
+          </tr>
+          <tr>
+            <td>Sergey Mechtaev</td>
+            <td>University College London, UK</td>
+          </tr>
+          <tr>
+            <td>Martin Monperrus</td>
+            <td>KTH Royal Institute of Technology, Sweden</td>
+          </tr>
+          <tr>
+            <td>Mukul Prasad</td>
+            <td>Fujitsu Labs of America, USA</td>
+          </tr>
+        </mj-table>
       </mj-column>
     </mj-section>
 

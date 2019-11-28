@@ -21,7 +21,7 @@
   <body>
 
     <nav class="navbar navbar-expand-md navbar-light bg-light">
-      <a class="navbar-brand" href="index.html"><i class="fa fa-cogs"></i> PROGRAM-REPAIR.ORG</a>
+      <a class="navbar-brand" href="index.html"><i class="fas fa-cogs"></i> PROGRAM-REPAIR.ORG</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -43,10 +43,16 @@
           <li class="nav-item">
             <a class="nav-link" href="pages.html">Pages</a>
           </li>
+          <li class="nav-item">
+              <a class="nav-link" href="statistics.html">Statistics</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="workshop-2020/">Workshop</span></a>
+            </li>  
         </ul>
 	      <div class="btn-group" role="group">
-	  <a role="button" href="https://groups.google.com/forum/#!forum/program-repair" class="btn btn-outline-secondary"><i class="fa fa-comments" aria-hidden="true"></i> Mailing list</a>
-	  <a role="button" href="https://github.com/program-repair/program-repair.github.io/" class="btn btn-outline-secondary"><i class="fa fa-code-fork" aria-hidden="true"></i> Repository</a>
+	  <a role="button" href="https://groups.google.com/forum/#!forum/program-repair" class="btn btn-outline-secondary"><i class="fas fa-comments" aria-hidden="true"></i> Mailing list</a>
+	  <a role="button" href="https://github.com/program-repair/program-repair.github.io/" class="btn btn-outline-secondary"><i class="fas fa-code-branch" aria-hidden="true"></i> Repository</a>
 	</div>
       </div>
     </nav>
@@ -57,7 +63,8 @@
         <h1 class="h1">program-repair.org</h1>
 	      <div class="row">
           <div class="col-md-10 col-sm-12 col-lg-8">
-            <p class="lead">Community-driven effort to facilitate discovery, access and systematization of data related to automated program repair research</p>
+            <p class="lead">Community-driven effort to facilitate discovery, access and systematization of data related to <a class="text-light dotted-underline" href="https://en.wikipedia.org/wiki/Automatic_bug_fixing">
+           automated program repair</a> research</p>
           </div>
         </div>
       </div>
@@ -68,12 +75,12 @@
       <div class="row">
         <div class="col-md-6">
           <h2>Bibliography</h2>
-	  <p><a id="journals_pacmpl_BaderSP019" href="https://doi.org/10.1145/3360585">Getafix: learning to fix bugs automatically</a></br>Johannes Bader, Andrew C. Scott, Michael Pradel, Satish Chandra</br>PACMPL 3(OOPSLA): 159:1-159:27 (2019)</p>
-	  <p><a id="conf_sigsoft_ShiLO0M19" href="https://doi.org/10.1145/3338906.3338925">iFixFlakies: a framework for automatically fixing order-dependent flaky tests</a></br>August Shi, Wing Lam, Reed Oei, Tao Xie, Darko Marinov</br>ESEC/SIGSOFT FSE 2019: 545-555</p>
-	  <p><a id="conf_sigsoft_DurieuxDMA19" href="https://doi.org/10.1145/3338906.3338911">Empirical review of Java program repair tools: a large-scale experiment on 2, 141 bugs and 23, 551 repair attempts</a></br>Thomas Durieux, Fernanda Madeiral Delfim, Matias Martinez, Rui Abreu</br>ESEC/SIGSOFT FSE 2019: 302-313</p>
-	  <p><a id="conf_sigsoft_KoyuncuLB0MKT19" href="https://doi.org/10.1145/3338906.3338935">iFixR: bug report driven program repair</a></br>Anil Koyuncu, Kui Liu, Tegawend&#233; F. Bissyand&#233;, Dongsun Kim, Martin Monperrus, Jacques Klein, Yves Le Traon</br>ESEC/SIGSOFT FSE 2019: 314-325</p>
-	  <p><a id="conf_sigsoft_BavishiYP19" href="https://doi.org/10.1145/3338906.3338952">Phoenix: automated data-driven synthesis of repairs for static analysis violations</a></br>Rohan Bavishi, Hiroaki Yoshida, Mukul R. Prasad</br>ESEC/SIGSOFT FSE 2019: 613-624</p>
-	  <p><a id="conf_sigsoft_0001RJGA19" href="https://doi.org/10.1145/3338906.3340455">DeepDelta: learning to repair compilation errors</a></br>Ali Mesbah, Andrew C. Rice, Emily Johnston, Nick Glorioso, Edward Aftandilian</br>ESEC/SIGSOFT FSE 2019: 925-936</p>
+	  <p><a id="conf_iclr_VasicKMBS19" href="https://openreview.net/forum?id=ByloJ20qtm">Neural Program Repair by Jointly Learning to Localize and Repair</a></br>Marko Vasic, Aditya Kanade, Petros Maniatis, David Bieber, Rishabh Singh</br>ICLR (Poster) 2019</p>
+	  <p><a id="journals_tosem_TufanoWBPWP19" href="https://doi.org/10.1145/3340544">An Empirical Study on Learning Bug-Fixing Patches in the Wild via Neural Machine Translation</a></br>Michele Tufano, Cody Watson, Gabriele Bavota, Massimiliano Di Penta, Martin White, Denys Poshyvanyk</br>ACM Trans. Softw. Eng. Methodol. 28 (4) 2019</p>
+	  <p><a id="journals_pacmpl_YiCMJ19" href="https://doi.org/10.1145/3290369">Efficient automated repair of high floating-point errors in numerical libraries</a></br>Xin Yi, Liqian Chen, Xiaoguang Mao, Tao Ji</br>PACMPL 3 (POPL) 2019</p>
+	  <p><a id="journals_pacmpl_PanHXD19" href="https://doi.org/10.1145/3360565">Automatic repair of regular expressions</a></br>Rong Pan, Qinheping Hu, Gaowei Xu, Loris D'Antoni</br>PACMPL 3 (OOPSLA) 2019</p>
+	  <p><a id="journals_pacmpl_BaderSP019" href="https://doi.org/10.1145/3360585">Getafix: learning to fix bugs automatically</a></br>Johannes Bader, Andrew C. Scott, Michael Pradel, Satish Chandra</br>PACMPL 3 (OOPSLA) 2019</p>
+	  <p><a id="conf_sigsoft_ShiLO0M19" href="https://doi.org/10.1145/3338906.3338925">iFixFlakies: a framework for automatically fixing order-dependent flaky tests</a></br>August Shi, Wing Lam, Reed Oei, Tao Xie, Darko Marinov</br>ESEC/SIGSOFT FSE 2019</p>
 	  <p><a class="btn btn-secondary" href="bibliography.html" role="button">View all &raquo;</a></p>
         </div>
         <div class="col-md-6">
@@ -101,8 +108,8 @@
       </footer>
     </div> <!-- /container -->
 
-    <script src="https://use.fontawesome.com/6b17e985fc.js"></script>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/71e912d33e.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
         <script>

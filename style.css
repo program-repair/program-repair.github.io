@@ -32,5 +32,13 @@ tr.spaceUnder > td {
 }
 
 
+span.line {
+    display: inline-block;
+}
+
+a.dotted-underline {    
+    border-bottom: 1px dotted #fff;
+    text-decoration: none;
+}
 
 

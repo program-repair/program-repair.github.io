@@ -19,7 +19,7 @@
   <body>
 
     <nav class="navbar navbar-expand-md navbar-light bg-light">
-      <a class="navbar-brand" href="index.html"><i class="fa fa-cogs"></i> PROGRAM-REPAIR.ORG</a>
+      <a class="navbar-brand" href="index.html"><i class="fas fa-cogs"></i> PROGRAM-REPAIR.ORG</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -41,10 +41,16 @@
           <li class="nav-item">
             <a class="nav-link" href="pages.html">Pages</a>
           </li>
+          <li class="nav-item">
+              <a class="nav-link" href="statistics.html">Statistics</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="workshop-2020/">Workshop</span></a>
+            </li>  
         </ul>
 	<div class="btn-group" role="group">
-	  <a role="button" href="https://groups.google.com/forum/#!forum/program-repair" class="btn btn-outline-secondary"><i class="fa fa-comments" aria-hidden="true"></i> Mailing list</a>
-	  <a role="button" href="https://github.com/program-repair/program-repair.github.io/" class="btn btn-outline-secondary"><i class="fa fa-code-fork" aria-hidden="true"></i> Repository</a>
+	  <a role="button" href="https://groups.google.com/forum/#!forum/program-repair" class="btn btn-outline-secondary"><i class="fas fa-comments" aria-hidden="true"></i> Mailing list</a>
+	  <a role="button" href="https://github.com/program-repair/program-repair.github.io/" class="btn btn-outline-secondary"><i class="fas fa-code-branch" aria-hidden="true"></i> Repository</a>
 	</div>
       </div>
     </nav>
@@ -55,10 +61,15 @@
     <div class="container">
 	      <div class="row">
           <div class="col-md-6">
-            <a role="button" href="https://github.com/program-repair/program-repair.github.io/issues/new?assignees=&labels=&template=add-new-publication.md&title=" class="btn btn-outline-secondary"><i class="fa fa-plus" aria-hidden="true"></i> Add publication</a>            
+            <a role="button" href="https://github.com/program-repair/program-repair.github.io/issues/new?assignees=&labels=&template=add-new-publication.md&title=" class="btn btn-outline-secondary"><i class="fas fa-plus" aria-hidden="true"></i> Add publication</a>            
           </div>
           <div class="col-md-6">
-            <p style="text-align:right"><i class="fa fa-google" aria-hidden="true"></i> &mdash; Google Scholar, <i class="fa fa-quote-right" aria-hidden="true"></i> &mdash; BibTeX, <i class="fa fa-wrench" aria-hidden="true"></i> &mdash; tool, <i class="fa fa-bar-chart" aria-hidden="true"></i> &mdash; benchmark</p>
+            <p style="text-align:right">
+                <span class="line"><i class="fab fa-google" aria-hidden="true"></i> &mdash; Google Scholar, </span>
+                <span class="line"><i class="fas fa-quote-right" aria-hidden="true"></i> &mdash; BibTeX, </span>
+                <span class="line"><i class="fas fa-wrench" aria-hidden="true"></i> &mdash; tool, </span>
+                <span class="line"><i class="fas fa-chart-bar" aria-hidden="true"></i> &mdash; benchmark</span>
+            </p>
           </div>
         </div>
     </div>
@@ -77,13 +88,13 @@
 	{{#papers}}
 	<tr class="spaceUnder">
 	  <td style="vertical-align:top" width="10%">
-	    <a href="{{scholar}}"><i class="fa fa-google" aria-hidden="true"></i></a>
-	    <a href="{{bibtex}}"><i class="fa fa-quote-right" aria-hidden="true"></i></a>
+	    <a href="{{scholar}}"><i class="fab fa-google" aria-hidden="true"></i></a>
+	    <a href="{{bibtex}}"><i class="fas fa-quote-right" aria-hidden="true"></i></a>
 	    {{#tool}}
-	    <a href="tools.html#{{tool}}"><i class="fa fa-wrench" aria-hidden="true"></i></a>
+	    <a href="tools.html#{{tool}}"><i class="fas fa-wrench" aria-hidden="true"></i></a>
 	    {{/tool}}
 	    {{#benchmark}}
-	    <a href="benchmarks.html#{{benchmark}}"><i class="fa fa-bar-chart" aria-hidden="true"></i></a>
+	    <a href="benchmarks.html#{{benchmark}}"><i class="fas fa-chart-bar" aria-hidden="true"></i></a>
 	    {{/benchmark}}
 	  </td>
 	  <td style="vertical-align:top">
@@ -102,8 +113,8 @@
 
     </div>
     
-    <script src="https://use.fontawesome.com/6b17e985fc.js"></script>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/71e912d33e.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
   </body>

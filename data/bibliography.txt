@@ -1,3 +1,7 @@
+conf/iclr/VasicKMBS19
+journals/tosem/TufanoWBPWP19
+journals/pacmpl/YiCMJ19
+journals/pacmpl/PanHXD19
 journals/pacmpl/BaderSP019
 conf/sigsoft/ShiLO0M19
 conf/sigsoft/DurieuxDMA19
@@ -5,6 +9,7 @@ conf/sigsoft/KoyuncuLB0MKT19
 conf/sigsoft/BavishiYP19
 conf/sigsoft/0001RJGA19
 conf/ssbse/DantasSSC19
+conf/icse/MargineanBCH0MM19
 conf/icse/DmeiriTWBLDVR19
 conf/icse/MaozRS19
 conf/icse/GhorbaniGM19
@@ -29,6 +34,8 @@ conf/wcre/LiuK0B19
 conf/wcre/DelfimUMM19
 conf/wcre/WhiteTMMP19
 journals/ese/YuMDDM19
+journals/pacmpl/LeeSSO18
+conf/iclr/WangSS18
 conf/apsec/HigoMATNMTK18
 conf/icse/AhmedKKKG18
 conf/apsec/LiuKK0B18

@@ -212,7 +212,6 @@
 	"name": "RSRepair",
 	"description": "GenProg modification that uses random search",
 	"url": "http://qiyuhua.github.io/projects/rsrepair",
-	"repo": "http://qiyuhua.github.io/projects/rsrepair",
 	"target": "C/C++",
 	"dblp": "conf/icse/QiMLDW14"
     },

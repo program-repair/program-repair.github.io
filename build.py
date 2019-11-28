@@ -26,16 +26,17 @@ home_template_file = join(root_dir, 'templates', 'index.html')
 bibliography_template_file = join(root_dir, 'templates', 'bibliography.html')
 tools_template_file = join(root_dir, 'templates', 'tools.html')
 benchmarks_template_file = join(root_dir, 'templates', 'benchmarks.html')
+statistics_template_file = join(root_dir, 'templates', 'statistics.html')
 
 home_output_file = join(root_dir, 'index.html')
 bibliography_output_file = join(root_dir, 'bibliography.html')
 tools_output_file = join(root_dir, 'tools.html')
 benchmarks_output_file = join(root_dir, 'benchmarks.html')
+statistics_output_file = join(root_dir, 'statistics.html')
 
 dblp_schema = "https://dblp.org/rdf/schema-2017-04-18"
 rdf_syntax = "http://www.w3.org/1999/02/22-rdf-syntax-ns"
 title_ref = rdflib.URIRef(dblp_schema + "#title")
-pageNumbers_ref = rdflib.URIRef(dblp_schema + "#pageNumbers")
 primaryFullPersonName_ref = rdflib.URIRef(dblp_schema + "#primaryFullPersonName")
 publishedInBook_ref = rdflib.URIRef(dblp_schema + "#publishedInBook")
 publishedInJournal_ref = rdflib.URIRef(dblp_schema + "#publishedInJournal")
@@ -43,6 +44,15 @@ publishedInJournalVolume_ref = rdflib.URIRef(dblp_schema + "#publishedInJournalV
 publishedInJournalVolumeIssue_ref = rdflib.URIRef(dblp_schema + "#publishedInJournalVolumeIssue")
 yearOfPublication_ref = rdflib.URIRef(dblp_schema + "#yearOfPublication")
 primaryElectronicEdition_ref = rdflib.URIRef(dblp_schema + "#primaryElectronicEdition")
+
+# year -> num
+publications_per_year = dict()
+
+# venue -> num
+publications_per_venue = dict()
+
+# year -> {...}
+authors_per_year = dict()
 
 # meta -> {...}, analytics -> {...}, papers -> [...], tools -> [...], benchmarks -> [...]
 home = dict()
@@ -125,18 +135,14 @@ for key in tqdm.tqdm(dblp_keys):
     paper_graph = rdflib.Graph()
     paper_graph.parse(data=data, format='xml')
     title = list(paper_graph.objects(None, title_ref))[0].rstrip('.')
-    if len(list(paper_graph.objects(None, pageNumbers_ref))) > 0:
-        pageNumbers = list(paper_graph.objects(None, pageNumbers_ref))[0]
-    else:
-        pageNumbers = ""
     yearOfPublication = list(paper_graph.objects(None, yearOfPublication_ref))[0]
+    if yearOfPublication not in publications_per_year:
+        publications_per_year[yearOfPublication] = 0
+    publications_per_year[yearOfPublication] += 1
     book_results = list(paper_graph.objects(None, publishedInBook_ref))
     if len(book_results) > 0:
         venue = book_results[0]
-        if pageNumbers == "":
-            venue_details = yearOfPublication
-        else:
-            venue_details = yearOfPublication + ": " + pageNumbers
+        venue_details = yearOfPublication
     else:
         journal = list(paper_graph.objects(None, publishedInJournal_ref))[0]
         volume = list(paper_graph.objects(None, publishedInJournalVolume_ref))[0]
@@ -144,11 +150,16 @@ for key in tqdm.tqdm(dblp_keys):
         venue_details = volume
         issue_results = list(paper_graph.objects(None, publishedInJournalVolumeIssue_ref))
         if len(issue_results) > 0:
-            venue_details = venue_details + "(" + issue_results[0] + ")"
-        if pageNumbers == "":
-            venue_details = venue_details + " (" + yearOfPublication + ")"
-        else:
-            venue_details = venue_details + ": " + pageNumbers + " (" + yearOfPublication + ")"
+            venue_details = venue_details + " (" + issue_results[0] + ")"
+        venue_details = venue_details + " " + yearOfPublication
+    venue_id = str(venue)
+    if venue_id == "SIGSOFT FSE" or venue_id == "ESEC/SIGSOFT FSE":
+        venue_id = "FSE"
+    if venue_id == "IEEE Trans. Software Eng.":
+        venue_id = "TSE"
+    if venue_id not in publications_per_venue:
+        publications_per_venue[venue_id] = 0
+    publications_per_venue[venue_id] += 1
     primaryElectronicEdition = list(paper_graph.objects(None, primaryElectronicEdition_ref))[0]
     entry['title'] = title
     entry['anchor'] = key.replace('/', '_')
@@ -161,8 +172,12 @@ for key in tqdm.tqdm(dblp_keys):
     authors_nodes = publication.findall("{" + dblp_schema + "#}authoredBy")
     authors_uris = [n.attrib["{" + rdf_syntax + "#}resource"] for n in authors_nodes]
     authors = []
+    if yearOfPublication not in authors_per_year:
+        authors_per_year[yearOfPublication] = set()
     for author_uri in authors_uris:
         disassembled = urllib.parse.urlparse(author_uri)
+        if str(disassembled.path) not in authors_per_year[yearOfPublication]:
+            authors_per_year[yearOfPublication].add(str(disassembled.path))
         author_file = join(cache_dir, basename(disassembled.path).replace(':','_') + ".rdf")
         if not os.path.isfile(author_file):
             urllib.request.urlretrieve(author_uri + ".rdf", author_file)
@@ -210,6 +225,35 @@ for year in sorted_years:
     bib_list.append({ 'year': year, 'papers': sorted_by_venue })
 bibliography['bibliography'] = bib_list
 
+statistics = dict()
+all_years = sorted(publications_per_year.keys())
+all_authors = set()
+top_venues = list(k for (k,v) in sorted(publications_per_venue.items(), key=itemgetter(1), reverse=True)[:10])
+statistics["publicationsPerYear_X"] = ",".join(all_years)
+statistics["authorsPerYear_X"] = ",".join(all_years)
+statistics["newAuthorsPerYear_X"] = ",".join(all_years)
+statistics["publicationsPerVenue_X"] = ",".join("\"" + venue + "\"" for venue in top_venues)
+num_publications_per_year = []
+num_publications_per_venue = []
+for year in all_years:
+    num_publications_per_year.append(str(publications_per_year[year]))
+for venue in top_venues:
+    num_publications_per_venue.append(str(publications_per_venue[venue]))
+for year in all_years:
+    num_publications_per_year.append(str(publications_per_year[year]))
+num_new_authors_per_year = []
+num_authors_per_year = []
+for year in all_years:
+    num_authors_per_year.append(str(len(authors_per_year[year])))
+for year in all_years:
+    num_new_authors_per_year.append(str(len(authors_per_year[year].difference(all_authors))))
+    all_authors |= authors_per_year[year]
+statistics["publicationsPerYear_Y"] = ",".join(num_publications_per_year)
+statistics["publicationsPerVenue_Y"] = ",".join(num_publications_per_venue)
+statistics["authorsPerYear_Y"] = ",".join(num_authors_per_year)
+statistics["newAuthorsPerYear_Y"] = ",".join(num_new_authors_per_year)
+
+
 print("generating html")
 
 renderer = pystache.Renderer()
@@ -237,3 +281,8 @@ with open(analytics_file, 'r') as file:
     home['analytics'] = file.read()
 with open(home_output_file, 'w') as file:
     file.write(pystache.render(home_template, home))
+
+with open(statistics_template_file, 'r') as file:
+    statistics_template = file.read()
+with open(statistics_output_file, 'w') as file:
+    file.write(renderer.render(statistics_template, statistics))

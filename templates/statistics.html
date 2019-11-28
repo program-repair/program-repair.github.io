@@ -89,6 +89,10 @@
             <canvas id="newAuthorsPerYear" width="400" height="300"></canvas>
             <h6 class="text-center">Number of new authors per year</h6>
           </div>
+          <div class="col col-lg-6 col-md-12">
+            <canvas id="publicationsPerAuthor" width="400" height="300"></canvas>
+            <h6 class="text-center">Top ten most prolific authors</h6>
+          </div>
         </div>
       </div>
       <tr>
@@ -100,7 +104,7 @@
         <div class="row">
           <div class="col col-lg-6 col-md-12 margin-0 padding-0">
             <canvas id="publicationsPerVenue" width="400" height="300"></canvas>
-            <h6 class="text-center">Top ten venues by the number of publications</h6>
+            <h6 class="text-center">Top ten most popular venues</h6>
           </div>
           <div class="col col-lg-6 col-md-12">
           </div>
@@ -196,6 +200,30 @@
     });
     </script>
 <script>
+  var ctx = document.getElementById('publicationsPerAuthor').getContext('2d');
+  var publicationsPerAuthor = new Chart(ctx, {
+      type: 'horizontalBar',
+      data: {
+          labels: [{{{publicationsPerAuthor_X}}}],
+          datasets: [{
+              label: '# of publications',
+              data: [{{publicationsPerAuthor_Y}}],
+              backgroundColor: 'rgba(0,130,200,0.5)',
+              borderWidth: 0
+          }]
+      },
+      options: {
+          scales: {
+              xAxes: [{
+                  ticks: {
+                      beginAtZero: true
+                  }
+              }]
+          }
+      }
+  });
+  </script>
+<script>
     var ctx = document.getElementById('publicationsPerVenue').getContext('2d');
     var publicationsPerVenue = new Chart(ctx, {
         type: 'horizontalBar',
@@ -210,7 +238,7 @@
         },
         options: {
             scales: {
-                yAxes: [{
+                xAxes: [{
                     ticks: {
                         beginAtZero: true
                     }

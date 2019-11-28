@@ -1,20 +1,23 @@
 <mjml>
   <mj-body>
-    <mj-section>
+    <mj-section background-color="#E9ECEF">
       <mj-column>
         <mj-image width="200px"
                   src="http://program-repair.org/workshop-2020/apr20.png"/>
-        <mj-text font-size="24px" color="#0082c8" font-family="helvetica">
+        <mj-text font-size="24px" font-family="helvetica">
           1<sup>st</sup> International Workshop on Automated Program Repair (APR 2020)
         </mj-text>
-        <mj-divider border-width="2px" border-color="#0082c8"/>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
         <mj-text font-size="14px" line-height="120%" font-family="helvetica">
         We are pleased to announce the 1<sup>st</sup> International Workshop on Automated Program Repair (APR 2020) co-located with International Conference on Software Engineering (ICSE 2020), Seoul, South Korea. Automated program repair is an emerging research area that aims to reduce the time and effort spent on fixing software bugs. The recent explosive growth of works on program repair has culminated in successful deployments of program repair in industry. Despite these considerable advances, program repair still faces fundamental technological and societal challenges. This workshop will create an opportunity for the research community to coordinate its effort for addressing these challenges, share recent ideas and results, and formulate an agenda for future research. More information is available on the workshop website:
         </mj-text>
         <mj-text font-size="14px" align="center" font-family="helvetica">
           <a href="http://program-repair.org/workshop-2020/">http://program-repair.org/workshop-2020/</a>
         </mj-text>
-        <mj-text font-size="18px" color="#0082c8" font-family="helvetica">
+        <mj-text font-size="18px" font-family="helvetica">
           Topics of Interest
         </mj-text>
         <mj-text font-size="14px" line-height="120%" font-family="helvetica">
@@ -35,7 +38,7 @@
             <li>Program synthesis for program repair</li>
           </ul>
         </mj-text>
-        <mj-text font-size="18px" color="#0082c8" font-family="helvetica">
+        <mj-text font-size="18px" font-family="helvetica">
           Important Dates
         </mj-text>
         <mj-table font-size="14px" line-height="120%" font-family="helvetica">
@@ -56,7 +59,7 @@
             <td>TBA</td>
           </tr>
         </mj-table>
-        <mj-text font-size="18px" color="#0082c8" font-family="helvetica">
+        <mj-text font-size="18px" font-family="helvetica">
           Submission
         </mj-text>
         <mj-text font-size="14px" font-family="helvetica">
@@ -67,25 +70,25 @@
           </ul>
         Submissions can be made via the submission website: <a href="https://apr20.hotcrp.com">https://apr20.hotcrp.com</a>.        
         </mj-text>
-        <mj-text font-size="18px" color="#0082c8" font-family="helvetica">
+        <mj-text font-size="18px" font-family="helvetica">
           Organizing Committee
         </mj-text>
         <mj-table font-size="14px" line-height="120%" font-family="helvetica">
           <tr>
             <td>Shin Hwei Tan</td>
-            <td>Southern University of Science and Technology, China</td>
+            <td>SUSTech</td>
           </tr>
           <tr>
             <td>Sergey Mechtaev</td>
-            <td>University College London, UK</td>
+            <td>UCL</td>
           </tr>
           <tr>
             <td>Martin Monperrus</td>
-            <td>KTH Royal Institute of Technology, Sweden</td>
+            <td>KTH</td>
           </tr>
           <tr>
             <td>Mukul Prasad</td>
-            <td>Fujitsu Labs of America, USA</td>
+            <td>Fujitsu Labs of America</td>
           </tr>
         </mj-table>
       </mj-column>

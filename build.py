@@ -51,6 +51,9 @@ publications_per_year = dict()
 # venue -> num
 publications_per_venue = dict()
 
+# author_id -> (name, num)
+publications_per_author = dict()
+
 # year -> {...}
 authors_per_year = dict()
 
@@ -155,8 +158,12 @@ for key in tqdm.tqdm(dblp_keys):
     venue_id = str(venue)
     if venue_id == "SIGSOFT FSE" or venue_id == "ESEC/SIGSOFT FSE":
         venue_id = "FSE"
+    if venue_id == "CAV (1)" or venue_id == "CAV (2)":
+        venue_id = "CAV"
     if venue_id == "IEEE Trans. Software Eng.":
         venue_id = "TSE"
+    if venue_id == "ICSE (1)":
+        venue_id = "ICSE"
     if venue_id not in publications_per_venue:
         publications_per_venue[venue_id] = 0
     publications_per_venue[venue_id] += 1
@@ -187,6 +194,10 @@ for key in tqdm.tqdm(dblp_keys):
         author_graph.parse(data=author_data, format='xml')
         name = list(author_graph.objects(None, primaryFullPersonName_ref))[0]
         authors.append(name.toPython())
+        if str(disassembled.path) not in publications_per_author:
+            publications_per_author[str(disassembled.path)] = (name, 0)
+        (n, p) = publications_per_author[str(disassembled.path)]
+        publications_per_author[str(disassembled.path)] = (n, p+1)
 
     authors_str = authors[0]
     for a in authors[1:]:
@@ -229,16 +240,24 @@ statistics = dict()
 all_years = sorted(publications_per_year.keys())
 all_authors = set()
 top_venues = list(k for (k,v) in sorted(publications_per_venue.items(), key=itemgetter(1), reverse=True)[:10])
+top_authors_ids = list(k for (k,v) in sorted(publications_per_author.items(), key=(lambda x: x[1][1]), reverse=True)[:10])
+top_authors_names = []
+for id in top_authors_ids:
+    top_authors_names.append(publications_per_author[id][0])
 statistics["publicationsPerYear_X"] = ",".join(all_years)
 statistics["authorsPerYear_X"] = ",".join(all_years)
 statistics["newAuthorsPerYear_X"] = ",".join(all_years)
+statistics["publicationsPerAuthor_X"] = ",".join("\"" + venue + "\"" for venue in top_authors_names)
 statistics["publicationsPerVenue_X"] = ",".join("\"" + venue + "\"" for venue in top_venues)
 num_publications_per_year = []
 num_publications_per_venue = []
+num_publications_per_author = []
 for year in all_years:
     num_publications_per_year.append(str(publications_per_year[year]))
 for venue in top_venues:
     num_publications_per_venue.append(str(publications_per_venue[venue]))
+for id in top_authors_ids:
+    num_publications_per_author.append(str(publications_per_author[id][1]))
 for year in all_years:
     num_publications_per_year.append(str(publications_per_year[year]))
 num_new_authors_per_year = []
@@ -249,6 +268,7 @@ for year in all_years:
     num_new_authors_per_year.append(str(len(authors_per_year[year].difference(all_authors))))
     all_authors |= authors_per_year[year]
 statistics["publicationsPerYear_Y"] = ",".join(num_publications_per_year)
+statistics["publicationsPerAuthor_Y"] = ",".join(num_publications_per_author)
 statistics["publicationsPerVenue_Y"] = ",".join(num_publications_per_venue)
 statistics["authorsPerYear_Y"] = ",".join(num_authors_per_year)
 statistics["newAuthorsPerYear_Y"] = ",".join(num_new_authors_per_year)

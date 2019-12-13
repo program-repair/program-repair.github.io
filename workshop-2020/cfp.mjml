@@ -18,9 +18,10 @@
           <a href="http://program-repair.org/workshop-2020/">http://program-repair.org/workshop-2020/</a>
         </mj-text>
         <mj-text font-size="18px" font-family="helvetica">
-          Topics of Interest
+          Call for Submissions
         </mj-text>
         <mj-text font-size="14px" line-height="120%" font-family="helvetica">
+          We invite submissions that discuss recent developments in the area of automated program repair, including but not limited to the following topics:
           <ul>
             <li>Quality of automatically generated patches</li>
             <li>Scalability of program repair algorithms</li>
@@ -37,6 +38,12 @@
             <li>Debugging and program repair</li>
             <li>Program synthesis for program repair</li>
           </ul>
+        We elicit the following types of papers:
+          <ul>
+            <li><strong>Research papers (8 pages including references)</strong>: technical research, experience reports, empirical studies, etc.</li>
+            <li><strong>Position papers (2 pages incuding references)</strong>: well-argued position or work in progress.</li>
+          </ul>
+        Submissions can be made via the submission website: <a href="https://apr20.hotcrp.com">https://apr20.hotcrp.com</a>.        
         </mj-text>
         <mj-text font-size="18px" font-family="helvetica">
           Important Dates
@@ -56,20 +63,9 @@
           </tr>
           <tr>
             <td>Workshop date</td>
-            <td>TBA</td>
+            <td>1 day during ICSE (TBA)</td>
           </tr>
         </mj-table>
-        <mj-text font-size="18px" font-family="helvetica">
-          Submission
-        </mj-text>
-        <mj-text font-size="14px" font-family="helvetica">
-        We elicit the following types of papers:
-          <ul>
-            <li><strong>Research papers (8 pages inc. references)</strong>: technical research, experience reports, empirical studies, etc.</li>
-            <li><strong>Position papers (2 pages inc. references)</strong>: well-argued position or work in progress.</li>
-          </ul>
-        Submissions can be made via the submission website: <a href="https://apr20.hotcrp.com">https://apr20.hotcrp.com</a>.        
-        </mj-text>
         <mj-text font-size="18px" font-family="helvetica">
           Organizing Committee
         </mj-text>

@@ -43,7 +43,10 @@
             <li><strong>Research papers (8 pages including references)</strong>: technical research, experience reports, empirical studies, etc.</li>
             <li><strong>Position papers (2 pages incuding references)</strong>: well-argued position or work in progress.</li>
           </ul>
-        Submissions can be made via the submission website: <a href="https://apr20.hotcrp.com">https://apr20.hotcrp.com</a>.        
+        Submissions can be made via the submission website: <a href="https://apr20.hotcrp.com">https://apr20.hotcrp.com</a>.
+        </mj-text>
+        <mj-text font-size="14px" line-height="120%" font-family="helvetica">
+        The official publication date of the workshop proceedings is the date the proceedings are made available in the ACM Library. This date may be up to two weeks prior to the first day of ICSE 2020. The official publication date affects the deadline for any patent filings related to published work.
         </mj-text>
         <mj-text font-size="18px" font-family="helvetica">
           Important Dates

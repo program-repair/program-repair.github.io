@@ -1,3 +1,4 @@
+journals/jss/MartinezM19
 conf/iclr/VasicKMBS19
 journals/tosem/TufanoWBPWP19
 journals/pacmpl/YiCMJ19

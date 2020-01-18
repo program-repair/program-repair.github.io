@@ -144,6 +144,7 @@ conf/popl/LongR16
 conf/icse/CaiC16
 conf/icse/MechtaevYR16
 conf/icse/LongR16
+conf/icse/DurieuxM16
 conf/issta/WangZLXZE16
 conf/issta/MartinezM16
 conf/issta/YuSLCWB16

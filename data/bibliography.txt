@@ -242,3 +242,4 @@ conf/gpce/Weimer06
 conf/cav/JobstmannGB05
 conf/charme/StaberJB05
 conf/sp/0002LTJ19
+journals/corr/abs-1901-01808

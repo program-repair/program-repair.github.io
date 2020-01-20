@@ -30,7 +30,7 @@
 		"repo": "https://github.com/squaresLab/BugZoo",
 		"target": "Multilingual",
 		"dblp": "conf/icse/TimperleySG18"
-		},	
+		},
     {
 	"name": "Repairnator",
 	"description": "software development bot that automatically repairs build failures on Travis Continuous Integration",
@@ -116,7 +116,7 @@
 		"url": "http://groups.csail.mit.edu/pac/patchgen/",
 		"target": "Java",
 		"dblp": "conf/sigsoft/LongAR17"
-		},	
+		},
     {
 	"name": "CoderAssist",
 	"description": "system for feedback generation",
@@ -132,7 +132,7 @@
 		"repo": "https://github.com/batchenRothenberg/AllRepair",
 		"target": "C/C++",
 		"dblp": "conf/fm/RothenbergG16"
-	},	
+	},
     {
 	"name": "Astor",
 	"description": "automatic software repair framework for Java (incl. GenProg, Kali and mutation repair for Java)",
@@ -245,5 +245,13 @@
 	"repo": "https://github.com/squaresLab/genprog-code",
 	"target": "C/C++",
 	"dblp": "conf/icse/GouesDFW12"
-    }
+},
+{
+"name": "SequenceR",
+"description": "SequenceR: SequenceR: Sequence-to-Sequence Learning for End-to-End Program Repair",
+"url": "https://github.com/KTH/sequencer",
+"repo": "https://github.com/KTH/sequencer",
+"target": "Java",
+"dblp": "journals/corr/abs-1901-01808"
+}
 ]

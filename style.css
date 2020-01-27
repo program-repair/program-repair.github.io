@@ -26,6 +26,12 @@ tr.spaceUnder > td {
     height: 60px;
 }
 
+.portrait-keynote {
+    width: 120px;
+    height: 120px;
+}
+
+
 .affiliation {
     font-size: 80%;
     margin-bottom: 0;

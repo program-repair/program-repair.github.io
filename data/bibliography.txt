@@ -1,3 +1,5 @@
+conf/icse/Monperrus19
+journals/jss/MartinezM19
 conf/iclr/VasicKMBS19
 journals/tosem/TufanoWBPWP19
 journals/pacmpl/YiCMJ19
@@ -34,6 +36,8 @@ conf/wcre/LiuK0B19
 conf/wcre/DelfimUMM19
 conf/wcre/WhiteTMMP19
 journals/ese/YuMDDM19
+conf/icse/UrliYSM18
+conf/ssbse/MartinezM18
 journals/pacmpl/LeeSSO18
 conf/iclr/WangSS18
 conf/apsec/HigoMATNMTK18
@@ -140,6 +144,7 @@ conf/popl/LongR16
 conf/icse/CaiC16
 conf/icse/MechtaevYR16
 conf/icse/LongR16
+conf/icse/DurieuxM16
 conf/issta/WangZLXZE16
 conf/issta/MartinezM16
 conf/issta/YuSLCWB16
@@ -185,6 +190,7 @@ conf/sas/SamantaOE14
 conf/issta/JustJE14
 conf/dsn/ShawDH14
 conf/issta/AlkhalafAB14
+conf/icse/MartinezWM14
 conf/pldi/SinghGS13
 conf/musepat/KelkJB13
 conf/ndss/SonMS13

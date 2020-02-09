@@ -1,5 +1,13 @@
 [
 	{
+		"name": "GenPat",
+		"description": "inferring program transformation from historical bug fixes via big code",
+		"url": "https://github.com/xgdsmileboy/GenPat",
+		"repo": "https://github.com/xgdsmileboy/GenPat",
+		"target": "Java",
+		"dblp": "conf/kbse/JiangRXZ19"
+	},
+	{
 		"name": "kGenProg",
 		"description": "automated program repair tool written in Java for Java",
 		"url": "https://github.com/kusumotolab/kGenProg",

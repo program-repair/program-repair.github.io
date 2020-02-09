@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2017-04-18#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1" xmlns:bibtex="http://data.bibbase.org/ontology/#">
+<dblp:Publication rdf:about="https://dblp.org/rec/conf/sp/0002LTJ19">
+<owl:sameAs rdf:resource="https://doi.org/10.1109/SP.2019.00071" />
+<dblp:title>Using Safety Properties to Generate Vulnerability Patches.</dblp:title>
+<dblp:bibtexType rdf:resource="http://data.bibbase.org/ontology/#Inproceedings" />
+<dblp:publicationType rdf:resource="https://dblp.org/rdf/schema-2017-04-18#Inproceedings" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pers/h/Huang_0002:Zhen" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pers/l/Lie:David" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pers/t/Tan:Gang" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pers/j/Jaeger:Trent" />
+<dblp:primaryElectronicEdition rdf:resource="https://doi.org/10.1109/SP.2019.00071" />
+<dblp:listedOnTocPage rdf:resource="https://dblp.org/db/conf/sp/sp2019" />
+<dblp:publishedInBook>IEEE Symposium on Security and Privacy</dblp:publishedInBook>
+<dblp:pageNumbers>539-554</dblp:pageNumbers>
+<dblp:yearOfPublication>2019</dblp:yearOfPublication>
+<dblp:publishedAsPartOf rdf:resource="https://dblp.org/rec/conf/sp/2019" />
+</dblp:Publication>
+<rdf:Description rdf:about="https://dblp.org/rec/conf/sp/0002LTJ19.rdf">
+<rdfs:label>provenance information for RDF data of dblp record &apos;conf/sp/0002LTJ19&apos;</rdfs:label>
+<dcterms:creator rdf:resource="https://dblp.org" />
+<dcterms:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dcterms:license rdf:resource="https://opendatacommons.org/licenses/by/1.0/" />
+<dcterms:modified>2019-09-24T12:22:50+0200</dcterms:modified>
+</rdf:Description>
+</rdf:RDF>

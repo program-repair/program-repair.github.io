@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2017-04-18#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1" xmlns:bibtex="http://data.bibbase.org/ontology/#">
+<dblp:Publication rdf:about="https://dblp.org/rec/conf/ssbse/MartinezM18">
+<owl:sameAs rdf:resource="https://doi.org/10.1007/978-3-319-99241-9_3" />
+<dblp:title>Ultra-Large Repair Search Space with Automatically Mined Templates: The Cardumen Mode of Astor.</dblp:title>
+<dblp:bibtexType rdf:resource="http://data.bibbase.org/ontology/#Inproceedings" />
+<dblp:publicationType rdf:resource="https://dblp.org/rdf/schema-2017-04-18#Inproceedings" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pers/m/Martinez:Matias" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pers/m/Monperrus:Martin" />
+<dblp:primaryElectronicEdition rdf:resource="https://doi.org/10.1007/978-3-319-99241-9_3" />
+<dblp:otherElectronicEdition rdf:resource="https://www.wikidata.org/entity/Q57602388" />
+<dblp:listedOnTocPage rdf:resource="https://dblp.org/db/conf/ssbse/ssbse2018" />
+<dblp:publishedInBook>SSBSE</dblp:publishedInBook>
+<dblp:pageNumbers>65-86</dblp:pageNumbers>
+<dblp:yearOfPublication>2018</dblp:yearOfPublication>
+<dblp:publishedAsPartOf rdf:resource="https://dblp.org/rec/conf/ssbse/2018" />
+</dblp:Publication>
+<rdf:Description rdf:about="https://dblp.org/rec/conf/ssbse/MartinezM18.rdf">
+<rdfs:label>provenance information for RDF data of dblp record &apos;conf/ssbse/MartinezM18&apos;</rdfs:label>
+<dcterms:creator rdf:resource="https://dblp.org" />
+<dcterms:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dcterms:license rdf:resource="https://opendatacommons.org/licenses/by/1.0/" />
+<dcterms:modified>2020-01-31T21:32:21+0100</dcterms:modified>
+</rdf:Description>
+</rdf:RDF>

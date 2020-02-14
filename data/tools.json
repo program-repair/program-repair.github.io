@@ -1,5 +1,13 @@
 [
 	{
+		"name": "PraPR",
+		"description": "fast JVM bytecode-level, template-/mutation-based APR",
+		"url": "https://github.com/prapr/prapr",
+		"repo": "https://github.com/prapr/prapr",
+		"target": "Java bytecode",
+		"dblp": "conf/kbse/GhanbariZ19"
+	},
+	{
 		"name": "GenPat",
 		"description": "inferring program transformation from historical bug fixes via big code",
 		"url": "https://github.com/xgdsmileboy/GenPat",

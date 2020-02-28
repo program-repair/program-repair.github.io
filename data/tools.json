@@ -1,5 +1,13 @@
 [
 	{
+		"name": "ssFix",
+		"description": "syntax-directed code search-based automated repair tool",
+		"url": "https://github.com/qixin5/ssFix",
+		"repo": "https://github.com/qixin5/ssFix",
+		"target": "Java",
+		"dblp": "conf/kbse/XinR17"
+	},
+	{
 		"name": "PraPR",
 		"description": "fast JVM bytecode-level, template-/mutation-based APR",
 		"url": "https://github.com/prapr/prapr",

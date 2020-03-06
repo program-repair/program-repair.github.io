@@ -1,3 +1,5 @@
+conf/sp/0002LTJ19
+journals/ese/KimK19
 conf/icsm/AsadGS19
 conf/issre/LiangHZ0X019
 conf/kbse/WuZ0TZ19

@@ -1,5 +1,37 @@
 [
 	{
+		"name": "Refactory",
+		"description": "tool for generating real-time program repairs of buggy student programs",
+		"url": "https://github.com/githubhuyang/refactory",
+		"repo": "https://github.com/githubhuyang/refactory",
+		"target": "Python",
+		"dblp": "conf/kbse/HuAMLR19"
+	},
+	{
+		"name": "InFix",
+		"description": "automatically fixing error-inducing command-line inputs for novice Python programs",
+		"url": "https://github.com/CelloCorgi/InputFixer",
+		"repo": "https://github.com/CelloCorgi/InputFixer",
+		"target": "Python",
+		"dblp": "conf/kbse/EndresSCJW19"
+	},
+	{
+		"name": "TBar",
+		"description": "template-based automated program repair",
+		"url": "https://github.com/SerVal-DTF/TBar",
+		"repo": "https://github.com/SerVal-DTF/TBar",
+		"target": "Java",
+		"dblp": "conf/issta/LiuK0B19"
+	},
+	{
+		"name": "ConFix",
+		"description": "automated patch generation with context-based change application",
+		"url": "https://github.com/thwak/ConFix",
+		"repo": "https://github.com/thwak/ConFix",
+		"target": "Java",
+		"dblp": "journals/ese/KimK19"
+	},
+	{
 		"name": "ssFix",
 		"description": "syntax-directed code search-based automated repair tool",
 		"url": "https://github.com/qixin5/ssFix",
@@ -22,6 +54,30 @@
 		"repo": "https://github.com/xgdsmileboy/GenPat",
 		"target": "Java",
 		"dblp": "conf/kbse/JiangRXZ19"
+	},
+	{
+		"name": "Clara",
+		"description": "clustering and repair tool for introductory programming assignments",
+		"url": "https://github.com/iradicek/clara",
+		"repo": "https://github.com/iradicek/clara",
+		"target": "Python",
+		"dblp": "conf/pldi/GulwaniRZ18"
+	},
+	{
+		"name": "MemFix",
+		"description": "static analysis-based repair tool for memory deallocation errors for C programs",
+		"url": "http://prl.korea.ac.kr/MemFix/",
+		"repo": "",
+		"target": "C/C++",
+		"dblp": "conf/sigsoft/LeeHO18"
+	},
+	{
+		"name": "CapGen",
+		"description": "context-aware patch generation technique",
+		"url": "https://github.com/justinwm/CapGen",
+		"repo": "https://github.com/justinwm/CapGen",
+		"target": "Java",
+		"dblp": "conf/icse/WenCWHC18"
 	},
 	{
 		"name": "kGenProg",
@@ -94,7 +150,15 @@
         "repo": "https://github.com/xgdsmileboy/SimFix",
         "target": "Java",
         "dblp": "conf/issta/JiangXZGC18"
-    },
+	},
+    {
+		"name": "ErrDoc",
+		"description": "tool that is able to detect, categorize and fix error handling bugs for C programs",
+		"url": "https://github.com/yuchi1989/ErrDoc",
+		"repo": "https://github.com/yuchi1989/ErrDoc",
+		"target": "C/C++",
+		"dblp": "conf/sigsoft/TianR17"
+		},	
     {
 	"name": "JAID",
 	"description": "an APR technique that uses detailed state abstractions to guide both fault localization and fix generation",

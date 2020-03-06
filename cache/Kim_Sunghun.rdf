@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2017-04-18#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1" xmlns:bibtex="http://data.bibbase.org/ontology/#">
+<dblp:Person rdf:about="https://dblp.org/pers/k/Kim:Sung=Hun">
+<dblp:primaryFullPersonName>Sung-Hun Kim</dblp:primaryFullPersonName>
+<dblp:otherFullPersonName>Sung Hun Kim</dblp:otherFullPersonName>
+<dblp:otherFullPersonName>Sunghun Kim</dblp:otherFullPersonName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/access/WooKKS20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/ese/KimKLK20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/ese/KimK19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/cchi/PengYXKM18" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/hotstorage/JoKKJL17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icmech/RizalCKKK17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/cars/KangKAC15" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/jdi/ChoiKKCSJ14" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/tce/KimJL14" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/iccel/KimJL14" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/giq/YiOK13" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/tjs/JeongKKLS13" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/apcc/KimJM12" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/hci/KimKPCL09" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/arobots/KangKLB01" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/a/An:Yeong_Yi" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/b/Bien:Z=_Zenn" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/c/Cho:Dong_Lyun" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/c/Choi:Byung_Gil" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/c/Choi:Hak=Hui" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/c/Choi:Jae_Jeong" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/j/Jeong:Jinkyu" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/j/Ji:Myungln" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/j/Jo:Hyungil" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/j/Jung:Haijo" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/k/Kang:Bong_Joo" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/k/Kang:Dong=Oh" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/k/Kim:Cheolgi" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/k/Kim:Dong=Seong" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/k/Kim:Hwanju" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/k/Kim:Jeongho" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/k/Kim:Jindae" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/k/Kim:Sangwook" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/k/Kim:Seok_Min" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/k/Kim:Seung_Han" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/l/Lee:Eunseok" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/l/Lee:Heyoung" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/l/Lee:Joonwon" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/l/Lee:Moo_Sung" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/m/Ma:Joong_Sao" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/m/Ma:Xiaojuan" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/o/Oh:Sam_Gyun" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/p/Park:Eun_Ju" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/p/Peng:Zhenhui" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/r/Rizal:Syamsul" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/s/Seo:Euiseong" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/s/Song:ByungJoo" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/w/Woo:Youngjoo" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/x/Xia:Meng" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/y/Yi:Myongho" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/y/Yoo:Jeehoon" />
+</dblp:Person>
+<rdf:Description rdf:about="https://dblp.org/pers/k/Kim:Sung=Hun.rdf">
+<rdfs:label>provenance information for RDF data of dblp person &apos;k/Kim:Sung=Hun&apos;</rdfs:label>
+<dcterms:creator rdf:resource="https://dblp.org" />
+<dcterms:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dcterms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dcterms:modified>2020-03-05T00:08:49+0100</dcterms:modified>
+</rdf:Description>
+</rdf:RDF>

@@ -1,3 +1,9 @@
+journals/ese/KoyuncuLBKKMT20
+journals/tosem/YuanB20
+conf/enase/AsadGS20
+conf/wcre/NodaNHTK20
+journals/chinaf/JiangXX19
+conf/esem/WangWCYM19
 conf/sp/0002LTJ19
 journals/ese/KimK19
 conf/icsm/AsadGS19
@@ -7,7 +13,6 @@ conf/kbse/GhanbariZ19
 conf/kbse/EndresSCJW19
 conf/kbse/HuAMLR19
 conf/kbse/JiangRXZ19
-conf/sp/0002LTJ19
 conf/icse/Monperrus19
 journals/jss/MartinezM19
 conf/iclr/VasicKMBS19

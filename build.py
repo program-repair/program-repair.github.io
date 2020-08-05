@@ -162,6 +162,8 @@ for key in tqdm.tqdm(dblp_keys):
         venue_id = "CAV"
     if venue_id == "IEEE Trans. Software Eng.":
         venue_id = "TSE"
+    if venue_id == "Empirical Software Engineering":
+        venue_id = "EMSE"
     if venue_id == "ICSE (1)":
         venue_id = "ICSE"
     if venue_id not in publications_per_venue:

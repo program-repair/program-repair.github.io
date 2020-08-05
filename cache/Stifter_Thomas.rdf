@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2017-04-18#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1" xmlns:bibtex="http://data.bibbase.org/ontology/#">
+<dblp:Person rdf:about="https://dblp.org/pers/s/Stifter:Thomas">
+<dblp:primaryFullPersonName>Thomas Stifter</dblp:primaryFullPersonName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/issta/AbdessalemPNBS20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/wacv/CruzWBSS20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2001-03483" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icassp/DokhanchiSKSO19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/AbdessalemNBS18" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/kbse/AbdessalemPNBS18" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/spawc/DokhanchiSSO18" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/pimrc/DokhanchiSNSSO17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/kbse/AbdessalemNBS16" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/a/Abdessalem:Raja_Ben" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/b/Beise:Hans=Peter" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/b/Briand:Lionel_C=" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/c/Cruz:Steve_Dias_Da" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/d/Dokhanchi:Sayed_Hossein" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/k/Kerahroodi:Mohammad_Alaee" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/n/Nejati:Shiva" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/n/Nijsure:Yogesh" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/o/Ottersten:Bj=ouml=rn_E=" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/p/Panichella:Annibale" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/s/Sedighi:Saeid" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/s/Shankar:Bhavani" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/s/Stricker:Didier" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pers/w/Wasenm=uuml=ller:Oliver" />
+</dblp:Person>
+<rdf:Description rdf:about="https://dblp.org/pers/s/Stifter:Thomas.rdf">
+<rdfs:label>provenance information for RDF data of dblp person &apos;s/Stifter:Thomas&apos;</rdfs:label>
+<dcterms:creator rdf:resource="https://dblp.org" />
+<dcterms:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dcterms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dcterms:modified>2020-07-16T23:01:30+0200</dcterms:modified>
+</rdf:Description>
+</rdf:RDF>

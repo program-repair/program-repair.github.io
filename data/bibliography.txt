@@ -1,3 +1,7 @@
+conf/issta/LutellierPPLW020
+conf/issta/AbdessalemPNBS20
+conf/issta/LouGLZZHZ20
+journals/ese/KimKLK20
 journals/ese/KoyuncuLBKKMT20
 journals/tosem/YuanB20
 conf/enase/AsadGS20

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<dblp:Person rdf:about="https://dblp.org/pid/153/5280">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<rdfs:label>Davood Mazinanian</rdfs:label>
+<wdt:P2456>153/5280</wdt:P2456>
+<dblp:primaryFullCreatorName>Davood Mazinanian</dblp:primaryFullCreatorName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/Ketkar0MDA19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icst/GyimesiVSMBF019" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icst/VancsicsGSMBF019" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/TsantalisMEMD18" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/kbse/BajammalM018" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/pacmpl/MazinanianKTD17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/TsantalisMR17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/MazinanianT17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/EshkevariMRT17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/MazinanianTSV16" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icsm/RostamiEMT16" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/kbse/MazinanianT16" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sigsoft/Mazinanian16" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/wcre/MazinanianT16" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/tse/TsantalisMK15" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sigsoft/MazinanianTM14" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/98/5242" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/165/7834" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/60/670" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/36/5445" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/00/4451" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/f/RudolfFerenc" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/163/9153" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/207/6554" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/136/2086" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/222/5902" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/72/4471-1" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/193/4174" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/179/8627" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/64/1715-1" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/87/4206" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/179/8626" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/165/8303" />
+</dblp:Person>
+<rdf:Description rdf:about="https://dblp.org/pid/153/5280.rdf">
+<rdfs:label>provenance information for RDF data of dblp person &apos;153/5280&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2020-04-17T22:46:38+0200</dct:modified>
+</rdf:Description>
+</rdf:RDF>

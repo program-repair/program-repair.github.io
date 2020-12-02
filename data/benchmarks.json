@@ -1,5 +1,29 @@
 [
 	{
+		"name": "BugsInPy",
+		"description": "a database of existing bugs in Python programs to enable controlled testing and debugging studies",
+		"url": "https://github.com/soarsmu/BugsInPy",
+		"repo": "https://github.com/soarsmu/BugsInPy",
+		"target": "Python",
+		"dblp": "conf/sigsoft/WidyasariSLQPTT20"
+	},
+	{
+		"name": "BugsJS",
+		"description": "a benchmark of 453 real, manually validated JavaScript bugs from 10 popular JavaScript server-side programs",
+		"url": "https://bugsjs.github.io/",
+		"repo": "https://github.com/BugsJS/bug-dataset",
+		"target": "JavaScript",
+		"dblp": "conf/icst/GyimesiVSMBF019"
+	},
+	{
+		"name": "Defexts",
+		"description": "a curated dataset of reproducible real-world bugs for modern JVM languages (Kotlin, Groovy, Scala)",
+		"url": "https://github.com/ProdigyXable/defexts",
+		"repo": "https://github.com/ProdigyXable/defexts",
+		"target": "Multilingual",
+		"dblp": "conf/icse/BentonGZ19"
+	},
+	{
 		"name": "Refactory",
 		"description": "a dataset of 1783 buggy and 2442 correct student submissions for 5 Python programming assignments",
 		"url": "https://github.com/githubhuyang/refactory",

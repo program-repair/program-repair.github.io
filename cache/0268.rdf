@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<dblp:Person rdf:about="https://dblp.org/pid/278/0268">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<rdfs:label>Sheng Qin Sim</rdfs:label>
+<wdt:P2456>278/0268</wdt:P2456>
+<dblp:primaryFullCreatorName>Sheng Qin Sim</dblp:primaryFullCreatorName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sigsoft/WidyasariSLQPTT20" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/278/0649" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/194/7742" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/190/7414" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/89/6793-1" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/278/0452" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/150/0378" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/278/0488" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/259/6962" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/278/0508" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/278/0529" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/278/0486" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/07/10158" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/278/0269" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/278/0311" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/278/0385" />
+</dblp:Person>
+<rdf:Description rdf:about="https://dblp.org/pid/278/0268.rdf">
+<rdfs:label>provenance information for RDF data of dblp person &apos;278/0268&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2020-11-11T21:41:51+0100</dct:modified>
+</rdf:Description>
+</rdf:RDF>

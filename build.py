@@ -10,13 +10,15 @@ import urllib.parse
 import tqdm
 import pystache
 from operator import itemgetter
+import csv
+from collections import namedtuple
 
 
 root_dir = os.path.dirname(os.path.realpath(__file__))
 
 cache_dir = join(root_dir, "cache")
 
-bibliography_file = join(root_dir, 'data', 'bibliography.txt')
+bibliography_file = join(root_dir, 'data', 'bibliography.csv')
 tools_file = join(root_dir, 'data', 'tools.json')
 benchmarks_file = join(root_dir, 'data', 'benchmarks.json')
 analytics_file  = join(root_dir, 'analytics.txt')
@@ -122,15 +124,21 @@ print("fetching data from dblp")
 # year -> list of publications
 bib = dict()
 
-with open(bibliography_file) as f:
-    dblp_keys = [x.strip() for x in f.readlines()]
+BibItem = namedtuple('BibItem', ['key', 'venue'])
 
-top_papers = dblp_keys[:6]
+bib_items = []
 
-for key in tqdm.tqdm(dblp_keys):
+with open(bibliography_file) as csvfile:
+    spamreader = csv.reader(csvfile)
+    for row in spamreader:
+        bib_items.append(BibItem(row[0], row[1]))
+
+top_papers = [item.key for item in bib_items[:6]]
+
+for bib_item in tqdm.tqdm(bib_items):
     entry = dict()
-    rdf_xml_url = "https://dblp.org/rec/rdf/{}.rdf".format(key)
-    rdf_xml_file = join(cache_dir, key.replace('/', '_') + ".rdf")
+    rdf_xml_url = "https://dblp.org/rec/rdf/{}.rdf".format(bib_item.key)
+    rdf_xml_file = join(cache_dir, bib_item.key.replace('/', '_') + ".rdf")
     if not os.path.isfile(rdf_xml_file):
         urllib.request.urlretrieve(rdf_xml_url, rdf_xml_file)
     with open(rdf_xml_file) as f:
@@ -155,7 +163,10 @@ for key in tqdm.tqdm(dblp_keys):
         if len(issue_results) > 0:
             venue_details = venue_details + " (" + issue_results[0] + ")"
         venue_details = venue_details + " " + yearOfPublication
-    venue_id = str(venue)
+    if bib_item.venue:
+        venue_id = bib_item.venue
+    else:
+        venue_id = str(venue)
     venue_short_id = {
         "SIGSOFT FSE": "FSE",
         "ESEC/SIGSOFT FSE": "FSE",
@@ -179,9 +190,9 @@ for key in tqdm.tqdm(dblp_keys):
     publications_per_venue[venue_id] += 1
     primaryElectronicEdition = list(paper_graph.objects(None, primaryElectronicEdition_ref))[0]
     entry['title'] = title
-    entry['anchor'] = key.replace('/', '_')
+    entry['anchor'] = bib_item.key.replace('/', '_')
     entry['scholar'] = "https://scholar.google.com/scholar?q={}".format(title.replace(' ', '+'))
-    entry['bibtex'] = "http://dblp.org/rec/bibtex1/{}".format(key)
+    entry['bibtex'] = "http://dblp.org/rec/bibtex1/{}".format(bib_item.key)
     
     # using xml parser because rdflib is not order-preserving
     root = ET.fromstring(data)
@@ -215,7 +226,7 @@ for key in tqdm.tqdm(dblp_keys):
     for a in authors[1:]:
         authors_str = authors_str + ", " + a
 
-    entry['key'] = key
+    entry['key'] = bib_item.key
     entry['authors'] = authors_str.encode('ascii', 'xmlcharrefreplace').decode()
     entry['venue'] = venue_id
     entry['venue_details'] = venue_details
@@ -223,12 +234,12 @@ for key in tqdm.tqdm(dblp_keys):
     entry['url'] = primaryElectronicEdition
 
     for tool in tools_data:
-        if tool['dblp'] == key:
+        if tool['dblp'] == bib_item.key:
             entry['tool'] = tool['name']
             break
 
     for benchmark in benchmarks_data:
-        if 'dblp' in benchmark and benchmark['dblp'] == key:
+        if 'dblp' in benchmark and benchmark['dblp'] == bib_item.key:
             entry['benchmark'] = benchmark['name']
             break
         

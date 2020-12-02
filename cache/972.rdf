@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<dblp:Person rdf:about="https://dblp.org/pid/24/972">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<rdfs:label>Jeff H. Perkins</rdfs:label>
+<wdt:P2456>24/972</wdt:P2456>
+<dblp:primaryFullCreatorName>Jeff H. Perkins</dblp:primaryFullCreatorName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/dsn/PerkinsECR20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/dimva/PerkinsECWSR16" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ndss/GordonKPGNR15" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/kbse/RobinsonEPAL11" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sosp/PerkinsKLABCPSSSWZER09" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/issta/PapiACPE08" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/scp/ErnstPGMPTX07" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/issta/DemskyEGMPR06" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/issta/GuoPME06" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/kbse/SaffAPE05" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/paste/Perkins05" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sigsoft/PerkinsE04" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/85/1514" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/a/SPAmarasinghe" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/48/3637" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/13/6541" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/92/2089" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/07/3119" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/56/3094" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/61/4019" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/47/3381" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/181/5340" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/e/MDErnst" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/84/2220" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/69/4456" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/32/193" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/35/9698" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/k/SunghunKim" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/08/4601" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/84/5925" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/29/4899" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/38/6441" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/51/1907" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/49/2364" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/r/MartinCRinard" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/25/3910" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/68/4490" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/09/7453" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/37/1475" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/78/7451" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/82/1623" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/181/5421" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/37/1143" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/14/6366" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/35/5726" />
+</dblp:Person>
+<rdf:Description rdf:about="https://dblp.org/pid/24/972.rdf">
+<rdfs:label>provenance information for RDF data of dblp person &apos;24/972&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2020-08-06T22:30:51+0200</dct:modified>
+</rdf:Description>
+</rdf:RDF>

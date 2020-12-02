@@ -1,26 +1,54 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2017-04-18#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1" xmlns:bibtex="http://data.bibbase.org/ontology/#">
-<dblp:Publication rdf:about="https://dblp.org/rec/conf/icse/DemarcoXBM14">
-<owl:sameAs rdf:resource="http://dx.doi.org/10.1145/2593735.2593740" />
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<dblp:Inproceedings rdf:about="https://dblp.org/rec/conf/icse/DemarcoXBM14">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Publication" />
+<owl:sameAs rdf:resource="https://doi.org/10.1145/2593735.2593740" />
+<owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q57311872" />
+<rdfs:label>Favio Demarco et al.: Automatic repair of buggy if conditions and missing preconditions with SMT. (2014)</rdfs:label>
+<wdt:P356>10.1145/2593735.2593740</wdt:P356>
+<wdt:P1687>Q57311872</wdt:P1687>
 <dblp:title>Automatic repair of buggy if conditions and missing preconditions with SMT.</dblp:title>
-<dblp:bibtexType rdf:resource="http://data.bibbase.org/ontology/#Inproceedings" />
-<dblp:publicationType rdf:resource="https://dblp.org/rdf/schema-2017-04-18#Inproceedings" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/d/Demarco:Favio" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/x/Xuan:Jifeng" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/b/Berre:Daniel_Le" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/m/Monperrus:Martin" />
-<dblp:primaryElectronicEdition rdf:resource="http://doi.acm.org/10.1145/2593735.2593740" />
+<dblp:bibtexType rdf:resource="http://purl.org/net/nknouf/ns/bibtex#Inproceedings" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/144/7394" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/86/4142" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/02/358" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/62/5292" />
+<dblp:numberOfCreators rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</dblp:numberOfCreators>
+<dblp:orderedCreators>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/144/7394" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/86/4142" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/02/358" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/62/5292" />
+<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil" />
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</dblp:orderedCreators>
+<dblp:primaryElectronicEdition rdf:resource="https://doi.org/10.1145/2593735.2593740" />
 <dblp:listedOnTocPage rdf:resource="https://dblp.org/db/conf/icse/cstva2014" />
+<dblp:pagination>30-39</dblp:pagination>
+<dblp:publishedIn>CSTVA</dblp:publishedIn>
 <dblp:publishedInBook>CSTVA</dblp:publishedInBook>
-<dblp:pageNumbers>30-39</dblp:pageNumbers>
+<dblp:yearOfEvent>2014</dblp:yearOfEvent>
 <dblp:yearOfPublication>2014</dblp:yearOfPublication>
 <dblp:publishedAsPartOf rdf:resource="https://dblp.org/rec/conf/icse/2014cstva" />
-</dblp:Publication>
+</dblp:Inproceedings>
 <rdf:Description rdf:about="https://dblp.org/rec/conf/icse/DemarcoXBM14.rdf">
 <rdfs:label>provenance information for RDF data of dblp record &apos;conf/icse/DemarcoXBM14&apos;</rdfs:label>
-<dcterms:creator rdf:resource="https://dblp.org" />
-<dcterms:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
-<dcterms:license rdf:resource="https://opendatacommons.org/licenses/by/1.0" />
-<dcterms:modified>2017-06-15T21:42:42+0200</dcterms:modified>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2020-09-05T18:02:18+0200</dct:modified>
 </rdf:Description>
 </rdf:RDF>

@@ -1,28 +1,56 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2017-04-18#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1" xmlns:bibtex="http://data.bibbase.org/ontology/#">
-<dblp:Publication rdf:about="https://dblp.org/rec/conf/icse/0001FNM15">
-<owl:sameAs rdf:resource="http://dx.doi.org/10.1109/ICSE.2015.222" />
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<dblp:Inproceedings rdf:about="https://dblp.org/rec/conf/icse/0001FNM15">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Publication" />
+<owl:sameAs rdf:resource="https://doi.org/10.1109/ICSE.2015.222" />
+<owl:sameAs rdf:resource="https://doi.org/10.1109/ICSE.2015.222" />
+<rdfs:label>Yu Pei et al.: Automated Program Repair in an Integrated Development Environment. (2015)</rdfs:label>
+<wdt:P356>10.1109/ICSE.2015.222</wdt:P356>
+<wdt:P356>10.1109/ICSE.2015.222</wdt:P356>
 <dblp:title>Automated Program Repair in an Integrated Development Environment.</dblp:title>
-<dblp:bibtexType rdf:resource="http://data.bibbase.org/ontology/#Inproceedings" />
-<dblp:publicationType rdf:resource="https://dblp.org/rdf/schema-2017-04-18#Inproceedings" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/p/Pei_0001:Yu" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/f/Furia:Carlo_A=" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/n/Nordio:Mart=iacute=n" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/m/Meyer_0001:Bertrand" />
+<dblp:bibtexType rdf:resource="http://purl.org/net/nknouf/ns/bibtex#Inproceedings" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/76/8304-1" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/78/6422" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/18/6586" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/m/BertrandMeyer" />
+<dblp:numberOfCreators rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</dblp:numberOfCreators>
+<dblp:orderedCreators>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/76/8304-1" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/78/6422" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/18/6586" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/m/BertrandMeyer" />
+<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil" />
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</dblp:orderedCreators>
 <dblp:primaryElectronicEdition rdf:resource="https://doi.org/10.1109/ICSE.2015.222" />
 <dblp:otherElectronicEdition rdf:resource="http://doi.ieeecomputersociety.org/10.1109/ICSE.2015.222" />
 <dblp:otherElectronicEdition rdf:resource="http://dl.acm.org/citation.cfm?id=2819137" />
 <dblp:listedOnTocPage rdf:resource="https://dblp.org/db/conf/icse/icse2015-2" />
+<dblp:pagination>681-684</dblp:pagination>
+<dblp:publishedIn>ICSE (2)</dblp:publishedIn>
 <dblp:publishedInBook>ICSE (2)</dblp:publishedInBook>
-<dblp:pageNumbers>681-684</dblp:pageNumbers>
+<dblp:yearOfEvent>2015</dblp:yearOfEvent>
 <dblp:yearOfPublication>2015</dblp:yearOfPublication>
 <dblp:publishedAsPartOf rdf:resource="https://dblp.org/rec/conf/icse/2015-2" />
-</dblp:Publication>
+</dblp:Inproceedings>
 <rdf:Description rdf:about="https://dblp.org/rec/conf/icse/0001FNM15.rdf">
 <rdfs:label>provenance information for RDF data of dblp record &apos;conf/icse/0001FNM15&apos;</rdfs:label>
-<dcterms:creator rdf:resource="https://dblp.org" />
-<dcterms:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
-<dcterms:license rdf:resource="https://opendatacommons.org/licenses/by/1.0" />
-<dcterms:modified>2017-10-30T11:35:10+0100</dcterms:modified>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2017-10-30T11:35:10+0100</dct:modified>
 </rdf:Description>
 </rdf:RDF>

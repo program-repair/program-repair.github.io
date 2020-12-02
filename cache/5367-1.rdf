@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<dblp:Person rdf:about="https://dblp.org/pid/118/5367-1">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<owl:sameAs rdf:resource="https://orcid.org/0000-0002-0147-3526" />
+<rdfs:label>Sebastian Nielebock 0001</rdfs:label>
+<wdt:P2456>118/5367-1</wdt:P2456>
+<wdt:P1960>Z4xcz2IAAAAJ</wdt:P1960>
+<wdt:P496>0000-0002-0147-3526</wdt:P496>
+<dblp:primaryFullCreatorName>Sebastian Nielebock</dblp:primaryFullCreatorName>
+<dblp:primaryAffiliation>Otto-von-Guericke-Universit&#228;t Magdeburg, Germany</dblp:primaryAffiliation>
+<dblp:primaryHomepage rdf:resource="https://cse.cs.ovgu.de/cse/members/sebastian-nielebock/" />
+<dblp:webpage rdf:resource="https://scholar.google.com/citations?user=Z4xcz2IAAAAJ" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/ese/HeumullerNKO20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ease/Kruger0H20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/0001HKO20a" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/0001HKO20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2008-00277" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/ese/NielebockHO19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/ese/NielebockKKLO19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/euromicro/Heumuller0O19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/kbse/HeumullerNO18" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/kbse/NielebockHO18" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/kbse/Nielebock17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/splc/KrugerNKDLSZO17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/safecomp/NielebockOSW12" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/58/2490" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/158/8506" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/157/3757" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/243/2764" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/186/2756" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/00/3032" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/64/1579" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/s/GunterSaake" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/271/8009" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/39/732" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/32/1057" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/76/6717" />
+</dblp:Person>
+<rdf:Description rdf:about="https://dblp.org/pid/118/5367-1.rdf">
+<rdfs:label>provenance information for RDF data of dblp person &apos;118/5367-1&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2020-11-15T21:00:13+0100</dct:modified>
+</rdf:Description>
+</rdf:RDF>

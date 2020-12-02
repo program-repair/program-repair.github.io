@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<dblp:Person rdf:about="https://dblp.org/pid/207/6583">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<rdfs:label>Manh-Dung Nguyen</rdfs:label>
+<wdt:P2456>207/6583</wdt:P2456>
+<dblp:primaryFullCreatorName>Manh-Dung Nguyen</dblp:primaryFullCreatorName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2002-10751" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/MechtaevNNGR18" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ccs/BohmePNR17" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/b/SebastienBardin" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/91/7541" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/75/3724" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/32/4128" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/55/4092" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/86/636" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/167/0202" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/214/0370" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/140/7942" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/04/5884" />
+</dblp:Person>
+<rdf:Description rdf:about="https://dblp.org/pid/207/6583.rdf">
+<rdfs:label>provenance information for RDF data of dblp person &apos;207/6583&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2020-11-11T21:50:03+0100</dct:modified>
+</rdf:Description>
+</rdf:RDF>

@@ -1,26 +1,52 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2017-04-18#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1" xmlns:bibtex="http://data.bibbase.org/ontology/#">
-<dblp:Publication rdf:about="https://dblp.org/rec/conf/sigsoft/TaoKKX14">
-<owl:sameAs rdf:resource="http://dx.doi.org/10.1145/2635868.2635873" />
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<dblp:Inproceedings rdf:about="https://dblp.org/rec/conf/sigsoft/TaoKKX14">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Publication" />
+<owl:sameAs rdf:resource="https://doi.org/10.1145/2635868.2635873" />
+<rdfs:label>Yida Tao et al.: Automatically generated patches as debugging aids: a human study. (2014)</rdfs:label>
+<wdt:P356>10.1145/2635868.2635873</wdt:P356>
 <dblp:title>Automatically generated patches as debugging aids: a human study.</dblp:title>
-<dblp:bibtexType rdf:resource="http://data.bibbase.org/ontology/#Inproceedings" />
-<dblp:publicationType rdf:resource="https://dblp.org/rdf/schema-2017-04-18#Inproceedings" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/t/Tao:Yida" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/k/Kim:Jindae" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/k/Kim_0001:Sunghun" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/x/Xu:Chang" />
-<dblp:primaryElectronicEdition rdf:resource="http://doi.acm.org/10.1145/2635868.2635873" />
+<dblp:bibtexType rdf:resource="http://purl.org/net/nknouf/ns/bibtex#Inproceedings" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/121/2703" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/59/1495" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/k/SunghunKim" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/97/2966" />
+<dblp:numberOfCreators rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</dblp:numberOfCreators>
+<dblp:orderedCreators>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/121/2703" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/59/1495" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/k/SunghunKim" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/97/2966" />
+<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil" />
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</dblp:orderedCreators>
+<dblp:primaryElectronicEdition rdf:resource="https://doi.org/10.1145/2635868.2635873" />
 <dblp:listedOnTocPage rdf:resource="https://dblp.org/db/conf/sigsoft/fse2014" />
+<dblp:pagination>64-74</dblp:pagination>
+<dblp:publishedIn>SIGSOFT FSE</dblp:publishedIn>
 <dblp:publishedInBook>SIGSOFT FSE</dblp:publishedInBook>
-<dblp:pageNumbers>64-74</dblp:pageNumbers>
+<dblp:yearOfEvent>2014</dblp:yearOfEvent>
 <dblp:yearOfPublication>2014</dblp:yearOfPublication>
 <dblp:publishedAsPartOf rdf:resource="https://dblp.org/rec/conf/sigsoft/2014" />
-</dblp:Publication>
+</dblp:Inproceedings>
 <rdf:Description rdf:about="https://dblp.org/rec/conf/sigsoft/TaoKKX14.rdf">
 <rdfs:label>provenance information for RDF data of dblp record &apos;conf/sigsoft/TaoKKX14&apos;</rdfs:label>
-<dcterms:creator rdf:resource="https://dblp.org" />
-<dcterms:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
-<dcterms:license rdf:resource="https://opendatacommons.org/licenses/by/1.0" />
-<dcterms:modified>2017-01-04T18:25:51+0100</dcterms:modified>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2018-11-06T16:59:23+0100</dct:modified>
 </rdf:Description>
 </rdf:RDF>

@@ -1,26 +1,54 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2017-04-18#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1" xmlns:bibtex="http://data.bibbase.org/ontology/#">
-<dblp:Publication rdf:about="https://dblp.org/rec/conf/wcre/DelfimUMM19">
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<dblp:Inproceedings rdf:about="https://dblp.org/rec/conf/wcre/DelfimUMM19">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Publication" />
 <owl:sameAs rdf:resource="https://doi.org/10.1109/SANER.2019.8667991" />
+<owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q64356209" />
+<rdfs:label>Fernanda Madeiral et al.: BEARS: An Extensible Java Bug Benchmark for Automatic Program Repair Studies. (2019)</rdfs:label>
+<wdt:P356>10.1109/SANER.2019.8667991</wdt:P356>
+<wdt:P1687>Q64356209</wdt:P1687>
 <dblp:title>BEARS: An Extensible Java Bug Benchmark for Automatic Program Repair Studies.</dblp:title>
-<dblp:bibtexType rdf:resource="http://data.bibbase.org/ontology/#Inproceedings" />
-<dblp:publicationType rdf:resource="https://dblp.org/rdf/schema-2017-04-18#Inproceedings" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/d/Delfim:Fernanda_Madeiral" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/u/Urli:Simon" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/m/Maia:Marcelo_de_Almeida" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/m/Monperrus:Martin" />
+<dblp:bibtexType rdf:resource="http://purl.org/net/nknouf/ns/bibtex#Inproceedings" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/156/1916" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/133/7480" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/97/4668" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/62/5292" />
+<dblp:numberOfCreators rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</dblp:numberOfCreators>
+<dblp:orderedCreators>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/156/1916" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/133/7480" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/97/4668" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/62/5292" />
+<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil" />
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</dblp:orderedCreators>
 <dblp:primaryElectronicEdition rdf:resource="https://doi.org/10.1109/SANER.2019.8667991" />
 <dblp:listedOnTocPage rdf:resource="https://dblp.org/db/conf/wcre/saner2019" />
+<dblp:pagination>468-478</dblp:pagination>
+<dblp:publishedIn>SANER</dblp:publishedIn>
 <dblp:publishedInBook>SANER</dblp:publishedInBook>
-<dblp:pageNumbers>468-478</dblp:pageNumbers>
+<dblp:yearOfEvent>2019</dblp:yearOfEvent>
 <dblp:yearOfPublication>2019</dblp:yearOfPublication>
 <dblp:publishedAsPartOf rdf:resource="https://dblp.org/rec/conf/wcre/2019" />
-</dblp:Publication>
+</dblp:Inproceedings>
 <rdf:Description rdf:about="https://dblp.org/rec/conf/wcre/DelfimUMM19.rdf">
 <rdfs:label>provenance information for RDF data of dblp record &apos;conf/wcre/DelfimUMM19&apos;</rdfs:label>
-<dcterms:creator rdf:resource="https://dblp.org" />
-<dcterms:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
-<dcterms:license rdf:resource="https://opendatacommons.org/licenses/by/1.0/" />
-<dcterms:modified>2019-03-29T10:31:36+0100</dcterms:modified>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2019-11-26T07:45:37+0100</dct:modified>
 </rdf:Description>
 </rdf:RDF>

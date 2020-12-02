@@ -34,10 +34,10 @@ tools_output_file = join(root_dir, 'tools.html')
 benchmarks_output_file = join(root_dir, 'benchmarks.html')
 statistics_output_file = join(root_dir, 'statistics.html')
 
-dblp_schema = "https://dblp.org/rdf/schema-2017-04-18"
+dblp_schema = "https://dblp.org/rdf/schema-2020-07-01"
 rdf_syntax = "http://www.w3.org/1999/02/22-rdf-syntax-ns"
 title_ref = rdflib.URIRef(dblp_schema + "#title")
-primaryFullPersonName_ref = rdflib.URIRef(dblp_schema + "#primaryFullPersonName")
+primaryFullPersonName_ref = rdflib.URIRef(dblp_schema + "#primaryFullCreatorName")
 publishedInBook_ref = rdflib.URIRef(dblp_schema + "#publishedInBook")
 publishedInJournal_ref = rdflib.URIRef(dblp_schema + "#publishedInJournal")
 publishedInJournalVolume_ref = rdflib.URIRef(dblp_schema + "#publishedInJournalVolume")
@@ -156,16 +156,24 @@ for key in tqdm.tqdm(dblp_keys):
             venue_details = venue_details + " (" + issue_results[0] + ")"
         venue_details = venue_details + " " + yearOfPublication
     venue_id = str(venue)
-    if venue_id == "SIGSOFT FSE" or venue_id == "ESEC/SIGSOFT FSE":
-        venue_id = "FSE"
-    if venue_id == "CAV (1)" or venue_id == "CAV (2)":
-        venue_id = "CAV"
-    if venue_id == "IEEE Trans. Software Eng.":
-        venue_id = "TSE"
-    if venue_id == "Empirical Software Engineering":
-        venue_id = "EMSE"
-    if venue_id == "ICSE (1)":
-        venue_id = "ICSE"
+    venue_short_id = {
+        "SIGSOFT FSE": "FSE",
+        "ESEC/SIGSOFT FSE": "FSE",
+        "CAV (1)": "CAV",
+        "CAV (2)": "CAV",
+        "ACM Trans. Softw. Eng. Methodol.": "TOSEM",
+        "IEEE Symposium on Security and Privacy": "S&P",
+        "IEEE Trans. Software Eng.": "TSE",
+        "Empirical Software Engineering": "EMSE",
+        "Empir. Softw. Eng.": "EMSE",
+        "ICSE (1)": "ICSE",
+        "Proc. ACM Program. Lang. 3 (OOPSLA)": "OOPSLA",
+        "Proc. ACM Program. Lang. 3 (POPL)": "POPL",
+        "Sci. China Inf. Sci.": "SCI",
+        "Proc. ACM Program. Lang. 2 (OOPSLA)": "OOPSLA"
+    }
+    if venue_id in venue_short_id:
+        venue_id = venue_short_id[venue_id]
     if venue_id not in publications_per_venue:
         publications_per_venue[venue_id] = 0
     publications_per_venue[venue_id] += 1
@@ -177,7 +185,9 @@ for key in tqdm.tqdm(dblp_keys):
     
     # using xml parser because rdflib is not order-preserving
     root = ET.fromstring(data)
-    publication = root.find("{" + dblp_schema + "#}Publication")
+    publication = root.find("{" + dblp_schema + "#}Inproceedings")
+    if not publication:
+        publication = root.find("{" + dblp_schema + "#}Article")
     authors_nodes = publication.findall("{" + dblp_schema + "#}authoredBy")
     authors_uris = [n.attrib["{" + rdf_syntax + "#}resource"] for n in authors_nodes]
     authors = []
@@ -207,7 +217,7 @@ for key in tqdm.tqdm(dblp_keys):
 
     entry['key'] = key
     entry['authors'] = authors_str.encode('ascii', 'xmlcharrefreplace').decode()
-    entry['venue'] = venue
+    entry['venue'] = venue_id
     entry['venue_details'] = venue_details
     entry['year'] = yearOfPublication
     entry['url'] = primaryElectronicEdition

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<dblp:Person rdf:about="https://dblp.org/pid/238/0395">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<rdfs:label>Antara Bhowmick</rdfs:label>
+<wdt:P2456>238/0395</wdt:P2456>
+<dblp:primaryFullCreatorName>Antara Bhowmick</dblp:primaryFullCreatorName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ppopp/DeFreezBLR20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/emnlp/YuCYCWZZJCBISDB19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/DmeiriTWBLDVR19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-1903-06725" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-1910-03042" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/250/2890" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/250/2962" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/82/1699" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/250/2898" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/248/8292" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/215/4842" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/d/PremkumarTDevanbu" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/238/0475" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/250/2695" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/250/2929" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/78/5302" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/238/0203" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/69/495" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/250/3085" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/228/5719" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/43/10504" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/74/8792" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/225/5200" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/250/2258" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/136/8648" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/83/3205" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/88/7694" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/195/5899" />
+</dblp:Person>
+<rdf:Description rdf:about="https://dblp.org/pid/238/0395.rdf">
+<rdfs:label>provenance information for RDF data of dblp person &apos;238/0395&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2020-10-26T23:12:43+0100</dct:modified>
+</rdf:Description>
+</rdf:RDF>

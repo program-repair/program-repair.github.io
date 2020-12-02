@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<dblp:Person rdf:about="https://dblp.org/pid/138/0351">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<owl:sameAs rdf:resource="https://orcid.org/0000-0003-0485-5279" />
+<rdfs:label>Aymeric Blot</rdfs:label>
+<wdt:P2456>138/0351</wdt:P2456>
+<wdt:P1960>I8sfMwwAAAAJ</wdt:P1960>
+<wdt:P496>0000-0003-0485-5279</wdt:P496>
+<dblp:primaryFullCreatorName>Aymeric Blot</dblp:primaryFullCreatorName>
+<dblp:primaryAffiliation>University College London, UK</dblp:primaryAffiliation>
+<dblp:primaryHomepage rdf:resource="http://www0.cs.ucl.ac.uk/staff/a.blot/" />
+<dblp:webpage rdf:resource="https://scholar.google.com/citations?user=I8sfMwwAAAAJ" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/sigsoft/LangdonWPFLWBCB20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/eurogp/BlotP20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/PetkeB20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/BlotP20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/BlotP20a" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2007-15987" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/ec/BlotMJH19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/emo/PageauBHKJ19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/gecco/BlotP19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/Blot19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sigsoft/AnBPY19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/phd/hal/Blot18" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/heuristics/BlotMJ18" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ictai/BlotHKJ18" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/lion/BlotKJC18" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ppsn/BlotLKJ18" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/emo/BlotPJKH17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/gecco/BlotJK17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/lion/BlotHJKT16" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/emo/BlotADJMT15" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/lion/MarmionBJD13" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/32/2377" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/225/3675" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/123/5293" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/164/9023" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/41/5732" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/79/5975" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/d/ClarisseDhaenens" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/118/6447" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/117/6142" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/271/4442" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/h/HolgerHHoos" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/39/6301-15" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/78/9511" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/183/9136" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/l/WilliamBLangdon" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/186/1126-1" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/09/132" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/236/3991" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/195/7219" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/23/8779" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/57/5748" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/34/2589" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/v/LaetitiaVermeulenJourdan" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/94/7030-7" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/05/4127" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/227/5399" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/06/1626" />
+</dblp:Person>
+<rdf:Description rdf:about="https://dblp.org/pid/138/0351.rdf">
+<rdfs:label>provenance information for RDF data of dblp person &apos;138/0351&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2020-11-04T22:07:05+0100</dct:modified>
+</rdf:Description>
+</rdf:RDF>

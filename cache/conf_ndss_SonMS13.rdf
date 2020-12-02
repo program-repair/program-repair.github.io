@@ -1,23 +1,43 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2017-04-18#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1" xmlns:bibtex="http://data.bibbase.org/ontology/#">
-<dblp:Publication rdf:about="https://dblp.org/rec/conf/ndss/SonMS13">
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<dblp:Inproceedings rdf:about="https://dblp.org/rec/conf/ndss/SonMS13">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Publication" />
+<rdfs:label>Sooel Son et al.: Fix Me Up: Repairing Access-Control Bugs in Web Applications. (2013)</rdfs:label>
 <dblp:title>Fix Me Up: Repairing Access-Control Bugs in Web Applications.</dblp:title>
-<dblp:bibtexType rdf:resource="http://data.bibbase.org/ontology/#Inproceedings" />
-<dblp:publicationType rdf:resource="https://dblp.org/rdf/schema-2017-04-18#Inproceedings" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/s/Son:Sooel" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/m/McKinley:Kathryn_S=" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/s/Shmatikov:Vitaly" />
+<dblp:bibtexType rdf:resource="http://purl.org/net/nknouf/ns/bibtex#Inproceedings" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/09/3668" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/m/KSMcKinley" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/46/6275" />
+<dblp:numberOfCreators rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</dblp:numberOfCreators>
+<dblp:orderedCreators>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/09/3668" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/m/KSMcKinley" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/46/6275" />
+<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil" />
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</dblp:orderedCreators>
 <dblp:primaryElectronicEdition rdf:resource="https://www.ndss-symposium.org/ndss2013/fix-me-repairing-access-control-bugs-web-applications" />
 <dblp:listedOnTocPage rdf:resource="https://dblp.org/db/conf/ndss/ndss2013" />
+<dblp:publishedIn>NDSS</dblp:publishedIn>
 <dblp:publishedInBook>NDSS</dblp:publishedInBook>
+<dblp:yearOfEvent>2013</dblp:yearOfEvent>
 <dblp:yearOfPublication>2013</dblp:yearOfPublication>
 <dblp:publishedAsPartOf rdf:resource="https://dblp.org/rec/conf/ndss/2013" />
-</dblp:Publication>
+</dblp:Inproceedings>
 <rdf:Description rdf:about="https://dblp.org/rec/conf/ndss/SonMS13.rdf">
 <rdfs:label>provenance information for RDF data of dblp record &apos;conf/ndss/SonMS13&apos;</rdfs:label>
-<dcterms:creator rdf:resource="https://dblp.org" />
-<dcterms:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
-<dcterms:license rdf:resource="https://opendatacommons.org/licenses/by/1.0" />
-<dcterms:modified>2018-01-16T13:23:48+0100</dcterms:modified>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2018-01-16T13:23:48+0100</dct:modified>
 </rdf:Description>
 </rdf:RDF>

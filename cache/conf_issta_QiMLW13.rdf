@@ -1,26 +1,52 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2017-04-18#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1" xmlns:bibtex="http://data.bibbase.org/ontology/#">
-<dblp:Publication rdf:about="https://dblp.org/rec/conf/issta/QiMLW13">
-<owl:sameAs rdf:resource="http://dx.doi.org/10.1145/2483760.2483785" />
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<dblp:Inproceedings rdf:about="https://dblp.org/rec/conf/issta/QiMLW13">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Publication" />
+<owl:sameAs rdf:resource="https://doi.org/10.1145/2483760.2483785" />
+<rdfs:label>Yuhua Qi et al.: Using automated program repair for evaluating the effectiveness of fault localization techniques. (2013)</rdfs:label>
+<wdt:P356>10.1145/2483760.2483785</wdt:P356>
 <dblp:title>Using automated program repair for evaluating the effectiveness of fault localization techniques.</dblp:title>
-<dblp:bibtexType rdf:resource="http://data.bibbase.org/ontology/#Inproceedings" />
-<dblp:publicationType rdf:resource="https://dblp.org/rdf/schema-2017-04-18#Inproceedings" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/q/Qi:Yuhua" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/m/Mao:Xiaoguang" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/l/Lei:Yan" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/w/Wang:Chengsong" />
-<dblp:primaryElectronicEdition rdf:resource="http://doi.acm.org/10.1145/2483760.2483785" />
+<dblp:bibtexType rdf:resource="http://purl.org/net/nknouf/ns/bibtex#Inproceedings" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/124/0432" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/81/8725" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/94/3609" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/70/10404" />
+<dblp:numberOfCreators rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</dblp:numberOfCreators>
+<dblp:orderedCreators>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/124/0432" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/81/8725" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/94/3609" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/70/10404" />
+<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil" />
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</dblp:orderedCreators>
+<dblp:primaryElectronicEdition rdf:resource="https://doi.org/10.1145/2483760.2483785" />
 <dblp:listedOnTocPage rdf:resource="https://dblp.org/db/conf/issta/issta2013" />
+<dblp:pagination>191-201</dblp:pagination>
+<dblp:publishedIn>ISSTA</dblp:publishedIn>
 <dblp:publishedInBook>ISSTA</dblp:publishedInBook>
-<dblp:pageNumbers>191-201</dblp:pageNumbers>
+<dblp:yearOfEvent>2013</dblp:yearOfEvent>
 <dblp:yearOfPublication>2013</dblp:yearOfPublication>
 <dblp:publishedAsPartOf rdf:resource="https://dblp.org/rec/conf/issta/2013" />
-</dblp:Publication>
+</dblp:Inproceedings>
 <rdf:Description rdf:about="https://dblp.org/rec/conf/issta/QiMLW13.rdf">
 <rdfs:label>provenance information for RDF data of dblp record &apos;conf/issta/QiMLW13&apos;</rdfs:label>
-<dcterms:creator rdf:resource="https://dblp.org" />
-<dcterms:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
-<dcterms:license rdf:resource="https://opendatacommons.org/licenses/by/1.0" />
-<dcterms:modified>2013-07-15T10:25:20+0200</dcterms:modified>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2018-11-06T16:57:30+0100</dct:modified>
 </rdf:Description>
 </rdf:RDF>

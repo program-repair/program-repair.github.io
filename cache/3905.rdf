@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<dblp:Person rdf:about="https://dblp.org/pid/242/3905">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<rdfs:label>Noah Brackenbury</rdfs:label>
+<wdt:P2456>242/3905</wdt:P2456>
+<dblp:primaryFullCreatorName>Noah Brackenbury</dblp:primaryFullCreatorName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/ZhangHMBLU19" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/198/7178" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/31/5916-1" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/225/0625" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/66/9786" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/229/4234" />
+</dblp:Person>
+<rdf:Description rdf:about="https://dblp.org/pid/242/3905.rdf">
+<rdfs:label>provenance information for RDF data of dblp person &apos;242/3905&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2020-08-28T23:06:50+0200</dct:modified>
+</rdf:Description>
+</rdf:RDF>

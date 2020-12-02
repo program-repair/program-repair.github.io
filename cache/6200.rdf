@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<dblp:Person rdf:about="https://dblp.org/pid/43/6200">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<rdfs:label>Victor Sobreira</rdfs:label>
+<wdt:P2456>43/6200</wdt:P2456>
+<dblp:primaryFullCreatorName>Victor Sobreira</dblp:primaryFullCreatorName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/wcre/SobreiraDDMM18" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-1801-06393" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-1807-11286" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/wcre/SobreiraM08" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/163/2121" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/156/1916" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/97/4668" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/62/5292" />
+</dblp:Person>
+<rdf:Description rdf:about="https://dblp.org/pid/43/6200.rdf">
+<rdfs:label>provenance information for RDF data of dblp person &apos;43/6200&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2020-01-23T22:45:09+0100</dct:modified>
+</rdf:Description>
+</rdf:RDF>

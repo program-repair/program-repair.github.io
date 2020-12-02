@@ -1,27 +1,55 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2017-04-18#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1" xmlns:bibtex="http://data.bibbase.org/ontology/#">
-<dblp:Publication rdf:about="https://dblp.org/rec/conf/icse/UrliYSM18">
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<dblp:Inproceedings rdf:about="https://dblp.org/rec/conf/icse/UrliYSM18">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Publication" />
 <owl:sameAs rdf:resource="https://doi.org/10.1145/3183519.3183540" />
+<owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q59567263" />
+<rdfs:label>Simon Urli et al.: How to design a program repair bot?: insights from the repairnator project. (2018)</rdfs:label>
+<wdt:P356>10.1145/3183519.3183540</wdt:P356>
+<wdt:P1687>Q59567263</wdt:P1687>
 <dblp:title>How to design a program repair bot?: insights from the repairnator project.</dblp:title>
-<dblp:bibtexType rdf:resource="http://data.bibbase.org/ontology/#Inproceedings" />
-<dblp:publicationType rdf:resource="https://dblp.org/rdf/schema-2017-04-18#Inproceedings" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/u/Urli:Simon" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/y/Yu:Zhongxing" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/s/Seinturier:Lionel" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/m/Monperrus:Martin" />
+<dblp:bibtexType rdf:resource="http://purl.org/net/nknouf/ns/bibtex#Inproceedings" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/133/7480" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/04/10702" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/75/3681" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/62/5292" />
+<dblp:numberOfCreators rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</dblp:numberOfCreators>
+<dblp:orderedCreators>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/133/7480" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/04/10702" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/75/3681" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/62/5292" />
+<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil" />
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</dblp:orderedCreators>
 <dblp:primaryElectronicEdition rdf:resource="https://doi.org/10.1145/3183519.3183540" />
 <dblp:otherElectronicEdition rdf:resource="http://ieeexplore.ieee.org/document/8449240" />
 <dblp:listedOnTocPage rdf:resource="https://dblp.org/db/conf/icse/seip2018" />
+<dblp:pagination>95-104</dblp:pagination>
+<dblp:publishedIn>ICSE (SEIP)</dblp:publishedIn>
 <dblp:publishedInBook>ICSE (SEIP)</dblp:publishedInBook>
-<dblp:pageNumbers>95-104</dblp:pageNumbers>
+<dblp:yearOfEvent>2018</dblp:yearOfEvent>
 <dblp:yearOfPublication>2018</dblp:yearOfPublication>
 <dblp:publishedAsPartOf rdf:resource="https://dblp.org/rec/conf/icse/2018seip" />
-</dblp:Publication>
+</dblp:Inproceedings>
 <rdf:Description rdf:about="https://dblp.org/rec/conf/icse/UrliYSM18.rdf">
 <rdfs:label>provenance information for RDF data of dblp record &apos;conf/icse/UrliYSM18&apos;</rdfs:label>
-<dcterms:creator rdf:resource="https://dblp.org" />
-<dcterms:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
-<dcterms:license rdf:resource="https://opendatacommons.org/licenses/by/1.0/" />
-<dcterms:modified>2018-11-21T12:43:59+0100</dcterms:modified>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2019-09-16T15:28:06+0200</dct:modified>
 </rdf:Description>
 </rdf:RDF>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<dblp:Person rdf:about="https://dblp.org/pid/137/6550">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<rdfs:label>Maxime Clement</rdfs:label>
+<wdt:P2456>137/6550</wdt:P2456>
+<dblp:primaryFullCreatorName>Maxime Clement</dblp:primaryFullCreatorName>
+<dblp:otherFullCreatorName>Maxime Cl&#233;ment</dblp:otherFullCreatorName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/atal/ClementOI18" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ekaw/ClementI18" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-1811-04211" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/ieicet/ClementOI17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/tse/XuanMDCMDBM17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/kr/SchwindOCI16" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/chb/ClementG15" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/atal/OkimotoSCRIM15" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icaart/ClementOSI15" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/atal/OkimotoSCI14" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icaart/OkimotoRCI14" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/prima/WackOCI14" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/miwai/OkimotoCI13" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/prima/ClementORI13" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/02/358" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/144/7394" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/163/2121" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/69/9147" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/24/5382" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/i/KatsumiInoue" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/161/9839" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/37/6177" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/135/6372" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/62/5292" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/05/10057" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/131/5363" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/07/5135" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/07/626" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/86/4142" />
+</dblp:Person>
+<rdf:Description rdf:about="https://dblp.org/pid/137/6550.rdf">
+<rdfs:label>provenance information for RDF data of dblp person &apos;137/6550&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2020-10-27T22:17:10+0100</dct:modified>
+</rdf:Description>
+</rdf:RDF>

@@ -1,29 +1,70 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2017-04-18#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1" xmlns:bibtex="http://data.bibbase.org/ontology/#">
-<dblp:Publication rdf:about="https://dblp.org/rec/conf/issta/LouGLZZHZ20">
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<dblp:Inproceedings rdf:about="https://dblp.org/rec/conf/issta/LouGLZZHZ20">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Publication" />
 <owl:sameAs rdf:resource="https://doi.org/10.1145/3395363.3397351" />
+<rdfs:label>Yiling Lou et al.: Can automated program repair refine fault localization? a unified debugging approach. (2020)</rdfs:label>
+<wdt:P356>10.1145/3395363.3397351</wdt:P356>
 <dblp:title>Can automated program repair refine fault localization? a unified debugging approach.</dblp:title>
-<dblp:bibtexType rdf:resource="http://data.bibbase.org/ontology/#Inproceedings" />
-<dblp:publicationType rdf:resource="https://dblp.org/rdf/schema-2017-04-18#Inproceedings" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/l/Lou:Yiling" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/g/Ghanbari:Ali" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/l/Li:Xia" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/z/Zhang:Lingming" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/z/Zhang:Haotian" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/h/Hao:Dan" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/z/Zhang:Lu" />
+<dblp:bibtexType rdf:resource="http://purl.org/net/nknouf/ns/bibtex#Inproceedings" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/174/3394" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/50/8657" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/97/30" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/27/7057" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/83/4184" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/50/456" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/82/10609" />
+<dblp:numberOfCreators rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</dblp:numberOfCreators>
+<dblp:orderedCreators>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/174/3394" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/50/8657" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/97/30" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/27/7057" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/83/4184" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/50/456" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/82/10609" />
+<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil" />
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</dblp:orderedCreators>
 <dblp:primaryElectronicEdition rdf:resource="https://doi.org/10.1145/3395363.3397351" />
 <dblp:listedOnTocPage rdf:resource="https://dblp.org/db/conf/issta/issta2020" />
+<dblp:pagination>75-87</dblp:pagination>
+<dblp:publishedIn>ISSTA</dblp:publishedIn>
 <dblp:publishedInBook>ISSTA</dblp:publishedInBook>
-<dblp:pageNumbers>75-87</dblp:pageNumbers>
+<dblp:yearOfEvent>2020</dblp:yearOfEvent>
 <dblp:yearOfPublication>2020</dblp:yearOfPublication>
 <dblp:publishedAsPartOf rdf:resource="https://dblp.org/rec/conf/issta/2020" />
-</dblp:Publication>
+</dblp:Inproceedings>
 <rdf:Description rdf:about="https://dblp.org/rec/conf/issta/LouGLZZHZ20.rdf">
 <rdfs:label>provenance information for RDF data of dblp record &apos;conf/issta/LouGLZZHZ20&apos;</rdfs:label>
-<dcterms:creator rdf:resource="https://dblp.org" />
-<dcterms:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
-<dcterms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
-<dcterms:modified>2020-07-15T16:06:56+0200</dcterms:modified>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2020-07-15T16:06:56+0200</dct:modified>
 </rdf:Description>
 </rdf:RDF>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<dblp:Person rdf:about="https://dblp.org/pid/124/2960">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<rdfs:label>Jedidiah McClurg</rdfs:label>
+<wdt:P2456>124/2960</wdt:P2456>
+<wdt:P1960>SVuYyQ4AAAAJ</wdt:P1960>
+<wdt:P2037>jrmcclurg</wdt:P2037>
+<dblp:primaryFullCreatorName>Jedidiah McClurg</dblp:primaryFullCreatorName>
+<dblp:otherFullCreatorName>Jedidiah R. McClurg</dblp:otherFullCreatorName>
+<dblp:primaryHomepage rdf:resource="http://www.jrmcclurg.com/" />
+<dblp:webpage rdf:resource="https://scholar.google.com/citations?user=SVuYyQ4AAAAJ" />
+<dblp:webpage rdf:resource="https://github.com/jrmcclurg" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/cav/McClurgHC17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/fmcad/HojjatRMCF16" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/pldi/McClurgHFC16" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/wdag/CernyFJM16" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/CernyFJM16" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/oopsla/ProtzenkoBMM15" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/pldi/McClurgHCF15" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/securecomm/RastogiQMCC15" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/McClurgHFC15" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/HardinDGM14" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/McClurgFC14" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sensys/McClurgTY12" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/84/1935" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/28/8733" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/34/6556" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/88/2827-4" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/72/871" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/15/3253" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/03/3829" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/65/6786" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/43/4308" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/183/6255" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/28/721" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/132/3972" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/29/10799" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/91/8736" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/79/5611" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/66/974" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/124/2809" />
+</dblp:Person>
+<rdf:Description rdf:about="https://dblp.org/pid/124/2960.rdf">
+<rdfs:label>provenance information for RDF data of dblp person &apos;124/2960&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2020-10-26T23:11:26+0100</dct:modified>
+</rdf:Description>
+</rdf:RDF>

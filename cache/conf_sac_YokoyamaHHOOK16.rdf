@@ -1,28 +1,64 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2017-04-18#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1" xmlns:bibtex="http://data.bibbase.org/ontology/#">
-<dblp:Publication rdf:about="https://dblp.org/rec/conf/sac/YokoyamaHHOOK16">
-<owl:sameAs rdf:resource="http://dx.doi.org/10.1145/2851613.2851770" />
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<dblp:Inproceedings rdf:about="https://dblp.org/rec/conf/sac/YokoyamaHHOOK16">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Publication" />
+<owl:sameAs rdf:resource="https://doi.org/10.1145/2851613.2851770" />
+<rdfs:label>Haruki Yokoyama et al.: Toward improving ability to repair bugs automatically: a patch candidate location mechanism using code similarity. (2016)</rdfs:label>
+<wdt:P356>10.1145/2851613.2851770</wdt:P356>
 <dblp:title>Toward improving ability to repair bugs automatically: a patch candidate location mechanism using code similarity.</dblp:title>
-<dblp:bibtexType rdf:resource="http://data.bibbase.org/ontology/#Inproceedings" />
-<dblp:publicationType rdf:resource="https://dblp.org/rdf/schema-2017-04-18#Inproceedings" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/y/Yokoyama:Haruki" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/h/Higo:Yoshiki" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/h/Hotta:Keisuke" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/o/Ohta:Takafumi" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/o/Okano:Kozo" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/k/Kusumoto:Shinji" />
-<dblp:primaryElectronicEdition rdf:resource="http://doi.acm.org/10.1145/2851613.2851770" />
+<dblp:bibtexType rdf:resource="http://purl.org/net/nknouf/ns/bibtex#Inproceedings" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/32/1106" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/65/2343" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/14/8943" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/160/9094" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/39/4704" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/32/2663" />
+<dblp:numberOfCreators rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</dblp:numberOfCreators>
+<dblp:orderedCreators>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/32/1106" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/65/2343" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/14/8943" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/160/9094" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/39/4704" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/32/2663" />
+<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil" />
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</dblp:orderedCreators>
+<dblp:primaryElectronicEdition rdf:resource="https://doi.org/10.1145/2851613.2851770" />
 <dblp:listedOnTocPage rdf:resource="https://dblp.org/db/conf/sac/sac2016" />
+<dblp:pagination>1364-1370</dblp:pagination>
+<dblp:publishedIn>SAC</dblp:publishedIn>
 <dblp:publishedInBook>SAC</dblp:publishedInBook>
-<dblp:pageNumbers>1364-1370</dblp:pageNumbers>
+<dblp:yearOfEvent>2016</dblp:yearOfEvent>
 <dblp:yearOfPublication>2016</dblp:yearOfPublication>
 <dblp:publishedAsPartOf rdf:resource="https://dblp.org/rec/conf/sac/2016" />
-</dblp:Publication>
+</dblp:Inproceedings>
 <rdf:Description rdf:about="https://dblp.org/rec/conf/sac/YokoyamaHHOOK16.rdf">
 <rdfs:label>provenance information for RDF data of dblp record &apos;conf/sac/YokoyamaHHOOK16&apos;</rdfs:label>
-<dcterms:creator rdf:resource="https://dblp.org" />
-<dcterms:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
-<dcterms:license rdf:resource="https://opendatacommons.org/licenses/by/1.0" />
-<dcterms:modified>2016-06-06T18:51:39+0200</dcterms:modified>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2018-11-06T11:06:50+0100</dct:modified>
 </rdf:Description>
 </rdf:RDF>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<dblp:Person rdf:about="https://dblp.org/pid/32/1106">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<rdfs:label>Haruki Yokoyama</rdfs:label>
+<wdt:P2456>32/1106</wdt:P2456>
+<dblp:primaryFullCreatorName>Haruki Yokoyama</dblp:primaryFullCreatorName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icsa/Yokoyama19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/compsac/TanikadoYYSHK17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/iwesep/YokoyamaHK17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/apsec/NakajimaHYK16" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sac/YokoyamaHHOOK16" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/ieiceee/TeranishiSSASY12" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/ieicet/TeranishiSSASY12" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/ieiceee/ShigekawaNYSH05" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/ieiceee/NishimuraSYHH05" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/ieiceee/MatsuzakiSYKE04" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/mr/SuemitsuFSWY02" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/32/3217" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/03/5570" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/06/1696" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/65/2343" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/25/8792" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/145/5485" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/14/8943" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/k/TakashiKobayashi" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/32/2663" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/67/2826" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/145/6957" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/145/5452" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/160/9094" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/39/4704" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/80/4072" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/45/1863" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/83/11043" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/58/336" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/04/5548" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/171/5099" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/63/2170" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/205/8674" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/74/11043" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/63/1905" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/23/4629" />
+</dblp:Person>
+<rdf:Description rdf:about="https://dblp.org/pid/32/1106.rdf">
+<rdfs:label>provenance information for RDF data of dblp person &apos;32/1106&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2020-09-12T00:52:30+0200</dct:modified>
+</rdf:Description>
+</rdf:RDF>

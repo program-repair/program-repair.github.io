@@ -1,26 +1,44 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2017-04-18#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1" xmlns:bibtex="http://data.bibbase.org/ontology/#">
-<dblp:Publication rdf:about="https://dblp.org/rec/conf/icse/CokerH13">
-<owl:sameAs rdf:resource="http://dx.doi.org/10.1109/ICSE.2013.6606625" />
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<dblp:Inproceedings rdf:about="https://dblp.org/rec/conf/icse/CokerH13">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Publication" />
+<owl:sameAs rdf:resource="https://doi.org/10.1109/ICSE.2013.6606625" />
+<owl:sameAs rdf:resource="https://doi.org/10.1109/ICSE.2013.6606625" />
+<rdfs:label>Zack Coker and Munawar Hafiz: Program transformations to fix C integers. (2013)</rdfs:label>
+<wdt:P356>10.1109/ICSE.2013.6606625</wdt:P356>
+<wdt:P356>10.1109/ICSE.2013.6606625</wdt:P356>
 <dblp:title>Program transformations to fix C integers.</dblp:title>
-<dblp:bibtexType rdf:resource="http://data.bibbase.org/ontology/#Inproceedings" />
-<dblp:publicationType rdf:resource="https://dblp.org/rdf/schema-2017-04-18#Inproceedings" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/c/Coker:Zack" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/h/Hafiz:Munawar" />
+<dblp:bibtexType rdf:resource="http://purl.org/net/nknouf/ns/bibtex#Inproceedings" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/129/8224" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/20/146" />
+<dblp:numberOfCreators rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</dblp:numberOfCreators>
+<dblp:orderedCreators>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/129/8224" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/20/146" />
+<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil" />
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</dblp:orderedCreators>
 <dblp:primaryElectronicEdition rdf:resource="https://doi.org/10.1109/ICSE.2013.6606625" />
 <dblp:otherElectronicEdition rdf:resource="http://doi.ieeecomputersociety.org/10.1109/ICSE.2013.6606625" />
 <dblp:otherElectronicEdition rdf:resource="http://dl.acm.org/citation.cfm?id=2486892" />
 <dblp:listedOnTocPage rdf:resource="https://dblp.org/db/conf/icse/icse2013" />
+<dblp:pagination>792-801</dblp:pagination>
+<dblp:publishedIn>ICSE</dblp:publishedIn>
 <dblp:publishedInBook>ICSE</dblp:publishedInBook>
-<dblp:pageNumbers>792-801</dblp:pageNumbers>
+<dblp:yearOfEvent>2013</dblp:yearOfEvent>
 <dblp:yearOfPublication>2013</dblp:yearOfPublication>
 <dblp:publishedAsPartOf rdf:resource="https://dblp.org/rec/conf/icse/2013" />
-</dblp:Publication>
+</dblp:Inproceedings>
 <rdf:Description rdf:about="https://dblp.org/rec/conf/icse/CokerH13.rdf">
 <rdfs:label>provenance information for RDF data of dblp record &apos;conf/icse/CokerH13&apos;</rdfs:label>
-<dcterms:creator rdf:resource="https://dblp.org" />
-<dcterms:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
-<dcterms:license rdf:resource="https://opendatacommons.org/licenses/by/1.0" />
-<dcterms:modified>2017-05-23T01:11:51+0200</dcterms:modified>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2017-05-23T01:11:51+0200</dct:modified>
 </rdf:Description>
 </rdf:RDF>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<dblp:Person rdf:about="https://dblp.org/pid/43/6129">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<rdfs:label>Rezwana Karim</rdfs:label>
+<wdt:P2456>43/6129</wdt:P2456>
+<dblp:primaryFullCreatorName>Rezwana Karim</dblp:primaryFullCreatorName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/pacmpl/SelakovicPKT18" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/AdamsenMKSTS17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/indiaSE/SinhaKG15" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sigsoft/SinhaK15" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ecoop/KarimDG14" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sigsoft/SinhaK13" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ecoop/KarimDGS12" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/cn/YangKGS11" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/raid/YangKGS10" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sac/SultanaKAA08" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/165/9632" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/a/SheikhIqbalAhamed" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/71/3505" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/09/4218" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/46/1879" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/43/8164-2" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/55/6739" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/25/2188" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/167/0216" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/04/418" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/s/ChungchiehShan" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/07/201-1" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/33/3431" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/83/2559" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/01/3048" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/32/524" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/27/3367" />
+</dblp:Person>
+<rdf:Description rdf:about="https://dblp.org/pid/43/6129.rdf">
+<rdfs:label>provenance information for RDF data of dblp person &apos;43/6129&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2020-10-26T22:56:42+0100</dct:modified>
+</rdf:Description>
+</rdf:RDF>

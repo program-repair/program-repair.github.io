@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<dblp:Person rdf:about="https://dblp.org/pid/133/7480">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<rdfs:label>Simon Urli</rdfs:label>
+<wdt:P2456>133/7480</wdt:P2456>
+<dblp:primaryFullCreatorName>Simon Urli</dblp:primaryFullCreatorName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/wcre/DelfimUMM19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-1901-06024" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-1910-06247" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/UrliYSM18" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-1810-05806" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-1811-09852" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/phd/hal/Urli15" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/vissoft/UrliBBCM15" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/euromicro/UrliBCMR14" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/splc/ColletMUBL14" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/splc/UrliBC14" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/UrliMBC13" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/splc/0002UQBCDM13" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/models/UrliBCM12" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/57/3320" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/89/3322" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/b/MireilleBlayFornarino" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/84/1967" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/d/LaurenceDuchien" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/163/2121" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/65/1503" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/156/1916" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/97/4668" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/144/4889" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/135/6372" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/62/5292" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/48/1683" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/00/9990" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/62/1718" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/55/4650-2" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/75/3681" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/04/10702" />
+</dblp:Person>
+<rdf:Description rdf:about="https://dblp.org/pid/133/7480.rdf">
+<rdfs:label>provenance information for RDF data of dblp person &apos;133/7480&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2020-07-22T21:45:35+0200</dct:modified>
+</rdf:Description>
+</rdf:RDF>

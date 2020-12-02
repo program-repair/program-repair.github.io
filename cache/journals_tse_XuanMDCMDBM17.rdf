@@ -1,32 +1,81 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2017-04-18#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1" xmlns:bibtex="http://data.bibbase.org/ontology/#">
-<dblp:Publication rdf:about="https://dblp.org/rec/journals/tse/XuanMDCMDBM17">
-<owl:sameAs rdf:resource="http://dx.doi.org/10.1109/TSE.2016.2560811" />
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<dblp:Article rdf:about="https://dblp.org/rec/journals/tse/XuanMDCMDBM17">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Publication" />
+<owl:sameAs rdf:resource="https://doi.org/10.1109/TSE.2016.2560811" />
+<owl:sameAs rdf:resource="https://doi.org/10.1109/TSE.2016.2560811" />
+<owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q57311865" />
+<rdfs:label>Jifeng Xuan et al.: Nopol: Automatic Repair of Conditional Statement Bugs in Java Programs. (2017)</rdfs:label>
+<wdt:P356>10.1109/TSE.2016.2560811</wdt:P356>
+<wdt:P356>10.1109/TSE.2016.2560811</wdt:P356>
+<wdt:P1687>Q57311865</wdt:P1687>
 <dblp:title>Nopol: Automatic Repair of Conditional Statement Bugs in Java Programs.</dblp:title>
-<dblp:bibtexType rdf:resource="http://data.bibbase.org/ontology/#Article" />
-<dblp:publicationType rdf:resource="https://dblp.org/rdf/schema-2017-04-18#Article" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/x/Xuan:Jifeng" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/m/Martinez:Matias" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/d/Demarco:Favio" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/c/Clement:Maxime" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/m/Marcote:Sebastian_R=_Lamelas" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/d/Durieux:Thomas" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/b/Berre:Daniel_Le" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/m/Monperrus:Martin" />
+<dblp:bibtexType rdf:resource="http://purl.org/net/nknouf/ns/bibtex#Article" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/86/4142" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/135/6372" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/144/7394" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/137/6550" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/161/9839" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/163/2121" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/02/358" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/62/5292" />
+<dblp:numberOfCreators rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</dblp:numberOfCreators>
+<dblp:orderedCreators>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/86/4142" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/135/6372" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/144/7394" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/137/6550" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/161/9839" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/163/2121" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/02/358" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/62/5292" />
+<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil" />
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</dblp:orderedCreators>
 <dblp:primaryElectronicEdition rdf:resource="https://doi.org/10.1109/TSE.2016.2560811" />
 <dblp:otherElectronicEdition rdf:resource="http://doi.ieeecomputersociety.org/10.1109/TSE.2016.2560811" />
 <dblp:listedOnTocPage rdf:resource="https://dblp.org/db/journals/tse/tse43" />
+<dblp:pagination>34-55</dblp:pagination>
+<dblp:publishedIn>IEEE Trans. Software Eng.</dblp:publishedIn>
 <dblp:publishedInJournal>IEEE Trans. Software Eng.</dblp:publishedInJournal>
 <dblp:publishedInJournalVolume>43</dblp:publishedInJournalVolume>
 <dblp:publishedInJournalVolumeIssue>1</dblp:publishedInJournalVolumeIssue>
-<dblp:pageNumbers>34-55</dblp:pageNumbers>
 <dblp:yearOfPublication>2017</dblp:yearOfPublication>
-</dblp:Publication>
+</dblp:Article>
 <rdf:Description rdf:about="https://dblp.org/rec/journals/tse/XuanMDCMDBM17.rdf">
 <rdfs:label>provenance information for RDF data of dblp record &apos;journals/tse/XuanMDCMDBM17&apos;</rdfs:label>
-<dcterms:creator rdf:resource="https://dblp.org" />
-<dcterms:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
-<dcterms:license rdf:resource="https://opendatacommons.org/licenses/by/1.0" />
-<dcterms:modified>2017-07-26T18:02:28+0200</dcterms:modified>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2019-10-19T19:54:26+0200</dct:modified>
 </rdf:Description>
 </rdf:RDF>

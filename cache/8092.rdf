@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<dblp:Person rdf:about="https://dblp.org/pid/184/8092">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<rdfs:label>Fengjuan Gao</rdfs:label>
+<wdt:P2456>184/8092</wdt:P2456>
+<dblp:primaryFullCreatorName>Fengjuan Gao</dblp:primaryFullCreatorName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2005-09997" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-1907-05579" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/internetware/WangGSW0LZL18" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/internetware/GaoCWSWL16" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/internetware/SituWGWBZL16" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/kbse/GaoWL16" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/64/5155" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/61/9197" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/65/10976" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/76/5446" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/51/3710-3" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/179/7572" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/181/2613" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/238/8883" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/63/829" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/02/5889" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/31/5664" />
+</dblp:Person>
+<rdf:Description rdf:about="https://dblp.org/pid/184/8092.rdf">
+<rdfs:label>provenance information for RDF data of dblp person &apos;184/8092&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2020-05-29T21:59:30+0200</dct:modified>
+</rdf:Description>
+</rdf:RDF>

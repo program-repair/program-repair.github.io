@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<dblp:Person rdf:about="https://dblp.org/pid/134/5836">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<rdfs:label>Zichao Qi</rdfs:label>
+<wdt:P2456>134/5836</wdt:P2456>
+<dblp:primaryFullCreatorName>Zichao Qi</dblp:primaryFullCreatorName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/issta/QiLAR15" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/oopsla/MisailovicCAQR14" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/pvldb/QiXSW13" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/152/5845" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/07/3119" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/55/3921" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/00/4734" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/r/MartinCRinard" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/53/2446" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/w/HaixunWang" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/96/999" />
+</dblp:Person>
+<rdf:Description rdf:about="https://dblp.org/pid/134/5836.rdf">
+<rdfs:label>provenance information for RDF data of dblp person &apos;134/5836&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2020-04-26T22:00:37+0200</dct:modified>
+</rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<dblp:Person rdf:about="https://dblp.org/pid/182/1755">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<rdfs:label>Peter Amidon</rdfs:label>
+<wdt:P2456>182/1755</wdt:P2456>
+<dblp:primaryFullCreatorName>Peter Amidon</dblp:primaryFullCreatorName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/post/VassenaSACRS19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sigsoft/LongAR17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/hpec/AmidonDSR15" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/51/9597" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/182/1728" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/55/3921" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/225/4819" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/r/MartinCRinard" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/37/1475" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/155/5767" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/91/6118" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/185/6272" />
+</dblp:Person>
+<rdf:Description rdf:about="https://dblp.org/pid/182/1755.rdf">
+<rdfs:label>provenance information for RDF data of dblp person &apos;182/1755&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2020-01-23T23:05:54+0100</dct:modified>
+</rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<dblp:Person rdf:about="https://dblp.org/pid/121/4876">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<rdfs:label>David Kelk</rdfs:label>
+<wdt:P2456>121/4876</wdt:P2456>
+<dblp:primaryFullCreatorName>David Kelk</dblp:primaryFullCreatorName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/BradburyKG13" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/musepat/KelkJB13" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/issta/BradburySFJK12" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-1211-1036" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/42/932" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/122/2930" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/27/1084" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/59/5344" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/98/9102" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/23/3648" />
+</dblp:Person>
+<rdf:Description rdf:about="https://dblp.org/pid/121/4876.rdf">
+<rdfs:label>provenance information for RDF data of dblp person &apos;121/4876&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2020-10-26T23:15:49+0100</dct:modified>
+</rdf:Description>
+</rdf:RDF>

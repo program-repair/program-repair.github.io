@@ -1,27 +1,58 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2017-04-18#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1" xmlns:bibtex="http://data.bibbase.org/ontology/#">
-<dblp:Publication rdf:about="https://dblp.org/rec/conf/wcre/WhiteTMMP19">
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<dblp:Inproceedings rdf:about="https://dblp.org/rec/conf/wcre/WhiteTMMP19">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Publication" />
 <owl:sameAs rdf:resource="https://doi.org/10.1109/SANER.2019.8668043" />
+<rdfs:label>Martin White et al.: Sorting and Transforming Program Repair Ingredients via Deep Learning Code Similarities. (2019)</rdfs:label>
+<wdt:P356>10.1109/SANER.2019.8668043</wdt:P356>
 <dblp:title>Sorting and Transforming Program Repair Ingredients via Deep Learning Code Similarities.</dblp:title>
-<dblp:bibtexType rdf:resource="http://data.bibbase.org/ontology/#Inproceedings" />
-<dblp:publicationType rdf:resource="https://dblp.org/rdf/schema-2017-04-18#Inproceedings" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/w/White:Martin" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/t/Tufano:Michele" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/m/Martinez:Matias" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/m/Monperrus:Martin" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/p/Poshyvanyk:Denys" />
+<dblp:bibtexType rdf:resource="http://purl.org/net/nknouf/ns/bibtex#Inproceedings" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/56/1682" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/166/4957" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/135/6372" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/62/5292" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/02/320" />
+<dblp:numberOfCreators rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</dblp:numberOfCreators>
+<dblp:orderedCreators>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/56/1682" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/166/4957" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/135/6372" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/62/5292" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/02/320" />
+<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil" />
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</dblp:orderedCreators>
 <dblp:primaryElectronicEdition rdf:resource="https://doi.org/10.1109/SANER.2019.8668043" />
 <dblp:listedOnTocPage rdf:resource="https://dblp.org/db/conf/wcre/saner2019" />
+<dblp:pagination>479-490</dblp:pagination>
+<dblp:publishedIn>SANER</dblp:publishedIn>
 <dblp:publishedInBook>SANER</dblp:publishedInBook>
-<dblp:pageNumbers>479-490</dblp:pageNumbers>
+<dblp:yearOfEvent>2019</dblp:yearOfEvent>
 <dblp:yearOfPublication>2019</dblp:yearOfPublication>
 <dblp:publishedAsPartOf rdf:resource="https://dblp.org/rec/conf/wcre/2019" />
-</dblp:Publication>
+</dblp:Inproceedings>
 <rdf:Description rdf:about="https://dblp.org/rec/conf/wcre/WhiteTMMP19.rdf">
 <rdfs:label>provenance information for RDF data of dblp record &apos;conf/wcre/WhiteTMMP19&apos;</rdfs:label>
-<dcterms:creator rdf:resource="https://dblp.org" />
-<dcterms:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
-<dcterms:license rdf:resource="https://opendatacommons.org/licenses/by/1.0/" />
-<dcterms:modified>2019-03-29T10:31:36+0100</dcterms:modified>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2019-09-25T18:06:49+0200</dct:modified>
 </rdf:Description>
 </rdf:RDF>

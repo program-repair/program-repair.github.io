@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<dblp:Person rdf:about="https://dblp.org/pid/65/666">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<rdfs:label>Gene Novark</rdfs:label>
+<wdt:P2456>65/666</wdt:P2456>
+<dblp:primaryFullCreatorName>Gene Novark</dblp:primaryFullCreatorName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/uss/NovarkB11a" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ccs/NovarkB10" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/oopsla/BergerYLN09" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/pldi/NovarkBZ09" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/cacm/NovarkBZ08" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/asplos/LvinNBZ08" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/pldi/NovarkBZ07" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/98/4487" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/15/4725" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/59/6053" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/88/3999" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/z/BGZorn" />
+</dblp:Person>
+<rdf:Description rdf:about="https://dblp.org/pid/65/666.rdf">
+<rdfs:label>provenance information for RDF data of dblp person &apos;65/666&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2020-11-11T21:50:20+0100</dct:modified>
+</rdf:Description>
+</rdf:RDF>

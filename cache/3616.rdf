@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<dblp:Person rdf:about="https://dblp.org/pid/204/3616">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<rdfs:label>Marko Vasic</rdfs:label>
+<wdt:P2456>204/3616</wdt:P2456>
+<dblp:primaryFullCreatorName>Marko Vasic</dblp:primaryFullCreatorName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/nc/VasicSK20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/dna/VasicSK20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/issre/SinghVK20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/pldi/0024WVWVK20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2003-13720" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/iclr/VasicKMBS19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-1904-01720" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-1906-06717" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-1912-06197" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-1912-11580" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/dna/VasicSK18" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-1809-07430" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sigsoft/CelikVMG17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sigsoft/VasicPMG17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icce-berlin/GrumicVKK15" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/200/8035" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/15/1842" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/149/2717" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/43/6015" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/221/2084" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/61/2636" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/67/8012" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/k/SarfrazKhurshid" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/k/JKovacevic" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/m/PetrosManiatis" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/74/1958" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/37/7137" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/204/3765" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/179/6306" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/25/7056" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/249/8979" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/07/592" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/20/241-24" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/29/5328" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/193/4231" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/179/7420" />
+</dblp:Person>
+<rdf:Description rdf:about="https://dblp.org/pid/204/3616.rdf">
+<rdfs:label>provenance information for RDF data of dblp person &apos;204/3616&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2020-11-18T21:03:55+0100</dct:modified>
+</rdf:Description>
+</rdf:RDF>

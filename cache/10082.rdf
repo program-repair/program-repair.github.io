@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<dblp:Person rdf:about="https://dblp.org/pid/28/10082">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<rdfs:label>Hoang D. T. Nguyen</rdfs:label>
+<wdt:P2456>28/10082</wdt:P2456>
+<dblp:primaryFullCreatorName>Hoang D. T. Nguyen</dblp:primaryFullCreatorName>
+<dblp:otherFullCreatorName>Hoang Duong Thien Nguyen</dblp:otherFullCreatorName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/tosem/QiNR13" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/NguyenQRC13" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/icl/NguyenTH11" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sigsoft/QiNR11" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/c/SatishChandra" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/07/2957" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/72/7252" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/04/5884" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/27/407" />
+</dblp:Person>
+<rdf:Description rdf:about="https://dblp.org/pid/28/10082.rdf">
+<rdfs:label>provenance information for RDF data of dblp person &apos;28/10082&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2020-10-27T22:23:18+0100</dct:modified>
+</rdf:Description>
+</rdf:RDF>

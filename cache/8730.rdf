@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<dblp:Person rdf:about="https://dblp.org/pid/12/8730">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<rdfs:label>Etienne Kneuss</rdfs:label>
+<wdt:P2456>12/8730</wdt:P2456>
+<dblp:primaryFullCreatorName>Etienne Kneuss</dblp:primaryFullCreatorName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/KoukoutosRKK17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/KoukoutosKK16" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/cav/KneussKK15" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/pldi/VoirolKK15" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ecoop/BlancKKS13" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/oopsla/KneussKKS13" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/rv/KuncakKS13" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/vstte/KneussKS13" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-1304-5661" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/rv/KneussSK10" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sigsoft/KneussSK10" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/37/8883" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/165/2363" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/k/ViktorKuncak" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/129/1282" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/03/10548" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/21/7729" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/164/1429" />
+</dblp:Person>
+<rdf:Description rdf:about="https://dblp.org/pid/12/8730.rdf">
+<rdfs:label>provenance information for RDF data of dblp person &apos;12/8730&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2020-01-23T22:47:00+0100</dct:modified>
+</rdf:Description>
+</rdf:RDF>

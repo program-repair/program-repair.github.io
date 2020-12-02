@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<dblp:Person rdf:about="https://dblp.org/pid/208/7008">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<rdfs:label>Deheng Yang</rdfs:label>
+<wdt:P2456>208/7008</wdt:P2456>
+<dblp:primaryFullCreatorName>Deheng Yang</dblp:primaryFullCreatorName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/fcsc/YangQML21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ease/WangWMY19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icsm/GuoMYW18" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sate/YangQM18" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-1812-05370" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/dsa/QiLZY17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icsm/YangQM17" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/229/4288" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/94/3609" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/47/3129" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/81/8725" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/124/0432" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/219/1645" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/99/1109" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/49/1249" />
+</dblp:Person>
+<rdf:Description rdf:about="https://dblp.org/pid/208/7008.rdf">
+<rdfs:label>provenance information for RDF data of dblp person &apos;208/7008&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2020-10-03T01:12:16+0200</dct:modified>
+</rdf:Description>
+</rdf:RDF>

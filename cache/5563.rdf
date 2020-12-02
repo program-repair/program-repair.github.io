@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<dblp:Person rdf:about="https://dblp.org/pid/91/5563">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<rdfs:label>Neelam Gupta</rdfs:label>
+<wdt:P2456>91/5563</wdt:P2456>
+<dblp:primaryFullCreatorName>Neelam Gupta</dblp:primaryFullCreatorName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/aipr/Gupta14" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/spe/NagarajanJGG12" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/spe/NagarajanJGG12a" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/aipr/JinKKHMSTG12" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/aipr/Gupta11" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/toplas/JeffreyNGG10" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icsm/JeffreyGG09" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/iwpc/JeffreyFGG09" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/jss/JeffreyG08" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icsm/JeffreyGG08" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ipps/GuptaGZJNTT08" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/issta/JeffreyGG08" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/ese/ZhangGG07" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/spe/ZhangGG07" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/tse/JeffreyG07" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icsm/NagarajanJGG07" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ipps/GuptaG07" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/pldi/ZhangTGG07" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/books/crc/CRCcompiler2007/ZhangGG07" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/compsac/JeffreyG06" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/ZhangGG06" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/GuptaP06" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/pldi/ZhangGG06" />
+<dblp:editorOf rdf:resource="https://dblp.org/rec/conf/soqua/2006" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/aadebug/Zhang05" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/aipr/GuptaS05" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icsm/JeffreyG05" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/kbse/GuptaHZG05" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/paste/TallamG05" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/fase/HeG04" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sac/GuptaCH04" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/aipr/Gupta03" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/aipr/HinnrichsGG03" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/kbse/GuptaH03" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/kbse/VisvanathanG02" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/books/crc/CRCcompiler2002/GuptaG02" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/kbse/GuptaR01" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/kbse/GuptaMS00" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/kbse/GuptaMS99" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sigsoft/GuptaMS98" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/00/3284" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/04/3799-1" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/33/259" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/g/RajivGupta" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/131/0420" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/13/1592" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/15/4014" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/46/2182" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/27/1797" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/89/1623" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/76/2393" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/131/0464" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/131/0418" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/l/YvesLedru" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/m/AdityaPMathur" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/m/JohannesMayer" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/131/0459" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/24/1972" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/65/280" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/86/795" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/69/9203" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/36/2972" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/s/MaryLouSoffa" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/131/0425" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/40/6567" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/94/1247-2" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/131/0452" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/05/1688" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/95/3760-1" />
+</dblp:Person>
+<rdf:Description rdf:about="https://dblp.org/pid/91/5563.rdf">
+<rdfs:label>provenance information for RDF data of dblp person &apos;91/5563&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2020-09-06T23:14:03+0200</dct:modified>
+</rdf:Description>
+</rdf:RDF>

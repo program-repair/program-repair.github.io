@@ -1,28 +1,60 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2017-04-18#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1" xmlns:bibtex="http://data.bibbase.org/ontology/#">
-<dblp:Publication rdf:about="https://dblp.org/rec/journals/ese/YuMDDM19">
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<dblp:Article rdf:about="https://dblp.org/rec/journals/ese/YuMDDM19">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Publication" />
 <owl:sameAs rdf:resource="https://doi.org/10.1007/s10664-018-9619-4" />
+<owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q57406364" />
+<rdfs:label>Zhongxing Yu et al.: Alleviating patch overfitting with automatic test generation: a study of feasibility and effectiveness for the Nopol repair system. (2019)</rdfs:label>
+<wdt:P356>10.1007/s10664-018-9619-4</wdt:P356>
+<wdt:P1687>Q57406364</wdt:P1687>
 <dblp:title>Alleviating patch overfitting with automatic test generation: a study of feasibility and effectiveness for the Nopol repair system.</dblp:title>
-<dblp:bibtexType rdf:resource="http://data.bibbase.org/ontology/#Article" />
-<dblp:publicationType rdf:resource="https://dblp.org/rdf/schema-2017-04-18#Article" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/y/Yu:Zhongxing" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/m/Martinez:Matias" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/d/Danglot:Benjamin" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/d/Durieux:Thomas" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/m/Monperrus:Martin" />
+<dblp:bibtexType rdf:resource="http://purl.org/net/nknouf/ns/bibtex#Article" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/04/10702" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/135/6372" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/190/7031" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/163/2121" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/62/5292" />
+<dblp:numberOfCreators rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</dblp:numberOfCreators>
+<dblp:orderedCreators>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/04/10702" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/135/6372" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/190/7031" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/163/2121" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/62/5292" />
+<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil" />
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</dblp:orderedCreators>
 <dblp:primaryElectronicEdition rdf:resource="https://doi.org/10.1007/s10664-018-9619-4" />
 <dblp:listedOnTocPage rdf:resource="https://dblp.org/db/journals/ese/ese24" />
-<dblp:publishedInJournal>Empirical Software Engineering</dblp:publishedInJournal>
+<dblp:pagination>33-67</dblp:pagination>
+<dblp:publishedIn>Empir. Softw. Eng.</dblp:publishedIn>
+<dblp:publishedInJournal>Empir. Softw. Eng.</dblp:publishedInJournal>
 <dblp:publishedInJournalVolume>24</dblp:publishedInJournalVolume>
 <dblp:publishedInJournalVolumeIssue>1</dblp:publishedInJournalVolumeIssue>
-<dblp:pageNumbers>33-67</dblp:pageNumbers>
 <dblp:yearOfPublication>2019</dblp:yearOfPublication>
-</dblp:Publication>
+</dblp:Article>
 <rdf:Description rdf:about="https://dblp.org/rec/journals/ese/YuMDDM19.rdf">
 <rdfs:label>provenance information for RDF data of dblp record &apos;journals/ese/YuMDDM19&apos;</rdfs:label>
-<dcterms:creator rdf:resource="https://dblp.org" />
-<dcterms:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
-<dcterms:license rdf:resource="https://opendatacommons.org/licenses/by/1.0/" />
-<dcterms:modified>2019-02-27T18:48:53+0100</dcterms:modified>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2020-08-25T16:58:58+0200</dct:modified>
 </rdf:Description>
 </rdf:RDF>

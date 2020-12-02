@@ -1,26 +1,46 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2017-04-18#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1" xmlns:bibtex="http://data.bibbase.org/ontology/#">
-<dblp:Publication rdf:about="https://dblp.org/rec/journals/chinaf/JiangXX19">
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<dblp:Article rdf:about="https://dblp.org/rec/journals/chinaf/JiangXX19">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Publication" />
 <owl:sameAs rdf:resource="https://doi.org/10.1007/s11432-018-1465-6" />
+<rdfs:label>Jiajun Jiang et al.: A manual inspection of Defects4J bugs and its implications for automatic program repair. (2019)</rdfs:label>
+<wdt:P356>10.1007/s11432-018-1465-6</wdt:P356>
 <dblp:title>A manual inspection of Defects4J bugs and its implications for automatic program repair.</dblp:title>
-<dblp:bibtexType rdf:resource="http://data.bibbase.org/ontology/#Article" />
-<dblp:publicationType rdf:resource="https://dblp.org/rdf/schema-2017-04-18#Article" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/j/Jiang:Jiajun" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/x/Xiong:Yingfei" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/x/Xia_0001:Xin" />
+<dblp:bibtexType rdf:resource="http://purl.org/net/nknouf/ns/bibtex#Article" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/155/6527" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/82/2673" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/06/2072-1" />
+<dblp:numberOfCreators rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</dblp:numberOfCreators>
+<dblp:orderedCreators>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/155/6527" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/82/2673" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/06/2072-1" />
+<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil" />
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</dblp:orderedCreators>
 <dblp:primaryElectronicEdition rdf:resource="https://doi.org/10.1007/s11432-018-1465-6" />
 <dblp:listedOnTocPage rdf:resource="https://dblp.org/db/journals/chinaf/chinaf62" />
+<dblp:pagination>200102:1-200102:16</dblp:pagination>
+<dblp:publishedIn>Sci. China Inf. Sci.</dblp:publishedIn>
 <dblp:publishedInJournal>Sci. China Inf. Sci.</dblp:publishedInJournal>
 <dblp:publishedInJournalVolume>62</dblp:publishedInJournalVolume>
 <dblp:publishedInJournalVolumeIssue>10</dblp:publishedInJournalVolumeIssue>
-<dblp:pageNumbers>200102:1-200102:16</dblp:pageNumbers>
 <dblp:yearOfPublication>2019</dblp:yearOfPublication>
-</dblp:Publication>
+</dblp:Article>
 <rdf:Description rdf:about="https://dblp.org/rec/journals/chinaf/JiangXX19.rdf">
 <rdfs:label>provenance information for RDF data of dblp record &apos;journals/chinaf/JiangXX19&apos;</rdfs:label>
-<dcterms:creator rdf:resource="https://dblp.org" />
-<dcterms:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
-<dcterms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
-<dcterms:modified>2020-03-02T16:30:31+0100</dcterms:modified>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2020-09-01T15:49:20+0200</dct:modified>
 </rdf:Description>
 </rdf:RDF>

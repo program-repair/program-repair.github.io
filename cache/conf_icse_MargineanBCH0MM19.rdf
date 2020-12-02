@@ -1,31 +1,77 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2017-04-18#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1" xmlns:bibtex="http://data.bibbase.org/ontology/#">
-<dblp:Publication rdf:about="https://dblp.org/rec/conf/icse/MargineanBCH0MM19">
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<dblp:Inproceedings rdf:about="https://dblp.org/rec/conf/icse/MargineanBCH0MM19">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Publication" />
 <owl:sameAs rdf:resource="https://doi.org/10.1109/ICSE-SEIP.2019.00039" />
+<rdfs:label>Alexandru Marginean et al.: SapFix: automated end-to-end repair at scale. (2019)</rdfs:label>
+<wdt:P356>10.1109/ICSE-SEIP.2019.00039</wdt:P356>
 <dblp:title>SapFix: automated end-to-end repair at scale.</dblp:title>
-<dblp:bibtexType rdf:resource="http://data.bibbase.org/ontology/#Inproceedings" />
-<dblp:publicationType rdf:resource="https://dblp.org/rdf/schema-2017-04-18#Inproceedings" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/m/Marginean:Alexandru" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/b/Bader:J=" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/c/Chandra:S=" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/h/Harman:Mark" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/j/Jia_0001:Yue" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/m/Mao:Ke" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/m/Mols:Alexander" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/s/Scott:A=" />
+<dblp:bibtexType rdf:resource="http://purl.org/net/nknouf/ns/bibtex#Inproceedings" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/148/4976" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/58/6398" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/c/SatishChandra" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/h/MarkHarman" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/44/4993-1" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/50/9092" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/225/1604" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/40/395" />
+<dblp:numberOfCreators rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</dblp:numberOfCreators>
+<dblp:orderedCreators>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/148/4976" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/58/6398" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/c/SatishChandra" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/h/MarkHarman" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/44/4993-1" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/50/9092" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/225/1604" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/40/395" />
+<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil" />
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</dblp:orderedCreators>
 <dblp:primaryElectronicEdition rdf:resource="https://doi.org/10.1109/ICSE-SEIP.2019.00039" />
 <dblp:otherElectronicEdition rdf:resource="https://dl.acm.org/citation.cfm?id=3339961" />
 <dblp:listedOnTocPage rdf:resource="https://dblp.org/db/conf/icse/seip2019" />
+<dblp:pagination>269-278</dblp:pagination>
+<dblp:publishedIn>ICSE (SEIP)</dblp:publishedIn>
 <dblp:publishedInBook>ICSE (SEIP)</dblp:publishedInBook>
-<dblp:pageNumbers>269-278</dblp:pageNumbers>
+<dblp:yearOfEvent>2019</dblp:yearOfEvent>
 <dblp:yearOfPublication>2019</dblp:yearOfPublication>
 <dblp:publishedAsPartOf rdf:resource="https://dblp.org/rec/conf/icse/2019seip" />
-</dblp:Publication>
+</dblp:Inproceedings>
 <rdf:Description rdf:about="https://dblp.org/rec/conf/icse/MargineanBCH0MM19.rdf">
 <rdfs:label>provenance information for RDF data of dblp record &apos;conf/icse/MargineanBCH0MM19&apos;</rdfs:label>
-<dcterms:creator rdf:resource="https://dblp.org" />
-<dcterms:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
-<dcterms:license rdf:resource="https://opendatacommons.org/licenses/by/1.0/" />
-<dcterms:modified>2019-08-29T13:57:22+0200</dcterms:modified>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2020-11-02T17:31:08+0100</dct:modified>
 </rdf:Description>
 </rdf:RDF>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<dblp:Person rdf:about="https://dblp.org/pid/04/5890">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<rdfs:label>Brett Daniel</rdfs:label>
+<wdt:P2456>04/5890</wdt:P2456>
+<dblp:primaryFullCreatorName>Brett Daniel</dblp:primaryFullCreatorName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/DanielDGJJMNTM11" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/issta/DanielGM10" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/fase/JagannathLDM09" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/kbse/DanielJDM09" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/kbse/DanielB08" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ecoop/DanielDGM07" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sigsoft/DanielDGM07" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/03/5124" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/36/5445" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/10/1204" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/15/2242" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/82/4670" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/67/9655" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/99/1640" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/48/3911" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/43/9656" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/76/9656" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/16/9656" />
+</dblp:Person>
+<rdf:Description rdf:about="https://dblp.org/pid/04/5890.rdf">
+<rdfs:label>provenance information for RDF data of dblp person &apos;04/5890&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2020-01-23T22:41:06+0100</dct:modified>
+</rdf:Description>
+</rdf:RDF>

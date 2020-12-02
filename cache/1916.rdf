@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<dblp:Person rdf:about="https://dblp.org/pid/156/1916">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<owl:sameAs rdf:resource="https://orcid.org/0000-0003-2048-7648" />
+<rdfs:label>Fernanda Madeiral</rdfs:label>
+<wdt:P2456>156/1916</wdt:P2456>
+<wdt:P1960>Jqy0cu0AAAAJ</wdt:P1960>
+<wdt:P2037>fermadeiral</wdt:P2037>
+<wdt:P496>0000-0003-2048-7648</wdt:P496>
+<dblp:primaryFullCreatorName>Fernanda Madeiral</dblp:primaryFullCreatorName>
+<dblp:otherFullCreatorName>Fernanda Madeiral Delfim</dblp:otherFullCreatorName>
+<dblp:primaryHomepage rdf:resource="https://fermadeiral.github.io/" />
+<dblp:webpage rdf:resource="https://scholar.google.com/citations?user=Jqy0cu0AAAAJ" />
+<dblp:webpage rdf:resource="https://github.com/fermadeiral" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icsm/OliveiraBMC20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/infsof/SouzaCDPRM19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sigsoft/DurieuxDMA19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/wcre/DelfimUMM19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-1901-06024" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-1903-09174" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-1904-01754" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-1905-11973" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/wcre/SobreiraDDMM18" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-1801-06393" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-1807-11286" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/msr/PaixaoFDM17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/PaixaoFDM17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/jbcs/DelfimPCM16" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/seke/DelfimG13" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/00/6243" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/278/0438" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/145/4396" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/86/5188" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/163/2121" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/179/7504" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/f/FCFilho" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/79/2878" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/183/1106" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/97/4668" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/135/6372" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/62/5292" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/175/3395" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/60/4833" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/185/0262" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/43/6200" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/238/0276" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/133/7480" />
+</dblp:Person>
+<rdf:Description rdf:about="https://dblp.org/pid/156/1916.rdf">
+<rdfs:label>provenance information for RDF data of dblp person &apos;156/1916&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2020-11-11T21:48:07+0100</dct:modified>
+</rdf:Description>
+</rdf:RDF>

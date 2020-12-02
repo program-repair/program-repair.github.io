@@ -1,24 +1,40 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2017-04-18#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1" xmlns:bibtex="http://data.bibbase.org/ontology/#">
-<dblp:Publication rdf:about="https://dblp.org/rec/conf/fmics/KernE10">
-<owl:sameAs rdf:resource="http://dx.doi.org/10.1007/978-3-642-15898-8_5" />
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<dblp:Inproceedings rdf:about="https://dblp.org/rec/conf/fmics/KernE10">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Publication" />
+<owl:sameAs rdf:resource="https://doi.org/10.1007/978-3-642-15898-8_5" />
+<rdfs:label>Christian Kern and Javier Esparza: Automatic Error Correction of Java Programs. (2010)</rdfs:label>
+<wdt:P356>10.1007/978-3-642-15898-8_5</wdt:P356>
 <dblp:title>Automatic Error Correction of Java Programs.</dblp:title>
-<dblp:bibtexType rdf:resource="http://data.bibbase.org/ontology/#Inproceedings" />
-<dblp:publicationType rdf:resource="https://dblp.org/rdf/schema-2017-04-18#Inproceedings" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/k/Kern:Christian" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/e/Esparza:Javier" />
+<dblp:bibtexType rdf:resource="http://purl.org/net/nknouf/ns/bibtex#Inproceedings" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/97/3360" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/e/JEsparza" />
+<dblp:numberOfCreators rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</dblp:numberOfCreators>
+<dblp:orderedCreators>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/97/3360" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/e/JEsparza" />
+<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil" />
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</dblp:orderedCreators>
 <dblp:primaryElectronicEdition rdf:resource="https://doi.org/10.1007/978-3-642-15898-8_5" />
 <dblp:listedOnTocPage rdf:resource="https://dblp.org/db/conf/fmics/fmics2010" />
+<dblp:pagination>67-81</dblp:pagination>
+<dblp:publishedIn>FMICS</dblp:publishedIn>
 <dblp:publishedInBook>FMICS</dblp:publishedInBook>
-<dblp:pageNumbers>67-81</dblp:pageNumbers>
+<dblp:yearOfEvent>2010</dblp:yearOfEvent>
 <dblp:yearOfPublication>2010</dblp:yearOfPublication>
 <dblp:publishedAsPartOf rdf:resource="https://dblp.org/rec/conf/fmics/2010" />
-</dblp:Publication>
+</dblp:Inproceedings>
 <rdf:Description rdf:about="https://dblp.org/rec/conf/fmics/KernE10.rdf">
 <rdfs:label>provenance information for RDF data of dblp record &apos;conf/fmics/KernE10&apos;</rdfs:label>
-<dcterms:creator rdf:resource="https://dblp.org" />
-<dcterms:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
-<dcterms:license rdf:resource="https://opendatacommons.org/licenses/by/1.0" />
-<dcterms:modified>2017-05-21T00:22:12+0200</dcterms:modified>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2017-05-21T00:22:12+0200</dct:modified>
 </rdf:Description>
 </rdf:RDF>

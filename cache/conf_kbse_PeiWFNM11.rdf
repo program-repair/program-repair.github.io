@@ -1,28 +1,63 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2017-04-18#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1" xmlns:bibtex="http://data.bibbase.org/ontology/#">
-<dblp:Publication rdf:about="https://dblp.org/rec/conf/kbse/PeiWFNM11">
-<owl:sameAs rdf:resource="http://dx.doi.org/10.1109/ASE.2011.6100080" />
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<dblp:Inproceedings rdf:about="https://dblp.org/rec/conf/kbse/PeiWFNM11">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Publication" />
+<owl:sameAs rdf:resource="https://doi.org/10.1109/ASE.2011.6100080" />
+<owl:sameAs rdf:resource="https://doi.org/10.1109/ASE.2011.6100080" />
+<owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q56901522" />
+<rdfs:label>Yu Pei et al.: Code-based automated program fixing. (2011)</rdfs:label>
+<wdt:P356>10.1109/ASE.2011.6100080</wdt:P356>
+<wdt:P356>10.1109/ASE.2011.6100080</wdt:P356>
+<wdt:P1687>Q56901522</wdt:P1687>
 <dblp:title>Code-based automated program fixing.</dblp:title>
-<dblp:bibtexType rdf:resource="http://data.bibbase.org/ontology/#Inproceedings" />
-<dblp:publicationType rdf:resource="https://dblp.org/rdf/schema-2017-04-18#Inproceedings" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/p/Pei_0001:Yu" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/w/Wei:Yi" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/f/Furia:Carlo_A=" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/n/Nordio:Martin" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/m/Meyer_0001:Bertrand" />
+<dblp:bibtexType rdf:resource="http://purl.org/net/nknouf/ns/bibtex#Inproceedings" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/76/8304-1" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/04/470" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/78/6422" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/18/6586" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/m/BertrandMeyer" />
+<dblp:numberOfCreators rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</dblp:numberOfCreators>
+<dblp:orderedCreators>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/76/8304-1" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/04/470" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/78/6422" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/18/6586" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/m/BertrandMeyer" />
+<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil" />
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</dblp:orderedCreators>
 <dblp:primaryElectronicEdition rdf:resource="https://doi.org/10.1109/ASE.2011.6100080" />
 <dblp:otherElectronicEdition rdf:resource="http://doi.ieeecomputersociety.org/10.1109/ASE.2011.6100080" />
 <dblp:listedOnTocPage rdf:resource="https://dblp.org/db/conf/kbse/ase2011" />
+<dblp:pagination>392-395</dblp:pagination>
+<dblp:publishedIn>ASE</dblp:publishedIn>
 <dblp:publishedInBook>ASE</dblp:publishedInBook>
-<dblp:pageNumbers>392-395</dblp:pageNumbers>
+<dblp:yearOfEvent>2011</dblp:yearOfEvent>
 <dblp:yearOfPublication>2011</dblp:yearOfPublication>
 <dblp:publishedAsPartOf rdf:resource="https://dblp.org/rec/conf/kbse/2011" />
-</dblp:Publication>
+</dblp:Inproceedings>
 <rdf:Description rdf:about="https://dblp.org/rec/conf/kbse/PeiWFNM11.rdf">
 <rdfs:label>provenance information for RDF data of dblp record &apos;conf/kbse/PeiWFNM11&apos;</rdfs:label>
-<dcterms:creator rdf:resource="https://dblp.org" />
-<dcterms:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
-<dcterms:license rdf:resource="https://opendatacommons.org/licenses/by/1.0" />
-<dcterms:modified>2017-10-30T11:35:07+0100</dcterms:modified>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2018-11-14T10:58:39+0100</dct:modified>
 </rdf:Description>
 </rdf:RDF>

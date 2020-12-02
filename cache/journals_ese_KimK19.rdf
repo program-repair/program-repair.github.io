@@ -1,25 +1,40 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2017-04-18#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1" xmlns:bibtex="http://data.bibbase.org/ontology/#">
-<dblp:Publication rdf:about="https://dblp.org/rec/journals/ese/KimK19">
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<dblp:Article rdf:about="https://dblp.org/rec/journals/ese/KimK19">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Publication" />
 <owl:sameAs rdf:resource="https://doi.org/10.1007/s10664-019-09742-5" />
+<rdfs:label>Jindae Kim and Sunghun Kim: Automatic patch generation with context-based change application. (2019)</rdfs:label>
+<wdt:P356>10.1007/s10664-019-09742-5</wdt:P356>
 <dblp:title>Automatic patch generation with context-based change application.</dblp:title>
-<dblp:bibtexType rdf:resource="http://data.bibbase.org/ontology/#Article" />
-<dblp:publicationType rdf:resource="https://dblp.org/rdf/schema-2017-04-18#Article" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/k/Kim:Jindae" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/k/Kim:Sunghun" />
+<dblp:bibtexType rdf:resource="http://purl.org/net/nknouf/ns/bibtex#Article" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/59/1495" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/16/1105" />
+<dblp:numberOfCreators rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</dblp:numberOfCreators>
+<dblp:orderedCreators>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/59/1495" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/16/1105" />
+<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil" />
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</dblp:orderedCreators>
 <dblp:primaryElectronicEdition rdf:resource="https://doi.org/10.1007/s10664-019-09742-5" />
 <dblp:listedOnTocPage rdf:resource="https://dblp.org/db/journals/ese/ese24" />
-<dblp:publishedInJournal>Empirical Software Engineering</dblp:publishedInJournal>
+<dblp:pagination>4071-4106</dblp:pagination>
+<dblp:publishedIn>Empir. Softw. Eng.</dblp:publishedIn>
+<dblp:publishedInJournal>Empir. Softw. Eng.</dblp:publishedInJournal>
 <dblp:publishedInJournalVolume>24</dblp:publishedInJournalVolume>
 <dblp:publishedInJournalVolumeIssue>6</dblp:publishedInJournalVolumeIssue>
-<dblp:pageNumbers>4071-4106</dblp:pageNumbers>
 <dblp:yearOfPublication>2019</dblp:yearOfPublication>
-</dblp:Publication>
+</dblp:Article>
 <rdf:Description rdf:about="https://dblp.org/rec/journals/ese/KimK19.rdf">
 <rdfs:label>provenance information for RDF data of dblp record &apos;journals/ese/KimK19&apos;</rdfs:label>
-<dcterms:creator rdf:resource="https://dblp.org" />
-<dcterms:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
-<dcterms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
-<dcterms:modified>2019-12-19T09:26:48+0100</dcterms:modified>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2020-08-25T16:58:46+0200</dct:modified>
 </rdf:Description>
 </rdf:RDF>

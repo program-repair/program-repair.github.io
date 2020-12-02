@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<dblp:Person rdf:about="https://dblp.org/pid/43/8047">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<rdfs:label>Rafi Shalom</rdfs:label>
+<wdt:P2456>43/8047</wdt:P2456>
+<dblp:primaryFullCreatorName>Rafi Shalom</dblp:primaryFullCreatorName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sigsoft/MaozS20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/MaozRS19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/models/MaozPRS17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/cec/ShalomAU09" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/06/1414" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/m/ShaharMaoz" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/208/7012" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/04/7076" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/75/3917" />
+</dblp:Person>
+<rdf:Description rdf:about="https://dblp.org/pid/43/8047.rdf">
+<rdfs:label>provenance information for RDF data of dblp person &apos;43/8047&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2020-11-11T21:44:48+0100</dct:modified>
+</rdf:Description>
+</rdf:RDF>

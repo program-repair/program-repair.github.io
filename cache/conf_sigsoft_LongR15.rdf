@@ -1,24 +1,42 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2017-04-18#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1" xmlns:bibtex="http://data.bibbase.org/ontology/#">
-<dblp:Publication rdf:about="https://dblp.org/rec/conf/sigsoft/LongR15">
-<owl:sameAs rdf:resource="http://dx.doi.org/10.1145/2786805.2786811" />
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<dblp:Inproceedings rdf:about="https://dblp.org/rec/conf/sigsoft/LongR15">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Publication" />
+<owl:sameAs rdf:resource="https://doi.org/10.1145/2786805.2786811" />
+<owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q57311856" />
+<rdfs:label>Fan Long and Martin Rinard: Staged program repair with condition synthesis. (2015)</rdfs:label>
+<wdt:P356>10.1145/2786805.2786811</wdt:P356>
+<wdt:P1687>Q57311856</wdt:P1687>
 <dblp:title>Staged program repair with condition synthesis.</dblp:title>
-<dblp:bibtexType rdf:resource="http://data.bibbase.org/ontology/#Inproceedings" />
-<dblp:publicationType rdf:resource="https://dblp.org/rdf/schema-2017-04-18#Inproceedings" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/l/Long:Fan" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/r/Rinard:Martin" />
-<dblp:primaryElectronicEdition rdf:resource="http://doi.acm.org/10.1145/2786805.2786811" />
+<dblp:bibtexType rdf:resource="http://purl.org/net/nknouf/ns/bibtex#Inproceedings" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/55/3921" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/r/MartinCRinard" />
+<dblp:numberOfCreators rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</dblp:numberOfCreators>
+<dblp:orderedCreators>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/55/3921" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/r/MartinCRinard" />
+<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil" />
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</dblp:orderedCreators>
+<dblp:primaryElectronicEdition rdf:resource="https://doi.org/10.1145/2786805.2786811" />
 <dblp:listedOnTocPage rdf:resource="https://dblp.org/db/conf/sigsoft/fse2015" />
+<dblp:pagination>166-178</dblp:pagination>
+<dblp:publishedIn>ESEC/SIGSOFT FSE</dblp:publishedIn>
 <dblp:publishedInBook>ESEC/SIGSOFT FSE</dblp:publishedInBook>
-<dblp:pageNumbers>166-178</dblp:pageNumbers>
+<dblp:yearOfEvent>2015</dblp:yearOfEvent>
 <dblp:yearOfPublication>2015</dblp:yearOfPublication>
 <dblp:publishedAsPartOf rdf:resource="https://dblp.org/rec/conf/sigsoft/2015" />
-</dblp:Publication>
+</dblp:Inproceedings>
 <rdf:Description rdf:about="https://dblp.org/rec/conf/sigsoft/LongR15.rdf">
 <rdfs:label>provenance information for RDF data of dblp record &apos;conf/sigsoft/LongR15&apos;</rdfs:label>
-<dcterms:creator rdf:resource="https://dblp.org" />
-<dcterms:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
-<dcterms:license rdf:resource="https://opendatacommons.org/licenses/by/1.0" />
-<dcterms:modified>2015-09-10T16:05:11+0200</dcterms:modified>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2018-11-14T10:59:39+0100</dct:modified>
 </rdf:Description>
 </rdf:RDF>

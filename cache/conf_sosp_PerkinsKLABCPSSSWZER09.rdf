@@ -1,36 +1,114 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2017-04-18#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1" xmlns:bibtex="http://data.bibbase.org/ontology/#">
-<dblp:Publication rdf:about="https://dblp.org/rec/conf/sosp/PerkinsKLABCPSSSWZER09">
-<owl:sameAs rdf:resource="http://dx.doi.org/10.1145/1629575.1629585" />
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<dblp:Inproceedings rdf:about="https://dblp.org/rec/conf/sosp/PerkinsKLABCPSSSWZER09">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Publication" />
+<owl:sameAs rdf:resource="https://doi.org/10.1145/1629575.1629585" />
+<owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q57311850" />
+<rdfs:label>Jeff H. Perkins et al.: Automatically patching errors in deployed software. (2009)</rdfs:label>
+<wdt:P356>10.1145/1629575.1629585</wdt:P356>
+<wdt:P1687>Q57311850</wdt:P1687>
 <dblp:title>Automatically patching errors in deployed software.</dblp:title>
-<dblp:bibtexType rdf:resource="http://data.bibbase.org/ontology/#Inproceedings" />
-<dblp:publicationType rdf:resource="https://dblp.org/rdf/schema-2017-04-18#Inproceedings" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/p/Perkins:Jeff_H=" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/k/Kim_0001:Sunghun" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/l/Larsen:Samuel" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/a/Amarasinghe:Saman_P=" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/b/Bachrach:Jonathan" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/c/Carbin:Michael" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/p/Pacheco:Carlos" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/s/Sherwood:Frank" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/s/Sidiroglou:Stelios" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/s/Sullivan:Greg" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/w/Wong:Weng=Fai" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/z/Zibin:Yoav" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/e/Ernst:Michael_D=" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pers/r/Rinard:Martin_C=" />
-<dblp:primaryElectronicEdition rdf:resource="http://doi.acm.org/10.1145/1629575.1629585" />
+<dblp:bibtexType rdf:resource="http://purl.org/net/nknouf/ns/bibtex#Inproceedings" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/24/972" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/k/SunghunKim" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/08/4601" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/a/SPAmarasinghe" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/92/2089" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/07/3119" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/51/1907" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/09/7453" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/37/1475" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/78/7451" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/37/1143" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/35/5726" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/e/MDErnst" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/r/MartinCRinard" />
+<dblp:numberOfCreators rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</dblp:numberOfCreators>
+<dblp:orderedCreators>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/24/972" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/k/SunghunKim" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/08/4601" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/a/SPAmarasinghe" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/92/2089" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/07/3119" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/51/1907" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/09/7453" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/37/1475" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/78/7451" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/37/1143" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/35/5726" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/e/MDErnst" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/r/MartinCRinard" />
+<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil" />
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</dblp:orderedCreators>
+<dblp:primaryElectronicEdition rdf:resource="https://doi.org/10.1145/1629575.1629585" />
 <dblp:listedOnTocPage rdf:resource="https://dblp.org/db/conf/sosp/sosp2009" />
+<dblp:pagination>87-102</dblp:pagination>
+<dblp:publishedIn>SOSP</dblp:publishedIn>
 <dblp:publishedInBook>SOSP</dblp:publishedInBook>
-<dblp:pageNumbers>87-102</dblp:pageNumbers>
+<dblp:yearOfEvent>2009</dblp:yearOfEvent>
 <dblp:yearOfPublication>2009</dblp:yearOfPublication>
 <dblp:publishedAsPartOf rdf:resource="https://dblp.org/rec/conf/sosp/2009" />
-</dblp:Publication>
+</dblp:Inproceedings>
 <rdf:Description rdf:about="https://dblp.org/rec/conf/sosp/PerkinsKLABCPSSSWZER09.rdf">
 <rdfs:label>provenance information for RDF data of dblp record &apos;conf/sosp/PerkinsKLABCPSSSWZER09&apos;</rdfs:label>
-<dcterms:creator rdf:resource="https://dblp.org" />
-<dcterms:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
-<dcterms:license rdf:resource="https://opendatacommons.org/licenses/by/1.0" />
-<dcterms:modified>2017-01-04T18:25:51+0100</dcterms:modified>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2018-11-14T10:55:11+0100</dct:modified>
 </rdf:Description>
 </rdf:RDF>

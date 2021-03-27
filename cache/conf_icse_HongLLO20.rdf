@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<dblp:Inproceedings rdf:about="https://dblp.org/rec/conf/icse/HongLLO20">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Publication" />
+<owl:sameAs rdf:resource="https://doi.org/10.1145/3377811.3380323" />
+<rdfs:label>Seongjoon Hong et al.: SAVER: scalable, precise, and safe memory-error repair. (2020)</rdfs:label>
+<wdt:P356>10.1145/3377811.3380323</wdt:P356>
+<dblp:title>SAVER: scalable, precise, and safe memory-error repair.</dblp:title>
+<dblp:bibtexType rdf:resource="http://purl.org/net/nknouf/ns/bibtex#Inproceedings" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/222/5868" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/196/6094" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/58/4813" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/13/7537" />
+<dblp:numberOfCreators rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</dblp:numberOfCreators>
+<dblp:orderedCreators>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/222/5868" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/196/6094" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/58/4813" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/13/7537" />
+<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil" />
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</dblp:orderedCreators>
+<dblp:primaryElectronicEdition rdf:resource="https://doi.org/10.1145/3377811.3380323" />
+<dblp:listedOnTocPage rdf:resource="https://dblp.org/db/conf/icse/icse2020" />
+<dblp:pagination>271-283</dblp:pagination>
+<dblp:publishedIn>ICSE</dblp:publishedIn>
+<dblp:publishedInBook>ICSE</dblp:publishedInBook>
+<dblp:yearOfEvent>2020</dblp:yearOfEvent>
+<dblp:yearOfPublication>2020</dblp:yearOfPublication>
+<dblp:publishedAsPartOf rdf:resource="https://dblp.org/rec/conf/icse/2020" />
+</dblp:Inproceedings>
+<rdf:Description rdf:about="https://dblp.org/rec/conf/icse/HongLLO20.rdf">
+<rdfs:label>provenance information for RDF data of dblp record &apos;conf/icse/HongLLO20&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2020-10-16T10:56:00+0200</dct:modified>
+</rdf:Description>
+</rdf:RDF>

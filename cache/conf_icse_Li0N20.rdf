@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<dblp:Inproceedings rdf:about="https://dblp.org/rec/conf/icse/Li0N20">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Publication" />
+<owl:sameAs rdf:resource="https://doi.org/10.1145/3377811.3380345" />
+<rdfs:label>Yi Li et al.: DLFix: context-based code transformation learning for automated program repair. (2020)</rdfs:label>
+<wdt:P356>10.1145/3377811.3380345</wdt:P356>
+<dblp:title>DLFix: context-based code transformation learning for automated program repair.</dblp:title>
+<dblp:bibtexType rdf:resource="http://purl.org/net/nknouf/ns/bibtex#Inproceedings" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/59/871" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/09/486-2" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/56/6902" />
+<dblp:numberOfCreators rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</dblp:numberOfCreators>
+<dblp:orderedCreators>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/59/871" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/09/486-2" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/56/6902" />
+<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil" />
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</dblp:orderedCreators>
+<dblp:primaryElectronicEdition rdf:resource="https://doi.org/10.1145/3377811.3380345" />
+<dblp:otherElectronicEdition rdf:resource="https://ieeexplore.ieee.org/document/9284100" />
+<dblp:listedOnTocPage rdf:resource="https://dblp.org/db/conf/icse/icse2020" />
+<dblp:pagination>602-614</dblp:pagination>
+<dblp:publishedIn>ICSE</dblp:publishedIn>
+<dblp:publishedInBook>ICSE</dblp:publishedInBook>
+<dblp:yearOfEvent>2020</dblp:yearOfEvent>
+<dblp:yearOfPublication>2020</dblp:yearOfPublication>
+<dblp:publishedAsPartOf rdf:resource="https://dblp.org/rec/conf/icse/2020" />
+</dblp:Inproceedings>
+<rdf:Description rdf:about="https://dblp.org/rec/conf/icse/Li0N20.rdf">
+<rdfs:label>provenance information for RDF data of dblp record &apos;conf/icse/Li0N20&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2021-01-08T14:47:26+0100</dct:modified>
+</rdf:Description>
+</rdf:RDF>

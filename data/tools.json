@@ -1,5 +1,13 @@
 [
 	{
+		"name": "ARJA",
+		"description": "multi-objective genetic programming for automated repair of Java",
+		"url": "https://github.com/yyxhdy/arja",
+		"repo": "https://github.com/yyxhdy/arja",
+		"target": "Java",
+		"dblp": "journals/tse/YuanB20"
+	},
+	{
 		"name": "Refactory",
 		"description": "tool for generating real-time program repairs of buggy student programs",
 		"url": "https://github.com/githubhuyang/refactory",

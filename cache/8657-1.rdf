@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<dblp:Person rdf:about="https://dblp.org/pid/50/8657-1">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<owl:sameAs rdf:resource="https://orcid.org/0000-0003-1471-2546" />
+<rdfs:label>Ali Ghanbari 0001</rdfs:label>
+<wdt:P2456>50/8657-1</wdt:P2456>
+<wdt:P496>0000-0003-1471-2546</wdt:P496>
+<dblp:primaryFullCreatorName>Ali Ghanbari</dblp:primaryFullCreatorName>
+<dblp:primaryAffiliation>The University of Texas at Dallas, TX, USA</dblp:primaryAffiliation>
+<dblp:primaryHomepage rdf:resource="https://ali-ghanbari.github.io/" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2102-11559" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/issta/LouGLZZHZ20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/issta/Ghanbari20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sigsoft/GhanbariM20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2006-04911" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2009-06848" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/BentonGZ19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/issta/GhanbariBZ19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/kbse/GhanbariZ19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/kbse/Ghanbari19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-1910-01270" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-1807-03512" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/242/3931" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/50/456" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/97/30" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/174/3394" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/m/AndrianMarcus" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/83/4184" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/27/7057" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/z/LuZhang1" />
+</dblp:Person>
+<rdf:Description rdf:about="https://dblp.org/pid/50/8657-1.rdf">
+<rdfs:label>provenance information for RDF data of dblp person &apos;50/8657-1&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2021-02-25T21:55:00+0100</dct:modified>
+</rdf:Description>
+</rdf:RDF>

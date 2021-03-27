@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<dblp:Person rdf:about="https://dblp.org/pid/241/9733">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<rdfs:label>Rangeet Pan</rdfs:label>
+<wdt:P2456>241/9733</wdt:P2456>
+<dblp:primaryFullCreatorName>Rangeet Pan</dblp:primaryFullCreatorName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2103-02004" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/Pan20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/IslamPNR20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sigsoft/PanR20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2005-00972" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sigsoft/IslamNPR19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sigsoft/Pan19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-1905-13284" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-1906-01388" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-1906-11940" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/241/9346" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/g/SumitGulwani" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/210/2350" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/274/7817" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/32/2903" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/00/2651" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/91/1758" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/99/4349" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/51/6992" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/r/HrideshRajan" />
+</dblp:Person>
+<rdf:Description rdf:about="https://dblp.org/pid/241/9733.rdf">
+<rdfs:label>provenance information for RDF data of dblp person &apos;241/9733&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2021-03-05T20:39:15+0100</dct:modified>
+</rdf:Description>
+</rdf:RDF>

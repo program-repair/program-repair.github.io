@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<dblp:Person rdf:about="https://dblp.org/pid/00/11511">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<rdfs:label>Mingyuan Gao</rdfs:label>
+<wdt:P2456>00/11511</wdt:P2456>
+<dblp:primaryFullCreatorName>Mingyuan Gao</dblp:primaryFullCreatorName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/tosem/ShariffdeenTGR21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/jzusc/CongGWCW20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/wicomm/WeiGZCQZL20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/access/WeiGZCQWL19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/ijisec/ZhangHG019" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/iske/WeiGZCQWL19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/ijdsn/GaoLLWWW18" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/tits/GaoWWY18" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/tits/GaoWCCC17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/tbe/GaoHCZL10" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/tbe/GaoHCLZ09" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/200/9646" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/22/594" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/81/4345" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/22/6904-4" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/52/11509" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/273/2583" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/61/8967" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/26/10332" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/237/4526" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/03/5747" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/55/666" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/24/2334" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/136/4837" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/04/5884" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/285/7422" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/16/9656" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/98/5414" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/58/6810" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/37/1304" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/77/1916" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/41/3241" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/96/133" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/216/3694" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/26/1895" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/15/4777-14" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/65/2747" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/147/4100" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/z/JianyingZhou" />
+</dblp:Person>
+<rdf:Description rdf:about="https://dblp.org/pid/00/11511.rdf">
+<rdfs:label>provenance information for RDF data of dblp person &apos;00/11511&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2021-02-23T22:21:07+0100</dct:modified>
+</rdf:Description>
+</rdf:RDF>

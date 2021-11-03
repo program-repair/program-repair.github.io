@@ -192,7 +192,7 @@ for bib_item in tqdm.tqdm(bib_items):
     entry['title'] = title
     entry['anchor'] = bib_item.key.replace('/', '_')
     entry['scholar'] = "https://scholar.google.com/scholar?q={}".format(title.replace(' ', '+'))
-    entry['bibtex'] = "http://dblp.org/rec/bibtex1/{}".format(bib_item.key)
+    entry['bibtex'] = "http://dblp.org/rec/bibtex/{}".format(bib_item.key)
     
     # using xml parser because rdflib is not order-preserving
     root = ET.fromstring(data)

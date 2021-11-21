@@ -135,7 +135,7 @@
             labels: [2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021],
             datasets: [{
                 label: '# of publications',
-                data: [2,2,1,4,7,7,6,8,13,20,22,25,39,49,52,32,15,2,2,1,4,7,7,6,8,13,20,22,25,39,49,52,32,15],
+                data: [2,2,1,4,7,7,6,8,13,20,22,25,39,49,52,26,40,2,2,1,4,7,7,6,8,13,20,22,25,39,49,52,26,40],
                 backgroundColor: 'rgba(0,130,200,0.5)',
                 borderWidth: 0
             }]
@@ -159,7 +159,7 @@
             labels: [2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021],
             datasets: [{
                 label: '# of authors',
-                data: [4,4,3,8,32,22,18,23,35,58,63,77,137,134,167,120,48],
+                data: [4,4,3,8,32,22,18,23,35,58,63,77,137,134,167,92,141],
                 backgroundColor: 'rgba(0,130,200,0.5)',
                 borderWidth: 0
             }]
@@ -183,7 +183,7 @@
             labels: [2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021],
             datasets: [{
                 label: '# of new authors',
-                data: [4,2,3,5,31,16,12,17,27,40,46,50,92,76,108,73,26],
+                data: [4,2,3,5,31,16,12,17,27,40,46,50,92,76,108,53,92],
                 backgroundColor: 'rgba(0,130,200,0.5)',
                 borderWidth: 0
             }]
@@ -204,10 +204,10 @@
   var publicationsPerAuthor = new Chart(ctx, {
       type: 'horizontalBar',
       data: {
-          labels: ["Martin Monperrus","Claire Le Goues","Westley Weimer","Abhik Roychoudhury","Matias Martinez","Tegawendé F. Bissyandé","Kui Liu","Xiaoguang Mao","Stephanie Forrest","Dongsun Kim"],
+          labels: ["Martin Monperrus","Claire Le Goues","Abhik Roychoudhury","Westley Weimer","Tegawendé F. Bissyandé","Matias Martinez","Kui Liu","Xiaoguang Mao","Stephanie Forrest","Anil Koyuncu"],
           datasets: [{
               label: '# of publications',
-              data: [29,26,19,18,14,13,12,12,12,11],
+              data: [29,28,19,18,14,14,13,12,12,11],
               backgroundColor: 'rgba(0,130,200,0.5)',
               borderWidth: 0
           }]
@@ -228,10 +228,10 @@
     var publicationsPerVenue = new Chart(ctx, {
         type: 'horizontalBar',
         data: {
-            labels: ["ICSE","FSE","ASE","ISSTA","SANER","TSE","CAV","PLDI","EMSE","APR@ICSE"],
+            labels: ["ICSE","FSE","ASE","ISSTA","SANER","PLDI","TSE","ICST","CAV","EMSE"],
             datasets: [{
                 label: '# of publications',
-                data: [47,27,26,26,15,10,10,10,9,9],
+                data: [50,30,29,28,15,13,12,11,10,9],
                 backgroundColor: 'rgba(0,130,200,0.5)',
                 borderWidth: 0
             }]

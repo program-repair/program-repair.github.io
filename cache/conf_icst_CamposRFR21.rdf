@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dct="http://purl.org/dc/terms/" xmlns:litre="http://purl.org/spar/literal/">
+<dblp:Inproceedings rdf:about="https://dblp.org/rec/conf/icst/CamposRFR21">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Publication" />
+<owl:sameAs rdf:resource="https://doi.org/10.1109/ICST49551.2021.00032" />
+<owl:sameAs rdf:resource="http://dx.doi.org/10.1109/ICST49551.2021.00032" />
+<rdfs:label>Diogo Campos et al.: Automatic Program Repair as Semantic Suggestions: An Empirical Study. (2021)</rdfs:label>
+<dblp:doi rdf:resource="https://doi.org/10.1109/ICST49551.2021.00032" />
+<datacite:hasIdentifier>
+<datacite:ResourceIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp-record" />
+<litre:hasLiteralValue>conf/icst/CamposRFR21</litre:hasLiteralValue>
+</datacite:ResourceIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:ResourceIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/doi" />
+<litre:hasLiteralValue>10.1109/ICST49551.2021.00032</litre:hasLiteralValue>
+</datacite:ResourceIdentifier>
+</datacite:hasIdentifier>
+<dblp:title>Automatic Program Repair as Semantic Suggestions: An Empirical Study.</dblp:title>
+<dblp:bibtexType rdf:resource="http://purl.org/net/nknouf/ns/bibtex#Inproceedings" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/251/0606" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/99/2599" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/23/7714" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/293/9430" />
+<dblp:numberOfCreators rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</dblp:numberOfCreators>
+<dblp:orderedCreators>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/251/0606" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/99/2599" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/23/7714" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/293/9430" />
+<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil" />
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</dblp:orderedCreators>
+<dblp:primaryElectronicEdition rdf:resource="https://doi.org/10.1109/ICST49551.2021.00032" />
+<dblp:listedOnTocPage rdf:resource="https://dblp.org/db/conf/icst/icst2021" />
+<dblp:pagination>217-228</dblp:pagination>
+<dblp:publishedIn>ICST</dblp:publishedIn>
+<dblp:publishedInBook>ICST</dblp:publishedInBook>
+<dblp:yearOfEvent>2021</dblp:yearOfEvent>
+<dblp:yearOfPublication>2021</dblp:yearOfPublication>
+<dblp:publishedAsPartOf rdf:resource="https://dblp.org/rec/conf/icst/2021" />
+</dblp:Inproceedings>
+<rdf:Description rdf:about="https://dblp.org/rec/conf/icst/CamposRFR21.rdf">
+<rdfs:label>provenance information for RDF data of dblp record &apos;conf/icst/CamposRFR21&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2021-07-25T11:49:17+0200</dct:modified>
+</rdf:Description>
+</rdf:RDF>

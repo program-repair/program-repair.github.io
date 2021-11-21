@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dct="http://purl.org/dc/terms/" xmlns:litre="http://purl.org/spar/literal/">
+<dblp:Inproceedings rdf:about="https://dblp.org/rec/conf/pldi/RahmaniNDJ21">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Publication" />
+<owl:sameAs rdf:resource="https://doi.org/10.1145/3453483.3454028" />
+<owl:sameAs rdf:resource="http://dx.doi.org/10.1145/3453483.3454028" />
+<rdfs:label>Kia Rahmani et al.: Repairing serializability bugs in distributed database programs via automated schema refactoring. (2021)</rdfs:label>
+<dblp:doi rdf:resource="https://doi.org/10.1145/3453483.3454028" />
+<datacite:hasIdentifier>
+<datacite:ResourceIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp-record" />
+<litre:hasLiteralValue>conf/pldi/RahmaniNDJ21</litre:hasLiteralValue>
+</datacite:ResourceIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:ResourceIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/doi" />
+<litre:hasLiteralValue>10.1145/3453483.3454028</litre:hasLiteralValue>
+</datacite:ResourceIdentifier>
+</datacite:hasIdentifier>
+<dblp:title>Repairing serializability bugs in distributed database programs via automated schema refactoring.</dblp:title>
+<dblp:bibtexType rdf:resource="http://purl.org/net/nknouf/ns/bibtex#Inproceedings" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/220/1284" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/120/1805" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/08/3478" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/j/SJagannathan" />
+<dblp:numberOfCreators rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</dblp:numberOfCreators>
+<dblp:orderedCreators>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/220/1284" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/120/1805" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/08/3478" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/j/SJagannathan" />
+<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil" />
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</dblp:orderedCreators>
+<dblp:primaryElectronicEdition rdf:resource="https://doi.org/10.1145/3453483.3454028" />
+<dblp:listedOnTocPage rdf:resource="https://dblp.org/db/conf/pldi/pldi2021" />
+<dblp:pagination>32-47</dblp:pagination>
+<dblp:publishedIn>PLDI</dblp:publishedIn>
+<dblp:publishedInBook>PLDI</dblp:publishedInBook>
+<dblp:yearOfEvent>2021</dblp:yearOfEvent>
+<dblp:yearOfPublication>2021</dblp:yearOfPublication>
+<dblp:publishedAsPartOf rdf:resource="https://dblp.org/rec/conf/pldi/2021" />
+</dblp:Inproceedings>
+<rdf:Description rdf:about="https://dblp.org/rec/conf/pldi/RahmaniNDJ21.rdf">
+<rdfs:label>provenance information for RDF data of dblp record &apos;conf/pldi/RahmaniNDJ21&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2021-06-21T13:42:02+0200</dct:modified>
+</rdf:Description>
+</rdf:RDF>

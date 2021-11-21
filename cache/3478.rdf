@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dct="http://purl.org/dc/terms/" xmlns:litre="http://purl.org/spar/literal/">
+<dblp:Person rdf:about="https://dblp.org/pid/08/3478">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
+<rdfs:label>Benjamin Delaware</rdfs:label>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>08/3478</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<dblp:primaryFullCreatorName>Benjamin Delaware</dblp:primaryFullCreatorName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/pacmpl/ZhouDDJ21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/pldi/RahmaniNDJ21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2101-09655" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2103-05573" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2108-04783" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/cade/Pit-ClaudelWDGC20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2002-02904" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2009-01489" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/pacmpl/DelawareSPYC19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/pacmpl/RahmaniNDJ19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/cpp/YeD19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-1908-05655" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-1803-04870" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/haskell/WiegleyD17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/snapl/ChlipalaDDGPSWY17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/popl/DelawarePGC15" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icfp/DelawareKSO13" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/popl/DelawareOS13" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/oopsla/DelawareCB11" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/foal/DelawareCB09" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sigsoft/DelawareCB09" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/168/8830" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/167/6624" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/b/DSBatory" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/30/8037" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/52/796" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/c/WilliamRCook" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/258/0543" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/200/5403" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/129/9491" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/140/7502" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/j/SJagannathan" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/17/3809" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/12/3394" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/134/9098" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/47/1003" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/146/2769" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/246/3274" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/274/1259" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/05/2998" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/120/1805" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/20/7796" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/155/8144" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/220/1284" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/19/7373" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/78/7445" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/s/TomSchrijvers" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/274/1169" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/14/2478" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/46/656" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/198/2490" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/200/5351" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/59/6876" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/52/3194-46" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/95/4442-48" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/205/4382" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/200/5385" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/232/5248" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/34/6503" />
+</dblp:Person>
+<rdf:Description rdf:about="https://dblp.org/pid/08/3478.rdf">
+<rdfs:label>provenance information for RDF data of dblp person &apos;08/3478&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2021-11-11T23:14:37+0100</dct:modified>
+</rdf:Description>
+</rdf:RDF>

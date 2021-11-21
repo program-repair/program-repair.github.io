@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dct="http://purl.org/dc/terms/" xmlns:litre="http://purl.org/spar/literal/">
+<dblp:Inproceedings rdf:about="https://dblp.org/rec/conf/ssbse/GuizzoBCPS21">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Publication" />
+<owl:sameAs rdf:resource="https://doi.org/10.1007/978-3-030-88106-1_12" />
+<owl:sameAs rdf:resource="http://dx.doi.org/10.1007/978-3-030-88106-1_12" />
+<rdfs:label>Giovani Guizzo et al.: Refining Fitness Functions for Search-Based Automated Program Repair - A Case Study with ARJA and ARJA-e. (2021)</rdfs:label>
+<dblp:doi rdf:resource="https://doi.org/10.1007/978-3-030-88106-1_12" />
+<datacite:hasIdentifier>
+<datacite:ResourceIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp-record" />
+<litre:hasLiteralValue>conf/ssbse/GuizzoBCPS21</litre:hasLiteralValue>
+</datacite:ResourceIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:ResourceIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/doi" />
+<litre:hasLiteralValue>10.1007/978-3-030-88106-1_12</litre:hasLiteralValue>
+</datacite:ResourceIdentifier>
+</datacite:hasIdentifier>
+<dblp:title>Refining Fitness Functions for Search-Based Automated Program Repair - A Case Study with ARJA and ARJA-e.</dblp:title>
+<dblp:bibtexType rdf:resource="http://purl.org/net/nknouf/ns/bibtex#Inproceedings" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/148/4898" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/138/0351" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/298/4715" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/23/8779" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/18/7526" />
+<dblp:numberOfCreators rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</dblp:numberOfCreators>
+<dblp:orderedCreators>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/148/4898" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/138/0351" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/298/4715" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/23/8779" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/18/7526" />
+<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil" />
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</dblp:orderedCreators>
+<dblp:primaryElectronicEdition rdf:resource="https://doi.org/10.1007/978-3-030-88106-1_12" />
+<dblp:listedOnTocPage rdf:resource="https://dblp.org/db/conf/ssbse/ssbse2021" />
+<dblp:pagination>159-165</dblp:pagination>
+<dblp:publishedIn>SSBSE</dblp:publishedIn>
+<dblp:publishedInBook>SSBSE</dblp:publishedInBook>
+<dblp:yearOfEvent>2021</dblp:yearOfEvent>
+<dblp:yearOfPublication>2021</dblp:yearOfPublication>
+<dblp:publishedAsPartOf rdf:resource="https://dblp.org/rec/conf/ssbse/2021" />
+</dblp:Inproceedings>
+<rdf:Description rdf:about="https://dblp.org/rec/conf/ssbse/GuizzoBCPS21.rdf">
+<rdfs:label>provenance information for RDF data of dblp record &apos;conf/ssbse/GuizzoBCPS21&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2021-10-04T16:09:18+0200</dct:modified>
+</rdf:Description>
+</rdf:RDF>

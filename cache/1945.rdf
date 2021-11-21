@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dct="http://purl.org/dc/terms/" xmlns:litre="http://purl.org/spar/literal/">
+<dblp:Person rdf:about="https://dblp.org/pid/68/1945">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
+<rdfs:label>Aditya V. Thakur</rdfs:label>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>68/1945</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/google-scholar" />
+<litre:hasLiteralValue>x8952qgAAAAJ</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<dblp:primaryFullCreatorName>Aditya V. Thakur</dblp:primaryFullCreatorName>
+<dblp:otherFullCreatorName>Aditya Thakur</dblp:otherFullCreatorName>
+<dblp:primaryAffiliation>Google</dblp:primaryAffiliation>
+<dblp:otherAffiliation>University of California, Davis, CA, USA</dblp:otherAffiliation>
+<dblp:primaryHomepage rdf:resource="http://pages.cs.wisc.edu/~adi/" />
+<dblp:otherHomepage rdf:resource="https://faculty.engineering.ucdavis.edu/thakur/" />
+<dblp:webpage rdf:resource="https://scholar.google.com/citations?user=x8952qgAAAAJ" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/pldi/SotoudehT21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/tacas/SotoudehT21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/uss/TaoRGVT21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2101-03263" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2104-04413" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/pacmpl/KimVT20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/networking/GhosalGSTW20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/oopsla/SotoudehT20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sas/KimVT20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sas/SotoudehT20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2009-05660" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2009-05865" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2009-06592" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/globecom/GhosalSSTW19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/nips/SotoudehT19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sigsoft/DeFreezBRT19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-1908-06214" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-1908-06223" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-1909-05951" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/DeFreezTR18" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sigsoft/DeFreezTR18" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-1802-07779" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/asplos/PhothilimthanaT16" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/cc/PhothilimthanaT16" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/vmcai/RepsT16" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/entcs/ThakurLLR15" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/cav/ItzhakyBRST14" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/spin/ThakurBR14" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/dagstuhl-reports/KroeningRST14" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/cav/ThakurR12" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/cav/DriscollTR12" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sas/ThakurER12" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sas/ThakurR12" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/tse/BeckmanNRSTT10" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/cav/RepsLTBL10" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/cav/ThakurLLBDEAR10" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/oopsla/JinTLL10" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/issta/ThakurSLL09" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/tacas/NoriRTT09" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/cgo/ThakurG08" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/08/8296" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/86/5106" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/246/5349" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/65/194" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/51/912" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/20/1858" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/148/1307" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/93/8295" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/215/4842" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/15/179" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/05/8296" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/87/8295" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/55/4427" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/270/4049" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/45/3592" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/170/4838" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/62/8636" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/73/8636" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/248/9285" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/k/DanielKroening" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/27/1008" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/l/BenLiblit" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/94/2026" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/31/5916-1" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/n/AdityaVNori" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/127/3128" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/r/SriramKRajamani" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/81/10809" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/r/TWReps" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/69/495" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/s/SSagiv" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/08/2832" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/s/SanjitASeshia" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/127/6469" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/75/4666" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/80/5477" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/215/4310" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/199/7027" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/98/1457" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/48/1784" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/59/4227" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/30/4395" />
+</dblp:Person>
+<rdf:Description rdf:about="https://dblp.org/pid/68/1945.rdf">
+<rdfs:label>provenance information for RDF data of dblp person &apos;68/1945&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2021-10-16T02:07:12+0200</dct:modified>
+</rdf:Description>
+</rdf:RDF>

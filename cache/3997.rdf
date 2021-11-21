@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dct="http://purl.org/dc/terms/" xmlns:litre="http://purl.org/spar/literal/">
+<dblp:Person rdf:about="https://dblp.org/pid/99/3997">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
+<rdfs:label>Christoph Knieke</rdfs:label>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>99/3997</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<dblp:primaryFullCreatorName>Christoph Knieke</dblp:primaryFullCreatorName>
+<dblp:primaryAffiliation>Clausthal University of Technology, Department of Informatics, Clausthal-Zellerfeld, Germany</dblp:primaryAffiliation>
+<dblp:otherAffiliation>Technical University of Braunschweig, Institute for Programming and Reactive Systems, Germany</dblp:otherAffiliation>
+<dblp:primaryHomepage rdf:resource="https://www.isse.tu-clausthal.de/en/get-in-touch/team/dr-christoph-knieke" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse-apr/KniekeRS21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sessos/AilaneAKLR21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2104-13919" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/phd/dnb/Knieke19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/se/EhlersGKRS19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sac/CoolKRSSVBJ16" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/njc/KniekeH15" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sofsem/StrasserCGKKNPRBJJKK14" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/xpu/PetersKBJKS14" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/phd/de/Knieke2011" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sera/KniekeHL08" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/tase/KniekeHL08" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/296/5795" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/296/6084" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/139/8167" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/139/8179" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/30/1143" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/20/10002" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/226/0065" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/95/6849" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/139/8137" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/139/8169" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/139/8235" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/78/11261-2" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/139/8231" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/296/5970" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/22/3444" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/43/4643" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/139/8193" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/46/173" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/25/4129" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/89/1478" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/139/8171" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/64/4968" />
+</dblp:Person>
+<rdf:Description rdf:about="https://dblp.org/pid/99/3997.rdf">
+<rdfs:label>provenance information for RDF data of dblp person &apos;99/3997&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2021-08-12T23:29:16+0200</dct:modified>
+</rdf:Description>
+</rdf:RDF>

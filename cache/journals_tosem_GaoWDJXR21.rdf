@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dct="http://purl.org/dc/terms/" xmlns:litre="http://purl.org/spar/literal/">
+<dblp:Article rdf:about="https://dblp.org/rec/journals/tosem/GaoWDJXR21">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Publication" />
+<owl:sameAs rdf:resource="https://doi.org/10.1145/3418461" />
+<owl:sameAs rdf:resource="http://dx.doi.org/10.1145/3418461" />
+<rdfs:label>Xiang Gao et al.: Beyond Tests: Program Vulnerability Repair via Crash Constraint Extraction. (2021)</rdfs:label>
+<dblp:doi rdf:resource="https://doi.org/10.1145/3418461" />
+<datacite:hasIdentifier>
+<datacite:ResourceIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp-record" />
+<litre:hasLiteralValue>journals/tosem/GaoWDJXR21</litre:hasLiteralValue>
+</datacite:ResourceIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:ResourceIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/doi" />
+<litre:hasLiteralValue>10.1145/3418461</litre:hasLiteralValue>
+</datacite:ResourceIdentifier>
+</datacite:hasIdentifier>
+<dblp:title>Beyond Tests: Program Vulnerability Repair via Crash Constraint Extraction.</dblp:title>
+<dblp:bibtexType rdf:resource="http://purl.org/net/nknouf/ns/bibtex#Article" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/14/3881" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/72/6811-50" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/74/3123" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/213/8284" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/82/2673" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/04/5884" />
+<dblp:numberOfCreators rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</dblp:numberOfCreators>
+<dblp:orderedCreators>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/14/3881" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/72/6811-50" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/74/3123" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/213/8284" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/82/2673" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/04/5884" />
+<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil" />
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</dblp:orderedCreators>
+<dblp:primaryElectronicEdition rdf:resource="https://doi.org/10.1145/3418461" />
+<dblp:listedOnTocPage rdf:resource="https://dblp.org/db/journals/tosem/tosem30" />
+<dblp:pagination>14:1-14:27</dblp:pagination>
+<dblp:publishedIn>ACM Trans. Softw. Eng. Methodol.</dblp:publishedIn>
+<dblp:publishedInJournal>ACM Trans. Softw. Eng. Methodol.</dblp:publishedInJournal>
+<dblp:publishedInJournalVolume>30</dblp:publishedInJournalVolume>
+<dblp:publishedInJournalVolumeIssue>2</dblp:publishedInJournalVolumeIssue>
+<dblp:yearOfPublication>2021</dblp:yearOfPublication>
+</dblp:Article>
+<rdf:Description rdf:about="https://dblp.org/rec/journals/tosem/GaoWDJXR21.rdf">
+<rdfs:label>provenance information for RDF data of dblp record &apos;journals/tosem/GaoWDJXR21&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2021-10-14T08:54:15+0200</dct:modified>
+</rdf:Description>
+</rdf:RDF>

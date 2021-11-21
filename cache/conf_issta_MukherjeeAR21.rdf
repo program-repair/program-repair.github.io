@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dct="http://purl.org/dc/terms/" xmlns:litre="http://purl.org/spar/literal/">
+<dblp:Inproceedings rdf:about="https://dblp.org/rec/conf/issta/MukherjeeAR21">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Publication" />
+<owl:sameAs rdf:resource="https://doi.org/10.1145/3460319.3464797" />
+<owl:sameAs rdf:resource="http://dx.doi.org/10.1145/3460319.3464797" />
+<rdfs:label>Suchita Mukherjee et al.: Fixing dependency errors for Python build reproducibility. (2021)</rdfs:label>
+<dblp:doi rdf:resource="https://doi.org/10.1145/3460319.3464797" />
+<datacite:hasIdentifier>
+<datacite:ResourceIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp-record" />
+<litre:hasLiteralValue>conf/issta/MukherjeeAR21</litre:hasLiteralValue>
+</datacite:ResourceIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:ResourceIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/doi" />
+<litre:hasLiteralValue>10.1145/3460319.3464797</litre:hasLiteralValue>
+</datacite:ResourceIdentifier>
+</datacite:hasIdentifier>
+<dblp:title>Fixing dependency errors for Python build reproducibility.</dblp:title>
+<dblp:bibtexType rdf:resource="http://purl.org/net/nknouf/ns/bibtex#Inproceedings" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/297/2382" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/297/2137" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/69/495" />
+<dblp:numberOfCreators rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</dblp:numberOfCreators>
+<dblp:orderedCreators>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/297/2382" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/297/2137" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/69/495" />
+<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil" />
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</dblp:orderedCreators>
+<dblp:primaryElectronicEdition rdf:resource="https://doi.org/10.1145/3460319.3464797" />
+<dblp:listedOnTocPage rdf:resource="https://dblp.org/db/conf/issta/issta2021" />
+<dblp:pagination>439-451</dblp:pagination>
+<dblp:publishedIn>ISSTA</dblp:publishedIn>
+<dblp:publishedInBook>ISSTA</dblp:publishedInBook>
+<dblp:yearOfEvent>2021</dblp:yearOfEvent>
+<dblp:yearOfPublication>2021</dblp:yearOfPublication>
+<dblp:publishedAsPartOf rdf:resource="https://dblp.org/rec/conf/issta/2021" />
+</dblp:Inproceedings>
+<rdf:Description rdf:about="https://dblp.org/rec/conf/issta/MukherjeeAR21.rdf">
+<rdfs:label>provenance information for RDF data of dblp record &apos;conf/issta/MukherjeeAR21&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2021-07-19T16:42:08+0200</dct:modified>
+</rdf:Description>
+</rdf:RDF>

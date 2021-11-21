@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dct="http://purl.org/dc/terms/" xmlns:litre="http://purl.org/spar/literal/">
+<dblp:Article rdf:about="https://dblp.org/rec/journals/tse/Gavidia-Calderon21">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Publication" />
+<owl:sameAs rdf:resource="https://doi.org/10.1109/TSE.2019.2944608" />
+<owl:sameAs rdf:resource="http://dx.doi.org/10.1109/TSE.2019.2944608" />
+<rdfs:label>Carlos Gavidia-Calderon et al.: The Assessor&apos;s Dilemma: Improving Bug Repair via Empirical Game Theory. (2021)</rdfs:label>
+<dblp:doi rdf:resource="https://doi.org/10.1109/TSE.2019.2944608" />
+<datacite:hasIdentifier>
+<datacite:ResourceIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp-record" />
+<litre:hasLiteralValue>journals/tse/Gavidia-Calderon21</litre:hasLiteralValue>
+</datacite:ResourceIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:ResourceIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/doi" />
+<litre:hasLiteralValue>10.1109/TSE.2019.2944608</litre:hasLiteralValue>
+</datacite:ResourceIdentifier>
+</datacite:hasIdentifier>
+<dblp:title>The Assessor&apos;s Dilemma: Improving Bug Repair via Empirical Game Theory.</dblp:title>
+<dblp:bibtexType rdf:resource="http://purl.org/net/nknouf/ns/bibtex#Article" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/255/6764" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/18/7526" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/h/MarkHarman" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/47/1088" />
+<dblp:numberOfCreators rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</dblp:numberOfCreators>
+<dblp:orderedCreators>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/255/6764" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/18/7526" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/h/MarkHarman" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/47/1088" />
+<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil" />
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</dblp:orderedCreators>
+<dblp:primaryElectronicEdition rdf:resource="https://doi.org/10.1109/TSE.2019.2944608" />
+<dblp:listedOnTocPage rdf:resource="https://dblp.org/db/journals/tse/tse47" />
+<dblp:pagination>2143-2161</dblp:pagination>
+<dblp:publishedIn>IEEE Trans. Software Eng.</dblp:publishedIn>
+<dblp:publishedInJournal>IEEE Trans. Software Eng.</dblp:publishedInJournal>
+<dblp:publishedInJournalVolume>47</dblp:publishedInJournalVolume>
+<dblp:publishedInJournalVolumeIssue>10</dblp:publishedInJournalVolumeIssue>
+<dblp:yearOfPublication>2021</dblp:yearOfPublication>
+</dblp:Article>
+<rdf:Description rdf:about="https://dblp.org/rec/journals/tse/Gavidia-Calderon21.rdf">
+<rdfs:label>provenance information for RDF data of dblp record &apos;journals/tse/Gavidia-Calderon21&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2021-11-03T08:27:58+0100</dct:modified>
+</rdf:Description>
+</rdf:RDF>

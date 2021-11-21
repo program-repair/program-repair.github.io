@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dct="http://purl.org/dc/terms/" xmlns:litre="http://purl.org/spar/literal/">
+<dblp:Person rdf:about="https://dblp.org/pid/83/7257">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
+<rdfs:label>D&#225;niel Horv&#225;th</rdfs:label>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>83/7257</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<dblp:primaryFullCreatorName>D&#225;niel Horv&#225;th</dblp:primaryFullCreatorName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse-apr/CsuvikHLV21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2103-16846" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/ercim/SzilagyiBH20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/cea/HorvathPT19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ifip6-6/HorvathT11" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ifip6-6/HorvathBMT10" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ifip6-6/HorvathKPML09" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/256/4517" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/36/8214" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/219/1665" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/63/7257" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/289/2023" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/30/6328" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/90/4571" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/47/7257" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/244/0951" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/256/4679" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/204/3538" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/57/2295" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/21/5882" />
+</dblp:Person>
+<rdf:Description rdf:about="https://dblp.org/pid/83/7257.rdf">
+<rdfs:label>provenance information for RDF data of dblp person &apos;83/7257&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2021-08-12T23:39:12+0200</dct:modified>
+</rdf:Description>
+</rdf:RDF>

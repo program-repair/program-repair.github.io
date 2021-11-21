@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dct="http://purl.org/dc/terms/" xmlns:litre="http://purl.org/spar/literal/">
 <dblp:Person rdf:about="https://dblp.org/pid/203/8089">
-<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
 <rdfs:label>James Koppel</rdfs:label>
-<wdt:P2456>203/8089</wdt:P2456>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>203/8089</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
 <dblp:primaryFullCreatorName>James Koppel</dblp:primaryFullCreatorName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icml/AletLKNSLKT21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icml/TavaresK0DS21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2104-00739" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2107-12568" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/oopsla/KoppelJ20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/pldi/PremtoonKS20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/uss/SpecterKW20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2010-04918" />
@@ -14,20 +24,37 @@
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/oopsla/LinKCS17" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/KoppelS17" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-1710-10385" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/207/7626" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/199/2538" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/239/2673" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/289/6196" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/80/1906-1" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/k/LesliePackKaelbling" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/276/5432" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/30/8321" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/210/6391" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/296/8315" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/90/752" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/74/7373" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/224/0047" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/188/9079" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/02/7115" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/153/1972" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/31/11144" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/159/2133" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/95/6919" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/169/8186" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/229/8544" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/t/JoshuaBTenenbaum" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/w/DanielJWeitzner" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/76/1584-35" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/289/6347" />
 </dblp:Person>
 <rdf:Description rdf:about="https://dblp.org/pid/203/8089.rdf">
 <rdfs:label>provenance information for RDF data of dblp person &apos;203/8089&apos;</rdfs:label>
 <dct:creator rdf:resource="https://dblp.org" />
 <dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
 <dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
-<dct:modified>2020-10-21T23:38:08+0200</dct:modified>
+<dct:modified>2021-10-16T01:43:49+0200</dct:modified>
 </rdf:Description>
 </rdf:RDF>

@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dct="http://purl.org/dc/terms/" xmlns:litre="http://purl.org/spar/literal/">
 <dblp:Person rdf:about="https://dblp.org/pid/32/1106">
-<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
 <rdfs:label>Haruki Yokoyama</rdfs:label>
-<wdt:P2456>32/1106</wdt:P2456>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>32/1106</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
 <dblp:primaryFullCreatorName>Haruki Yokoyama</dblp:primaryFullCreatorName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2107-04234" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/kbse/YokoyamaOK20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icsa/Yokoyama19" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/compsac/TanikadoYYSHK17" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/iwesep/YokoyamaHK17" />
@@ -23,13 +30,16 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/25/8792" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/145/5485" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/14/8943" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/28/4909" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/k/TakashiKobayashi" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/32/2663" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/67/2826" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/145/6957" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/145/5452" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/10/7676" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/160/9094" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/39/4704" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/133/4155" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/80/4072" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/45/1863" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/83/11043" />
@@ -47,6 +57,6 @@
 <dct:creator rdf:resource="https://dblp.org" />
 <dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
 <dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
-<dct:modified>2020-09-12T00:52:30+0200</dct:modified>
+<dct:modified>2021-07-21T22:31:35+0200</dct:modified>
 </rdf:Description>
 </rdf:RDF>

@@ -1,10 +1,32 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dct="http://purl.org/dc/terms/" xmlns:litre="http://purl.org/spar/literal/">
 <dblp:Inproceedings rdf:about="https://dblp.org/rec/conf/oopsla/LogozzoB12">
-<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Publication" />
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Publication" />
 <owl:sameAs rdf:resource="https://doi.org/10.1145/2384616.2384626" />
+<owl:sameAs rdf:resource="http://dx.doi.org/10.1145/2384616.2384626" />
+<owl:sameAs rdf:resource="https://doi.org/10.1145/2398857.2384626" />
+<owl:sameAs rdf:resource="http://dx.doi.org/10.1145/2398857.2384626" />
 <rdfs:label>Francesco Logozzo and Thomas Ball: Modular and verified automatic program repair. (2012)</rdfs:label>
-<wdt:P356>10.1145/2384616.2384626</wdt:P356>
+<dblp:doi rdf:resource="https://doi.org/10.1145/2384616.2384626" />
+<dblp:doi rdf:resource="https://doi.org/10.1145/2398857.2384626" />
+<datacite:hasIdentifier>
+<datacite:ResourceIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp-record" />
+<litre:hasLiteralValue>conf/oopsla/LogozzoB12</litre:hasLiteralValue>
+</datacite:ResourceIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:ResourceIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/doi" />
+<litre:hasLiteralValue>10.1145/2384616.2384626</litre:hasLiteralValue>
+</datacite:ResourceIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:ResourceIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/doi" />
+<litre:hasLiteralValue>10.1145/2398857.2384626</litre:hasLiteralValue>
+</datacite:ResourceIdentifier>
+</datacite:hasIdentifier>
 <dblp:title>Modular and verified automatic program repair.</dblp:title>
 <dblp:bibtexType rdf:resource="http://purl.org/net/nknouf/ns/bibtex#Inproceedings" />
 <dblp:authoredBy rdf:resource="https://dblp.org/pid/92/3" />
@@ -22,6 +44,7 @@
 </rdf:List>
 </dblp:orderedCreators>
 <dblp:primaryElectronicEdition rdf:resource="https://doi.org/10.1145/2384616.2384626" />
+<dblp:otherElectronicEdition rdf:resource="https://doi.org/10.1145/2398857.2384626" />
 <dblp:listedOnTocPage rdf:resource="https://dblp.org/db/conf/oopsla/oopsla2012" />
 <dblp:pagination>133-146</dblp:pagination>
 <dblp:publishedIn>OOPSLA</dblp:publishedIn>
@@ -35,6 +58,6 @@
 <dct:creator rdf:resource="https://dblp.org" />
 <dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
 <dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
-<dct:modified>2018-11-06T16:57:16+0100</dct:modified>
+<dct:modified>2021-06-24T16:19:30+0200</dct:modified>
 </rdf:Description>
 </rdf:RDF>

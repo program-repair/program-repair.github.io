@@ -1,12 +1,28 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dct="http://purl.org/dc/terms/" xmlns:litre="http://purl.org/spar/literal/">
 <dblp:Person rdf:about="https://dblp.org/pid/10/2501-1">
-<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
 <owl:sameAs rdf:resource="https://orcid.org/0000-0003-0272-6860" />
 <rdfs:label>Dongsun Kim 0001</rdfs:label>
-<wdt:P2456>10/2501-1</wdt:P2456>
-<wdt:P1960>Rmzs0QIAAAAJ</wdt:P1960>
-<wdt:P496>0000-0003-0272-6860</wdt:P496>
+<dblp:orcid rdf:resource="https://orcid.org/0000-0003-0272-6860" />
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>10/2501-1</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/google-scholar" />
+<litre:hasLiteralValue>Rmzs0QIAAAAJ</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/orcid" />
+<litre:hasLiteralValue>0000-0003-0272-6860</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
 <dblp:primaryFullCreatorName>Dongsun Kim</dblp:primaryFullCreatorName>
 <dblp:otherFullCreatorName>Dong-Sun Kim</dblp:otherFullCreatorName>
 <dblp:primaryAffiliation>University of Luxembourg, Interdisciplinary Centre for Security, Reliability and Trust</dblp:primaryAffiliation>
@@ -15,6 +31,9 @@
 <dblp:otherHomepage rdf:resource="https://wwwen.uni.lu/snt/people/dongsun_kim" />
 <dblp:webpage rdf:resource="https://scholar.google.com/citations?user=Rmzs0QIAAAAJ" />
 <dblp:webpage rdf:resource="https://www.researcherid.com/rid/B-4856-2015" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/ese/YangLKKKTLMKB21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/jss/LiuLKKLKB21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/tse/LiuKBYT21" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/ese/KoyuncuLBKKMT20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/0001WKKB0WKMT20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2008-00914" />
@@ -71,7 +90,7 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/02/2980" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/k/SunghunKim" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/26/690" />
-<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/56/1270" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/46/6697" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/k/JacquesKlein" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/161/7765" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/02/4002" />
@@ -80,9 +99,11 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/90/4196-1" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/23/3492" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/81/6765-1" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/94/3609" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/168/9406" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/53/2189-29" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/71/7399-1" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/70/1220" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/89/6793-1" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/161/7842" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/81/8725" />
@@ -95,10 +116,12 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/222/5859" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/129/8272" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/121/2703" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/223/3393" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/95/5206" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/219/1645" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/21/3775" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/15/6146" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/208/7008" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/06/1626" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/z/AndreasZeller" />
 <dblp:proxyAmbiguousCreator rdf:resource="https://dblp.org/pid/236/3462" />
@@ -108,6 +131,6 @@
 <dct:creator rdf:resource="https://dblp.org" />
 <dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
 <dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
-<dct:modified>2020-10-17T22:13:28+0200</dct:modified>
+<dct:modified>2021-10-16T02:03:36+0200</dct:modified>
 </rdf:Description>
 </rdf:RDF>

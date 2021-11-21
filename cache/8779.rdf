@@ -1,10 +1,53 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dct="http://purl.org/dc/terms/" xmlns:litre="http://purl.org/spar/literal/">
 <dblp:Person rdf:about="https://dblp.org/pid/23/8779">
-<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
+<owl:sameAs rdf:resource="https://orcid.org/0000-0002-7833-6044" />
 <rdfs:label>Justyna Petke</rdfs:label>
-<wdt:P2456>23/8779</wdt:P2456>
+<dblp:orcid rdf:resource="https://orcid.org/0000-0002-7833-6044" />
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>23/8779</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/google-scholar" />
+<litre:hasLiteralValue>a6kdFxIAAAAJ</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/orcid" />
+<litre:hasLiteralValue>0000-0002-7833-6044</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/ieee" />
+<litre:hasLiteralValue>37085469139</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
 <dblp:primaryFullCreatorName>Justyna Petke</dblp:primaryFullCreatorName>
+<dblp:primaryAffiliation>University College London, Department of Computer Science, UK</dblp:primaryAffiliation>
+<dblp:otherAffiliation>University of Oxford, Department of Computer Science, UK</dblp:otherAffiliation>
+<dblp:primaryHomepage rdf:resource="http://www0.cs.ucl.ac.uk/staff/J.Petke/" />
+<dblp:otherHomepage rdf:resource="https://www.cs.ox.ac.uk/people/justyna.petke/" />
+<dblp:webpage rdf:resource="https://scholar.google.com/citations?user=a6kdFxIAAAAJ" />
+<dblp:webpage rdf:resource="https://ieeexplore.ieee.org/author/37085469139" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/tec/BlotP21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/tse/WuNPJH21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/gecco/LangdonPC21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/gi-ws/SmigielskaBP21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/gi-ws/CallanP21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/GuizzoPSH21a" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/GuizzoPSH21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse-apr/BianBP21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sigsoft/PetkeCL21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ssbse/CallanP21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ssbse/GuizzoBCPS21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2108-12075" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/sigsoft/LangdonWPFLWBCB20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/tse/WuNPJH20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/cec/BrownleePR20" />
@@ -71,9 +114,13 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/225/3675" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/47/1088" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/123/5293" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/66/2257" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/300/8326" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/138/0351" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/57/5601" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/164/9023" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/298/4715" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/40/4629" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/79/5975" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/24/2144" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/118/6447" />
@@ -98,12 +145,15 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/23/7244" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/148/4976" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/m/TimMenzies" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/165/7494" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/04/7426" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/21/10066" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/44/3613" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/186/1055" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/273/8169" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/91/2007" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/18/7526" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/298/5100" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/26/694" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/16/9656" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/50/3146" />
@@ -124,6 +174,6 @@
 <dct:creator rdf:resource="https://dblp.org" />
 <dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
 <dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
-<dct:modified>2020-11-04T22:02:09+0100</dct:modified>
+<dct:modified>2021-11-17T23:58:17+0100</dct:modified>
 </rdf:Description>
 </rdf:RDF>

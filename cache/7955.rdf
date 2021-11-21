@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dct="http://purl.org/dc/terms/" xmlns:litre="http://purl.org/spar/literal/">
 <dblp:Person rdf:about="https://dblp.org/pid/166/7955">
-<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
 <rdfs:label>Aleksandr Zakharchenko</rdfs:label>
-<wdt:P2456>166/7955</wdt:P2456>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>166/7955</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
 <dblp:primaryFullCreatorName>Aleksandr Zakharchenko</dblp:primaryFullCreatorName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/somet/KhaireddineZM21" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/ijccbs/KhaireddineAJZM20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/qrs/KhaireddineZM20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/qrs/KhaireddineZM19" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/KhaireddineZM17" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/mie/ZakharchenkoG16" />
@@ -27,6 +34,6 @@
 <dct:creator rdf:resource="https://dblp.org" />
 <dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
 <dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
-<dct:modified>2020-09-12T00:46:31+0200</dct:modified>
+<dct:modified>2021-09-26T00:42:14+0200</dct:modified>
 </rdf:Description>
 </rdf:RDF>

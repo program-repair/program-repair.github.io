@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dct="http://purl.org/dc/terms/" xmlns:litre="http://purl.org/spar/literal/">
 <dblp:Person rdf:about="https://dblp.org/pid/79/3883">
-<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
 <rdfs:label>Shinsuke Matsumoto</rdfs:label>
-<wdt:P2456>79/3883</wdt:P2456>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>79/3883</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
 <dblp:primaryFullCreatorName>Shinsuke Matsumoto</dblp:primaryFullCreatorName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/apsec/HanayamaMK20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/apsec/HigoMKK20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/compsac/AzumaMUK20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/IzutaMHK20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icsm/SasakiHMK20" />
@@ -117,6 +124,7 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/88/3251" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/96/9814-1" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/00/945" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/46/6697" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/145/4352" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/38/8358" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/274/5274" />
@@ -176,6 +184,6 @@
 <dct:creator rdf:resource="https://dblp.org" />
 <dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
 <dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
-<dct:modified>2020-11-11T21:54:12+0100</dct:modified>
+<dct:modified>2021-08-12T23:45:01+0200</dct:modified>
 </rdf:Description>
 </rdf:RDF>

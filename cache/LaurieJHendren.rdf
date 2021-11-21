@@ -1,23 +1,63 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dct="http://purl.org/dc/terms/" xmlns:litre="http://purl.org/spar/literal/">
 <dblp:Person rdf:about="https://dblp.org/pid/h/LaurieJHendren">
-<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
 <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q19832421" />
 <owl:sameAs rdf:resource="https://id.loc.gov/authorities/names/nb2008008868" />
 <rdfs:label>Laurie J. Hendren</rdfs:label>
-<wdt:P2456>h/LaurieJHendren</wdt:P2456>
-<wdt:P1960>uouHKIkAAAAJ</wdt:P1960>
-<wdt:P864>81548008286</wdt:P864>
-<wdt:P2037>ljhendren</wdt:P2037>
-<wdt:P1687>Q19832421</wdt:P1687>
-<wdt:P244>names/nb2008008868</wdt:P244>
+<dblp:wikidata rdf:resource="https://www.wikidata.org/entity/Q19832421" />
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>h/LaurieJHendren</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/google-scholar" />
+<litre:hasLiteralValue>uouHKIkAAAAJ</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/acm" />
+<litre:hasLiteralValue>81548008286</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/github" />
+<litre:hasLiteralValue>ljhendren</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:Identifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/wikidata" />
+<litre:hasLiteralValue>Q19832421</litre:hasLiteralValue>
+</datacite:Identifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:Identifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/loc" />
+<litre:hasLiteralValue>names/nb2008008868</litre:hasLiteralValue>
+</datacite:Identifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/acm" />
+<litre:hasLiteralValue>81100646110</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
 <dblp:primaryFullCreatorName>Laurie J. Hendren</dblp:primaryFullCreatorName>
 <dblp:primaryAffiliation>McGill University, Montreal, Canada</dblp:primaryAffiliation>
 <dblp:primaryHomepage rdf:resource="http://www.sable.mcgill.ca/~hendren/" />
 <dblp:webpage rdf:resource="https://scholar.google.com/citations?user=uouHKIkAAAAJ" />
 <dblp:webpage rdf:resource="https://dl.acm.org/profile/81548008286" />
-<dblp:webpage rdf:resource="https://en.wikipedia.org/wiki/Laurie_Hendren" />
+<dblp:wikipedia rdf:resource="https://en.wikipedia.org/wiki/Laurie_Hendren" />
 <dblp:webpage rdf:resource="https://github.com/ljhendren" />
+<dblp:webpage rdf:resource="https://dl.acm.org/profile/81100646110" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/cgo/KrolikVH21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/edbt/ChenDHK21" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/cc/ChenKKVH20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/wosp/SandhuVH20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/cf/LavoieH19" />
@@ -318,6 +358,6 @@
 <dct:creator rdf:resource="https://dblp.org" />
 <dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
 <dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
-<dct:modified>2020-10-26T23:13:21+0100</dct:modified>
+<dct:modified>2021-07-14T01:37:46+0200</dct:modified>
 </rdf:Description>
 </rdf:RDF>

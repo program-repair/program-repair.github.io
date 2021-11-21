@@ -1,17 +1,35 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dct="http://purl.org/dc/terms/" xmlns:litre="http://purl.org/spar/literal/">
 <dblp:Person rdf:about="https://dblp.org/pid/09/486-2">
-<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
 <owl:sameAs rdf:resource="https://orcid.org/0000-0001-5777-7759" />
 <rdfs:label>Shaohua Wang 0002</rdfs:label>
-<wdt:P2456>09/486-2</wdt:P2456>
-<wdt:P496>0000-0001-5777-7759</wdt:P496>
+<dblp:orcid rdf:resource="https://orcid.org/0000-0001-5777-7759" />
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>09/486-2</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/orcid" />
+<litre:hasLiteralValue>0000-0001-5777-7759</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
 <dblp:primaryFullCreatorName>Shaohua Wang</dblp:primaryFullCreatorName>
-<dblp:primaryAffiliation>New Jersey Institute of Technology, USA</dblp:primaryAffiliation>
-<dblp:otherAffiliation>Queen&apos;s University, Canada</dblp:otherAffiliation>
+<dblp:otherFullCreatorName>Shaohua (David) Wang</dblp:otherFullCreatorName>
+<dblp:primaryAffiliation>New Jersey Institute of Technology, Department of Informatics, Newark, NJ, USA</dblp:primaryAffiliation>
+<dblp:otherAffiliation>Queen&apos;s University, School of Computing, Kingston, Canada</dblp:otherAffiliation>
+<dblp:primaryHomepage rdf:resource="https://davidshaohuawang.wordpress.com/" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/tsc/WangZNN21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/dasfaa/0014ZJDC021" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/Li0N21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/Li0N21a" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sigsoft/Li0N21" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2103-00269" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2103-00270" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2106-10478" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/Li0N20a" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/Li0N20b" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/Li0N20" />
@@ -44,8 +62,11 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/15/11214" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/08/4980" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/78/3806" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/76/977" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/08/3009" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/74/6065" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/h/AhmedEHassan" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/289/8616" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/25/471" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/32/147" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/59/871" />
@@ -61,12 +82,13 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/137/8820" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/19/8390" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/185/1474" />
-<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/59/2227" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/59/2227-14" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/118/4187" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/48/1294-1" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/94/7639" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/14/1356" />
-<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/57/2056" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/57/2056-41" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/93/7107" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/55/3451-1" />
 <dblp:proxyAmbiguousCreator rdf:resource="https://dblp.org/pid/09/486" />
 </dblp:Person>
@@ -75,6 +97,6 @@
 <dct:creator rdf:resource="https://dblp.org" />
 <dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
 <dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
-<dct:modified>2021-03-05T20:26:50+0100</dct:modified>
+<dct:modified>2021-10-27T01:16:30+0200</dct:modified>
 </rdf:Description>
 </rdf:RDF>

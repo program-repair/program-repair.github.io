@@ -1,14 +1,30 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dct="http://purl.org/dc/terms/" xmlns:litre="http://purl.org/spar/literal/">
 <dblp:Person rdf:about="https://dblp.org/pid/k/SandeepSKulkarni">
-<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
 <owl:sameAs rdf:resource="https://orcid.org/0000-0002-7608-2116" />
 <rdfs:label>Sandeep S. Kulkarni</rdfs:label>
-<wdt:P2456>k/SandeepSKulkarni</wdt:P2456>
-<wdt:P496>0000-0002-7608-2116</wdt:P496>
+<dblp:orcid rdf:resource="https://orcid.org/0000-0002-7608-2116" />
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>k/SandeepSKulkarni</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/orcid" />
+<litre:hasLiteralValue>0000-0002-7608-2116</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
 <dblp:primaryFullCreatorName>Sandeep S. Kulkarni</dblp:primaryFullCreatorName>
 <dblp:primaryAffiliation>Michigan State University, East Lansing, USA</dblp:primaryAffiliation>
 <dblp:primaryHomepage rdf:resource="http://www.cse.msu.edu/~sandeep/" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/dc/NguyenYVKD21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sss/GuptaK21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2104-15099" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2108-09418" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2109-13216" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/dc/ValapilK20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/srds/NguyenK20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/srds/ValapilKTA20" />
@@ -252,6 +268,7 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/12/8271" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/g/MohamedGGouda" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/94/1153" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/261/3730" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/58/7584" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/72/6812" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/45/4421" />
@@ -319,6 +336,6 @@
 <dct:creator rdf:resource="https://dblp.org" />
 <dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
 <dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
-<dct:modified>2020-12-01T22:16:46+0100</dct:modified>
+<dct:modified>2021-11-11T23:04:05+0100</dct:modified>
 </rdf:Description>
 </rdf:RDF>

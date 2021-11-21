@@ -1,12 +1,28 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dct="http://purl.org/dc/terms/" xmlns:litre="http://purl.org/spar/literal/">
 <dblp:Person rdf:about="https://dblp.org/pid/46/2873">
-<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
 <owl:sameAs rdf:resource="https://orcid.org/0000-0001-6182-815X" />
 <rdfs:label>Chris Parnin</rdfs:label>
-<wdt:P2456>46/2873</wdt:P2456>
-<wdt:P1960>Guzbr0kAAAAJ</wdt:P1960>
-<wdt:P496>0000-0001-6182-815X</wdt:P496>
+<dblp:orcid rdf:resource="https://orcid.org/0000-0001-6182-815X" />
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>46/2873</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/google-scholar" />
+<litre:hasLiteralValue>Guzbr0kAAAAJ</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/orcid" />
+<litre:hasLiteralValue>0000-0001-6182-815X</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
 <dblp:primaryFullCreatorName>Chris Parnin</dblp:primaryFullCreatorName>
 <dblp:otherFullCreatorName>Christopher Parnin</dblp:otherFullCreatorName>
 <dblp:otherFullCreatorName>Christopher Joseph Parnin</dblp:otherFullCreatorName>
@@ -14,6 +30,14 @@
 <dblp:primaryHomepage rdf:resource="http://www.chrisparnin.me/" />
 <dblp:otherHomepage rdf:resource="https://www.csc.ncsu.edu/people/cjparnin" />
 <dblp:webpage rdf:resource="https://scholar.google.com/citations?user=Guzbr0kAAAAJ" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/pacmhci/ShresthaBP21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/tosem/RahmanRPW21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/botse-ws/BrownP21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/PeitekAPBS21a" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/PeitekAPBS21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/issta/ParninO21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/uist/ShresthaBP21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2103-09685" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/cacm/SiegmundPBPA20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/tse/PeitekSAKPBLSB20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/BrownP20" />
@@ -120,7 +144,7 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/276/3478" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/78/1837" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/82/6574" />
-<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/20/1453" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/126/9627" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/28/8166" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/d/LauraADabbish" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/38/2575" />
@@ -177,7 +201,7 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/22/2803" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/217/2055" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/06/10426" />
-<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/200/7886" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/08/2425-1" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/142/7349" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/177/6903" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/202/4808" />
@@ -208,6 +232,6 @@
 <dct:creator rdf:resource="https://dblp.org" />
 <dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
 <dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
-<dct:modified>2020-11-27T20:19:15+0100</dct:modified>
+<dct:modified>2021-11-14T22:27:01+0100</dct:modified>
 </rdf:Description>
 </rdf:RDF>

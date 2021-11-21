@@ -1,13 +1,30 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dct="http://purl.org/dc/terms/" xmlns:litre="http://purl.org/spar/literal/">
 <dblp:Person rdf:about="https://dblp.org/pid/76/8304-1">
-<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
 <owl:sameAs rdf:resource="https://orcid.org/0000-0001-6065-6958" />
 <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q57065650" />
 <rdfs:label>Yu Pei 0001</rdfs:label>
-<wdt:P2456>76/8304-1</wdt:P2456>
-<wdt:P496>0000-0001-6065-6958</wdt:P496>
-<wdt:P1687>Q57065650</wdt:P1687>
+<dblp:orcid rdf:resource="https://orcid.org/0000-0001-6065-6958" />
+<dblp:wikidata rdf:resource="https://www.wikidata.org/entity/Q57065650" />
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>76/8304-1</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/orcid" />
+<litre:hasLiteralValue>0000-0001-6065-6958</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:Identifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/wikidata" />
+<litre:hasLiteralValue>Q57065650</litre:hasLiteralValue>
+</datacite:Identifier>
+</datacite:hasIdentifier>
 <dblp:primaryFullCreatorName>Yu Pei</dblp:primaryFullCreatorName>
 <dblp:otherFullCreatorName>Max Yu Pei</dblp:otherFullCreatorName>
 <dblp:primaryAffiliation>Hong Kong Polytechnic University, Department of Computing</dblp:primaryAffiliation>
@@ -15,8 +32,11 @@
 <dblp:otherAffiliation>Nanjing University, China</dblp:otherAffiliation>
 <dblp:primaryHomepage rdf:resource="http://www4.comp.polyu.edu.hk/~csypei/index.html" />
 <dblp:otherHomepage rdf:resource="http://se.inf.ethz.ch/people/ypei/" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/stvr/JiangCPPZL21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/issta/XuP0LZZDL21" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/jss/PanLPZZL20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/jss/ChenJZPPZL20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/internetware/XieLD0P020" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/compsac/YangLPP019" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/HeCHWPY19" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/PanCP0L19" />
@@ -48,16 +68,20 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/19/2520" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/70/3621" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/229/9288" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/79/3181" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/297/7908" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/78/6422" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/140/4276" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/02/10045" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/177/1397" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/201/3080" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/213/1173" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/297/2100" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/66/2069" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/76/5446" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/l/YongLi5" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/70/3488" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/01/2086" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/79/3426" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/116/4226" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/87/1230" />
@@ -72,12 +96,14 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/63/829" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/17/6932" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/59/2227" />
-<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/04/470" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/04/470-1" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/297/8074" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/93/1908" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/203/3944" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/79/10002" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/10/3145" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/z/AndreasZeller" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/62/6760" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/154/5678" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/13/2913-1" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/199/1036" />
@@ -92,6 +118,6 @@
 <dct:creator rdf:resource="https://dblp.org" />
 <dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
 <dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
-<dct:modified>2020-11-12T21:19:20+0100</dct:modified>
+<dct:modified>2021-11-17T01:59:22+0100</dct:modified>
 </rdf:Description>
 </rdf:RDF>

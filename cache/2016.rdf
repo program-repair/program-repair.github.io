@@ -1,12 +1,24 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dct="http://purl.org/dc/terms/" xmlns:litre="http://purl.org/spar/literal/">
 <dblp:Person rdf:about="https://dblp.org/pid/15/2016">
-<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
 <rdfs:label>Arjun Guha</rdfs:label>
-<wdt:P2456>15/2016</wdt:P2456>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>15/2016</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
 <dblp:primaryFullCreatorName>Arjun Guha</dblp:primaryFullCreatorName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/pacmpl/Phipps-CostinAG21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/eurosys/JangdaPGS21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2103-04880" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2109-05049" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/pacmpl/FirstBG20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/IEEEpact/JangdaG20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/aaai/SpitzerBG20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/corl/HoltzGB20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/dls/PinckneyGB20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2001-04397" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2008-04133" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2009-06693" />
@@ -62,6 +74,7 @@
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/vlsid/ChenGR07" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/67/6837" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/139/2447" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/23/4218" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/61/7459" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/215/3849" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/98/4487" />
@@ -79,6 +92,7 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/15/11088" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/61/11188" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/f/RBFindler" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/280/5467" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/04/4803" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/f/RFonseca" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/15/3253" />
@@ -111,6 +125,7 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/62/10167" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/94/4577" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/200/5362" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/301/9621" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/236/5120" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/143/5683" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/274/2983" />
@@ -145,6 +160,6 @@
 <dct:creator rdf:resource="https://dblp.org" />
 <dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
 <dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
-<dct:modified>2020-10-27T22:18:55+0100</dct:modified>
+<dct:modified>2021-11-06T03:49:01+0100</dct:modified>
 </rdf:Description>
 </rdf:RDF>

@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dct="http://purl.org/dc/terms/" xmlns:litre="http://purl.org/spar/literal/">
 <dblp:Person rdf:about="https://dblp.org/pid/25/1049">
-<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
 <rdfs:label>Wing Lam</rdfs:label>
-<wdt:P2456>25/1049</wdt:P2456>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>25/1049</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
 <dblp:primaryFullCreatorName>Wing Lam</dblp:primaryFullCreatorName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/intr/ChoL21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/sigsoft/YiWLXM21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/issta/WangL021" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/tacas/WeiY0ML21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/pacmpl/Lam0W0M020" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/LamMST20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/issre/Lam0ASM20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/issta/LamSOZE020" />
@@ -45,6 +55,7 @@
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ecbs/LamWMW96" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/223/2740" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/136/2127" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/84/1826-1" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/24/2042" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/64/5725" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/76/2262" />
@@ -54,7 +65,7 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/20/1639" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/37/3407" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/148/1290" />
-<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/38/500" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/38/500-1" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/179/8576" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/46/5907-3" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/24/712" />
@@ -80,6 +91,7 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/79/6558" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/47/3932" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/80/6234" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/280/5656" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/19/3873" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/88/5228" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/62/1289" />
@@ -87,10 +99,10 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/16/10161" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/49/620" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/23/6882" />
-<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/181/2328" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/x/TaoXie" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/64/397" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/03/1094-13" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/288/1540" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/46/4605" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/64/4832" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/62/6760" />
@@ -103,6 +115,6 @@
 <dct:creator rdf:resource="https://dblp.org" />
 <dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
 <dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
-<dct:modified>2020-11-18T21:08:27+0100</dct:modified>
+<dct:modified>2021-10-16T02:11:34+0200</dct:modified>
 </rdf:Description>
 </rdf:RDF>

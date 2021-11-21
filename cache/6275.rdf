@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dct="http://purl.org/dc/terms/" xmlns:litre="http://purl.org/spar/literal/">
 <dblp:Person rdf:about="https://dblp.org/pid/46/6275">
-<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
 <rdfs:label>Vitaly Shmatikov</rdfs:label>
-<wdt:P2456>46/6275</wdt:P2456>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>46/6275</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
 <dblp:primaryFullCreatorName>Vitaly Shmatikov</dblp:primaryFullCreatorName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/uss/BagdasaryanS21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/uss/SchusterSTS21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2107-10443" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/aistats/BagdasaryanVHES20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/emnlp/SongRS20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/iclr/SongS20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/nips/SunSS20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sp/SchusterSMS20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2001-04935" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2002-04758" />
@@ -179,7 +188,7 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/10/6573" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/j/SomeshJha" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/47/4422" />
-<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/24/3059" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/24/3059-1" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/k/AngelosDKeromytis" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/k/SarfrazKhurshid" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/08/8464" />
@@ -244,6 +253,6 @@
 <dct:creator rdf:resource="https://dblp.org" />
 <dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
 <dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
-<dct:modified>2020-11-20T22:23:47+0100</dct:modified>
+<dct:modified>2021-10-16T02:13:09+0200</dct:modified>
 </rdf:Description>
 </rdf:RDF>

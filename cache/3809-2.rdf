@@ -1,24 +1,59 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dct="http://purl.org/dc/terms/" xmlns:litre="http://purl.org/spar/literal/">
 <dblp:Person rdf:about="https://dblp.org/pid/27/3809-2">
-<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
 <owl:sameAs rdf:resource="https://orcid.org/0000-0002-1815-218X" />
 <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q57416941" />
 <owl:sameAs rdf:resource="https://id.loc.gov/authorities/names/nb2015022422" />
 <owl:sameAs rdf:resource="https://d-nb.info/gnd/1076655912" />
 <rdfs:label>Bernd Fischer 0002</rdfs:label>
-<wdt:P2456>27/3809-2</wdt:P2456>
-<wdt:P1556>fischer.bernd.1</wdt:P1556>
-<wdt:P496>0000-0002-1815-218X</wdt:P496>
-<wdt:P1687>Q57416941</wdt:P1687>
-<wdt:P244>names/nb2015022422</wdt:P244>
-<wdt:P227>1076655912</wdt:P227>
+<dblp:orcid rdf:resource="https://orcid.org/0000-0002-1815-218X" />
+<dblp:wikidata rdf:resource="https://www.wikidata.org/entity/Q57416941" />
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>27/3809-2</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/zbmath" />
+<litre:hasLiteralValue>fischer.bernd.1</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/orcid" />
+<litre:hasLiteralValue>0000-0002-1815-218X</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:Identifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/wikidata" />
+<litre:hasLiteralValue>Q57416941</litre:hasLiteralValue>
+</datacite:Identifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:Identifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/loc" />
+<litre:hasLiteralValue>names/nb2015022422</litre:hasLiteralValue>
+</datacite:Identifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:Identifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/gnd" />
+<litre:hasLiteralValue>1076655912</litre:hasLiteralValue>
+</datacite:Identifier>
+</datacite:hasIdentifier>
 <dblp:primaryFullCreatorName>Bernd Fischer</dblp:primaryFullCreatorName>
 <dblp:primaryAffiliation>Stellenbosch University, South Africa</dblp:primaryAffiliation>
 <dblp:otherAffiliation>University of Southampton, UK</dblp:otherAffiliation>
 <dblp:primaryHomepage rdf:resource="http://www.cs.sun.ac.za/~bfischer/" />
 <dblp:otherHomepage rdf:resource="http://www.ecs.soton.ac.uk/people/bf" />
 <dblp:webpage rdf:resource="https://zbmath.org/authors/?q=ai:fischer.bernd.1" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sle/BarraballR020" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sle/Rossouw020" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sle/HeerdenRS020" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/sosym/BirchFP19" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icfca/ToitBBF19" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/GadelhaSC0N19" />
@@ -134,6 +169,7 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/13/358" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/b/TuckerRBalch" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/43/1584" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/280/4237" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/04/562" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/57/2916" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/243/7235" />
@@ -166,6 +202,7 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/91/5160" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/48/4627" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/51/3845" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/263/2531" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/95/3918" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/125/8727" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/171/6252" />
@@ -191,8 +228,10 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/42/3485" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/116/5376" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/197/9563" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/280/3949" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/r/GrigoreRosu" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/33/4245" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/s/KonstantinosFSagonas" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/03/4484" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/23/8898" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/89/3872-1" />
@@ -226,6 +265,6 @@
 <dct:creator rdf:resource="https://dblp.org" />
 <dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
 <dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
-<dct:modified>2020-10-27T22:16:58+0100</dct:modified>
+<dct:modified>2021-10-16T02:13:06+0200</dct:modified>
 </rdf:Description>
 </rdf:RDF>

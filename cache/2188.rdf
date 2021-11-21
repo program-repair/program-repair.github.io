@@ -1,11 +1,26 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dct="http://purl.org/dc/terms/" xmlns:litre="http://purl.org/spar/literal/">
 <dblp:Person rdf:about="https://dblp.org/pid/25/2188">
-<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
 <rdfs:label>Michael Pradel</rdfs:label>
-<wdt:P2456>25/2188</wdt:P2456>
-<wdt:P1960>V-850TAAAAAJ</wdt:P1960>
-<wdt:P6479>37394864900</wdt:P6479>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>25/2188</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/google-scholar" />
+<litre:hasLiteralValue>V-850TAAAAAJ</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/ieee" />
+<litre:hasLiteralValue>37394864900</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
 <dblp:primaryFullCreatorName>Michael Pradel</dblp:primaryFullCreatorName>
 <dblp:primaryAffiliation>University of Stuttgart, Department of Computer Science, Germany</dblp:primaryAffiliation>
 <dblp:otherAffiliation>TU Darmstadt, Department of Computer Science, Germany</dblp:otherAffiliation>
@@ -14,9 +29,23 @@
 <dblp:otherHomepage rdf:resource="https://www.uni-stuttgart.de/en/press/experts/Prof.-Dr.-Michael-Pradel/" />
 <dblp:webpage rdf:resource="https://scholar.google.com/citations?user=V-850TAAAAAJ" />
 <dblp:webpage rdf:resource="https://ieeexplore.ieee.org/author/37394864900" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/software/MertzNTSP21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/software/GouesPRC21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ccs/VasilakisSNKKDP21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/WainakhRP21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/issta/PanP21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/issta/HabibSHP21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/pldi/MammadliS0P21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sigsoft/PatraP21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/wosp/HanYP21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/www/Hilbig0P21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2102-13514" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2110-14560" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2110-15433" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/csur/ChenPPXZHZ20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/StaicuTSMP20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/issta/PradelMQMM020" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/kbse/EghbaliP20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sigsoft/PradelGL020" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/uss/0002KP20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2010-12939" />
@@ -111,6 +140,7 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/200/1086" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/d/ADeHon" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/222/5906" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/220/3069" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/234/7526" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/183/0215" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/132/2746" />
@@ -120,10 +150,12 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/g/ThomasRGross" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/123/4524" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/94/5786" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/17/6400" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/50/456" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/118/4057" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/31/3178" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/178/1640" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/294/0890" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/34/6431" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/148/1285" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/36/1500" />
@@ -145,6 +177,7 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/00/4396" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/228/7867" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/201/7797" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/233/8610" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/48/3911" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/m/ErikMeijer" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/206/4832" />
@@ -156,6 +189,8 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/277/9156" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/48/5352" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/o/MartinOdersky" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/304/8700" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/151/5049" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/59/6490" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/139/0517" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/254/0997" />
@@ -167,7 +202,7 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/91/504" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/144/8720" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/152/5872" />
-<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/s/AndrewScott" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/290/4229" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/167/0216" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/04/418" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/12/5096" />
@@ -184,6 +219,7 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/53/7871" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/70/2619" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/231/1931" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/w/FelixWolf" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/82/2673" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/51/8403" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/29/2726-2" />
@@ -196,6 +232,6 @@
 <dct:creator rdf:resource="https://dblp.org" />
 <dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
 <dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
-<dct:modified>2020-11-20T22:22:50+0100</dct:modified>
+<dct:modified>2021-11-17T23:59:53+0100</dct:modified>
 </rdf:Description>
 </rdf:RDF>

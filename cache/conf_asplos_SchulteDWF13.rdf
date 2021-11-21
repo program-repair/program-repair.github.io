@@ -1,10 +1,41 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dct="http://purl.org/dc/terms/" xmlns:litre="http://purl.org/spar/literal/">
 <dblp:Inproceedings rdf:about="https://dblp.org/rec/conf/asplos/SchulteDWF13">
-<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Publication" />
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Publication" />
 <owl:sameAs rdf:resource="https://doi.org/10.1145/2451116.2451151" />
+<owl:sameAs rdf:resource="http://dx.doi.org/10.1145/2451116.2451151" />
+<owl:sameAs rdf:resource="https://doi.org/10.1145/2499368.2451151" />
+<owl:sameAs rdf:resource="http://dx.doi.org/10.1145/2499368.2451151" />
+<owl:sameAs rdf:resource="https://doi.org/10.1145/2490301.2451151" />
+<owl:sameAs rdf:resource="http://dx.doi.org/10.1145/2490301.2451151" />
 <rdfs:label>Eric M. Schulte et al.: Automated repair of binary and assembly programs for cooperating embedded devices. (2013)</rdfs:label>
-<wdt:P356>10.1145/2451116.2451151</wdt:P356>
+<dblp:doi rdf:resource="https://doi.org/10.1145/2451116.2451151" />
+<dblp:doi rdf:resource="https://doi.org/10.1145/2499368.2451151" />
+<dblp:doi rdf:resource="https://doi.org/10.1145/2490301.2451151" />
+<datacite:hasIdentifier>
+<datacite:ResourceIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp-record" />
+<litre:hasLiteralValue>conf/asplos/SchulteDWF13</litre:hasLiteralValue>
+</datacite:ResourceIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:ResourceIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/doi" />
+<litre:hasLiteralValue>10.1145/2451116.2451151</litre:hasLiteralValue>
+</datacite:ResourceIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:ResourceIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/doi" />
+<litre:hasLiteralValue>10.1145/2499368.2451151</litre:hasLiteralValue>
+</datacite:ResourceIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:ResourceIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/doi" />
+<litre:hasLiteralValue>10.1145/2490301.2451151</litre:hasLiteralValue>
+</datacite:ResourceIdentifier>
+</datacite:hasIdentifier>
 <dblp:title>Automated repair of binary and assembly programs for cooperating embedded devices.</dblp:title>
 <dblp:bibtexType rdf:resource="http://purl.org/net/nknouf/ns/bibtex#Inproceedings" />
 <dblp:authoredBy rdf:resource="https://dblp.org/pid/32/8523" />
@@ -34,6 +65,8 @@
 </rdf:List>
 </dblp:orderedCreators>
 <dblp:primaryElectronicEdition rdf:resource="https://doi.org/10.1145/2451116.2451151" />
+<dblp:otherElectronicEdition rdf:resource="https://doi.org/10.1145/2499368.2451151" />
+<dblp:otherElectronicEdition rdf:resource="https://doi.org/10.1145/2490301.2451151" />
 <dblp:listedOnTocPage rdf:resource="https://dblp.org/db/conf/asplos/asplos2013" />
 <dblp:pagination>317-328</dblp:pagination>
 <dblp:publishedIn>ASPLOS</dblp:publishedIn>
@@ -47,6 +80,6 @@
 <dct:creator rdf:resource="https://dblp.org" />
 <dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
 <dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
-<dct:modified>2018-11-06T11:07:42+0100</dct:modified>
+<dct:modified>2021-07-07T13:23:08+0200</dct:modified>
 </rdf:Description>
 </rdf:RDF>

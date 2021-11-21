@@ -1,24 +1,64 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dct="http://purl.org/dc/terms/" xmlns:litre="http://purl.org/spar/literal/">
 <dblp:Person rdf:about="https://dblp.org/pid/f/RudolfFerenc">
-<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
 <owl:sameAs rdf:resource="https://orcid.org/0000-0001-8897-7403" />
 <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q57166146" />
 <rdfs:label>Rudolf Ferenc</rdfs:label>
-<wdt:P2456>f/RudolfFerenc</wdt:P2456>
-<wdt:P1960>SbDnsF0AAAAJ</wdt:P1960>
-<wdt:P2002>ferencrudolf</wdt:P2002>
-<wdt:P2037>ferencr</wdt:P2037>
-<wdt:P496>0000-0001-8897-7403</wdt:P496>
-<wdt:P1687>Q57166146</wdt:P1687>
+<dblp:orcid rdf:resource="https://orcid.org/0000-0001-8897-7403" />
+<dblp:wikidata rdf:resource="https://www.wikidata.org/entity/Q57166146" />
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>f/RudolfFerenc</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/google-scholar" />
+<litre:hasLiteralValue>SbDnsF0AAAAJ</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/twitter" />
+<litre:hasLiteralValue>ferencrudolf</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/github" />
+<litre:hasLiteralValue>ferencr</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/orcid" />
+<litre:hasLiteralValue>0000-0001-8897-7403</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:Identifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/wikidata" />
+<litre:hasLiteralValue>Q57166146</litre:hasLiteralValue>
+</datacite:Identifier>
+</datacite:hasIdentifier>
 <dblp:primaryFullCreatorName>Rudolf Ferenc</dblp:primaryFullCreatorName>
 <dblp:primaryAffiliation>University of Szeged, Hungary</dblp:primaryAffiliation>
 <dblp:primaryHomepage rdf:resource="http://www.inf.u-szeged.hu/~ferenc/" />
 <dblp:webpage rdf:resource="https://scholar.google.com/citations?user=SbDnsF0AAAAJ" />
 <dblp:webpage rdf:resource="https://twitter.com/ferencrudolf" />
 <dblp:webpage rdf:resource="https://github.com/ferencr" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/stvr/GyimesiVSMBFM21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/iccsa/SzamosvolgyiVTJ21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/iccsa/AladicsJF21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icsoft/ViszkokHF21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2105-07527" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2110-04951" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/array/FerencBGG20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/jss/FerencGGTG20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/softx/FerencVAJH20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/sqj/FerencTLSG20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2006-10158" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2011-01214" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/tjs/BanFSKG19" />
@@ -105,6 +145,7 @@
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/csmr/FerencB02" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icsm/FerencBTG02" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/wcre/FerencSHKG01" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/281/2834" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/156/6366" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/16/5303" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/11/3866" />
@@ -173,15 +214,18 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/99/2276" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/64/1715-1" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/193/6184" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/301/6716" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/131/3170" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/69/713" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/80/5281" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/58/9994" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/93/8528" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/165/8303" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/301/6441" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/53/1883" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/199/8039" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/21/5882" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/281/2869" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/w/AndreasWinter" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/05/2547" />
 </dblp:Person>
@@ -190,6 +234,6 @@
 <dct:creator rdf:resource="https://dblp.org" />
 <dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
 <dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
-<dct:modified>2020-11-08T21:18:04+0100</dct:modified>
+<dct:modified>2021-10-23T00:43:16+0200</dct:modified>
 </rdf:Description>
 </rdf:RDF>

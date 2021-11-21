@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dct="http://purl.org/dc/terms/" xmlns:litre="http://purl.org/spar/literal/">
 <dblp:Person rdf:about="https://dblp.org/pid/04/10702">
-<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
 <rdfs:label>Zhongxing Yu</rdfs:label>
-<wdt:P2456>04/10702</wdt:P2456>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>04/10702</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
 <dblp:primaryFullCreatorName>Zhongxing Yu</dblp:primaryFullCreatorName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/software/BaudryCEFGKMMAY21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/tse/YuBSM21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2108-04631" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2012-06824" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/ese/YuMDDM19" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/jss/DanglotVYZMB19" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-1907-09282" />
@@ -20,21 +29,30 @@
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/infsof/YuBC13" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/qsic/FengYCY12" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/hase/YuHBCW11" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/295/7720" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/15/6962" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/57/3320" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/00/8006" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/71/5252" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/223/4151" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/190/7031" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/163/2121" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/237/8547" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/69/6320" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/179/9600" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/244/8509" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/16/6871" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/99/5658" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/230/4452" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/156/1916" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/135/6372" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/62/5292" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/281/6726" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/75/3681" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/133/7480" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/200/9044" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/w/WEricWong" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/220/3295" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/171/2320" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/68/6471" />
 </dblp:Person>
@@ -43,6 +61,6 @@
 <dct:creator rdf:resource="https://dblp.org" />
 <dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
 <dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
-<dct:modified>2020-08-26T22:49:29+0200</dct:modified>
+<dct:modified>2021-10-16T01:57:37+0200</dct:modified>
 </rdf:Description>
 </rdf:RDF>

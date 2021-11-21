@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dct="http://purl.org/dc/terms/" xmlns:litre="http://purl.org/spar/literal/">
 <dblp:Person rdf:about="https://dblp.org/pid/51/6992">
-<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
 <rdfs:label>Hoan Anh Nguyen</rdfs:label>
-<wdt:P2456>51/6992</wdt:P2456>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>51/6992</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
 <dblp:primaryFullCreatorName>Hoan Anh Nguyen</dblp:primaryFullCreatorName>
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/RamuUNR20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/se/AmannNNNM20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2005-01000" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2012-14078" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/tse/AmannNNNM19" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/NguyenNDNTH19" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/msr/AmannNNNM19" />
@@ -76,6 +82,7 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/32/10517" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/36/5445" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/12/5469-1" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/282/1058" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/45/9582" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/116/7598" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/h/VasantHonavar" />
@@ -99,6 +106,8 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/190/1122" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/r/HrideshRajan" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/221/1585" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/s/HouariASahraoui" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/161/1039" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/160/9087" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/77/9102" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/179/8612" />
@@ -114,6 +123,6 @@
 <dct:creator rdf:resource="https://dblp.org" />
 <dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
 <dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
-<dct:modified>2020-10-17T22:17:59+0200</dct:modified>
+<dct:modified>2021-10-16T02:24:24+0200</dct:modified>
 </rdf:Description>
 </rdf:RDF>

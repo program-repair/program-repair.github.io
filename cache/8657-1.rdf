@@ -1,14 +1,26 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dct="http://purl.org/dc/terms/" xmlns:litre="http://purl.org/spar/literal/">
 <dblp:Person rdf:about="https://dblp.org/pid/50/8657-1">
-<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
 <owl:sameAs rdf:resource="https://orcid.org/0000-0003-1471-2546" />
 <rdfs:label>Ali Ghanbari 0001</rdfs:label>
-<wdt:P2456>50/8657-1</wdt:P2456>
-<wdt:P496>0000-0003-1471-2546</wdt:P496>
+<dblp:orcid rdf:resource="https://orcid.org/0000-0003-1471-2546" />
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>50/8657-1</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/orcid" />
+<litre:hasLiteralValue>0000-0003-1471-2546</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
 <dblp:primaryFullCreatorName>Ali Ghanbari</dblp:primaryFullCreatorName>
 <dblp:primaryAffiliation>The University of Texas at Dallas, TX, USA</dblp:primaryAffiliation>
 <dblp:primaryHomepage rdf:resource="https://ali-ghanbari.github.io/" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/0001M21" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2102-11559" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/issta/LouGLZZHZ20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/issta/Ghanbari20" />
@@ -35,6 +47,6 @@
 <dct:creator rdf:resource="https://dblp.org" />
 <dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
 <dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
-<dct:modified>2021-02-25T21:55:00+0100</dct:modified>
+<dct:modified>2021-10-16T02:15:52+0200</dct:modified>
 </rdf:Description>
 </rdf:RDF>

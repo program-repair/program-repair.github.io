@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dct="http://purl.org/dc/terms/" xmlns:litre="http://purl.org/spar/literal/">
+<dblp:AmbiguousCreator rdf:about="https://dblp.org/pid/290/4229">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
+<rdfs:label>Andrew Scott</rdfs:label>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>290/4229</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<dblp:primaryFullCreatorName>Andrew Scott</dblp:primaryFullCreatorName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/BellerWBSM0021" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2107-06402" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2010-13464" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/pacmpl/BaderSP019" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/MargineanBCH0MM19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-1902-06111" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/miccai/SchlemperYFSMKG18" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-1805-12064" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sigite/ScottKHB17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/fie/BarloweS15" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/jet/MarcetS09" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/csreaEEE/ScottWM08" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/kes/ProkopenkoWSGHP05" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/siggraph/Scott96" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/00/6243" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/297/4885" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/58/6398" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/10/7985" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/127/4199" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/c/SatishChandra" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/50/5790" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/51/3354" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/57/2559" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/220/5429" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/h/MarkHarman" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/h/MarkAHolliday" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/16/6111" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/44/4993-1" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/15/3240" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/220/5452" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/30/211" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/228/7867" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/50/9092" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/95/11117" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/148/4976" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/220/5727" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/82/6626" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/m/ErikMeijer" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/225/1604" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/37/6077" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/25/2188" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/28/4978" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/23/5536" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/220/5627" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/69/2478" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/198/0624" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/24/5026" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/24/1633" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/29/3032" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/155/4342" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/25/5712-6" />
+<dblp:possibleActualCreator rdf:resource="https://dblp.org/pid/s/AndrewScott" />
+</dblp:AmbiguousCreator>
+<rdf:Description rdf:about="https://dblp.org/pid/290/4229.rdf">
+<rdfs:label>provenance information for RDF data of dblp person &apos;290/4229&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2021-10-20T00:51:25+0200</dct:modified>
+</rdf:Description>
+</rdf:RDF>

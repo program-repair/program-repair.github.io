@@ -1,14 +1,31 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dct="http://purl.org/dc/terms/" xmlns:litre="http://purl.org/spar/literal/">
 <dblp:Article rdf:about="https://dblp.org/rec/journals/tse/XuanMDCMDBM17">
-<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Publication" />
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Publication" />
 <owl:sameAs rdf:resource="https://doi.org/10.1109/TSE.2016.2560811" />
-<owl:sameAs rdf:resource="https://doi.org/10.1109/TSE.2016.2560811" />
+<owl:sameAs rdf:resource="http://dx.doi.org/10.1109/TSE.2016.2560811" />
 <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q57311865" />
 <rdfs:label>Jifeng Xuan et al.: Nopol: Automatic Repair of Conditional Statement Bugs in Java Programs. (2017)</rdfs:label>
-<wdt:P356>10.1109/TSE.2016.2560811</wdt:P356>
-<wdt:P356>10.1109/TSE.2016.2560811</wdt:P356>
-<wdt:P1687>Q57311865</wdt:P1687>
+<dblp:doi rdf:resource="https://doi.org/10.1109/TSE.2016.2560811" />
+<dblp:wikidata rdf:resource="https://www.wikidata.org/entity/Q57311865" />
+<datacite:hasIdentifier>
+<datacite:ResourceIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp-record" />
+<litre:hasLiteralValue>journals/tse/XuanMDCMDBM17</litre:hasLiteralValue>
+</datacite:ResourceIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:ResourceIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/doi" />
+<litre:hasLiteralValue>10.1109/TSE.2016.2560811</litre:hasLiteralValue>
+</datacite:ResourceIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:Identifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/wikidata" />
+<litre:hasLiteralValue>Q57311865</litre:hasLiteralValue>
+</datacite:Identifier>
+</datacite:hasIdentifier>
 <dblp:title>Nopol: Automatic Repair of Conditional Statement Bugs in Java Programs.</dblp:title>
 <dblp:bibtexType rdf:resource="http://purl.org/net/nknouf/ns/bibtex#Article" />
 <dblp:authoredBy rdf:resource="https://dblp.org/pid/86/4142" />
@@ -76,6 +93,6 @@
 <dct:creator rdf:resource="https://dblp.org" />
 <dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
 <dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
-<dct:modified>2019-10-19T19:54:26+0200</dct:modified>
+<dct:modified>2021-09-23T11:46:52+0200</dct:modified>
 </rdf:Description>
 </rdf:RDF>

@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dct="http://purl.org/dc/terms/" xmlns:litre="http://purl.org/spar/literal/">
 <dblp:Person rdf:about="https://dblp.org/pid/36/6517">
-<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
 <rdfs:label>Bow-Yaw Wang</rdfs:label>
-<wdt:P2456>36/6517</wdt:P2456>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>36/6517</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
 <dblp:primaryFullCreatorName>Bow-Yaw Wang</dblp:primaryFullCreatorName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/cav/ShiFLTWY20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/pacmpl/Yu0W20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sigsoft/Xu0W20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2008-01704" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ccs/FuLSTWY19" />
@@ -145,6 +152,7 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/y/KwangkeunYi" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/23/10811" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/44/3505" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/190/5238" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/21/802" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/40/3076" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/76/4015" />
@@ -157,6 +165,6 @@
 <dct:creator rdf:resource="https://dblp.org" />
 <dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
 <dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
-<dct:modified>2020-11-11T21:51:43+0100</dct:modified>
+<dct:modified>2021-08-11T23:53:37+0200</dct:modified>
 </rdf:Description>
 </rdf:RDF>

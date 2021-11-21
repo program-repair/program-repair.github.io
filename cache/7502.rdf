@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dct="http://purl.org/dc/terms/" xmlns:litre="http://purl.org/spar/literal/">
 <dblp:Person rdf:about="https://dblp.org/pid/55/7502">
-<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
 <rdfs:label>Linhai Song</rdfs:label>
-<wdt:P2456>55/7502</wdt:P2456>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>55/7502</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
 <dblp:primaryFullCreatorName>Linhai Song</dblp:primaryFullCreatorName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/asplos/LiuZQCS21" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ccs/ZhuZYSW20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ccs/ZhangQCSZ20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/pldi/QinCYSZ20" />
@@ -29,6 +35,7 @@
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/trec/GuanYPXLSC09" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/trec/XuLXYSGPC09" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/28/3799" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/175/3324" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/86/2531" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/44/912" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/224/2149" />
@@ -45,6 +52,7 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/l/BenLiblit" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/78/6195" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/74/1932" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/37/3443" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/31/5916-1" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/48/3911" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/45/7056" />
@@ -60,7 +68,6 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/65/9789" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/94/2697" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/212/1284" />
-<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/71/4292" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/71/4292-11" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/02/5889-9" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/02/5889-89" />
@@ -88,6 +95,6 @@
 <dct:creator rdf:resource="https://dblp.org" />
 <dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
 <dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
-<dct:modified>2020-11-11T21:55:18+0100</dct:modified>
+<dct:modified>2021-07-26T23:35:32+0200</dct:modified>
 </rdf:Description>
 </rdf:RDF>

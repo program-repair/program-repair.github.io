@@ -1,15 +1,38 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dct="http://purl.org/dc/terms/" xmlns:litre="http://purl.org/spar/literal/">
 <dblp:Person rdf:about="https://dblp.org/pid/r/HrideshRajan">
-<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
 <owl:sameAs rdf:resource="https://orcid.org/0000-0002-9410-9562" />
 <rdfs:label>Hridesh Rajan</rdfs:label>
-<wdt:P2456>r/HrideshRajan</wdt:P2456>
-<wdt:P496>0000-0002-9410-9562</wdt:P496>
+<dblp:orcid rdf:resource="https://orcid.org/0000-0002-9410-9562" />
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>r/HrideshRajan</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/orcid" />
+<litre:hasLiteralValue>0000-0002-9410-9562</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/acm" />
+<litre:hasLiteralValue>81323495185</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
 <dblp:primaryFullCreatorName>Hridesh Rajan</dblp:primaryFullCreatorName>
 <dblp:primaryAffiliation>Iowa State University, Ames, Iowa, USA</dblp:primaryAffiliation>
 <dblp:primaryHomepage rdf:resource="http://www.cs.iastate.edu/~hridesh/" />
+<dblp:webpage rdf:resource="https://dl.acm.org/profile/81323495185" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/WardatLR21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sigsoft/BiswasR21" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2103-03376" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2106-06054" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2110-05645" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2110-07720" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/bioinformatics/BagheriSR20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/RamuUNR20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/IslamPNR20" />
@@ -147,6 +170,8 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/74/10322" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/12/5469-1" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/77/10322" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/200/7985" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/118/3814" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/99/6271" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/133/8749" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/g/WilliamGGriswold" />
@@ -164,6 +189,8 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/66/2755" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/34/3170" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/77/5363" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/71/7020" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/49/1245" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/65/622" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/30/3456" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/65/8636" />
@@ -221,6 +248,6 @@
 <dct:creator rdf:resource="https://dblp.org" />
 <dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
 <dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
-<dct:modified>2021-03-17T02:07:11+0100</dct:modified>
+<dct:modified>2021-10-27T01:38:19+0200</dct:modified>
 </rdf:Description>
 </rdf:RDF>

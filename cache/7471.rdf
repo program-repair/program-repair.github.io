@@ -1,33 +1,57 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dct="http://purl.org/dc/terms/" xmlns:litre="http://purl.org/spar/literal/">
 <dblp:Person rdf:about="https://dblp.org/pid/172/7471">
-<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
 <rdfs:label>Tanvir Ahmed Khan</rdfs:label>
-<wdt:P2456>172/7471</wdt:P2456>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>172/7471</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
 <dblp:primaryFullCreatorName>Tanvir Ahmed Khan</dblp:primaryFullCreatorName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/fast/NealZSKKPK21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/isca/KhanZSDPLK21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/micro/SoundararajanBK21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/micro/KhanBSS0DSPLK21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/osdi/KhanNPMK21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sigsoft/KhanSW21" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/iiswc/ChenZKK20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/micro/KhanSDPLK20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/winet/KhanI19" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/pldi/KhanZPMK19" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/mobisys/KhanI16" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/wimob/KhanHI15" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/90/1638" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/67/5841" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/155/2863" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/83/3984" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/19/7206" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/20/9660" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/31/11029" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/98/4371-3" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/94/8239" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/89/5432" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/45/2495" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/223/0804" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/43/3917" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/78/3196" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/291/2814" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/40/231" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/178/3217" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/36/1380" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/148/1296" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/193/4231" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/24/4857" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/13/7050" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/279/2099" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/220/6764" />
 </dblp:Person>
 <rdf:Description rdf:about="https://dblp.org/pid/172/7471.rdf">
 <rdfs:label>provenance information for RDF data of dblp person &apos;172/7471&apos;</rdfs:label>
 <dct:creator rdf:resource="https://dblp.org" />
 <dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
 <dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
-<dct:modified>2020-11-25T22:05:49+0100</dct:modified>
+<dct:modified>2021-10-27T01:36:19+0200</dct:modified>
 </rdf:Description>
 </rdf:RDF>

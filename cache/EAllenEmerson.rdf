@@ -1,22 +1,68 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dct="http://purl.org/dc/terms/" xmlns:litre="http://purl.org/spar/literal/">
 <dblp:Person rdf:about="https://dblp.org/pid/e/EAllenEmerson">
-<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
 <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q92821" />
 <owl:sameAs rdf:resource="http://isni.org/isni/0000000043725889" />
 <owl:sameAs rdf:resource="https://viaf.org/viaf/40252505" />
 <owl:sameAs rdf:resource="https://id.loc.gov/authorities/names/nb99152470" />
 <owl:sameAs rdf:resource="https://d-nb.info/gnd/1028534892" />
 <rdfs:label>E. Allen Emerson</rdfs:label>
-<wdt:P2456>e/EAllenEmerson</wdt:P2456>
-<wdt:P864>81452614401</wdt:P864>
-<wdt:P1556>emerson.e-allen</wdt:P1556>
-<wdt:P549>69873</wdt:P549>
-<wdt:P1687>Q92821</wdt:P1687>
-<wdt:P213>0000000043725889</wdt:P213>
-<wdt:P214>40252505</wdt:P214>
-<wdt:P244>names/nb99152470</wdt:P244>
-<wdt:P227>1028534892</wdt:P227>
+<dblp:wikidata rdf:resource="https://www.wikidata.org/entity/Q92821" />
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>e/EAllenEmerson</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/acm" />
+<litre:hasLiteralValue>81452614401</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/zbmath" />
+<litre:hasLiteralValue>emerson.e-allen</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/math-genealogy" />
+<litre:hasLiteralValue>69873</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:Identifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/wikidata" />
+<litre:hasLiteralValue>Q92821</litre:hasLiteralValue>
+</datacite:Identifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/isni" />
+<litre:hasLiteralValue>0000000043725889</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/viaf" />
+<litre:hasLiteralValue>40252505</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:Identifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/loc" />
+<litre:hasLiteralValue>names/nb99152470</litre:hasLiteralValue>
+</datacite:Identifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:Identifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/gnd" />
+<litre:hasLiteralValue>1028534892</litre:hasLiteralValue>
+</datacite:Identifier>
+</datacite:hasIdentifier>
 <dblp:primaryFullCreatorName>E. Allen Emerson</dblp:primaryFullCreatorName>
 <dblp:creatorNote>award (2007): Turing Award</dblp:creatorNote>
 <dblp:creatorNote>award (1998): Paris Kanellakis Award</dblp:creatorNote>
@@ -24,7 +70,7 @@
 <dblp:webpage rdf:resource="https://dl.acm.org/profile/81452614401" />
 <dblp:webpage rdf:resource="https://zbmath.org/authors/?q=ai:emerson.e-allen" />
 <dblp:webpage rdf:resource="https://mathgenealogy.org/id.php?id=69873" />
-<dblp:webpage rdf:resource="https://en.wikipedia.org/wiki/E._Allen_Emerson" />
+<dblp:wikipedia rdf:resource="https://en.wikipedia.org/wiki/E._Allen_Emerson" />
 <dblp:webpage rdf:resource="https://www.scopus.com/authid/detail.uri?authorId=7006360379" />
 <dblp:awardWebpage rdf:resource="http://amturing.acm.org/award_winners/emerson_1671460.cfm" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sas/SamantaOE14" />
@@ -212,6 +258,6 @@
 <dct:creator rdf:resource="https://dblp.org" />
 <dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
 <dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
-<dct:modified>2020-11-01T21:35:43+0100</dct:modified>
+<dct:modified>2021-04-08T10:57:31+0200</dct:modified>
 </rdf:Description>
 </rdf:RDF>

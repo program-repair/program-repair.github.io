@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dct="http://purl.org/dc/terms/" xmlns:litre="http://purl.org/spar/literal/">
 <dblp:Person rdf:about="https://dblp.org/pid/228/5719">
-<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
 <rdfs:label>David A. Tomassi</rdfs:label>
-<wdt:P2456>228/5719</wdt:P2456>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>228/5719</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
 <dblp:primaryFullCreatorName>David A. Tomassi</dblp:primaryFullCreatorName>
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/DmeiriTWBLDVR19" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-1903-06725" />
@@ -15,13 +20,13 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/238/0203" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/69/495" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/43/10504" />
-<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/74/8792" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/74/8792-4" />
 </dblp:Person>
 <rdf:Description rdf:about="https://dblp.org/pid/228/5719.rdf">
 <rdfs:label>provenance information for RDF data of dblp person &apos;228/5719&apos;</rdfs:label>
 <dct:creator rdf:resource="https://dblp.org" />
 <dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
 <dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
-<dct:modified>2020-10-26T23:03:22+0100</dct:modified>
+<dct:modified>2021-04-08T11:14:18+0200</dct:modified>
 </rdf:Description>
 </rdf:RDF>

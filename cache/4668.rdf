@@ -1,18 +1,49 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dct="http://purl.org/dc/terms/" xmlns:litre="http://purl.org/spar/literal/">
 <dblp:Person rdf:about="https://dblp.org/pid/97/4668">
-<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
 <owl:sameAs rdf:resource="https://orcid.org/0000-0003-3578-1380" />
 <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q81121993" />
 <rdfs:label>Marcelo de Almeida Maia</rdfs:label>
-<wdt:P2456>97/4668</wdt:P2456>
-<wdt:P496>0000-0003-3578-1380</wdt:P496>
-<wdt:P1687>Q81121993</wdt:P1687>
-<wdt:P1007>4915659948263445</wdt:P1007>
+<dblp:orcid rdf:resource="https://orcid.org/0000-0003-3578-1380" />
+<dblp:wikidata rdf:resource="https://www.wikidata.org/entity/Q81121993" />
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>97/4668</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/orcid" />
+<litre:hasLiteralValue>0000-0003-3578-1380</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:Identifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/wikidata" />
+<litre:hasLiteralValue>Q81121993</litre:hasLiteralValue>
+</datacite:Identifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/lattes" />
+<litre:hasLiteralValue>4915659948263445</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
 <dblp:primaryFullCreatorName>Marcelo de Almeida Maia</dblp:primaryFullCreatorName>
 <dblp:primaryAffiliation>Federal University of Uberlandia, Brazil</dblp:primaryAffiliation>
 <dblp:primaryHomepage rdf:resource="http://www.facom.ufu.br/~marcmaia/english/" />
 <dblp:webpage rdf:resource="http://lattes.cnpq.br/4915659948263445" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/jss/SilvaRDRKM21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/tse/SobrinhoLM21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/botse-ws/ValeM21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sbes/SobrinhoM21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2103-09423" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2107-09512" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2108-02702" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2108-09181" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2110-07087" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/ese/SilvaRRSPDM20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/ijseke/LafetaLM20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/ijseke/ValeM19" />
@@ -64,6 +95,7 @@
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sblp/GaiaFFM12" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/seke/VicenteDMM12" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/aosd/FigueiredoGMFNW11" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/cibse/SilvaAM11" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/csmr/SilvaPAM11" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sbes/LafetM11" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sbes/SilvaPAM10" />
@@ -101,9 +133,11 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/18/1119" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/26/6772" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/151/0989" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/32/147" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/56/10539" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/194/6172" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/l/AntonioAlfredoFerreiraLoureiro" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/33/2785" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/51/4" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/82/7612" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/156/1916" />
@@ -123,10 +157,12 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/161/1715" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/128/3467" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/93/9384" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/299/1778" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/151/1047" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/47/7612" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/34/2037" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/43/6200" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/73/10511" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/238/0276" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/156/6322" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/166/4500" />
@@ -143,6 +179,6 @@
 <dct:creator rdf:resource="https://dblp.org" />
 <dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
 <dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
-<dct:modified>2020-11-08T21:15:50+0100</dct:modified>
+<dct:modified>2021-10-27T01:32:52+0200</dct:modified>
 </rdf:Description>
 </rdf:RDF>

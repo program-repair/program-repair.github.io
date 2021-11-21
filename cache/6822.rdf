@@ -1,18 +1,26 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dct="http://purl.org/dc/terms/" xmlns:litre="http://purl.org/spar/literal/">
 <dblp:Person rdf:about="https://dblp.org/pid/20/6822">
-<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
 <rdfs:label>Stefan Leue</rdfs:label>
-<wdt:P2456>20/6822</wdt:P2456>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>20/6822</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
 <dblp:primaryFullCreatorName>Stefan Leue</dblp:primaryFullCreatorName>
 <dblp:primaryAffiliation>University of Konstanz, Department of Computer and Information Science, Germany</dblp:primaryAffiliation>
 <dblp:primaryHomepage rdf:resource="https://se.uni-konstanz.de/members/leue/" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2106-01917" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/cav/KolblLW20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/formats/KolblLS20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/isola/KolblL20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/modelsward/CaltaisLS20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2002-02760" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/atva/KolblL19" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/cav/KolblLW19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/shonan-reports/GosslerLN19" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/insk/WagnerTFL18" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/fmics/KolblL18" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/spin/KolblLS18" />
@@ -99,6 +107,7 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/86/3075" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/a/GeorgeSAvrunin" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/b/BaharehBadban" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/294/4856" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/131/5070" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/117/2568" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/07/6383" />
@@ -124,6 +133,7 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/g/MartinGlinz" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/63/900" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/g/GerhardGoos" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/29/777" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/g/AlexGroce" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/g/VolkerGruhn" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/55/4092" />
@@ -154,6 +164,7 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/95/1885" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/m/MohammadRezaMousavi" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/n/ManfredNagl" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/02/4127-1" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/84/5288" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/p/BarbaraPaech" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/p/HPartsch" />
@@ -166,6 +177,7 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/r/GudulaRunger" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/31/5809" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/38/4123" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/72/2103-1" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/66/2459" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/s/KurtSchneider" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/s/AndySchurr" />
@@ -193,6 +205,6 @@
 <dct:creator rdf:resource="https://dblp.org" />
 <dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
 <dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
-<dct:modified>2020-09-12T01:01:52+0200</dct:modified>
+<dct:modified>2021-10-16T02:25:15+0200</dct:modified>
 </rdf:Description>
 </rdf:RDF>

@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dct="http://purl.org/dc/terms/" xmlns:litre="http://purl.org/spar/literal/">
 <dblp:Person rdf:about="https://dblp.org/pid/23/6244">
-<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
 <rdfs:label>Mauricio Soto</rdfs:label>
-<wdt:P2456>23/6244</wdt:P2456>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>23/6244</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
 <dblp:primaryFullCreatorName>Mauricio Soto</dblp:primaryFullCreatorName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/eswa/AranoOSV21" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/ijmms/SotoSFMSK21" />
-<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/tcbb/BonizzoniCVS19" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/aiia/VimercatiBSP19" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/kbse/Soto19" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/medinfo/SotoSM19" />
@@ -25,11 +30,10 @@
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/isaac/MontgolfierSV11" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/nca/MontgolfierSV11" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/tcs/KiwiST09" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/292/8760" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/122/8815" />
-<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/80/4509" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/126/8724" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/168/7365" />
-<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/204/5430" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/129/8224" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/c/DavidCoudert" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/222/9573" />
@@ -44,6 +48,7 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/129/9526" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/95/712" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/09/329" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/96/2479" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/74/4142" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/13/10058" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/279/2432" />
@@ -51,7 +56,7 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/18/5346" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/97/766" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/07/10158" />
-<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/03/5602" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/30/1844" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/v/LaurentViennot" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/253/0696" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/155/4342" />
@@ -61,6 +66,6 @@
 <dct:creator rdf:resource="https://dblp.org" />
 <dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
 <dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
-<dct:modified>2020-12-01T22:21:47+0100</dct:modified>
+<dct:modified>2021-09-30T23:38:39+0200</dct:modified>
 </rdf:Description>
 </rdf:RDF>

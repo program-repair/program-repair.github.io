@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dct="http://purl.org/dc/terms/" xmlns:litre="http://purl.org/spar/literal/">
 <dblp:Person rdf:about="https://dblp.org/pid/55/3804">
-<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
 <rdfs:label>Yuxi Chen</rdfs:label>
-<wdt:P2456>55/3804</wdt:P2456>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>55/3804</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
 <dblp:primaryFullCreatorName>Yuxi Chen</dblp:primaryFullCreatorName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/jcphy/ShouTCTG21" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/jcphy/ChenT19" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/jcphy/HuangTHCG19" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/sensors/KongCWCMT19" />
@@ -27,6 +33,7 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/95/784" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/250/4949" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/26/9941" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/303/6771" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/60/2667" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/85/7625" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/55/6848" />
@@ -51,6 +58,8 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/m/WeiyiMeng" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/04/1037" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/22/858" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/303/6402" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/303/7043" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/68/1314" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/34/1989" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/32/5536" />
@@ -68,6 +77,6 @@
 <dct:creator rdf:resource="https://dblp.org" />
 <dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
 <dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
-<dct:modified>2020-10-04T00:48:46+0200</dct:modified>
+<dct:modified>2021-11-06T03:49:22+0100</dct:modified>
 </rdf:Description>
 </rdf:RDF>

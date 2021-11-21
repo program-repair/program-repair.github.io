@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dct="http://purl.org/dc/terms/" xmlns:litre="http://purl.org/spar/literal/">
 <dblp:Person rdf:about="https://dblp.org/pid/184/8092">
-<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
 <rdfs:label>Fengjuan Gao</rdfs:label>
-<wdt:P2456>184/8092</wdt:P2456>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>184/8092</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
 <dblp:primaryFullCreatorName>Fengjuan Gao</dblp:primaryFullCreatorName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2102-04625" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/jcst/GaoWWYL20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/pacmpl/WangWGW20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2005-09997" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-1907-05579" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/internetware/WangGSW0LZL18" />
@@ -20,7 +28,8 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/181/2613" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/238/8883" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/63/829" />
-<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/02/5889" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/02/5889-93" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/97/3485" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/31/5664" />
 </dblp:Person>
 <rdf:Description rdf:about="https://dblp.org/pid/184/8092.rdf">
@@ -28,6 +37,6 @@
 <dct:creator rdf:resource="https://dblp.org" />
 <dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
 <dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
-<dct:modified>2020-05-29T21:59:30+0200</dct:modified>
+<dct:modified>2021-08-12T23:47:39+0200</dct:modified>
 </rdf:Description>
 </rdf:RDF>

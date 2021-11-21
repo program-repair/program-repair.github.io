@@ -1,15 +1,27 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dct="http://purl.org/dc/terms/" xmlns:litre="http://purl.org/spar/literal/">
 <dblp:Person rdf:about="https://dblp.org/pid/13/7537">
-<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
 <rdfs:label>Hakjoo Oh</rdfs:label>
-<wdt:P2456>13/7537</wdt:P2456>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>13/7537</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
 <dblp:primaryFullCreatorName>Hakjoo Oh</dblp:primaryFullCreatorName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/infsof/JeonJO21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/WooPKLO21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sigsoft/SongLO21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/uss/SoHO21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2102-06182" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/pacmpl/JeonLO20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/HongLLO20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/issta/LeeCLO20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/pldi/LeeLOY20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sigsoft/ChaO20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sp/SoLPLO20" />
+<dblp:editorOf rdf:resource="https://dblp.org/rec/conf/oopsla/2020tapas" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/pacmpl/SongLO19" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/toplas/JeonJCO19" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/HeoOY19" />
@@ -62,6 +74,7 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/07/2074" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/17/11515" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/222/5868" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/291/7360" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/207/6557" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/35/9715" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/49/6404" />
@@ -87,8 +100,10 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/179/7515" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/152/3639-1" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/207/8774" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/285/4792" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/187/9138" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/228/5390" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/58/10567" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/201/9210" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/82/5808" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/y/KwangkeunYi" />
@@ -98,6 +113,6 @@
 <dct:creator rdf:resource="https://dblp.org" />
 <dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
 <dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
-<dct:modified>2020-11-11T21:55:33+0100</dct:modified>
+<dct:modified>2021-09-18T00:01:43+0200</dct:modified>
 </rdf:Description>
 </rdf:RDF>

@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dct="http://purl.org/dc/terms/" xmlns:litre="http://purl.org/spar/literal/">
 <dblp:Person rdf:about="https://dblp.org/pid/23/4629">
-<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
 <rdfs:label>Masahiro Yamamoto</rdfs:label>
-<wdt:P2456>23/4629</wdt:P2456>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>23/4629</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
 <dblp:primaryFullCreatorName>Masahiro Yamamoto</dblp:primaryFullCreatorName>
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/ieicet/SuzukiYM20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/nms/YamamotoNB20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/siamma/ImanuvilovY20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/acit2/YamamotoNHM19" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/semeval/YamamotoS19" />
@@ -62,12 +68,12 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/46/2836" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/43/814" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/42/5933" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/130/6094" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/267/7577" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/85/9502" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/75/7174" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/58/1530" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/54/8190" />
-<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/42/1546" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/36/2732" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/89/4443" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/163/6400" />
@@ -91,6 +97,7 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/134/9818" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/25/3636" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/173/4464" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/84/4201" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/52/5832" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/127/4511" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/66/5176" />
@@ -151,6 +158,6 @@
 <dct:creator rdf:resource="https://dblp.org" />
 <dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
 <dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
-<dct:modified>2020-10-03T01:05:52+0200</dct:modified>
+<dct:modified>2021-10-16T02:06:48+0200</dct:modified>
 </rdf:Description>
 </rdf:RDF>

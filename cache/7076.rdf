@@ -1,12 +1,33 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dct="http://purl.org/dc/terms/" xmlns:litre="http://purl.org/spar/literal/">
 <dblp:Person rdf:about="https://dblp.org/pid/04/7076">
-<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
 <owl:sameAs rdf:resource="https://orcid.org/0000-0002-3610-3920" />
 <rdfs:label>Jan Oliver Ringert</rdfs:label>
-<wdt:P2456>04/7076</wdt:P2456>
-<wdt:P496>0000-0002-3610-3920</wdt:P496>
+<dblp:orcid rdf:resource="https://orcid.org/0000-0002-3610-3920" />
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>04/7076</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/acm" />
+<litre:hasLiteralValue>81438596936</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/orcid" />
+<litre:hasLiteralValue>0000-0002-3610-3920</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
 <dblp:primaryFullCreatorName>Jan Oliver Ringert</dblp:primaryFullCreatorName>
+<dblp:webpage rdf:resource="https://dl.acm.org/profile/81438596936" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/sosym/MaozR21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/fm/AmramMPR21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/MaozR21" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/acta/FirmanMR20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/models/RingertW20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2005-00641" />
@@ -122,6 +143,6 @@
 <dct:creator rdf:resource="https://dblp.org" />
 <dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
 <dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
-<dct:modified>2020-11-28T19:28:32+0100</dct:modified>
+<dct:modified>2021-11-12T23:12:01+0100</dct:modified>
 </rdf:Description>
 </rdf:RDF>

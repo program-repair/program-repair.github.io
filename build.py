@@ -36,7 +36,7 @@ tools_output_file = join(root_dir, 'tools.html')
 benchmarks_output_file = join(root_dir, 'benchmarks.html')
 statistics_output_file = join(root_dir, 'statistics.html')
 
-dblp_schema = "https://dblp.org/rdf/schema-2020-07-01"
+dblp_schema = "https://dblp.org/rdf/schema"
 rdf_syntax = "http://www.w3.org/1999/02/22-rdf-syntax-ns"
 title_ref = rdflib.URIRef(dblp_schema + "#title")
 primaryFullPersonName_ref = rdflib.URIRef(dblp_schema + "#primaryFullCreatorName")

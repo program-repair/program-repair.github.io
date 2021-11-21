@@ -1,18 +1,60 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dct="http://purl.org/dc/terms/" xmlns:litre="http://purl.org/spar/literal/">
 <dblp:Person rdf:about="https://dblp.org/pid/g/OrnaGrumberg">
-<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
 <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q15995111" />
 <owl:sameAs rdf:resource="https://id.loc.gov/authorities/names/nb97057888" />
 <owl:sameAs rdf:resource="https://d-nb.info/gnd/1071969641" />
 <rdfs:label>Orna Grumberg</rdfs:label>
-<wdt:P2456>g/OrnaGrumberg</wdt:P2456>
-<wdt:P1960>ZPed8YYAAAAJ</wdt:P1960>
-<wdt:P864>81100493474</wdt:P864>
-<wdt:P549>77905</wdt:P549>
-<wdt:P1687>Q15995111</wdt:P1687>
-<wdt:P244>names/nb97057888</wdt:P244>
-<wdt:P227>1071969641</wdt:P227>
+<dblp:wikidata rdf:resource="https://www.wikidata.org/entity/Q15995111" />
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>g/OrnaGrumberg</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/google-scholar" />
+<litre:hasLiteralValue>ZPed8YYAAAAJ</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/acm" />
+<litre:hasLiteralValue>81100493474</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/math-genealogy" />
+<litre:hasLiteralValue>77905</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:Identifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/wikidata" />
+<litre:hasLiteralValue>Q15995111</litre:hasLiteralValue>
+</datacite:Identifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:Identifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/loc" />
+<litre:hasLiteralValue>names/nb97057888</litre:hasLiteralValue>
+</datacite:Identifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:Identifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/gnd" />
+<litre:hasLiteralValue>1071969641</litre:hasLiteralValue>
+</datacite:Identifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/zbmath" />
+<litre:hasLiteralValue>grumberg.orna</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
 <dblp:primaryFullCreatorName>Orna Grumberg</dblp:primaryFullCreatorName>
 <dblp:otherFullCreatorName>&#1488;&#1512;&#1504;&#1492; &#1490;&#1512;&#1497;&#1502;&#1489;&#1512;&#1490;</dblp:otherFullCreatorName>
 <dblp:primaryAffiliation>Technion - Israel Institute of Technology, Haifa, Israel</dblp:primaryAffiliation>
@@ -21,8 +63,11 @@
 <dblp:webpage rdf:resource="https://scholar.google.com/citations?user=ZPed8YYAAAAJ" />
 <dblp:webpage rdf:resource="https://dl.acm.org/profile/81100493474" />
 <dblp:webpage rdf:resource="https://mathgenealogy.org/id.php?id=77905" />
-<dblp:webpage rdf:resource="https://en.wikipedia.org/wiki/Orna_Grumberg" />
+<dblp:wikipedia rdf:resource="https://en.wikipedia.org/wiki/Orna_Grumberg" />
 <dblp:awardWebpage rdf:resource="http://awards.acm.org/award_winners/grumberg_3069713.cfm" />
+<dblp:webpage rdf:resource="https://zbmath.org/authors/?q=ai:grumberg.orna" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/vmcai/GoudsmidGS21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2106-00732" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/cav/RothenbergG20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/tacas/FrenkelGPS20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/jar/FrenkelGS19" />
@@ -218,6 +263,7 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/199/3308" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/45/6037" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/21/2368" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/282/7277" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/06/5837" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/68/440" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/77/8388" />
@@ -242,7 +288,7 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/l/MartinLeucker" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/41/4720" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/25/1925" />
-<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/10/5980" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/10/5980-4" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/m/JAMakowsky" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/m/ShaulMarkovitch" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/m/KennethLMcMillan" />
@@ -296,6 +342,6 @@
 <dct:creator rdf:resource="https://dblp.org" />
 <dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
 <dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
-<dct:modified>2020-11-18T20:55:40+0100</dct:modified>
+<dct:modified>2021-10-16T01:35:38+0200</dct:modified>
 </rdf:Description>
 </rdf:RDF>

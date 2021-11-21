@@ -1,12 +1,30 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dct="http://purl.org/dc/terms/" xmlns:litre="http://purl.org/spar/literal/">
 <dblp:Person rdf:about="https://dblp.org/pid/85/770">
-<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
 <rdfs:label>Loris D'Antoni</rdfs:label>
-<wdt:P2456>85/770</wdt:P2456>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>85/770</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
 <dblp:primaryFullCreatorName>Loris D&apos;Antoni</dblp:primaryFullCreatorName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/cacm/DAntoniV21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/pacmpl/KimHDR21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/cav/DAntoniHKR21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/cav/HuCDR21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/emnlp/ZhangAD21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sbes/SousaSGBD21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sigcomm/FerreiraBD021" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sosr/SubramanianADA21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2102-07818" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2103-04188" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2105-00493" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2110-04363" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/cav/DAntoniHKRW20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/esop/PanHSD20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icml/ZhangAD20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/pldi/SubramanianADA20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/pldi/DrewsAD20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/pldi/HuCDR20" />
@@ -84,8 +102,10 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/a/RAlur" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/145/1793" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/74/4492" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/122/6337" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/88/4522" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/148/1307" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/299/2239" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/201/4873" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/82/231" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/37/4019" />
@@ -109,6 +129,7 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/250/9258" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/201/4822" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/74/28" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/221/1643" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/85/1809" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/61/6578" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/76/10243" />
@@ -119,10 +140,12 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/46/2924" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/68/868" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/204/2974" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/304/2056" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/97/2954" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/55/10322" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/75/3815" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/45/2495" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/242/3066" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/n/AdityaVNori" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/08/6576" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/136/1148" />
@@ -134,6 +157,7 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/147/6076" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/r/TWReps" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/23/2758" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/95/621" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/78/7445" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/120/2179" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/05/2451" />
@@ -154,7 +178,7 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/01/1282" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/149/5150" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/29/3650" />
-<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/05/4612" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/05/4612-1" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/z/CZaniolo" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/80/1651-2" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/139/5876" />
@@ -164,6 +188,6 @@
 <dct:creator rdf:resource="https://dblp.org" />
 <dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
 <dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
-<dct:modified>2020-10-26T23:14:03+0100</dct:modified>
+<dct:modified>2021-11-12T23:13:54+0100</dct:modified>
 </rdf:Description>
 </rdf:RDF>

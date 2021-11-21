@@ -1,11 +1,22 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dct="http://purl.org/dc/terms/" xmlns:litre="http://purl.org/spar/literal/">
 <dblp:Person rdf:about="https://dblp.org/pid/l/BixinLi">
-<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
 <owl:sameAs rdf:resource="https://orcid.org/0000-0001-9916-4790" />
 <rdfs:label>Bixin Li</rdfs:label>
-<wdt:P2456>l/BixinLi</wdt:P2456>
-<wdt:P496>0000-0001-9916-4790</wdt:P496>
+<dblp:orcid rdf:resource="https://orcid.org/0000-0001-9916-4790" />
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>l/BixinLi</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/orcid" />
+<litre:hasLiteralValue>0000-0001-9916-4790</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
 <dblp:primaryFullCreatorName>Bixin Li</dblp:primaryFullCreatorName>
 <dblp:primaryHomepage rdf:resource="http://cse.seu.edu.cn/people/bx.li/en/index.htm" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/access/HuWL20" />
@@ -15,6 +26,7 @@
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/infsof/WangLK20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/caise/ChengKLL20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/compsac/SongK0L20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/qrs/LiXK0L20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/seke/LiZW20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/wcre/Xiong0L20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/access/JiLZ19" />
@@ -170,6 +182,7 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/l/HaretonKNLeung" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/89/6764-6" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/66/190" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/284/7122" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/75/10587" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/47/3099" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/00/5984" />
@@ -262,6 +275,6 @@
 <dct:creator rdf:resource="https://dblp.org" />
 <dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
 <dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
-<dct:modified>2020-12-01T22:27:15+0100</dct:modified>
+<dct:modified>2021-10-16T02:24:15+0200</dct:modified>
 </rdf:Description>
 </rdf:RDF>

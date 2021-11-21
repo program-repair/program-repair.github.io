@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dct="http://purl.org/dc/terms/" xmlns:litre="http://purl.org/spar/literal/">
 <dblp:Person rdf:about="https://dblp.org/pid/125/8704">
-<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
 <rdfs:label>Anirudh Santhiar</rdfs:label>
-<wdt:P2456>125/8704</wdt:P2456>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>125/8704</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
 <dblp:primaryFullCreatorName>Anirudh Santhiar</dblp:primaryFullCreatorName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sigsoft/MehtaFBGJ0SS21" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/issta/LamGNST19" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/pldi/SanthiarK17" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/issta/SanthiarKK16" />
@@ -12,13 +18,20 @@
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/KaleeswaranSKG16" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/tosem/SanthiarPK14" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/fase/SanthiarPK13" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/94/5385" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/222/2769" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/20/1639" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/g/SumitGulwani" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/299/8737" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/266/3896" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/131/6832" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/61/2636" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/92/5081-2" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/25/1049" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/246/5368" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/85/6293" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/125/8765" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/145/3996" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/79/6558" />
 </dblp:Person>
 <rdf:Description rdf:about="https://dblp.org/pid/125/8704.rdf">
@@ -26,6 +39,6 @@
 <dct:creator rdf:resource="https://dblp.org" />
 <dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
 <dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
-<dct:modified>2020-01-23T22:50:58+0100</dct:modified>
+<dct:modified>2021-08-22T23:25:29+0200</dct:modified>
 </rdf:Description>
 </rdf:RDF>

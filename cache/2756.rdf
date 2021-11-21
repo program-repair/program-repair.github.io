@@ -1,14 +1,38 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dct="http://purl.org/dc/terms/" xmlns:litre="http://purl.org/spar/literal/">
 <dblp:Person rdf:about="https://dblp.org/pid/186/2756">
-<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
 <owl:sameAs rdf:resource="https://orcid.org/0000-0002-0283-248X" />
 <rdfs:label>Jacob Kr&#252;ger</rdfs:label>
-<wdt:P2456>186/2756</wdt:P2456>
-<wdt:P496>0000-0002-0283-248X</wdt:P496>
+<dblp:orcid rdf:resource="https://orcid.org/0000-0002-0283-248X" />
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>186/2756</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/orcid" />
+<litre:hasLiteralValue>0000-0002-0283-248X</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
 <dblp:primaryFullCreatorName>Jacob Kr&#252;ger</dblp:primaryFullCreatorName>
 <dblp:primaryAffiliation>Otto-von-Guericke-University, Magdeburg, Germany</dblp:primaryAffiliation>
 <dblp:primaryHomepage rdf:resource="http://www.dbse.ovgu.de/Mitarbeiter/Jacob+Kr%C3%BCger.html" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/ese/KuiterKKSL21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/ese/LindohfKHB21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/msr/0001BKO21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/se/FenskeKKS21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/se/KrugerB21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/se/KrugerH21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/se/SurucuSKSL21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/splc/KuiterKS21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/splc/KennerMKSL21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/splc/AssuncaoAK021" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/wcre/KrugerCBL21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2103-09620" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2108-12511" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/ese/KrugerLNSL20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/ese/HeumullerNKO20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/jdiq/ShakeelKNSL20" />
@@ -83,10 +107,12 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/187/9107" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/226/7565" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/90/9459" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/00/8104" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/203/2051" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/120/5658" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/136/2980" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/22/6472" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/271/3808" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/11/7657" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/05/4705" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/84/1967" />
@@ -104,6 +130,7 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/69/7373" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/212/9450" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/63/9280" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/05/6701" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/158/8506" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/216/5166" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/278/0416" />
@@ -120,6 +147,7 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/225/3666" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/00/3032" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/246/5083" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/287/6548" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/133/7495" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/63/5205" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/56/497" />
@@ -127,8 +155,10 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/120/8379" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/172/2040" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/86/3767" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/94/67" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/132/2339" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/250/3378" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/48/1683" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/200/5923" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/00/9162" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/205/3968" />
@@ -174,6 +204,6 @@
 <dct:creator rdf:resource="https://dblp.org" />
 <dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
 <dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
-<dct:modified>2020-11-15T20:54:59+0100</dct:modified>
+<dct:modified>2021-10-16T01:51:26+0200</dct:modified>
 </rdf:Description>
 </rdf:RDF>

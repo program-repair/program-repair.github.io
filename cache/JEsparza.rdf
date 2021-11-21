@@ -1,18 +1,83 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dct="http://purl.org/dc/terms/" xmlns:litre="http://purl.org/spar/literal/">
 <dblp:Person rdf:about="https://dblp.org/pid/e/JEsparza">
-<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
 <owl:sameAs rdf:resource="https://orcid.org/0000-0001-9862-4919" />
+<owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q102342745" />
+<owl:sameAs rdf:resource="https://d-nb.info/gnd/111831016" />
+<owl:sameAs rdf:resource="https://id.loc.gov/authorities/names/n94097532" />
 <rdfs:label>Javier Esparza</rdfs:label>
-<wdt:P2456>e/JEsparza</wdt:P2456>
-<wdt:P1960>c9qgPSYAAAAJ</wdt:P1960>
-<wdt:P864>81100206259</wdt:P864>
-<wdt:P496>0000-0001-9862-4919</wdt:P496>
+<dblp:orcid rdf:resource="https://orcid.org/0000-0001-9862-4919" />
+<dblp:wikidata rdf:resource="https://www.wikidata.org/entity/Q102342745" />
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>e/JEsparza</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/google-scholar" />
+<litre:hasLiteralValue>c9qgPSYAAAAJ</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/acm" />
+<litre:hasLiteralValue>81100206259</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/orcid" />
+<litre:hasLiteralValue>0000-0001-9862-4919</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:Identifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/wikidata" />
+<litre:hasLiteralValue>Q102342745</litre:hasLiteralValue>
+</datacite:Identifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:Identifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/gnd" />
+<litre:hasLiteralValue>111831016</litre:hasLiteralValue>
+</datacite:Identifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:Identifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/loc" />
+<litre:hasLiteralValue>names/n94097532</litre:hasLiteralValue>
+</datacite:Identifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/math-genealogy" />
+<litre:hasLiteralValue>128048</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
 <dblp:primaryFullCreatorName>Javier Esparza</dblp:primaryFullCreatorName>
 <dblp:primaryAffiliation>TU Munich, Faculty of Computer Science</dblp:primaryAffiliation>
 <dblp:primaryHomepage rdf:resource="http://www.model.in.tum.de/~esparza/" />
 <dblp:webpage rdf:resource="https://scholar.google.com/citations?user=c9qgPSYAAAAJ" />
 <dblp:webpage rdf:resource="https://dl.acm.org/profile/81100206259" />
+<dblp:wikipedia rdf:resource="https://en.wikipedia.org/wiki/Javier_Esparza" />
+<dblp:webpage rdf:resource="https://mathgenealogy.org/id.php?id=128048" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/dc/EsparzaJRW21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/siglog/Esparza21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/apn/EsparzaRW21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/concur/EsparzaKKW21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/fossacs/Balasubramanian21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/podc/CzernerE21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/podc/CzernerGHE21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/rp/Esparza21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/wia/Esparza21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2102-11619" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2102-11630" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2103-10280" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2108-09101" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2108-13449" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/jacm/EsparzaKS20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/atva/Balasubramanian20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/atva/EsparzaHJM20" />
@@ -295,6 +360,7 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/76/1885" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/05/163" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/64/3701" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/214/1788" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/d/GDelzanno" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/d/JorgDesel" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/45/6781" />
@@ -308,6 +374,7 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/17/3701" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/59/6859" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/g/OrnaGrumberg" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/286/1328" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/23/205" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/250/9258" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/h/KeijoHeljanko" />
@@ -414,6 +481,6 @@
 <dct:creator rdf:resource="https://dblp.org" />
 <dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
 <dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
-<dct:modified>2020-12-01T22:24:54+0100</dct:modified>
+<dct:modified>2021-11-06T03:48:58+0100</dct:modified>
 </rdf:Description>
 </rdf:RDF>

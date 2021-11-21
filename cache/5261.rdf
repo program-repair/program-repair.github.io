@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dct="http://purl.org/dc/terms/" xmlns:litre="http://purl.org/spar/literal/">
 <dblp:Person rdf:about="https://dblp.org/pid/153/5261">
-<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
 <rdfs:label>August Shi</rdfs:label>
-<wdt:P2456>153/5261</wdt:P2456>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>153/5261</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
 <dblp:primaryFullCreatorName>August Shi</dblp:primaryFullCreatorName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/sigsoft/Shi21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/ZhangJWSMS21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sigsoft/0001SM21" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/issta/0001SCZJM20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/issta/LamSOZE020" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/issta/PengSZ20" />
@@ -51,6 +59,7 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/153/5340" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/196/4995" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/269/8017" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/57/4768" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/k/SarfrazKhurshid" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/243/6203" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/32/2903" />
@@ -67,10 +76,12 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/92/864" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/79/6558" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/31/9081" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/280/5656" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/x/TaoXie" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/167/7846" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/153/5235" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/27/7057" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/205/2568" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/15/3963" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/269/7987" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/223/0450" />
@@ -81,6 +92,6 @@
 <dct:creator rdf:resource="https://dblp.org" />
 <dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
 <dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
-<dct:modified>2020-10-26T23:14:08+0100</dct:modified>
+<dct:modified>2021-10-16T02:16:59+0200</dct:modified>
 </rdf:Description>
 </rdf:RDF>

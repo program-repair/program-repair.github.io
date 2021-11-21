@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dct="http://purl.org/dc/terms/" xmlns:litre="http://purl.org/spar/literal/">
 <dblp:Person rdf:about="https://dblp.org/pid/s/JiaGuangSun-1">
-<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
 <rdfs:label>Jia-Guang Sun 0001</rdfs:label>
-<wdt:P2456>s/JiaGuangSun-1</wdt:P2456>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>s/JiaGuangSun-1</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
 <dblp:primaryFullCreatorName>Jia-Guang Sun</dblp:primaryFullCreatorName>
 <dblp:otherFullCreatorName>Jiaguang Sun</dblp:otherFullCreatorName>
 <dblp:primaryAffiliation>Tsinghua University, School of Software, Beijing, China</dblp:primaryAffiliation>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/tdsc/Cheng0S0021" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/tii/GaoYJSCS21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/tse/GaoJLYWJYS21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/usenix/WangLZ00S021" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/pvldb/0018HQ00MFZ0ZKJ20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/tcad/GaoXJLCJS20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icmcs/JinWLWYS20" />
@@ -346,10 +354,9 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/36/6517" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/13/1672" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/82/4206-18" />
-<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/18/2771" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/18/2771-20" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/190/0760" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/39/449" />
-<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/06/3456" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/06/3456-1" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/136/5405" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/64/9796" />
@@ -432,6 +439,6 @@
 <dct:creator rdf:resource="https://dblp.org" />
 <dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
 <dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
-<dct:modified>2020-12-01T22:17:38+0100</dct:modified>
+<dct:modified>2021-11-17T23:51:45+0100</dct:modified>
 </rdf:Description>
 </rdf:RDF>

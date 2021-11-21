@@ -1,12 +1,32 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dct="http://purl.org/dc/terms/" xmlns:litre="http://purl.org/spar/literal/">
 <dblp:Person rdf:about="https://dblp.org/pid/92/443">
-<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
 <rdfs:label>Bj&#246;rn Hartmann</rdfs:label>
-<wdt:P2456>92/443</wdt:P2456>
-<wdt:P1960>aZMY6_UAAAAJ</wdt:P1960>
-<wdt:P864>81318498266</wdt:P864>
-<wdt:P2002>bjo3rn</wdt:P2002>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>92/443</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/google-scholar" />
+<litre:hasLiteralValue>aZMY6_UAAAAJ</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/acm" />
+<litre:hasLiteralValue>81318498266</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/twitter" />
+<litre:hasLiteralValue>bjo3rn</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
 <dblp:primaryFullCreatorName>Bj&#246;rn Hartmann</dblp:primaryFullCreatorName>
 <dblp:otherFullCreatorName>Bjoern Hartmann</dblp:otherFullCreatorName>
 <dblp:primaryAffiliation>UC Berkeley, USA</dblp:primaryAffiliation>
@@ -14,6 +34,8 @@
 <dblp:webpage rdf:resource="https://scholar.google.com/citations?user=aZMY6_UAAAAJ" />
 <dblp:webpage rdf:resource="https://dl.acm.org/profile/81318498266" />
 <dblp:webpage rdf:resource="https://twitter.com/bjo3rn" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/chi/SchoopHH21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/uist/LinRJKNDH21" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/chi/0001HKG20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/chi/DaffaraBKH20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/chi/HeadJ0HH20" />
@@ -258,6 +280,7 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/81/872" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/97/4414" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/172/7905" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/293/6706" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/00/1560" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/04/7986" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/40/5535" />
@@ -274,6 +297,7 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/21/1600" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/36/4520" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/37/4190" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/37/4190-58" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/84/2066" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/179/5380" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/20/10029" />
@@ -391,6 +415,6 @@
 <dct:creator rdf:resource="https://dblp.org" />
 <dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
 <dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
-<dct:modified>2020-11-19T21:29:32+0100</dct:modified>
+<dct:modified>2021-10-20T00:57:11+0200</dct:modified>
 </rdf:Description>
 </rdf:RDF>

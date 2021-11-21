@@ -1,16 +1,37 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dct="http://purl.org/dc/terms/" xmlns:litre="http://purl.org/spar/literal/">
 <dblp:Person rdf:about="https://dblp.org/pid/118/5367-1">
-<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
 <owl:sameAs rdf:resource="https://orcid.org/0000-0002-0147-3526" />
 <rdfs:label>Sebastian Nielebock 0001</rdfs:label>
-<wdt:P2456>118/5367-1</wdt:P2456>
-<wdt:P1960>Z4xcz2IAAAAJ</wdt:P1960>
-<wdt:P496>0000-0002-0147-3526</wdt:P496>
+<dblp:orcid rdf:resource="https://orcid.org/0000-0002-0147-3526" />
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>118/5367-1</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/google-scholar" />
+<litre:hasLiteralValue>Z4xcz2IAAAAJ</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/orcid" />
+<litre:hasLiteralValue>0000-0002-0147-3526</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
 <dblp:primaryFullCreatorName>Sebastian Nielebock</dblp:primaryFullCreatorName>
 <dblp:primaryAffiliation>Otto-von-Guericke-Universit&#228;t Magdeburg, Germany</dblp:primaryAffiliation>
 <dblp:primaryHomepage rdf:resource="https://cse.cs.ovgu.de/cse/members/sebastian-nielebock/" />
 <dblp:webpage rdf:resource="https://scholar.google.com/citations?user=Z4xcz2IAAAAJ" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/ase/NielebockHSO21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/msr/0001BKO21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sigsoft/Heumuller0O21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2103-09620" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2108-12511" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/ese/HeumullerNKO20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ease/Kruger0H20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/0001HKO20a" />
@@ -24,6 +45,7 @@
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/kbse/Nielebock17" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/splc/KrugerNKDLSZO17" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/safecomp/NielebockOSW12" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/271/3808" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/58/2490" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/158/8506" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/157/3757" />
@@ -42,6 +64,6 @@
 <dct:creator rdf:resource="https://dblp.org" />
 <dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
 <dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
-<dct:modified>2020-11-15T21:00:13+0100</dct:modified>
+<dct:modified>2021-10-16T02:05:17+0200</dct:modified>
 </rdf:Description>
 </rdf:RDF>

@@ -1,18 +1,52 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dct="http://purl.org/dc/terms/" xmlns:litre="http://purl.org/spar/literal/">
 <dblp:Person rdf:about="https://dblp.org/pid/d/PremkumarTDevanbu">
-<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
 <owl:sameAs rdf:resource="https://orcid.org/0000-0002-4346-5276" />
 <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q57419536" />
 <rdfs:label>Premkumar T. Devanbu</rdfs:label>
-<wdt:P2456>d/PremkumarTDevanbu</wdt:P2456>
-<wdt:P496>0000-0002-4346-5276</wdt:P496>
-<wdt:P1687>Q57419536</wdt:P1687>
+<dblp:orcid rdf:resource="https://orcid.org/0000-0002-4346-5276" />
+<dblp:wikidata rdf:resource="https://www.wikidata.org/entity/Q57419536" />
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>d/PremkumarTDevanbu</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/orcid" />
+<litre:hasLiteralValue>0000-0002-4346-5276</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:Identifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/wikidata" />
+<litre:hasLiteralValue>Q57419536</litre:hasLiteralValue>
+</datacite:Identifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/acm" />
+<litre:hasLiteralValue>81452608115</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
 <dblp:primaryFullCreatorName>Premkumar T. Devanbu</dblp:primaryFullCreatorName>
 <dblp:otherFullCreatorName>Prem Devanbu</dblp:otherFullCreatorName>
 <dblp:primaryAffiliation>University of California, Davis, Department of Computer Science</dblp:primaryAffiliation>
 <dblp:primaryHomepage rdf:resource="http://www.cs.ucdavis.edu/~devanbu/" />
+<dblp:webpage rdf:resource="https://dl.acm.org/profile/81452608115" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/ese/AhmedDH21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/sigsoft/PosnettHD21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/software/SawantD21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sigsoft/JesseDA21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2103-05221" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2104-14671" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/cogsci/CasalnuovoLWDM20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/cogsci/CasalnuovoDM20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/CasalnuovoBDDM20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/kbse/DingRDH20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/kbse/GrosSDY20" />
 <dblp:editorOf rdf:resource="https://dblp.org/rec/conf/sigsoft/2020" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2008-10707" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2009-08525" />
@@ -30,6 +64,7 @@
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/software/DevanbuZB18" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/tse/AllamanisBBDMS18" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sigsoft/HellendoornDA18" />
+<dblp:editorOf rdf:resource="https://dblp.org/rec/conf/sigsoft/2018nl4se" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-1806-02437" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-1806-08457" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/cacm/RayPDF17" />
@@ -236,6 +271,7 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/f/PhilipWLFong" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/24/2144" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/167/0169" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/118/6447" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/64/6605" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/g/HaraldGall" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/35/6095" />
@@ -259,9 +295,10 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/36/4997" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/93/3097" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/76/2009" />
-<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/173/0211" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/132/5179" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/74/5899" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/72/1114" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/250/2929" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/82/3572" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/52/6233" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/08/5562" />
@@ -277,6 +314,7 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/87/819-1" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/75/1987" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/l/JLaunchbury" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/291/4752" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/44/765" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/l/JCSdoPradoLeite" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/l/DianeJLitman" />
@@ -337,6 +375,7 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/07/5296" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/18/7526" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/88/4007" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/166/4905" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/160/9966" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/22/6405" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/s/AlexanderSerebrenik" />
@@ -367,7 +406,7 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/02/661" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/250/9725" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/133/3861" />
-<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/74/8792" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/74/8792-4" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/131/2795" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/w/GWassermann" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/w/BruceWWeide" />
@@ -377,6 +416,7 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/w/AlexanderLWolf" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/37/8888" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/07/2946" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/74/6710" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/55/2008-1" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/83/3205" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/243/2564" />
@@ -388,6 +428,6 @@
 <dct:creator rdf:resource="https://dblp.org" />
 <dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
 <dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
-<dct:modified>2020-11-11T21:48:35+0100</dct:modified>
+<dct:modified>2021-10-16T02:01:53+0200</dct:modified>
 </rdf:Description>
 </rdf:RDF>

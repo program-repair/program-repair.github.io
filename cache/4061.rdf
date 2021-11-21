@@ -1,13 +1,30 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dct="http://purl.org/dc/terms/" xmlns:litre="http://purl.org/spar/literal/">
 <dblp:Person rdf:about="https://dblp.org/pid/24/4061">
-<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
 <owl:sameAs rdf:resource="https://orcid.org/0000-0003-0411-4542" />
 <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q58692500" />
 <rdfs:label>Nuno Neves 0001</rdfs:label>
-<wdt:P2456>24/4061</wdt:P2456>
-<wdt:P496>0000-0003-0411-4542</wdt:P496>
-<wdt:P1687>Q58692500</wdt:P1687>
+<dblp:orcid rdf:resource="https://orcid.org/0000-0003-0411-4542" />
+<dblp:wikidata rdf:resource="https://www.wikidata.org/entity/Q58692500" />
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>24/4061</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/orcid" />
+<litre:hasLiteralValue>0000-0003-0411-4542</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:Identifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/wikidata" />
+<litre:hasLiteralValue>Q58692500</litre:hasLiteralValue>
+</datacite:Identifier>
+</datacite:hasIdentifier>
 <dblp:primaryFullCreatorName>Nuno Neves</dblp:primaryFullCreatorName>
 <dblp:otherFullCreatorName>Nuno Ferreira Neves</dblp:otherFullCreatorName>
 <dblp:otherFullCreatorName>Nuno Fuentecilla Maia Ferreira Neves</dblp:otherFullCreatorName>
@@ -17,6 +34,7 @@
 <dblp:primaryHomepage rdf:resource="http://www.di.fc.ul.pt/~nuno/" />
 <dblp:webpage rdf:resource="https://www.researcherid.com/rid/F-5261-2010" />
 <dblp:webpage rdf:resource="https://www.scopus.com/authid/detail.uri?authorId=7004622224" />
+<dblp:editorOf rdf:resource="https://dblp.org/rec/conf/dimva/2021" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/comcom/AlalunaFFNR20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/dsn/Medeiros020" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/edcc/Medeiros020" />
@@ -138,6 +156,8 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/07/10699" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/15/445" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/181/2804" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/c/MiguelCastro" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/95/5162" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/172/3263" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/64/2768-1" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/35/6770" />
@@ -151,7 +171,7 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/139/7432" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/86/6413-2" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/f/WKentFuchs" />
-<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/91/3684" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/279/9246" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/71/6662" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/99/3930" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/88/3329" />
@@ -181,6 +201,7 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/189/9911" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/87/4879-6" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/52/4916" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/35/9056" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/09/7552" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/38/6609" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/84/5398" />
@@ -217,6 +238,6 @@
 <dct:creator rdf:resource="https://dblp.org" />
 <dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
 <dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
-<dct:modified>2020-11-04T22:06:18+0100</dct:modified>
+<dct:modified>2021-10-16T02:22:19+0200</dct:modified>
 </rdf:Description>
 </rdf:RDF>

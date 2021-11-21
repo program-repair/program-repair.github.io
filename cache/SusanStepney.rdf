@@ -1,16 +1,41 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dct="http://purl.org/dc/terms/" xmlns:litre="http://purl.org/spar/literal/">
 <dblp:Person rdf:about="https://dblp.org/pid/s/SusanStepney">
-<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
 <owl:sameAs rdf:resource="https://orcid.org/0000-0003-3146-5401" />
 <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q59677325" />
 <rdfs:label>Susan Stepney</rdfs:label>
-<wdt:P2456>s/SusanStepney</wdt:P2456>
-<wdt:P496>0000-0003-3146-5401</wdt:P496>
-<wdt:P1687>Q59677325</wdt:P1687>
+<dblp:orcid rdf:resource="https://orcid.org/0000-0003-3146-5401" />
+<dblp:wikidata rdf:resource="https://www.wikidata.org/entity/Q59677325" />
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>s/SusanStepney</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/orcid" />
+<litre:hasLiteralValue>0000-0003-3146-5401</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:Identifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/wikidata" />
+<litre:hasLiteralValue>Q59677325</litre:hasLiteralValue>
+</datacite:Identifier>
+</datacite:hasIdentifier>
 <dblp:primaryFullCreatorName>Susan Stepney</dblp:primaryFullCreatorName>
 <dblp:primaryAffiliation>University of York, UK</dblp:primaryAffiliation>
 <dblp:primaryHomepage rdf:resource="http://www-users.cs.york.ac.uk/~susan/index.htm" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/nc/AtkinsonPS21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/nc/DaleOSST21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/nc/StepneyK21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/cogsima/Stepney21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/evoW/YinRSC21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/uc/DaleOSST21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/uc/Stepney21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2101-12700" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/alife/RainfordSS20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/gpem/AtkinsonPS20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/nc/HickinbothamST19" />
@@ -230,7 +255,8 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/05/3673" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/c/JohnAClark" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/13/4988" />
-<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/98/323" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/150/6956" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/93/9953" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/49/5176" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/95/233" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/181/5357" />
@@ -242,6 +268,7 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/42/158" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/53/11026" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/04/6570" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/284/2643" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/46/9762" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/207/4803" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/f/JamesAFoster" />
@@ -267,6 +294,7 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/172/0811" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/91/8782" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/j/JeremyLJacob" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/212/4072" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/61/6972" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/97/2460" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/67/3415" />
@@ -309,6 +337,7 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/32/9756" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/52/5233" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/23/6372" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/289/8233" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/147/8961" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/04/1774" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/56/9717" />
@@ -331,6 +360,7 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/t/ChristofTeuscher" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/t/JonathanTimmis" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/205/1113" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/18/8823" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/49/1829" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/01/2947" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/35/2341" />
@@ -354,6 +384,7 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/36/4054" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/01/10083" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/86/59" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/289/8432" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/63/2129" />
 </dblp:Person>
 <rdf:Description rdf:about="https://dblp.org/pid/s/SusanStepney.rdf">
@@ -361,6 +392,6 @@
 <dct:creator rdf:resource="https://dblp.org" />
 <dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
 <dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
-<dct:modified>2020-10-27T22:16:17+0100</dct:modified>
+<dct:modified>2021-11-06T03:46:15+0100</dct:modified>
 </rdf:Description>
 </rdf:RDF>

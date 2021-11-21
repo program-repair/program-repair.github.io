@@ -1,12 +1,22 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dct="http://purl.org/dc/terms/" xmlns:litre="http://purl.org/spar/literal/">
 <dblp:Person rdf:about="https://dblp.org/pid/82/7064">
-<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
 <rdfs:label>Mingyue Jiang</rdfs:label>
-<wdt:P2456>82/7064</wdt:P2456>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>82/7064</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
 <dblp:primaryFullCreatorName>Mingyue Jiang</dblp:primaryFullCreatorName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/automatica/HouLXJ21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/infsof/ShuHDXJ21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/tr/JiangCZD21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/cvpr/YuanWJC21" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/access/LiJD20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/soco/DengJL20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/tase/DingZJ20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/access/HuangJDZ19" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/dsa/TangZJD19" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/itqm/JiangGDW19" />
@@ -25,6 +35,7 @@
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/jsw/JiangDL12" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/tsc/DingJK12" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/DingJP11" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/interaction/JiangD11" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/qsic/DingJPL10" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ACISicis/DingJL09" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/IEEEscc/DingJ09" />
@@ -34,7 +45,6 @@
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/qsic/DingJ09" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ssiri/DingJ09" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/31/6601" />
-<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/74/4286" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/88/612" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/70/5412" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/256/8882" />
@@ -42,7 +52,9 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/63/1645" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/258/7825" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/73/2952" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/23/5537-2" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/183/4518" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/284/1871" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/30/3790-1" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/03/3399" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/22/3510" />
@@ -50,22 +62,27 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/05/1906" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/21/6332" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/10/1749" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/18/7734" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/07/320" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/72/2590-12" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/85/3447" />
-<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/154/4414" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/44/730" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/p/JPalsberg" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/258/7788" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/33/1678" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/s/JeffWSanders" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/44/9175" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/204/4139" />
-<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/237/7970" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/237/7970-1" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/40/3836" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/94/9817" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/42/1503" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/20/815" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/88/8403" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/237/3707" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/50/2484" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/295/5277" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/290/9055" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/200/2467" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/73/1446" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/40/7018-5" />
@@ -76,6 +93,6 @@
 <dct:creator rdf:resource="https://dblp.org" />
 <dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
 <dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
-<dct:modified>2020-09-16T22:46:52+0200</dct:modified>
+<dct:modified>2021-09-01T01:36:33+0200</dct:modified>
 </rdf:Description>
 </rdf:RDF>

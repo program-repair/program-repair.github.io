@@ -1,13 +1,26 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dct="http://purl.org/dc/terms/" xmlns:litre="http://purl.org/spar/literal/">
 <dblp:Inproceedings rdf:about="https://dblp.org/rec/conf/icse/WenCWHC18">
-<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Publication" />
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Publication" />
 <owl:sameAs rdf:resource="https://doi.org/10.1145/3180155.3180233" />
+<owl:sameAs rdf:resource="http://dx.doi.org/10.1145/3180155.3180233" />
 <rdfs:label>Ming Wen et al.: Context-aware patch generation for better automated program repair. (2018)</rdfs:label>
-<wdt:P356>10.1145/3180155.3180233</wdt:P356>
+<dblp:doi rdf:resource="https://doi.org/10.1145/3180155.3180233" />
+<datacite:hasIdentifier>
+<datacite:ResourceIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp-record" />
+<litre:hasLiteralValue>conf/icse/WenCWHC18</litre:hasLiteralValue>
+</datacite:ResourceIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:ResourceIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/doi" />
+<litre:hasLiteralValue>10.1145/3180155.3180233</litre:hasLiteralValue>
+</datacite:ResourceIdentifier>
+</datacite:hasIdentifier>
 <dblp:title>Context-aware patch generation for better automated program repair.</dblp:title>
 <dblp:bibtexType rdf:resource="http://purl.org/net/nknouf/ns/bibtex#Inproceedings" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pid/99/1109" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/99/1109-1" />
 <dblp:authoredBy rdf:resource="https://dblp.org/pid/04/4498-3" />
 <dblp:authoredBy rdf:resource="https://dblp.org/pid/92/9102" />
 <dblp:authoredBy rdf:resource="https://dblp.org/pid/50/456" />
@@ -15,7 +28,7 @@
 <dblp:numberOfCreators rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</dblp:numberOfCreators>
 <dblp:orderedCreators>
 <rdf:List>
-<rdf:first rdf:resource="https://dblp.org/pid/99/1109" />
+<rdf:first rdf:resource="https://dblp.org/pid/99/1109-1" />
 <rdf:rest>
 <rdf:List>
 <rdf:first rdf:resource="https://dblp.org/pid/04/4498-3" />
@@ -40,7 +53,7 @@
 </rdf:List>
 </dblp:orderedCreators>
 <dblp:primaryElectronicEdition rdf:resource="https://doi.org/10.1145/3180155.3180233" />
-<dblp:otherElectronicEdition rdf:resource="http://ieeexplore.ieee.org/document/8453055" />
+<dblp:otherElectronicEdition rdf:resource="https://ieeexplore.ieee.org/document/8453055" />
 <dblp:listedOnTocPage rdf:resource="https://dblp.org/db/conf/icse/icse2018" />
 <dblp:pagination>1-11</dblp:pagination>
 <dblp:publishedIn>ICSE</dblp:publishedIn>
@@ -54,6 +67,6 @@
 <dct:creator rdf:resource="https://dblp.org" />
 <dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
 <dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
-<dct:modified>2019-09-16T15:28:05+0200</dct:modified>
+<dct:modified>2021-09-13T12:00:07+0200</dct:modified>
 </rdf:Description>
 </rdf:RDF>

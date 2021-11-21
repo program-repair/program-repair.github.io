@@ -1,10 +1,23 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dct="http://purl.org/dc/terms/" xmlns:litre="http://purl.org/spar/literal/">
 <dblp:Inproceedings rdf:about="https://dblp.org/rec/conf/issta/Lou0ZH019">
-<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Publication" />
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Publication" />
 <owl:sameAs rdf:resource="https://doi.org/10.1145/3293882.3330578" />
+<owl:sameAs rdf:resource="http://dx.doi.org/10.1145/3293882.3330578" />
 <rdfs:label>Yiling Lou et al.: History-driven build failure fixing: how far are we? (2019)</rdfs:label>
-<wdt:P356>10.1145/3293882.3330578</wdt:P356>
+<dblp:doi rdf:resource="https://doi.org/10.1145/3293882.3330578" />
+<datacite:hasIdentifier>
+<datacite:ResourceIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp-record" />
+<litre:hasLiteralValue>conf/issta/Lou0ZH019</litre:hasLiteralValue>
+</datacite:ResourceIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:ResourceIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/doi" />
+<litre:hasLiteralValue>10.1145/3293882.3330578</litre:hasLiteralValue>
+</datacite:ResourceIdentifier>
+</datacite:hasIdentifier>
 <dblp:title>History-driven build failure fixing: how far are we?</dblp:title>
 <dblp:bibtexType rdf:resource="http://purl.org/net/nknouf/ns/bibtex#Inproceedings" />
 <dblp:authoredBy rdf:resource="https://dblp.org/pid/174/3394" />
@@ -53,6 +66,6 @@
 <dct:creator rdf:resource="https://dblp.org" />
 <dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
 <dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
-<dct:modified>2019-07-12T09:58:54+0200</dct:modified>
+<dct:modified>2021-09-13T12:00:07+0200</dct:modified>
 </rdf:Description>
 </rdf:RDF>

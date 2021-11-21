@@ -1,15 +1,35 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dct="http://purl.org/dc/terms/" xmlns:litre="http://purl.org/spar/literal/">
 <dblp:Person rdf:about="https://dblp.org/pid/39/6301-15">
-<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
 <rdfs:label>Yu Huang 0015</rdfs:label>
-<wdt:P2456>39/6301-15</wdt:P2456>
-<wdt:P1960>ngLMhbIAAAAJ</wdt:P1960>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>39/6301-15</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/google-scholar" />
+<litre:hasLiteralValue>ngLMhbIAAAAJ</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/acm" />
+<litre:hasLiteralValue>99658973753</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
 <dblp:primaryFullCreatorName>Yu Huang</dblp:primaryFullCreatorName>
 <dblp:primaryAffiliation>University of Michigan, Ann Arbor, MI, USA</dblp:primaryAffiliation>
 <dblp:otherAffiliation>University of Virginia, Department of Computer Science, Charlottesville, VA, USA</dblp:otherAffiliation>
 <dblp:primaryHomepage rdf:resource="http://www-personal.umich.edu/~yhhy/" />
 <dblp:webpage rdf:resource="https://scholar.google.com/citations?user=ngLMhbIAAAAJ" />
+<dblp:webpage rdf:resource="https://dl.acm.org/profile/99658973753" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/tosem/SharafiHLW21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/gi-ws/0015AFW21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sigsoft/KarasJW021" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/sigsoft/LangdonWPFLWBCB20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/esem/BertramH0WS20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/0015ALW20" />
@@ -31,6 +51,7 @@
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/bigdataconf/ZhangXHWLB15" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/fpl/AyorindeQHC15" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/fpl/QiAHC15" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/199/7365" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/215/3684" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/225/3675" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/174/9125" />
@@ -48,15 +69,18 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/79/5975" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/242/9594" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/222/2046" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/24/2144" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/118/6447" />
-<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/185/4057" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/142/5615" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/274/3476" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/117/6142" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/68/11087" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/271/4442" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/133/9381" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/26/6896" />
-<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/242/3914" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/63/9772" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/152/1493" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/286/5225" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/139/0742" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/183/9136" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/242/3967" />
@@ -92,6 +116,6 @@
 <dct:creator rdf:resource="https://dblp.org" />
 <dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
 <dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
-<dct:modified>2020-12-01T22:22:18+0100</dct:modified>
+<dct:modified>2021-11-18T22:55:26+0100</dct:modified>
 </rdf:Description>
 </rdf:RDF>

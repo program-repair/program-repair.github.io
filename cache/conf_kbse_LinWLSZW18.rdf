@@ -1,15 +1,28 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dct="http://purl.org/dc/terms/" xmlns:litre="http://purl.org/spar/literal/">
 <dblp:Inproceedings rdf:about="https://dblp.org/rec/conf/kbse/LinWLSZW18">
-<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Publication" />
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Publication" />
 <owl:sameAs rdf:resource="https://doi.org/10.1145/3238147.3238198" />
+<owl:sameAs rdf:resource="http://dx.doi.org/10.1145/3238147.3238198" />
 <rdfs:label>Huarui Lin et al.: PFix: fixing concurrency bugs based on memory access patterns. (2018)</rdfs:label>
-<wdt:P356>10.1145/3238147.3238198</wdt:P356>
+<dblp:doi rdf:resource="https://doi.org/10.1145/3238147.3238198" />
+<datacite:hasIdentifier>
+<datacite:ResourceIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp-record" />
+<litre:hasLiteralValue>conf/kbse/LinWLSZW18</litre:hasLiteralValue>
+</datacite:ResourceIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:ResourceIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/doi" />
+<litre:hasLiteralValue>10.1145/3238147.3238198</litre:hasLiteralValue>
+</datacite:ResourceIdentifier>
+</datacite:hasIdentifier>
 <dblp:title>PFix: fixing concurrency bugs based on memory access patterns.</dblp:title>
 <dblp:bibtexType rdf:resource="http://purl.org/net/nknouf/ns/bibtex#Inproceedings" />
 <dblp:authoredBy rdf:resource="https://dblp.org/pid/225/0247" />
 <dblp:authoredBy rdf:resource="https://dblp.org/pid/71/7089" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pid/58/6609" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/58/6609-7" />
 <dblp:authoredBy rdf:resource="https://dblp.org/pid/s/JunSun1" />
 <dblp:authoredBy rdf:resource="https://dblp.org/pid/225/0304" />
 <dblp:authoredBy rdf:resource="https://dblp.org/pid/225/0372" />
@@ -22,7 +35,7 @@
 <rdf:first rdf:resource="https://dblp.org/pid/71/7089" />
 <rdf:rest>
 <rdf:List>
-<rdf:first rdf:resource="https://dblp.org/pid/58/6609" />
+<rdf:first rdf:resource="https://dblp.org/pid/58/6609-7" />
 <rdf:rest>
 <rdf:List>
 <rdf:first rdf:resource="https://dblp.org/pid/s/JunSun1" />
@@ -59,6 +72,6 @@
 <dct:creator rdf:resource="https://dblp.org" />
 <dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
 <dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
-<dct:modified>2019-10-19T20:27:37+0200</dct:modified>
+<dct:modified>2021-09-01T07:33:11+0200</dct:modified>
 </rdf:Description>
 </rdf:RDF>

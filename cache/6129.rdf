@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dct="http://purl.org/dc/terms/" xmlns:litre="http://purl.org/spar/literal/">
 <dblp:Person rdf:about="https://dblp.org/pid/43/6129">
-<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
 <rdfs:label>Rezwana Karim</rdfs:label>
-<wdt:P2456>43/6129</wdt:P2456>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>43/6129</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
 <dblp:primaryFullCreatorName>Rezwana Karim</dblp:primaryFullCreatorName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/tse/KarimTSS20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/pacmpl/SelakovicPKT18" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/AdamsenMKSTS17" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/indiaSE/SinhaKG15" />
@@ -28,6 +34,7 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/s/ChungchiehShan" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/07/201-1" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/33/3431" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/281/5583" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/83/2559" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/01/3048" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/32/524" />
@@ -38,6 +45,6 @@
 <dct:creator rdf:resource="https://dblp.org" />
 <dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
 <dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
-<dct:modified>2020-10-26T22:56:42+0100</dct:modified>
+<dct:modified>2021-04-08T11:02:25+0200</dct:modified>
 </rdf:Description>
 </rdf:RDF>

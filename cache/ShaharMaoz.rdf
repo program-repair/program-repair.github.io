@@ -1,17 +1,49 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dct="http://purl.org/dc/terms/" xmlns:litre="http://purl.org/spar/literal/">
 <dblp:Person rdf:about="https://dblp.org/pid/m/ShaharMaoz">
-<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
 <owl:sameAs rdf:resource="https://orcid.org/0000-0002-4022-5349" />
 <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q90444276" />
 <rdfs:label>Shahar Maoz</rdfs:label>
-<wdt:P2456>m/ShaharMaoz</wdt:P2456>
-<wdt:P496>0000-0002-4022-5349</wdt:P496>
-<wdt:P1687>Q90444276</wdt:P1687>
+<dblp:orcid rdf:resource="https://orcid.org/0000-0002-4022-5349" />
+<dblp:wikidata rdf:resource="https://www.wikidata.org/entity/Q90444276" />
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>m/ShaharMaoz</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/orcid" />
+<litre:hasLiteralValue>0000-0002-4022-5349</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:Identifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/wikidata" />
+<litre:hasLiteralValue>Q90444276</litre:hasLiteralValue>
+</datacite:Identifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/acm" />
+<litre:hasLiteralValue>81320492363</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
 <dblp:primaryFullCreatorName>Shahar Maoz</dblp:primaryFullCreatorName>
 <dblp:primaryAffiliation>Tel Aviv University, Israel</dblp:primaryAffiliation>
 <dblp:primaryHomepage rdf:resource="http://www.cs.tau.ac.il/~maozs/" />
+<dblp:webpage rdf:resource="https://dl.acm.org/profile/81320492363" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/fac/AmramMP21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/sosym/MaozR21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/fm/AmramMPR21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/MaozS21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/MaozS21a" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/MaozR21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2103-00297" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/acta/FirmanMR20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/kbse/MaozS20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sigsoft/MaozS20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2005-00641" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/fm/AmramMP19" />
@@ -145,6 +177,7 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/58/1051" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/23/3648" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/43/8047" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/282/6569" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/34/8523" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/t/EricTanter" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/73/157" />
@@ -158,6 +191,6 @@
 <dct:creator rdf:resource="https://dblp.org" />
 <dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
 <dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
-<dct:modified>2020-11-11T21:48:15+0100</dct:modified>
+<dct:modified>2021-11-12T23:06:18+0100</dct:modified>
 </rdf:Description>
 </rdf:RDF>

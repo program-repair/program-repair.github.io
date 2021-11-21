@@ -1,14 +1,27 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dct="http://purl.org/dc/terms/" xmlns:litre="http://purl.org/spar/literal/">
 <dblp:Article rdf:about="https://dblp.org/rec/journals/pacmpl/BaderSP019">
-<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Publication" />
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Publication" />
 <owl:sameAs rdf:resource="https://doi.org/10.1145/3360585" />
+<owl:sameAs rdf:resource="http://dx.doi.org/10.1145/3360585" />
 <rdfs:label>Johannes Bader et al.: Getafix: learning to fix bugs automatically. (2019)</rdfs:label>
-<wdt:P356>10.1145/3360585</wdt:P356>
+<dblp:doi rdf:resource="https://doi.org/10.1145/3360585" />
+<datacite:hasIdentifier>
+<datacite:ResourceIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp-record" />
+<litre:hasLiteralValue>journals/pacmpl/BaderSP019</litre:hasLiteralValue>
+</datacite:ResourceIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:ResourceIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/doi" />
+<litre:hasLiteralValue>10.1145/3360585</litre:hasLiteralValue>
+</datacite:ResourceIdentifier>
+</datacite:hasIdentifier>
 <dblp:title>Getafix: learning to fix bugs automatically.</dblp:title>
 <dblp:bibtexType rdf:resource="http://purl.org/net/nknouf/ns/bibtex#Article" />
 <dblp:authoredBy rdf:resource="https://dblp.org/pid/58/6398" />
-<dblp:authoredBy rdf:resource="https://dblp.org/pid/s/AndrewScott" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/290/4229" />
 <dblp:authoredBy rdf:resource="https://dblp.org/pid/25/2188" />
 <dblp:authoredBy rdf:resource="https://dblp.org/pid/c/SatishChandra" />
 <dblp:numberOfCreators rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</dblp:numberOfCreators>
@@ -17,7 +30,7 @@
 <rdf:first rdf:resource="https://dblp.org/pid/58/6398" />
 <rdf:rest>
 <rdf:List>
-<rdf:first rdf:resource="https://dblp.org/pid/s/AndrewScott" />
+<rdf:first rdf:resource="https://dblp.org/pid/290/4229" />
 <rdf:rest>
 <rdf:List>
 <rdf:first rdf:resource="https://dblp.org/pid/25/2188" />
@@ -47,6 +60,6 @@
 <dct:creator rdf:resource="https://dblp.org" />
 <dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
 <dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
-<dct:modified>2020-10-26T08:21:45+0100</dct:modified>
+<dct:modified>2021-02-17T08:54:11+0100</dct:modified>
 </rdf:Description>
 </rdf:RDF>

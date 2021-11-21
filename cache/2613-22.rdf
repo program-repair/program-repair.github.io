@@ -1,17 +1,37 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dct="http://purl.org/dc/terms/" xmlns:litre="http://purl.org/spar/literal/">
 <dblp:Person rdf:about="https://dblp.org/pid/181/2613-22">
-<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
+<owl:sameAs rdf:resource="https://orcid.org/0000-0003-0844-5023" />
 <rdfs:label>Ke Wang 0022</rdfs:label>
-<wdt:P2456>181/2613-22</wdt:P2456>
-<wdt:P1960>KIe98hIAAAAJ</wdt:P1960>
+<dblp:orcid rdf:resource="https://orcid.org/0000-0003-0844-5023" />
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>181/2613-22</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/google-scholar" />
+<litre:hasLiteralValue>KIe98hIAAAAJ</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/orcid" />
+<litre:hasLiteralValue>0000-0003-0844-5023</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
 <dblp:primaryFullCreatorName>Ke Wang</dblp:primaryFullCreatorName>
 <dblp:primaryAffiliation>Visa Research, USA</dblp:primaryAffiliation>
 <dblp:otherAffiliation>University of California, Davis, CA, USA</dblp:otherAffiliation>
 <dblp:primaryHomepage rdf:resource="https://kbwang.bitbucket.io/" />
 <dblp:webpage rdf:resource="https://scholar.google.com/citations?user=KIe98hIAAAAJ" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/infsof/RabinBWYJA21" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/pldi/0022S20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-1907-02136" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-1908-10711" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/iclr/WangSS18" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/pldi/WangSS18" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/lats/WangLRPS17" />
@@ -21,11 +41,16 @@
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ijcai/WangS16" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ijcai/WangS15" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ijcai/WangS15a" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/36/3317" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/207/7870" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/82/3572" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/31/5330" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/198/7434" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/221/3932" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/198/7424" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/25/7056" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/s/ZhendongSu" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/74/6710" />
 <dblp:proxyAmbiguousCreator rdf:resource="https://dblp.org/pid/181/2613" />
 </dblp:Person>
 <rdf:Description rdf:about="https://dblp.org/pid/181/2613-22.rdf">
@@ -33,6 +58,6 @@
 <dct:creator rdf:resource="https://dblp.org" />
 <dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
 <dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
-<dct:modified>2020-12-01T22:19:22+0100</dct:modified>
+<dct:modified>2021-11-17T01:56:05+0100</dct:modified>
 </rdf:Description>
 </rdf:RDF>

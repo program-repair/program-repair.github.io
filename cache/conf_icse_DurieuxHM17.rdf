@@ -1,14 +1,31 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dct="http://purl.org/dc/terms/" xmlns:litre="http://purl.org/spar/literal/">
 <dblp:Inproceedings rdf:about="https://dblp.org/rec/conf/icse/DurieuxHM17">
-<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Publication" />
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Publication" />
 <owl:sameAs rdf:resource="https://doi.org/10.1109/ICSE-NIER.2017.8" />
-<owl:sameAs rdf:resource="https://doi.org/10.1109/ICSE-NIER.2017.8" />
+<owl:sameAs rdf:resource="http://dx.doi.org/10.1109/ICSE-NIER.2017.8" />
 <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q59567494" />
 <rdfs:label>Thomas Durieux et al.: Production-Driven Patch Generation. (2017)</rdfs:label>
-<wdt:P356>10.1109/ICSE-NIER.2017.8</wdt:P356>
-<wdt:P356>10.1109/ICSE-NIER.2017.8</wdt:P356>
-<wdt:P1687>Q59567494</wdt:P1687>
+<dblp:doi rdf:resource="https://doi.org/10.1109/ICSE-NIER.2017.8" />
+<dblp:wikidata rdf:resource="https://www.wikidata.org/entity/Q59567494" />
+<datacite:hasIdentifier>
+<datacite:ResourceIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp-record" />
+<litre:hasLiteralValue>conf/icse/DurieuxHM17</litre:hasLiteralValue>
+</datacite:ResourceIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:ResourceIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/doi" />
+<litre:hasLiteralValue>10.1109/ICSE-NIER.2017.8</litre:hasLiteralValue>
+</datacite:ResourceIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:Identifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/wikidata" />
+<litre:hasLiteralValue>Q59567494</litre:hasLiteralValue>
+</datacite:Identifier>
+</datacite:hasIdentifier>
 <dblp:title>Production-Driven Patch Generation.</dblp:title>
 <dblp:bibtexType rdf:resource="http://purl.org/net/nknouf/ns/bibtex#Inproceedings" />
 <dblp:authoredBy rdf:resource="https://dblp.org/pid/163/2121" />

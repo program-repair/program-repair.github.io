@@ -1,15 +1,21 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dct="http://purl.org/dc/terms/" xmlns:litre="http://purl.org/spar/literal/">
 <dblp:Person rdf:about="https://dblp.org/pid/k/SunghunKim">
-<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
 <rdfs:label>Sunghun Kim 0001</rdfs:label>
-<wdt:P2456>k/SunghunKim</wdt:P2456>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>k/SunghunKim</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
 <dblp:primaryFullCreatorName>Sunghun Kim</dblp:primaryFullCreatorName>
 <dblp:primaryAffiliation>Hong Kong University of Science and Technology, Department of Computer Science and Engineering</dblp:primaryAffiliation>
 <dblp:otherAffiliation>Massachusetts Institute of Technology, Department of Electrical Engineering &#38; Computer Science</dblp:otherAffiliation>
 <dblp:otherAffiliation>University of California, Santa Cruz, Department of Computer Science</dblp:otherAffiliation>
 <dblp:primaryHomepage rdf:resource="http://www.cse.ust.hk/~hunkim/" />
 <dblp:otherHomepage rdf:resource="http://people.csail.mit.edu/hunkim/" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ecoop/GuH0021" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/interspeech/HaNKLYJKKKKDLS020" />
 <dblp:editorOf rdf:resource="https://dblp.org/rec/conf/msr/2020" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2004-09367" />
@@ -156,6 +162,7 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/66/867" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/66/867-1" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/35/10082" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/h/YoSubHan" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/h/AhmedEHassan" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/221/0774" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/76/2009" />
@@ -168,7 +175,6 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/211/8043" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/239/9276" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/49/6404" />
-<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/92/5434" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/213/7660" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/06/4939" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/175/1108" />
@@ -195,7 +201,7 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/263/3486" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/179/2468" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/80/5003" />
-<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/31/5983" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/31/5983-1" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/58/6214" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/l/SeonahLee" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/29/233" />
@@ -267,6 +273,6 @@
 <dct:creator rdf:resource="https://dblp.org" />
 <dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
 <dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
-<dct:modified>2020-11-01T21:43:36+0100</dct:modified>
+<dct:modified>2021-09-03T22:52:05+0200</dct:modified>
 </rdf:Description>
 </rdf:RDF>

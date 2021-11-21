@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dct="http://purl.org/dc/terms/" xmlns:litre="http://purl.org/spar/literal/">
 <dblp:Person rdf:about="https://dblp.org/pid/61/2636">
-<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
 <rdfs:label>Aditya Kanade</rdfs:label>
-<wdt:P2456>61/2636</wdt:P2456>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>61/2636</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
 <dblp:primaryFullCreatorName>Aditya Kanade</dblp:primaryFullCreatorName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2107-05166" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/aaai/PalGSKSG20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icml/KanadeMBS20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2001-00059" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/ac/Kanade19" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/aaai/GuptaKS19" />
@@ -74,7 +81,7 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/194/7688" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/r/SriramKRajamani" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/r/GRamalingam" />
-<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/181/2816" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/r/SRamesh" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/218/5645" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/54/4272" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/82/1542" />
@@ -97,6 +104,6 @@
 <dct:creator rdf:resource="https://dblp.org" />
 <dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
 <dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
-<dct:modified>2020-06-06T18:57:08+0200</dct:modified>
+<dct:modified>2021-07-21T22:38:45+0200</dct:modified>
 </rdf:Description>
 </rdf:RDF>

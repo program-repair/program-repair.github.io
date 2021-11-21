@@ -1,14 +1,30 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dct="http://purl.org/dc/terms/" xmlns:litre="http://purl.org/spar/literal/">
 <dblp:Person rdf:about="https://dblp.org/pid/55/6739">
-<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
 <rdfs:label>Anders M&#248;ller</rdfs:label>
-<wdt:P2456>55/6739</wdt:P2456>
-<wdt:P864>81100071429</wdt:P864>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>55/6739</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/acm" />
+<litre:hasLiteralValue>81100071429</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
 <dblp:primaryFullCreatorName>Anders M&#248;ller</dblp:primaryFullCreatorName>
 <dblp:primaryAffiliation>Aarhus University, Denmark</dblp:primaryAffiliation>
 <dblp:primaryHomepage rdf:resource="http://www.cs.au.dk/~amoeller/" />
 <dblp:webpage rdf:resource="https://dl.acm.org/profile/81100071429" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/NielsenTM21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/NielsenTM21a" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/issta/NielsenTM21" />
+<dblp:editorOf rdf:resource="https://dblp.org/rec/conf/ecoop/2021" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/pacmpl/MollerV20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/pacmpl/MollerNT20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/toplas/LiTMS20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ecoop/NielsenM19" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/StaicuTSMP20" />
@@ -103,7 +119,7 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/89/3661" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/68/6029" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/44/1049" />
-<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/271/0915" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/44/4685-2" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/08/7028" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/73/1071" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/55/7526" />
@@ -155,6 +171,7 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/222/7658" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/26/2103" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/93/2189" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/280/5060" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/87/461" />
 </dblp:Person>
 <rdf:Description rdf:about="https://dblp.org/pid/55/6739.rdf">
@@ -162,6 +179,6 @@
 <dct:creator rdf:resource="https://dblp.org" />
 <dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
 <dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
-<dct:modified>2020-11-18T21:04:28+0100</dct:modified>
+<dct:modified>2021-10-16T02:00:14+0200</dct:modified>
 </rdf:Description>
 </rdf:RDF>

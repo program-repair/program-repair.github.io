@@ -1,15 +1,23 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dct="http://purl.org/dc/terms/" xmlns:litre="http://purl.org/spar/literal/">
 <dblp:Person rdf:about="https://dblp.org/pid/77/2901">
-<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
 <rdfs:label>Qi Xin</rdfs:label>
-<wdt:P2456>77/2901</wdt:P2456>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>77/2901</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
 <dblp:primaryFullCreatorName>Qi Xin</dblp:primaryFullCreatorName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/jmihi/XinHLMLZ21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/tcbb/LiuWZZXW21" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/esi/XinH20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icmtel/XinHLLCW20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/XinKZO20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/FazziniXO20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/jcdl/ZhangZXX20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/kbse/XinKZO20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/ijwmc/XinC19" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/jcns/ChenXVK19" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icip/XinL019" />
@@ -43,17 +51,23 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/148/2749" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/14/4011" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/77/4591" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/211/5042" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/166/3160" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/35/805" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/r/StevenPReiss" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/79/3204" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/08/2449" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/178/5390" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/18/8544" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/181/2815" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/23/4803" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/223/0244" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/42/2750" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/18/8523" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/271/4767" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/39/2699" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/23/3168" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/50/5032" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/08/6204" />
 </dblp:Person>
 <rdf:Description rdf:about="https://dblp.org/pid/77/2901.rdf">
@@ -61,6 +75,6 @@
 <dct:creator rdf:resource="https://dblp.org" />
 <dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
 <dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
-<dct:modified>2020-11-22T20:57:04+0100</dct:modified>
+<dct:modified>2021-11-06T03:38:59+0100</dct:modified>
 </rdf:Description>
 </rdf:RDF>

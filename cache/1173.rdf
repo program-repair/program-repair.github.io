@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dct="http://purl.org/dc/terms/" xmlns:litre="http://purl.org/spar/literal/">
 <dblp:Person rdf:about="https://dblp.org/pid/52/1173">
-<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
 <rdfs:label>Mukul R. Prasad</rdfs:label>
-<wdt:P2456>52/1173</wdt:P2456>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>52/1173</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
 <dblp:primaryFullCreatorName>Mukul R. Prasad</dblp:primaryFullCreatorName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2108-09991" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/YoshidaBHNPK20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/GaoSPR20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sigsoft/MahajanAP20" />
@@ -54,6 +60,7 @@
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/hipc/MankuPP97" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/vlsid/RavikumarPH96" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/222/5865" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/157/8316" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/187/9669" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/b/ArminBiere" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/b/RobertKBrayton" />
@@ -77,6 +84,7 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/195/6135" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/k/SarfrazKhurshid" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/28/4909" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/56/6036" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/25/1049" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/167/7867" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/146/4908" />
@@ -116,6 +124,6 @@
 <dct:creator rdf:resource="https://dblp.org" />
 <dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
 <dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
-<dct:modified>2020-11-11T21:50:20+0100</dct:modified>
+<dct:modified>2021-08-28T21:46:15+0200</dct:modified>
 </rdf:Description>
 </rdf:RDF>

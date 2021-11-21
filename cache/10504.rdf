@@ -1,17 +1,42 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dct="http://purl.org/dc/terms/" xmlns:litre="http://purl.org/spar/literal/">
 <dblp:Person rdf:about="https://dblp.org/pid/43/10504">
-<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
 <owl:sameAs rdf:resource="https://orcid.org/0000-0003-4418-5783" />
 <rdfs:label>Bogdan Vasilescu</rdfs:label>
-<wdt:P2456>43/10504</wdt:P2456>
-<wdt:P2002>b_vasilescu</wdt:P2002>
-<wdt:P496>0000-0003-4418-5783</wdt:P496>
+<dblp:orcid rdf:resource="https://orcid.org/0000-0003-4418-5783" />
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>43/10504</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/acm" />
+<litre:hasLiteralValue>81485658533</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/twitter" />
+<litre:hasLiteralValue>b_vasilescu</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/orcid" />
+<litre:hasLiteralValue>0000-0003-4418-5783</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
 <dblp:primaryFullCreatorName>Bogdan Vasilescu</dblp:primaryFullCreatorName>
 <dblp:primaryAffiliation>University of California, Davis, Department of Computer Science</dblp:primaryAffiliation>
 <dblp:primaryHomepage rdf:resource="http://bvasiles.github.io/" />
 <dblp:otherHomepage rdf:resource="http://www.win.tue.nl/~bvasiles/" />
+<dblp:webpage rdf:resource="https://dl.acm.org/profile/81485658533" />
 <dblp:webpage rdf:resource="https://twitter.com/b_vasilescu" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2101-11149" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2108-06363" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/acl/XuJYVN20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/RamanCTKV20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/DeyVM20" />
@@ -117,6 +142,7 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/223/4495" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/c/MRVChaudron" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/220/3808" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/238/0932" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/90/9102" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/d/DanielaEDamian" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/d/SDemeyer" />
@@ -205,7 +231,7 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/46/2142" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/02/661" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/49/6937-2" />
-<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/74/8792" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/74/8792-4" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/213/7902" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/77/6678" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/155/4342" />
@@ -225,6 +251,6 @@
 <dct:creator rdf:resource="https://dblp.org" />
 <dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
 <dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
-<dct:modified>2020-11-11T21:54:42+0100</dct:modified>
+<dct:modified>2021-10-16T02:20:56+0200</dct:modified>
 </rdf:Description>
 </rdf:RDF>

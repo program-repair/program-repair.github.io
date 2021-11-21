@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dct="http://purl.org/dc/terms/" xmlns:litre="http://purl.org/spar/literal/">
 <dblp:Person rdf:about="https://dblp.org/pid/m/PetrosManiatis">
-<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
 <rdfs:label>Petros Maniatis</rdfs:label>
-<wdt:P2456>m/PetrosManiatis</wdt:P2456>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>m/PetrosManiatis</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
 <dblp:primaryFullCreatorName>Petros Maniatis</dblp:primaryFullCreatorName>
 <dblp:primaryHomepage rdf:resource="http://berkeley.intel-research.net/maniatis/" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icml/ChenMSSDLZ21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sosp/GongAFM21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2106-15339" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/sigops/VasudevanMM20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/iclr/HellendoornSSMB20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icml/KanadeMBS20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2001-00059" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2006-10924" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/iclr/VasicKMBS19" />
@@ -81,6 +90,7 @@
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/usits/RoussopoulosMSLAB99" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/12/8302" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/14/1888" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/43/7654" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/a/LAlvisi" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/12/84" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/71/6861" />
@@ -97,10 +107,12 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/79/5752" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/91/3438" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/65/4423-13" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/03/8495" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/80/2263" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/c/BrentNChun" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/34/3515" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/88/2774" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/144/7311" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/139/6635" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/31/6214" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/d/AnupamDatta" />
@@ -114,6 +126,7 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/45/3803" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/16/434" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/70/4339" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/290/7801" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/46/5713" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/164/5751" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/h/JosephMHellerstein" />
@@ -135,6 +148,7 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/83/713" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/68/311" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/l/DavidLie" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/04/10853" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/75/3108" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/20/4252" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/14/8296" />
@@ -190,12 +204,13 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/27/116-1" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/75/6541" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/28/4494" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/178/3277" />
 </dblp:Person>
 <rdf:Description rdf:about="https://dblp.org/pid/m/PetrosManiatis.rdf">
 <rdfs:label>provenance information for RDF data of dblp person &apos;m/PetrosManiatis&apos;</rdfs:label>
 <dct:creator rdf:resource="https://dblp.org" />
 <dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
 <dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
-<dct:modified>2020-11-13T20:06:06+0100</dct:modified>
+<dct:modified>2021-11-03T22:32:22+0100</dct:modified>
 </rdf:Description>
 </rdf:RDF>

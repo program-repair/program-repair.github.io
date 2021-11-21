@@ -1,16 +1,26 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dct="http://purl.org/dc/terms/" xmlns:litre="http://purl.org/spar/literal/">
 <dblp:Person rdf:about="https://dblp.org/pid/c/WeiNganChin">
-<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
 <rdfs:label>Wei-Ngan Chin</rdfs:label>
-<wdt:P2456>c/WeiNganChin</wdt:P2456>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>c/WeiNganChin</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
 <dblp:primaryFullCreatorName>Wei-Ngan Chin</dblp:primaryFullCreatorName>
 <dblp:primaryAffiliation>National University of Singapore (NUS)</dblp:primaryAffiliation>
 <dblp:primaryHomepage rdf:resource="http://www.comp.nus.edu.sg/~chinwn/" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/vmcai/NguyenTSC21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/vmcai/SongC21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2109-11802" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icfem/SongC20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/fac/TaLKC19" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/iandc/TatsutaCA19" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/tacas/SighireanuPRGIR19" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/vmcai/NguyenTC19" />
+<dblp:editorOf rdf:resource="https://dblp.org/rec/conf/ifl/2019" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-1908-09758" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/pacmpl/TaLKC18" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/aplas/CosteaCQC18" />
@@ -217,9 +227,12 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/194/4648" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/r/AndreyRybalchenko" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/27/5922" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/77/9770" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/50/5074" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/27/1531" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/156/1172" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/84/4292" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/125/2330" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/s/JunSun1" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/134/3046" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/47/4253" />
@@ -241,7 +254,7 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/64/856" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/85/1868-11" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/87/7450" />
-<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/17/995" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/17/995-1" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/71/3710" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/169/3419" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/x/DanaNXu" />
@@ -256,6 +269,6 @@
 <dct:creator rdf:resource="https://dblp.org" />
 <dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
 <dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
-<dct:modified>2020-11-22T20:58:53+0100</dct:modified>
+<dct:modified>2021-10-16T02:07:14+0200</dct:modified>
 </rdf:Description>
 </rdf:RDF>

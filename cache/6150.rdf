@@ -1,18 +1,54 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dct="http://purl.org/dc/terms/" xmlns:litre="http://purl.org/spar/literal/">
 <dblp:Person rdf:about="https://dblp.org/pid/43/6150">
-<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
 <owl:sameAs rdf:resource="https://orcid.org/0000-0002-6382-3245" />
 <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q64004184" />
 <rdfs:label>Wolfgang Banzhaf</rdfs:label>
-<wdt:P2456>43/6150</wdt:P2456>
-<wdt:P1960>u-FjxEUAAAAJ</wdt:P1960>
-<wdt:P496>0000-0002-6382-3245</wdt:P496>
-<wdt:P1687>Q64004184</wdt:P1687>
+<dblp:orcid rdf:resource="https://orcid.org/0000-0002-6382-3245" />
+<dblp:wikidata rdf:resource="https://www.wikidata.org/entity/Q64004184" />
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>43/6150</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/google-scholar" />
+<litre:hasLiteralValue>u-FjxEUAAAAJ</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/orcid" />
+<litre:hasLiteralValue>0000-0002-6382-3245</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:Identifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/wikidata" />
+<litre:hasLiteralValue>Q64004184</litre:hasLiteralValue>
+</datacite:Identifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/zbmath" />
+<litre:hasLiteralValue>banzhaf.wolfgang</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
 <dblp:primaryFullCreatorName>Wolfgang Banzhaf</dblp:primaryFullCreatorName>
 <dblp:primaryAffiliation>Michigan State University, East Lansing, MI, USA</dblp:primaryAffiliation>
 <dblp:primaryHomepage rdf:resource="http://www.cse.msu.edu/~banzhafw/" />
 <dblp:webpage rdf:resource="https://scholar.google.com/citations?user=u-FjxEUAAAAJ" />
+<dblp:webpage rdf:resource="https://zbmath.org/authors/?q=ai:banzhaf.wolfgang" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/csur/TelikaniTBG22" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/gpem/KellyVBG21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/pami/LuSGBDB21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/tec/LuWDDGBB21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/gecco/ReidMKBG21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2102-04871" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2106-12659" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/access/VegaOLOBGMM20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/gpem/HuTB20" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/tosem/YuanB20" />
@@ -296,6 +332,7 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/68/8217" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/02/3091" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/49/5637" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/43/8647" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/52/2077" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/g/DavidEGoldberg" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/30/6498" />
@@ -347,6 +384,7 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/51/5727" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/m/JulianFrancisMiller" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/52/6570" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/285/4984" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/07/315" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/222/3878" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/44/3094" />
@@ -367,6 +405,7 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/52/5233" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/40/910" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/29/6886" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/195/1383" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/11/2882" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/90/5007" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/188/9112" />
@@ -389,8 +428,10 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/s/SusanStepney" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/84/6923" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/29/913" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/202/4833" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/202/9029" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/186/2264" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/204/9835" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/t/AndreaTettamanzi" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/15/3261" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/t/JonathanTimmis" />
@@ -405,6 +446,7 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/40/9358" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/v/inciscoFernandezdeVega" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/69/5638" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/295/9365" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/142/5119" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/183/9336" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/42/1154" />
@@ -426,6 +468,6 @@
 <dct:creator rdf:resource="https://dblp.org" />
 <dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
 <dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
-<dct:modified>2020-11-15T20:52:40+0100</dct:modified>
+<dct:modified>2021-11-10T01:15:08+0100</dct:modified>
 </rdf:Description>
 </rdf:RDF>

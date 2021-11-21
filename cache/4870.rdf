@@ -1,10 +1,21 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema-2020-07-01#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dct="http://purl.org/dc/terms/" xmlns:wdt="http://www.wikidata.org/prop/direct/">
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dct="http://purl.org/dc/terms/" xmlns:litre="http://purl.org/spar/literal/">
 <dblp:Person rdf:about="https://dblp.org/pid/33/4870">
-<rdf:type rdf:resource="https://dblp.org/rdf/schema-2020-07-01#Creator" />
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
 <rdfs:label>Germ&#225;n Regis</rdfs:label>
-<wdt:P2456>33/4870</wdt:P2456>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>33/4870</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
 <dblp:primaryFullCreatorName>Germ&#225;n Regis</dblp:primaryFullCreatorName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/ZhengNBRFAB21a" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/BridaRZBNAF21a" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/ZhengNBRFAB21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/BridaRZBNAF21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2102-10152" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2103-00327" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/scp/MolinaCDRCAF19" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/MolinaDPRAF19" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/journals/sttt/UvaPRAF18" />
@@ -22,6 +33,7 @@
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icfem/AguirreFPCGR08" />
 <dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ifm/AguirreRM07" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/69/610" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/88/2247" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/203/0017" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/11/2515" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/57/1847" />
@@ -33,19 +45,21 @@
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/203/0015" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/m/TSEMaibaum" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/189/6361" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/19/7057" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/204/3815" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/80/6093" />
-<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/204/3621" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/224/0828" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/118/6945" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/86/5592" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/140/7368" />
 <dblp:coCreatorWith rdf:resource="https://dblp.org/pid/132/2641" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/233/7234" />
 </dblp:Person>
 <rdf:Description rdf:about="https://dblp.org/pid/33/4870.rdf">
 <rdfs:label>provenance information for RDF data of dblp person &apos;33/4870&apos;</rdfs:label>
 <dct:creator rdf:resource="https://dblp.org" />
 <dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
 <dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
-<dct:modified>2020-04-03T22:06:09+0200</dct:modified>
+<dct:modified>2021-10-17T00:17:00+0200</dct:modified>
 </rdf:Description>
 </rdf:RDF>

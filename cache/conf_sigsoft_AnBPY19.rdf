@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dct="http://purl.org/dc/terms/" xmlns:litre="http://purl.org/spar/literal/">
+<dblp:Inproceedings rdf:about="https://dblp.org/rec/conf/sigsoft/AnBPY19">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Publication" />
+<owl:sameAs rdf:resource="https://doi.org/10.1145/3338906.3341184" />
+<owl:sameAs rdf:resource="http://dx.doi.org/10.1145/3338906.3341184" />
+<rdfs:label>Gabin An et al.: PyGGI 2.0: language independent genetic improvement framework. (2019)</rdfs:label>
+<dblp:doi rdf:resource="https://doi.org/10.1145/3338906.3341184" />
+<datacite:hasIdentifier>
+<datacite:ResourceIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp-record" />
+<litre:hasLiteralValue>conf/sigsoft/AnBPY19</litre:hasLiteralValue>
+</datacite:ResourceIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:ResourceIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/doi" />
+<litre:hasLiteralValue>10.1145/3338906.3341184</litre:hasLiteralValue>
+</datacite:ResourceIdentifier>
+</datacite:hasIdentifier>
+<dblp:title>PyGGI 2.0: language independent genetic improvement framework.</dblp:title>
+<dblp:bibtexType rdf:resource="http://purl.org/net/nknouf/ns/bibtex#Inproceedings" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/225/3675" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/138/0351" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/23/8779" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/06/1626" />
+<dblp:numberOfCreators rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</dblp:numberOfCreators>
+<dblp:orderedCreators>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/225/3675" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/138/0351" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/23/8779" />
+<rdf:rest>
+<rdf:List>
+<rdf:first rdf:resource="https://dblp.org/pid/06/1626" />
+<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil" />
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</rdf:rest>
+</rdf:List>
+</dblp:orderedCreators>
+<dblp:primaryElectronicEdition rdf:resource="https://doi.org/10.1145/3338906.3341184" />
+<dblp:listedOnTocPage rdf:resource="https://dblp.org/db/conf/sigsoft/fse2019" />
+<dblp:pagination>1100-1104</dblp:pagination>
+<dblp:publishedIn>ESEC/SIGSOFT FSE</dblp:publishedIn>
+<dblp:publishedInBook>ESEC/SIGSOFT FSE</dblp:publishedInBook>
+<dblp:yearOfEvent>2019</dblp:yearOfEvent>
+<dblp:yearOfPublication>2019</dblp:yearOfPublication>
+<dblp:publishedAsPartOf rdf:resource="https://dblp.org/rec/conf/sigsoft/2019" />
+</dblp:Inproceedings>
+<rdf:Description rdf:about="https://dblp.org/rec/conf/sigsoft/AnBPY19.rdf">
+<rdfs:label>provenance information for RDF data of dblp record &apos;conf/sigsoft/AnBPY19&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2021-04-09T18:53:52+0200</dct:modified>
+</rdf:Description>
+</rdf:RDF>

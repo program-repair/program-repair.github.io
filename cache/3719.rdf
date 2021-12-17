@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dct="http://purl.org/dc/terms/" xmlns:litre="http://purl.org/spar/literal/">
+<dblp:Person rdf:about="https://dblp.org/pid/06/3719">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
+<rdfs:label>James I. Lathrop</rdfs:label>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>06/3719</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<dblp:primaryFullCreatorName>James I. Lathrop</dblp:primaryFullCreatorName>
+<dblp:otherFullCreatorName>Jim Lathrop</dblp:otherFullCreatorName>
+<dblp:primaryAffiliation>Iowa State University, Department of Computer Science, Ames, IA, USA</dblp:primaryAffiliation>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/dna/KlingeLOR21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/gi-ws/MesecanGLCC21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/uc/FletcherKLNR21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2109-02896" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/tcs/KlingeLL20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/dna/LathropLLPR20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/dna/KlingeLMPRR20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/kbse/GertenLCK20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/re/LutzLBGRW20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2009-06703" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/biosystems/EllisKL19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/nc/HuangKLLL19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/tosem/EllisKLLLMP19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/dna/0001KL19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-1909-05390" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-1803-10267" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-1808-06969" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/nanocom/EllisLL17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/tpnc/EllisKL17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/uc/HuangKLLL17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-1710-09494" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/KlingeLL15" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/kbse/EllisHKLLLMM14" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/LutzLLKHMS12" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/re/LutzLLKMSBH12" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/mst/LathropLPS11" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/cie/LathropLP11" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/tcs/LathropLS09" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/dna/KautzL09" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-0901-3189" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-0903-1818" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/cie/LathropLPS08" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/eit/KoulLLH08" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/eccc/LathropLPS08" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/eccc/LathropLS08" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/cie/LathropLS07" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/tcs/DaiLLM04" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/cec/AshlockL04" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icalp/DaiLLM01" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/iandc/LathropL99" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/eps/AshlockL98" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icalp/LathropL97" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sequences/LathropS97" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/tcs/JuedesLL94" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icalp/JuedesLL93" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/a/DanielAAshlock" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/83/10651" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/276/3206" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/298/4450" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/79/5975" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/97/6283" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/150/8948" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/301/8163" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/276/3120" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/271/4442" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/150/9163" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/h/VasantHonavar" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/16/1064-1" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/j/DavidWJuedes" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/64/806" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/116/6725" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/65/1482" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/13/10238" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/61/7036" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/49/3478" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/116/6727" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/71/5254" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/165/7494" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/39/179" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/273/6462" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/301/8181" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/05/10810" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/31/4769" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/42/190" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/238/9979" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/273/6339" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/301/7646" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/236/4821" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/301/1469" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/276/3241" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/116/6639" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/s/MartinStrauss" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/121/3966" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/76/2971" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/276/3176" />
+</dblp:Person>
+<rdf:Description rdf:about="https://dblp.org/pid/06/3719.rdf">
+<rdfs:label>provenance information for RDF data of dblp person &apos;06/3719&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2021-11-06T03:47:09+0100</dct:modified>
+</rdf:Description>
+</rdf:RDF>

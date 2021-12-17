@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dct="http://purl.org/dc/terms/" xmlns:litre="http://purl.org/spar/literal/">
+<dblp:Person rdf:about="https://dblp.org/pid/148/1056">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
+<owl:sameAs rdf:resource="https://orcid.org/0000-0003-0395-5884" />
+<owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q88646714" />
+<rdfs:label>Saemundur O. Haraldsson</rdfs:label>
+<dblp:orcid rdf:resource="https://orcid.org/0000-0003-0395-5884" />
+<dblp:wikidata rdf:resource="https://www.wikidata.org/entity/Q88646714" />
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>148/1056</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/google-scholar" />
+<litre:hasLiteralValue>ZD8qxc0AAAA</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/orcid" />
+<litre:hasLiteralValue>0000-0003-0395-5884</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:Identifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/wikidata" />
+<litre:hasLiteralValue>Q88646714</litre:hasLiteralValue>
+</datacite:Identifier>
+</datacite:hasIdentifier>
+<dblp:primaryFullCreatorName>Saemundur O. Haraldsson</dblp:primaryFullCreatorName>
+<dblp:otherFullCreatorName>S&#230;mundur &#211;skar Haraldsson</dblp:otherFullCreatorName>
+<dblp:otherFullCreatorName>Saemundur Haraldsson</dblp:otherFullCreatorName>
+<dblp:primaryAffiliation>University of Stirling, UK</dblp:primaryAffiliation>
+<dblp:primaryHomepage rdf:resource="http://www.cs.stir.ac.uk/~soh/" />
+<dblp:webpage rdf:resource="https://scholar.google.com/citations?user=ZD8qxc0AAAA" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/software/KirbasWMKPSNWCB21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/gecco/HaraldssonBW0A21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/gi-ws/BrownleeAHJ21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/gecco/NowackBCHHWW20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/gecco/HaraldssonWW20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/WinterBCHHNW20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/tec/PetkeHHLWW18" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/eais/HaraldssonBGTS18" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ppsn/PappaEBBDDDEHJK18" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/phd/ethos/Haraldsson17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/eurogp/HaraldssonWBC17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/gecco/HaraldssonWBS17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/gecco/HaraldssonWBSG17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/HaraldssonWB17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/iscc/HaraldssonBWSG17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/gecco/HaraldssonW15" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/gecco/HaraldssonW14" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ssbse/KocsisNSEBHB14" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/185/2879" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/68/2289" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/b/AnaLCBazzan" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/39/7630" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/148/4890" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/06/631" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/57/5601" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/205/5471" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/10/837" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/93/6557" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/21/4802" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/62/8086" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/184/5051" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/e/MichaelTMEmmerich" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/22/2288" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/45/10747" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/m/JJMereloGuervos" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/69/3214" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/h/MarkHarman" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/298/5084" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/82/5852" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/32/4511" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/160/8543" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/60/305" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/148/1142" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/29/2703" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/l/WilliamBLangdon" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/02/1252" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/50/3993-1" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/132/2076" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/96/8909" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/46/4895" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/295/7759" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/74/8046-1" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/m/JulianFrancisMiller" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/38/4042" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/27/5489" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/38/11498" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/32/9883" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/223/9468" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/04/2880" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/02/6069" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/58/10309" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/59/701" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/23/8779" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/50/10230" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/70/814" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/p/MikePreuss" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/67/5235" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/43/5090" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/36/6331" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/202/9437" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/10/3030" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/202/9399" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/84/1170" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/10/4794" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/295/7729" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/222/8447" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/94/7030-7" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/62/659" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/w/LDarrellWhitley" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/295/7733" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/72/1657" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/227/5399" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/47/2379" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/z/MengjieZhang" />
+</dblp:Person>
+<rdf:Description rdf:about="https://dblp.org/pid/148/1056.rdf">
+<rdfs:label>provenance information for RDF data of dblp person &apos;148/1056&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2021-10-16T01:59:31+0200</dct:modified>
+</rdf:Description>
+</rdf:RDF>

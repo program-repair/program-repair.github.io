@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dct="http://purl.org/dc/terms/" xmlns:litre="http://purl.org/spar/literal/">
+<dblp:Person rdf:about="https://dblp.org/pid/225/3675">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
+<rdfs:label>Gabin An</rdfs:label>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>225/3675</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<dblp:primaryFullCreatorName>Gabin An</dblp:primaryFullCreatorName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icst/SohnAHHY21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sigsoft/AnY21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ssbse/AnYY21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2104-06641" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2104-10360" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2108-04455" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/sigsoft/LangdonWTKDLCST19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sigsoft/AnBPY19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-1902-09729" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-1907-03773" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/AnKY18" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/138/0351" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/245/0005" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/242/9594" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/97/831" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/93/8239" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/39/6301-15" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/177/4359" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/99/6681" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/183/9136" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/l/WilliamBLangdon" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/133/3698" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/230/7891" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/23/8779" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/32/8523" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/186/1067" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/16/9656" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/205/1113" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/05/4127" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/121/4230" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/06/1626" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/241/2412" />
+</dblp:Person>
+<rdf:Description rdf:about="https://dblp.org/pid/225/3675.rdf">
+<rdfs:label>provenance information for RDF data of dblp person &apos;225/3675&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2021-11-06T03:46:09+0100</dct:modified>
+</rdf:Description>
+</rdf:RDF>

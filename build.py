@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+import datetime
 import os
 from os.path import join, basename
 import json
@@ -55,6 +56,10 @@ publications_per_venue = dict()
 
 # author_id -> (name, num)
 publications_per_author = dict()
+
+NUM_LAST_YEARS_PER_AUTHOR=4
+# author_id -> (name, num)
+publications_per_author_last_years = dict()
 
 # year -> {...}
 authors_per_year = dict()
@@ -221,6 +226,12 @@ for bib_item in tqdm.tqdm(bib_items):
             publications_per_author[str(disassembled.path)] = (name, 0)
         (n, p) = publications_per_author[str(disassembled.path)]
         publications_per_author[str(disassembled.path)] = (n, p+1)
+        if int(yearOfPublication) >= datetime.datetime.now().year - NUM_LAST_YEARS_PER_AUTHOR:
+            if str(disassembled.path) not in publications_per_author_last_years:
+                publications_per_author_last_years[str(disassembled.path)] = (name, 0)
+            (n, p) = publications_per_author_last_years[str(disassembled.path)]
+            publications_per_author_last_years[str(disassembled.path)] = (n, p+1)
+
 
     authors_str = authors[0]
     for a in authors[1:]:
@@ -262,11 +273,26 @@ bibliography['bibliography'] = bib_list
 statistics = dict()
 all_years = sorted(publications_per_year.keys())
 all_authors = set()
-top_venues = list(k for (k,v) in sorted(publications_per_venue.items(), key=itemgetter(1), reverse=True)[:10])
-top_authors_ids = list(k for (k,v) in sorted(publications_per_author.items(), key=(lambda x: x[1][1]), reverse=True)[:10])
+
+NUM_TOP_VENUES=10
+NUM_TOP_AUTHORS=10
+
+top_venues = list(k for (k,v) in sorted(publications_per_venue.items(), key=itemgetter(1), reverse=True)[:NUM_TOP_VENUES])
+top_authors_ids = list(k for (k,v) in sorted(publications_per_author.items(), key=(lambda x: x[1][1]), reverse=True)[:NUM_TOP_AUTHORS])
+top_authors_last_years_ids = \
+    list(k for (k,v) in sorted(publications_per_author_last_years.items(), key=(lambda x: x[1][1]), reverse=True))
 top_authors_names = []
 for id in top_authors_ids:
     top_authors_names.append(publications_per_author[id][0])
+top_authors_last_years = []
+for id in top_authors_last_years_ids:
+    top_authors_last_years.append(publications_per_author_last_years[id])
+
+with open('top_authors_last_years.csv', 'w', newline='') as csvfile:
+    spamwriter = csv.writer(csvfile)
+    for (author, num_publications) in top_authors_last_years:
+        spamwriter.writerow([author, num_publications])
+
 statistics["publicationsPerYear_X"] = ",".join(all_years)
 statistics["authorsPerYear_X"] = ",".join(all_years)
 statistics["newAuthorsPerYear_X"] = ",".join(all_years)

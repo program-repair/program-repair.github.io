@@ -87,6 +87,14 @@
 	"repo": "https://github.com/codeflaws/codeflaws"
     },
     {
+	"name": "C-Pack-IPAs",
+	"description": "A C90 Program Benchmark of Introductory Programming Assignments (IPAs), that contains semantically correct, semantically incorrect, and syntactically incorrect programs and a test suite for each IPA.",
+	"url": "https://github.com/pmorvalho/C-Pack-IPAs",
+	"target": "C/C++",
+	"dblp": "journals/corr/abs-2206-08768",
+	"repo": "https://github.com/pmorvalho/C-Pack-IPAs"
+    },
+    {
 	"name": "ManyBugs",
 	"description": "automated program repair benchmark that consists of 185 defects from large popular open-source projects",
 	"url": "http://repairbenchmarks.cs.umass.edu",

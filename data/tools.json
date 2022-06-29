@@ -341,5 +341,13 @@
 	"repo": "https://github.com/squaresLab/genprog-code",
 	"target": "C/C++",
 	"dblp": "conf/icse/GouesDFW12"
+    },
+    {
+	"name": "HIPPODROME",
+	"description": "statically detects and fixes data race conditions for small to large scale Java programs",
+	"url": " https://github.com/verse-lab/hippodrome",
+	"repo": " https://github.com/verse-lab/hippodrome",
+	"target": "Java",
+	"dblp": "journals/corr/abs-2108-02490"
     }
 ]

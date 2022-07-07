@@ -79,6 +79,13 @@
 	"repo": "https://github.com/dbgbench/dbgbench.github.io"
     },
     {
+	"name": "Defects4Cpp",
+	"description": "A benchmark/infrastructure for C/C++ defects providing easy-to-use interfaces similar to Defects4J",
+	"url": "https://github.com/Suresoft-GLaDOS/defects4cpp",
+	"target": "C/C++",
+	"repo": "https://github.com/Suresoft-GLaDOS/defects4cpp"
+    },    
+    {
 	"name": "Codeflaws",
 	"description": "3902 bugs from Codeforces programming competition for evaluating program repair tools across different defect classes",
 	"url": "https://codeflaws.github.io/",

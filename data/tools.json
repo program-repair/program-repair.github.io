@@ -254,6 +254,14 @@
 	"dblp": "conf/icse/MechtaevYR16"
     },
     {
+	"name": "FAngelix",
+	"description": "Faster Angelix that performs a guided search via MCMC sampling",
+	"url": "https://github.com/jyi/fangelix",
+	"repo": "https://github.com/jyi/fangelix",
+	"target": "C/C++",
+	"dblp": "journals/infsof/YiI22"
+    },    
+    {
 	"name": "Prophet",
 	"description": "automated program repair that learns from correct patches",
 	"url": "http://groups.csail.mit.edu/pac/patchgen/",

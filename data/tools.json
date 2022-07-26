@@ -1,5 +1,37 @@
 [
 	{
+		"name": "CPR",
+		"description": "detecting and discarding over-fitting patches via systematic co-exploration of the patch space and input space",
+		"url": "cpr-tool.github.io",
+		"repo": "https://github.com/rshariffdeen/cpr",
+		"target": "C/C++",
+		"dblp": "conf/pldi/ShariffdeenNGR21"
+	},
+	{
+		"name": "PatchWeave",
+		"description": "automated patch transplantation for semantically equivalent programs",
+		"url": "https://patchweave.github.io/",
+		"repo": "https://github.com/rshariffdeen/patchweave",
+		"target": "C/C++",
+		"dblp": "journals/tosem/ShariffdeenTGR21"
+	},
+	{
+	"name": "NEM",
+	"description": "automated repair of heap-manipulating programs using deductive synthesis",
+	"url": "https://nem-repair-tool.github.io/",
+	"repo": "https://github.com/nem-repair-tool/heap-repair",
+	"target": "C/C++",
+	"dblp": "conf/vmcai/NguyenTSC21"
+	},
+	{
+		"name": "FixMorph",
+		"description": "automated patch backporting tool for syntactically similar programs, i.e. across different versions",
+		"url": "https://fixmorph.github.io/",
+		"repo": "https://github.com/rshariffdeen/FixMorph",
+		"target": "C/C++",
+		"dblp": "conf/issta/ShariffdeenGDTL21"
+	},
+	{
 		"name": "ARJA",
 		"description": "multi-objective genetic programming for automated repair of Java",
 		"url": "https://github.com/yyxhdy/arja",
@@ -349,13 +381,5 @@
 	"repo": "https://github.com/squaresLab/genprog-code",
 	"target": "C/C++",
 	"dblp": "conf/icse/GouesDFW12"
-    },
-    {
-	"name": "NEM",
-	"description": "automated repair of heap-manipulating programs using deductive synthesis",
-	"url": "https://nem-repair-tool.github.io/",
-	"repo": "https://github.com/nem-repair-tool/heap-repair",
-	"target": "C/C++",
-	"dblp": "conf/vmcai/NguyenTSC21"
     }
 ]

@@ -1,5 +1,13 @@
 [
 	{
+		"name": "ITSP",
+		"description": "a parallel corpus of 661 buggy-repaired program pairs submitted by CS-1 students for 74 unique assignments spread across 10 course weeks",
+		"url": "https://github.com/jyi/ITSP#dataset-student-programs",
+		"repo": "https://github.com/jyi/ITSP",
+		"target": "C/C++",
+		"dblp": "conf/sigsoft/YiAKTR17"
+	},
+	{
 		"name": "BugsInPy",
 		"description": "a database of existing bugs in Python programs to enable controlled testing and debugging studies",
 		"url": "https://github.com/soarsmu/BugsInPy",

@@ -349,5 +349,13 @@
 	"repo": "https://github.com/squaresLab/genprog-code",
 	"target": "C/C++",
 	"dblp": "conf/icse/GouesDFW12"
+    },
+    {
+	"name": "NEM",
+	"description": "automated repair of heap-manipulating programs using deductive synthesis",
+	"url": "https://nem-repair-tool.github.io/",
+	"repo": "https://github.com/nem-repair-tool/heap-repair",
+	"target": "C/C++",
+	"dblp": "conf/vmcai/NguyenTSC21"
     }
 ]

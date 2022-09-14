@@ -25,23 +25,35 @@
 <dblp:authoredBy rdf:resource="https://dblp.org/pid/76/8304-1" />
 <dblp:authoredBy rdf:resource="https://dblp.org/pid/78/6422" />
 <dblp:numberOfCreators rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</dblp:numberOfCreators>
-<dblp:orderedCreators>
-<rdf:List>
-<rdf:first rdf:resource="https://dblp.org/pid/207/7176" />
-<rdf:rest>
-<rdf:List>
-<rdf:first rdf:resource="https://dblp.org/pid/76/8304-1" />
-<rdf:rest>
-<rdf:List>
-<rdf:first rdf:resource="https://dblp.org/pid/78/6422" />
-<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil" />
-</rdf:List>
-</rdf:rest>
-</rdf:List>
-</rdf:rest>
-</rdf:List>
-</dblp:orderedCreators>
-<dblp:primaryElectronicEdition rdf:resource="https://doi.org/10.1109/TSE.2020.2970009" />
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Liushan Chen</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/207/7176" />
+<dblp:signatureOrcid rdf:resource="https://orcid.org/0000-0003-0414-4987" />
+<dblp:signatureOrdinal>1</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/journals/tse/ChenPF21" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Yu Pei 0001</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/76/8304-1" />
+<dblp:signatureOrcid rdf:resource="https://orcid.org/0000-0001-6065-6958" />
+<dblp:signatureOrdinal>2</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/journals/tse/ChenPF21" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Carlo A. Furia</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/78/6422" />
+<dblp:signatureOrcid rdf:resource="https://orcid.org/0000-0003-1040-3201" />
+<dblp:signatureOrdinal>3</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/journals/tse/ChenPF21" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:primaryDocumentPage rdf:resource="https://doi.org/10.1109/TSE.2020.2970009" />
+<dblp:documentPage rdf:resource="https://doi.org/10.1109/TSE.2020.2970009" />
 <dblp:listedOnTocPage rdf:resource="https://dblp.org/db/journals/tse/tse47" />
 <dblp:pagination>2841-2857</dblp:pagination>
 <dblp:publishedIn>IEEE Trans. Software Eng.</dblp:publishedIn>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:bf="http://id.loc.gov/ontologies/bibframe/" xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:bibtex="http://purl.org/net/nknouf/ns/bibtex#" xmlns:cito="http://purl.org/spar/cito/" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dbo="http://dbpedia.org/ontology/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dct="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:litre="http://purl.org/spar/literal/" xmlns:locid="http://id.loc.gov/vocabulary/identifiers/" xmlns:locrel="http://id.loc.gov/vocabulary/relators/" xmlns:schema="https://schema.org/" xmlns:wd="http://www.wikidata.org/entity/" xmlns:wdt="http://www.wikidata.org/prop/direct/" xmlns:dblp="https://dblp.org/rdf/schema#">
+<dblp:Person rdf:about="https://dblp.org/pid/66/2257">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
+<rdfs:label>Zhiqiang Bian</rdfs:label>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>66/2257</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<dblp:primaryCreatorName>Zhiqiang Bian</dblp:primaryCreatorName>
+<dblp:creatorName>Zhiqiang Bian</dblp:creatorName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/tim/LiBW22" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/pldi/MisuJBBA22" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse-apr/BianBP21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/ieicet/BianISI08" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/ieicet/BianISYMKI07" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/hci/IshiiFBSNS07" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ifachms/BianIS07" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/vrst/BianIISYMK06" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/322/4786" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/138/0351" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/322/4787" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/59/4777" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/52/4067" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/19/2417" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/322/4788" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/04/70" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/89/6764-81" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/215/7735" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/90/4187" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/65/1480" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/23/8779" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/81/3297" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/66/6859" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/62/234" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/61/4332" />
+</dblp:Person>
+<rdf:Description rdf:about="https://dblp.org/pid/66/2257.rdf">
+<rdfs:label>provenance information for RDF data of dblp person &apos;66/2257&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2022-06-21T21:55:17+0200</dct:modified>
+</rdf:Description>
+</rdf:RDF>

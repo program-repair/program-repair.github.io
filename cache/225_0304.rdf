@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:bf="http://id.loc.gov/ontologies/bibframe/" xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:bibtex="http://purl.org/net/nknouf/ns/bibtex#" xmlns:cito="http://purl.org/spar/cito/" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dbo="http://dbpedia.org/ontology/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dct="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:litre="http://purl.org/spar/literal/" xmlns:locid="http://id.loc.gov/vocabulary/identifiers/" xmlns:locrel="http://id.loc.gov/vocabulary/relators/" xmlns:schema="https://schema.org/" xmlns:wd="http://www.wikidata.org/entity/" xmlns:wdt="http://www.wikidata.org/prop/direct/" xmlns:dblp="https://dblp.org/rdf/schema#">
+<dblp:Person rdf:about="https://dblp.org/pid/225/0304">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
+<rdfs:label>Dongdi Zhang</rdfs:label>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>225/0304</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<dblp:primaryCreatorName>Dongdi Zhang</dblp:primaryCreatorName>
+<dblp:creatorName>Dongdi Zhang</dblp:creatorName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sigsoft/WangYCLZ20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/aiam/MaWZSS19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/iceccs/WangZL0Z19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/kbse/LinWLSZW18" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/04/4498-3" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/225/0247" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/58/6609-7" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/25/10449" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/97/4440" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/s/JunSun1" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/16/1634" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/58/6810" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/71/7089" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/225/0372" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/51/5332" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/209/0123" />
+</dblp:Person>
+<rdf:Description rdf:about="https://dblp.org/pid/225/0304.rdf">
+<rdfs:label>provenance information for RDF data of dblp person &apos;225/0304&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2022-03-28T23:28:29+0200</dct:modified>
+</rdf:Description>
+</rdf:RDF>

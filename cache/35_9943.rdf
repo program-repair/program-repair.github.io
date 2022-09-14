@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:bf="http://id.loc.gov/ontologies/bibframe/" xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:bibtex="http://purl.org/net/nknouf/ns/bibtex#" xmlns:cito="http://purl.org/spar/cito/" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dbo="http://dbpedia.org/ontology/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dct="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:litre="http://purl.org/spar/literal/" xmlns:locid="http://id.loc.gov/vocabulary/identifiers/" xmlns:locrel="http://id.loc.gov/vocabulary/relators/" xmlns:schema="https://schema.org/" xmlns:wd="http://www.wikidata.org/entity/" xmlns:wdt="http://www.wikidata.org/prop/direct/" xmlns:dblp="https://dblp.org/rdf/schema#">
+<dblp:Person rdf:about="https://dblp.org/pid/35/9943">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
+<rdfs:label>Foyzul Hassan</rdfs:label>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>35/9943</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<dblp:primaryCreatorName>Foyzul Hassan</dblp:primaryCreatorName>
+<dblp:creatorName>Foyzul Hassan</dblp:creatorName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/NusratHZW21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/kbse/KsontiniKFH21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/esem/HassanBN0A20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/ChenHWZ20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2006-00385" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/kbse/Hassan19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/HassanW18" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/kbse/HassanRW18" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/esem/HassanMLW17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/esem/HassanW17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/HassanW17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/HassanKRNLH13" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/ijst/HassanKMH11" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/jmm2/HassanKHGH11" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/acc/HassanKRNLH11" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/acc/KotwalHAJAH11" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/itng/BanikHSHKH11" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/itng/BanikRSHMH11" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/apccas/BanikKHIRHMH10" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/apccas/HasanHIBKRMH10" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/his/KotwalBIHHHGH10" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/22/10125" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/28/10124" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/147/9148" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/86/9944" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/47/9801" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/220/2097" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/08/10067" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/49/10239" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/00/10398" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/76/10579" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/03/9944" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/59/6152" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/71/10579" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/87/10124" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/90/382" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/10/9944" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/311/8880" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/55/3413" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/77/10122" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/154/4274" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/06/9944" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/91/1758" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/23/10123" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/166/5845" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/47/7533" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/141/6724" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/30/9943" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/200/2854" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/98/9944" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/31/6028" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/27/7057" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/06/5514" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/19/3622-1" />
+</dblp:Person>
+<rdf:Description rdf:about="https://dblp.org/pid/35/9943.rdf">
+<rdfs:label>provenance information for RDF data of dblp person &apos;35/9943&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2022-01-26T01:34:50+0100</dct:modified>
+</rdf:Description>
+</rdf:RDF>

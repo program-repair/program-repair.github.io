@@ -25,23 +25,32 @@
 <dblp:authoredBy rdf:resource="https://dblp.org/pid/219/2896" />
 <dblp:authoredBy rdf:resource="https://dblp.org/pid/32/3534" />
 <dblp:numberOfCreators rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</dblp:numberOfCreators>
-<dblp:orderedCreators>
-<rdf:List>
-<rdf:first rdf:resource="https://dblp.org/pid/148/4264" />
-<rdf:rest>
-<rdf:List>
-<rdf:first rdf:resource="https://dblp.org/pid/219/2896" />
-<rdf:rest>
-<rdf:List>
-<rdf:first rdf:resource="https://dblp.org/pid/32/3534" />
-<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil" />
-</rdf:List>
-</rdf:rest>
-</rdf:List>
-</rdf:rest>
-</rdf:List>
-</dblp:orderedCreators>
-<dblp:primaryElectronicEdition rdf:resource="https://doi.org/10.1145/3341105.3374005" />
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Geunseok Yang</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/148/4264" />
+<dblp:signatureOrdinal>1</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/conf/sac/YangML20" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Kyeongsic Min</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/219/2896" />
+<dblp:signatureOrdinal>2</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/conf/sac/YangML20" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Byungjeong Lee</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/32/3534" />
+<dblp:signatureOrdinal>3</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/conf/sac/YangML20" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:primaryDocumentPage rdf:resource="https://doi.org/10.1145/3341105.3374005" />
+<dblp:documentPage rdf:resource="https://doi.org/10.1145/3341105.3374005" />
 <dblp:listedOnTocPage rdf:resource="https://dblp.org/db/conf/sac/sac2020" />
 <dblp:pagination>1634-1641</dblp:pagination>
 <dblp:publishedIn>SAC</dblp:publishedIn>

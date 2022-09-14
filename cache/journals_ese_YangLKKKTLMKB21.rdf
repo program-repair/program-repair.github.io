@@ -32,58 +32,90 @@
 <dblp:authoredBy rdf:resource="https://dblp.org/pid/k/JacquesKlein" />
 <dblp:authoredBy rdf:resource="https://dblp.org/pid/00/8006" />
 <dblp:numberOfCreators rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</dblp:numberOfCreators>
-<dblp:orderedCreators>
-<rdf:List>
-<rdf:first rdf:resource="https://dblp.org/pid/208/7008" />
-<rdf:rest>
-<rdf:List>
-<rdf:first rdf:resource="https://dblp.org/pid/71/7399-1" />
-<rdf:rest>
-<rdf:List>
-<rdf:first rdf:resource="https://dblp.org/pid/10/2501-1" />
-<rdf:rest>
-<rdf:List>
-<rdf:first rdf:resource="https://dblp.org/pid/202/8373" />
-<rdf:rest>
-<rdf:List>
-<rdf:first rdf:resource="https://dblp.org/pid/216/3065" />
-<rdf:rest>
-<rdf:List>
-<rdf:first rdf:resource="https://dblp.org/pid/223/3393" />
-<rdf:rest>
-<rdf:List>
-<rdf:first rdf:resource="https://dblp.org/pid/94/3609" />
-<rdf:rest>
-<rdf:List>
-<rdf:first rdf:resource="https://dblp.org/pid/81/8725" />
-<rdf:rest>
-<rdf:List>
-<rdf:first rdf:resource="https://dblp.org/pid/k/JacquesKlein" />
-<rdf:rest>
-<rdf:List>
-<rdf:first rdf:resource="https://dblp.org/pid/00/8006" />
-<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil" />
-</rdf:List>
-</rdf:rest>
-</rdf:List>
-</rdf:rest>
-</rdf:List>
-</rdf:rest>
-</rdf:List>
-</rdf:rest>
-</rdf:List>
-</rdf:rest>
-</rdf:List>
-</rdf:rest>
-</rdf:List>
-</rdf:rest>
-</rdf:List>
-</rdf:rest>
-</rdf:List>
-</rdf:rest>
-</rdf:List>
-</dblp:orderedCreators>
-<dblp:primaryElectronicEdition rdf:resource="https://doi.org/10.1007/s10664-021-10003-7" />
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Deheng Yang</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/208/7008" />
+<dblp:signatureOrdinal>1</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/journals/ese/YangLKKKTLMKB21" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Kui Liu 0001</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/71/7399-1" />
+<dblp:signatureOrcid rdf:resource="https://orcid.org/0000-0003-0145-615X" />
+<dblp:signatureOrdinal>2</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/journals/ese/YangLKKKTLMKB21" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Dongsun Kim 0001</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/10/2501-1" />
+<dblp:signatureOrdinal>3</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/journals/ese/YangLKKKTLMKB21" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Anil Koyuncu</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/202/8373" />
+<dblp:signatureOrdinal>4</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/journals/ese/YangLKKKTLMKB21" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Kisub Kim</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/216/3065" />
+<dblp:signatureOrdinal>5</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/journals/ese/YangLKKKTLMKB21" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Haoye Tian</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/223/3393" />
+<dblp:signatureOrdinal>6</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/journals/ese/YangLKKKTLMKB21" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Yan Lei</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/94/3609" />
+<dblp:signatureOrdinal>7</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/journals/ese/YangLKKKTLMKB21" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Xiaoguang Mao</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/81/8725" />
+<dblp:signatureOrdinal>8</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/journals/ese/YangLKKKTLMKB21" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Jacques Klein</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/k/JacquesKlein" />
+<dblp:signatureOrcid rdf:resource="https://orcid.org/0000-0003-4052-475X" />
+<dblp:signatureOrdinal>9</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/journals/ese/YangLKKKTLMKB21" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Tegawend&#233; F. Bissyand&#233;</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/00/8006" />
+<dblp:signatureOrdinal>10</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/journals/ese/YangLKKKTLMKB21" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:primaryDocumentPage rdf:resource="https://doi.org/10.1007/s10664-021-10003-7" />
+<dblp:documentPage rdf:resource="https://doi.org/10.1007/s10664-021-10003-7" />
 <dblp:listedOnTocPage rdf:resource="https://dblp.org/db/journals/ese/ese26" />
 <dblp:pagination>122</dblp:pagination>
 <dblp:publishedIn>Empir. Softw. Eng.</dblp:publishedIn>

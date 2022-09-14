@@ -29,43 +29,64 @@
 <dblp:authoredBy rdf:resource="https://dblp.org/pid/82/2673" />
 <dblp:authoredBy rdf:resource="https://dblp.org/pid/11/539-1" />
 <dblp:numberOfCreators rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</dblp:numberOfCreators>
-<dblp:orderedCreators>
-<rdf:List>
-<rdf:first rdf:resource="https://dblp.org/pid/183/7357" />
-<rdf:rest>
-<rdf:List>
-<rdf:first rdf:resource="https://dblp.org/pid/213/8284" />
-<rdf:rest>
-<rdf:List>
-<rdf:first rdf:resource="https://dblp.org/pid/155/6527" />
-<rdf:rest>
-<rdf:List>
-<rdf:first rdf:resource="https://dblp.org/pid/166/5038" />
-<rdf:rest>
-<rdf:List>
-<rdf:first rdf:resource="https://dblp.org/pid/174/3394" />
-<rdf:rest>
-<rdf:List>
-<rdf:first rdf:resource="https://dblp.org/pid/82/2673" />
-<rdf:rest>
-<rdf:List>
-<rdf:first rdf:resource="https://dblp.org/pid/11/539-1" />
-<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil" />
-</rdf:List>
-</rdf:rest>
-</rdf:List>
-</rdf:rest>
-</rdf:List>
-</rdf:rest>
-</rdf:List>
-</rdf:rest>
-</rdf:List>
-</rdf:rest>
-</rdf:List>
-</rdf:rest>
-</rdf:List>
-</dblp:orderedCreators>
-<dblp:primaryElectronicEdition rdf:resource="https://doi.org/10.1109/ICSME52107.2021.00028" />
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Jingjing Liang</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/183/7357" />
+<dblp:signatureOrdinal>1</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/conf/icsm/LiangJJZL0021" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Ruyi Ji</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/213/8284" />
+<dblp:signatureOrdinal>2</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/conf/icsm/LiangJJZL0021" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Jiajun Jiang</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/155/6527" />
+<dblp:signatureOrdinal>3</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/conf/icsm/LiangJJZL0021" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Shurui Zhou</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/166/5038" />
+<dblp:signatureOrdinal>4</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/conf/icsm/LiangJJZL0021" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Yiling Lou</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/174/3394" />
+<dblp:signatureOrdinal>5</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/conf/icsm/LiangJJZL0021" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Yingfei Xiong 0001</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/82/2673" />
+<dblp:signatureOrdinal>6</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/conf/icsm/LiangJJZL0021" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Gang Huang 0001</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/11/539-1" />
+<dblp:signatureOrdinal>7</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/conf/icsm/LiangJJZL0021" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:primaryDocumentPage rdf:resource="https://doi.org/10.1109/ICSME52107.2021.00028" />
+<dblp:documentPage rdf:resource="https://doi.org/10.1109/ICSME52107.2021.00028" />
 <dblp:listedOnTocPage rdf:resource="https://dblp.org/db/conf/icsm/icsme2021" />
 <dblp:pagination>239-250</dblp:pagination>
 <dblp:publishedIn>ICSME</dblp:publishedIn>

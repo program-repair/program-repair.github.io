@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:bf="http://id.loc.gov/ontologies/bibframe/" xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:bibtex="http://purl.org/net/nknouf/ns/bibtex#" xmlns:cito="http://purl.org/spar/cito/" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dbo="http://dbpedia.org/ontology/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dct="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:litre="http://purl.org/spar/literal/" xmlns:locid="http://id.loc.gov/vocabulary/identifiers/" xmlns:locrel="http://id.loc.gov/vocabulary/relators/" xmlns:schema="https://schema.org/" xmlns:wd="http://www.wikidata.org/entity/" xmlns:wdt="http://www.wikidata.org/prop/direct/" xmlns:dblp="https://dblp.org/rdf/schema#">
+<dblp:Person rdf:about="https://dblp.org/pid/244/8509">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
+<rdfs:label>Davide Ginelli</rdfs:label>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>244/8509</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<dblp:primaryCreatorName>Davide Ginelli</dblp:primaryCreatorName>
+<dblp:creatorName>Davide Ginelli</dblp:creatorName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/ese/GinelliMMM22" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2201-00736" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/software/BaudryCEFGKMMAY21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/qrs/GinelliRMM21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2111-12513" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2012-06264" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2012-06824" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/access/CornejoGBMM19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sigsoft/Ginelli19" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/295/7720" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/57/3320" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/11/9728" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/223/4151" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/70/948" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/190/7031" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/237/8547" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/179/9600" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/230/4452" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/27/2914" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/135/6372" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/54/1189" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/62/5292" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/67/4174" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/281/6726" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/11/4638" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/220/3295" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/04/10702" />
+</dblp:Person>
+<rdf:Description rdf:about="https://dblp.org/pid/244/8509.rdf">
+<rdfs:label>provenance information for RDF data of dblp person &apos;244/8509&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2022-07-28T22:05:42+0200</dct:modified>
+</rdf:Description>
+</rdf:RDF>

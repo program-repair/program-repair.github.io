@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:bf="http://id.loc.gov/ontologies/bibframe/" xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:bibtex="http://purl.org/net/nknouf/ns/bibtex#" xmlns:cito="http://purl.org/spar/cito/" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dbo="http://dbpedia.org/ontology/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dct="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:litre="http://purl.org/spar/literal/" xmlns:locid="http://id.loc.gov/vocabulary/identifiers/" xmlns:locrel="http://id.loc.gov/vocabulary/relators/" xmlns:schema="https://schema.org/" xmlns:wd="http://www.wikidata.org/entity/" xmlns:wdt="http://www.wikidata.org/prop/direct/" xmlns:dblp="https://dblp.org/rdf/schema#">
+<dblp:Person rdf:about="https://dblp.org/pid/201/4822">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
+<rdfs:label>Qinheping Hu</rdfs:label>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>201/4822</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<dblp:primaryCreatorName>Qinheping Hu</dblp:primaryCreatorName>
+<dblp:creatorName>Qinheping Hu</dblp:creatorName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/toplas/HuSD22" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/pacmpl/KimHDR21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/cav/DAntoniHKR21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/cav/HuCDR21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2103-04188" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/esop/PanHSD20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/pldi/HuCDR20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2004-00878" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2008-09836" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/pacmpl/PanHXD19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/cav/HuBCDR19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sas/HuSSD19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-1905-05800" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/cav/HuD18" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-1803-07522" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/pldi/HuD17" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/148/1307" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/211/9268" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/85/770" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/217/2470" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/85/1809" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/94/1243" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/r/TWReps" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/78/7445" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/25/7056" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/149/5150" />
+</dblp:Person>
+<rdf:Description rdf:about="https://dblp.org/pid/201/4822.rdf">
+<rdfs:label>provenance information for RDF data of dblp person &apos;201/4822&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2022-08-26T22:37:15+0200</dct:modified>
+</rdf:Description>
+</rdf:RDF>

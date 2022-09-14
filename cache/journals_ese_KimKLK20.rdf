@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dct="http://purl.org/dc/terms/" xmlns:litre="http://purl.org/spar/literal/">
+<rdf:RDF xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:bf="http://id.loc.gov/ontologies/bibframe/" xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:bibtex="http://purl.org/net/nknouf/ns/bibtex#" xmlns:cito="http://purl.org/spar/cito/" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dbo="http://dbpedia.org/ontology/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dct="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:litre="http://purl.org/spar/literal/" xmlns:locid="http://id.loc.gov/vocabulary/identifiers/" xmlns:locrel="http://id.loc.gov/vocabulary/relators/" xmlns:schema="https://schema.org/" xmlns:wd="http://www.wikidata.org/entity/" xmlns:wdt="http://www.wikidata.org/prop/direct/" xmlns:dblp="https://dblp.org/rdf/schema#">
 <dblp:Article rdf:about="https://dblp.org/rec/journals/ese/KimKLK20">
 <rdf:type rdf:resource="https://dblp.org/rdf/schema#Publication" />
 <owl:sameAs rdf:resource="https://doi.org/10.1007/s10664-019-09770-1" />
 <owl:sameAs rdf:resource="http://dx.doi.org/10.1007/s10664-019-09770-1" />
 <rdfs:label>Jindae Kim et al.: The effectiveness of context-based change application on automatic program repair. (2020)</rdfs:label>
 <dblp:doi rdf:resource="https://doi.org/10.1007/s10664-019-09770-1" />
+<dblp:doi rdf:resource="http://dx.doi.org/10.1007/s10664-019-09770-1" />
 <datacite:hasIdentifier>
 <datacite:ResourceIdentifier>
 <datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp-record" />
@@ -25,28 +26,41 @@
 <dblp:authoredBy rdf:resource="https://dblp.org/pid/16/3590" />
 <dblp:authoredBy rdf:resource="https://dblp.org/pid/16/1105" />
 <dblp:numberOfCreators rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</dblp:numberOfCreators>
-<dblp:orderedCreators>
-<rdf:List>
-<rdf:first rdf:resource="https://dblp.org/pid/59/1495" />
-<rdf:rest>
-<rdf:List>
-<rdf:first rdf:resource="https://dblp.org/pid/00/10823" />
-<rdf:rest>
-<rdf:List>
-<rdf:first rdf:resource="https://dblp.org/pid/16/3590" />
-<rdf:rest>
-<rdf:List>
-<rdf:first rdf:resource="https://dblp.org/pid/16/1105" />
-<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil" />
-</rdf:List>
-</rdf:rest>
-</rdf:List>
-</rdf:rest>
-</rdf:List>
-</rdf:rest>
-</rdf:List>
-</dblp:orderedCreators>
-<dblp:primaryElectronicEdition rdf:resource="https://doi.org/10.1007/s10664-019-09770-1" />
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Jindae Kim</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/59/1495" />
+<dblp:signatureOrcid rdf:resource="https://orcid.org/0000-0003-1864-0148" />
+<dblp:signatureOrdinal>1</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/journals/ese/KimKLK20" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Jeongho Kim</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/00/10823" />
+<dblp:signatureOrdinal>2</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/journals/ese/KimKLK20" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Eunseok Lee</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/16/3590" />
+<dblp:signatureOrdinal>3</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/journals/ese/KimKLK20" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Sunghun Kim</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/16/1105" />
+<dblp:signatureOrdinal>4</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/journals/ese/KimKLK20" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:primaryDocumentPage rdf:resource="https://doi.org/10.1007/s10664-019-09770-1" />
+<dblp:documentPage rdf:resource="https://doi.org/10.1007/s10664-019-09770-1" />
 <dblp:listedOnTocPage rdf:resource="https://dblp.org/db/journals/ese/ese25" />
 <dblp:pagination>719-754</dblp:pagination>
 <dblp:publishedIn>Empir. Softw. Eng.</dblp:publishedIn>

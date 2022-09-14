@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dct="http://purl.org/dc/terms/" xmlns:litre="http://purl.org/spar/literal/">
+<rdf:RDF xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:bf="http://id.loc.gov/ontologies/bibframe/" xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:bibtex="http://purl.org/net/nknouf/ns/bibtex#" xmlns:cito="http://purl.org/spar/cito/" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dbo="http://dbpedia.org/ontology/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dct="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:litre="http://purl.org/spar/literal/" xmlns:locid="http://id.loc.gov/vocabulary/identifiers/" xmlns:locrel="http://id.loc.gov/vocabulary/relators/" xmlns:schema="https://schema.org/" xmlns:wd="http://www.wikidata.org/entity/" xmlns:wdt="http://www.wikidata.org/prop/direct/" xmlns:dblp="https://dblp.org/rdf/schema#">
 <dblp:Inproceedings rdf:about="https://dblp.org/rec/conf/sigsoft/BohmeS0UZ17">
 <rdf:type rdf:resource="https://dblp.org/rdf/schema#Publication" />
 <owl:sameAs rdf:resource="https://doi.org/10.1145/3106237.3106255" />
 <owl:sameAs rdf:resource="http://dx.doi.org/10.1145/3106237.3106255" />
 <rdfs:label>Marcel B&#246;hme et al.: Where is the bug and how is it fixed? an experiment with practitioners. (2017)</rdfs:label>
 <dblp:doi rdf:resource="https://doi.org/10.1145/3106237.3106255" />
+<dblp:doi rdf:resource="http://dx.doi.org/10.1145/3106237.3106255" />
 <datacite:hasIdentifier>
 <datacite:ResourceIdentifier>
 <datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp-record" />
@@ -26,33 +27,52 @@
 <dblp:authoredBy rdf:resource="https://dblp.org/pid/200/2809" />
 <dblp:authoredBy rdf:resource="https://dblp.org/pid/z/AndreasZeller" />
 <dblp:numberOfCreators rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</dblp:numberOfCreators>
-<dblp:orderedCreators>
-<rdf:List>
-<rdf:first rdf:resource="https://dblp.org/pid/91/7541" />
-<rdf:rest>
-<rdf:List>
-<rdf:first rdf:resource="https://dblp.org/pid/200/2864" />
-<rdf:rest>
-<rdf:List>
-<rdf:first rdf:resource="https://dblp.org/pid/21/7660-1" />
-<rdf:rest>
-<rdf:List>
-<rdf:first rdf:resource="https://dblp.org/pid/200/2809" />
-<rdf:rest>
-<rdf:List>
-<rdf:first rdf:resource="https://dblp.org/pid/z/AndreasZeller" />
-<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil" />
-</rdf:List>
-</rdf:rest>
-</rdf:List>
-</rdf:rest>
-</rdf:List>
-</rdf:rest>
-</rdf:List>
-</rdf:rest>
-</rdf:List>
-</dblp:orderedCreators>
-<dblp:primaryElectronicEdition rdf:resource="https://doi.org/10.1145/3106237.3106255" />
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Marcel B&#246;hme</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/91/7541" />
+<dblp:signatureOrcid rdf:resource="https://orcid.org/0000-0002-4470-1824" />
+<dblp:signatureOrdinal>1</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/conf/sigsoft/BohmeS0UZ17" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Ezekiel O. Soremekun</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/200/2864" />
+<dblp:signatureOrcid rdf:resource="https://orcid.org/0000-0002-0039-8106" />
+<dblp:signatureOrdinal>2</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/conf/sigsoft/BohmeS0UZ17" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Sudipta Chattopadhyay 0001</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/21/7660-1" />
+<dblp:signatureOrcid rdf:resource="https://orcid.org/0000-0002-4843-5391" />
+<dblp:signatureOrdinal>3</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/conf/sigsoft/BohmeS0UZ17" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Emamurho Ugherughe</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/200/2809" />
+<dblp:signatureOrdinal>4</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/conf/sigsoft/BohmeS0UZ17" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Andreas Zeller</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/z/AndreasZeller" />
+<dblp:signatureOrcid rdf:resource="https://orcid.org/0000-0003-4719-8803" />
+<dblp:signatureOrdinal>5</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/conf/sigsoft/BohmeS0UZ17" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:primaryDocumentPage rdf:resource="https://doi.org/10.1145/3106237.3106255" />
+<dblp:documentPage rdf:resource="https://doi.org/10.1145/3106237.3106255" />
 <dblp:listedOnTocPage rdf:resource="https://dblp.org/db/conf/sigsoft/fse2017" />
 <dblp:pagination>117-128</dblp:pagination>
 <dblp:publishedIn>ESEC/SIGSOFT FSE</dblp:publishedIn>

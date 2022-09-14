@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dct="http://purl.org/dc/terms/" xmlns:litre="http://purl.org/spar/literal/">
+<rdf:RDF xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:bf="http://id.loc.gov/ontologies/bibframe/" xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:bibtex="http://purl.org/net/nknouf/ns/bibtex#" xmlns:cito="http://purl.org/spar/cito/" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dbo="http://dbpedia.org/ontology/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dct="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:litre="http://purl.org/spar/literal/" xmlns:locid="http://id.loc.gov/vocabulary/identifiers/" xmlns:locrel="http://id.loc.gov/vocabulary/relators/" xmlns:schema="https://schema.org/" xmlns:wd="http://www.wikidata.org/entity/" xmlns:wdt="http://www.wikidata.org/prop/direct/" xmlns:dblp="https://dblp.org/rdf/schema#">
 <dblp:Inproceedings rdf:about="https://dblp.org/rec/conf/sigsoft/WongSKG21">
 <rdf:type rdf:resource="https://dblp.org/rdf/schema#Publication" />
 <owl:sameAs rdf:resource="https://doi.org/10.1145/3468264.3468600" />
 <owl:sameAs rdf:resource="http://dx.doi.org/10.1145/3468264.3468600" />
 <rdfs:label>Chu-Pan Wong et al.: VarFix: balancing edit expressiveness and search effectiveness in automated program repair. (2021)</rdfs:label>
 <dblp:doi rdf:resource="https://doi.org/10.1145/3468264.3468600" />
+<dblp:doi rdf:resource="http://dx.doi.org/10.1145/3468264.3468600" />
 <datacite:hasIdentifier>
 <datacite:ResourceIdentifier>
 <datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp-record" />
@@ -25,28 +26,40 @@
 <dblp:authoredBy rdf:resource="https://dblp.org/pid/85/3873" />
 <dblp:authoredBy rdf:resource="https://dblp.org/pid/93/4573" />
 <dblp:numberOfCreators rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</dblp:numberOfCreators>
-<dblp:orderedCreators>
-<rdf:List>
-<rdf:first rdf:resource="https://dblp.org/pid/155/4342" />
-<rdf:rest>
-<rdf:List>
-<rdf:first rdf:resource="https://dblp.org/pid/299/8747" />
-<rdf:rest>
-<rdf:List>
-<rdf:first rdf:resource="https://dblp.org/pid/85/3873" />
-<rdf:rest>
-<rdf:List>
-<rdf:first rdf:resource="https://dblp.org/pid/93/4573" />
-<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil" />
-</rdf:List>
-</rdf:rest>
-</rdf:List>
-</rdf:rest>
-</rdf:List>
-</rdf:rest>
-</rdf:List>
-</dblp:orderedCreators>
-<dblp:primaryElectronicEdition rdf:resource="https://doi.org/10.1145/3468264.3468600" />
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Chu-Pan Wong</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/155/4342" />
+<dblp:signatureOrdinal>1</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/conf/sigsoft/WongSKG21" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Priscila Santiesteban</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/299/8747" />
+<dblp:signatureOrdinal>2</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/conf/sigsoft/WongSKG21" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Christian K&#228;stner</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/85/3873" />
+<dblp:signatureOrdinal>3</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/conf/sigsoft/WongSKG21" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Claire Le Goues</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/93/4573" />
+<dblp:signatureOrdinal>4</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/conf/sigsoft/WongSKG21" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:primaryDocumentPage rdf:resource="https://doi.org/10.1145/3468264.3468600" />
+<dblp:documentPage rdf:resource="https://doi.org/10.1145/3468264.3468600" />
 <dblp:listedOnTocPage rdf:resource="https://dblp.org/db/conf/sigsoft/fse2021" />
 <dblp:pagination>354-366</dblp:pagination>
 <dblp:publishedIn>ESEC/SIGSOFT FSE</dblp:publishedIn>

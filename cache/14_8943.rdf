@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:bf="http://id.loc.gov/ontologies/bibframe/" xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:bibtex="http://purl.org/net/nknouf/ns/bibtex#" xmlns:cito="http://purl.org/spar/cito/" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dbo="http://dbpedia.org/ontology/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dct="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:litre="http://purl.org/spar/literal/" xmlns:locid="http://id.loc.gov/vocabulary/identifiers/" xmlns:locrel="http://id.loc.gov/vocabulary/relators/" xmlns:schema="https://schema.org/" xmlns:wd="http://www.wikidata.org/entity/" xmlns:wdt="http://www.wikidata.org/prop/direct/" xmlns:dblp="https://dblp.org/rdf/schema#">
+<dblp:Person rdf:about="https://dblp.org/pid/14/8943">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
+<rdfs:label>Keisuke Hotta</rdfs:label>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>14/8943</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<dblp:primaryCreatorName>Keisuke Hotta</dblp:primaryCreatorName>
+<dblp:creatorName>Keisuke Hotta</dblp:creatorName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/YoshidaBHNPK20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/wcre/NodaNHTK20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/compsac/ImazatoHHK17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/walcom/KawaharaHHM17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/apsec/KirinukiHHK16" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/iwpc/OguraYHHK16" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/iwpc/YukiHHK16" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sac/YokoyamaHHOOK16" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/ese/YangHHIK15" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icsm/SumiHHK15" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icsm/YangHHK15" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icsr/YangHHK15" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/eceasst/HottaYHK14" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/apsec/MurakamiHHK14" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/csmr/KimuraHHIK14" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icsm/YamauchiYHHK14" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/iwpc/KirinukiHHK14" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/profes/ImazatoHHK14" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/apsec/KusunokiHHK13" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/iwpc/MurakamiHHIK13" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/iwpse/HigoHK13" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/wcre/IshiharaHHK13" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/advse/HottaSSHK12" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/apsec/SasakiIHHHIK12" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/csmr/HottaHK12" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/iwpc/HottaHIK12" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/iwsc/YangHHIK12" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/scam/MurakamiHHIK12" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/wcre/IshiharaHHIK12" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/iwpse/HottaSHK10" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/coap/HottaY02" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/coap/HottaIY00" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/mp/HottaY99" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/187/9669" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/57/4288" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/65/2343" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/87/5311" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/43/3953" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/130/7520" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/119/0545" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/123/7741" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/04/7" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/28/4909" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/66/6675" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/145/4352" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/32/2663" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/142/6918" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/27/3374" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/53/5557" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/17/7824" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/10/7676" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/155/5021" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/160/9094" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/39/4704" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/52/1173" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/17/8943" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/120/6542" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/171/5099" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/82/1621" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/17/5020" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/120/3255" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/32/1106" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/46/4605" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/32/1569" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/183/2668" />
+</dblp:Person>
+<rdf:Description rdf:about="https://dblp.org/pid/14/8943.rdf">
+<rdfs:label>provenance information for RDF data of dblp person &apos;14/8943&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2021-04-08T11:01:34+0200</dct:modified>
+</rdf:Description>
+</rdf:RDF>

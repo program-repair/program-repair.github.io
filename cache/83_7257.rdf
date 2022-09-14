@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:bf="http://id.loc.gov/ontologies/bibframe/" xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:bibtex="http://purl.org/net/nknouf/ns/bibtex#" xmlns:cito="http://purl.org/spar/cito/" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dbo="http://dbpedia.org/ontology/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dct="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:litre="http://purl.org/spar/literal/" xmlns:locid="http://id.loc.gov/vocabulary/identifiers/" xmlns:locrel="http://id.loc.gov/vocabulary/relators/" xmlns:schema="https://schema.org/" xmlns:wd="http://www.wikidata.org/entity/" xmlns:wdt="http://www.wikidata.org/prop/direct/" xmlns:dblp="https://dblp.org/rdf/schema#">
+<dblp:Person rdf:about="https://dblp.org/pid/83/7257">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
+<rdfs:label>D&#225;niel Horv&#225;th</rdfs:label>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>83/7257</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<dblp:primaryCreatorName>D&#225;niel Horv&#225;th</dblp:primaryCreatorName>
+<dblp:creatorName>D&#225;niel Horv&#225;th</dblp:creatorName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/iccsa/LajkoHCV22" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/iccsa/KicsiSHKSVFV22" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2208-04171" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse-apr/CsuvikHLV21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2103-16846" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/ercim/SzilagyiBH20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/cea/HorvathPT19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ifip6-6/HorvathT11" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ifip6-6/HorvathBMT10" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ifip6-6/HorvathKPML09" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/256/4517" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/36/8214" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/219/1665" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/47/762-2" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/301/8243" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/325/2405" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/40/3600" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/18/7853" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/63/7257" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/204/8422" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/325/3110" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/289/2023" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/30/6328" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/90/4571" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/47/7257" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/244/0951" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/325/2318" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/256/4679" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/325/2313" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/204/3538" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/57/2295" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/21/5882" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/01/6942" />
+</dblp:Person>
+<rdf:Description rdf:about="https://dblp.org/pid/83/7257.rdf">
+<rdfs:label>provenance information for RDF data of dblp person &apos;83/7257&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2022-08-26T22:37:36+0200</dct:modified>
+</rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:bf="http://id.loc.gov/ontologies/bibframe/" xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:bibtex="http://purl.org/net/nknouf/ns/bibtex#" xmlns:cito="http://purl.org/spar/cito/" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dbo="http://dbpedia.org/ontology/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dct="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:litre="http://purl.org/spar/literal/" xmlns:locid="http://id.loc.gov/vocabulary/identifiers/" xmlns:locrel="http://id.loc.gov/vocabulary/relators/" xmlns:schema="https://schema.org/" xmlns:wd="http://www.wikidata.org/entity/" xmlns:wdt="http://www.wikidata.org/prop/direct/" xmlns:dblp="https://dblp.org/rdf/schema#">
+<dblp:Person rdf:about="https://dblp.org/pid/199/7365">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
+<rdfs:label>Hammad Ahmad</rdfs:label>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>199/7365</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<dblp:primaryCreatorName>Hammad Ahmad</dblp:primaryCreatorName>
+<dblp:creatorName>Hammad Ahmad</dblp:creatorName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/asplos/Ahmad0W22" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ppsn/AhmadCFW22" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/gi-ws/0015AFW21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/hybrid/AhmadJ21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2103-08117" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/jossr/GhorsiSBAA18" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/gecco/AhmadH18" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/jfr/ColemanAT17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/jossr/BasharatA17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/amcc/GeebelenAVGSD12" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/233/5088" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/203/1754" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/256/6173" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/178/0097" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/64/134" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/24/2144" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/158/6110" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/233/5223" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/125/5655" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/34/9883" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/39/6301-15" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/11/10454" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/233/5037" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/70/6971" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/39/2963" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/125/5287" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/05/4127" />
+</dblp:Person>
+<rdf:Description rdf:about="https://dblp.org/pid/199/7365.rdf">
+<rdfs:label>provenance information for RDF data of dblp person &apos;199/7365&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2022-08-18T23:05:40+0200</dct:modified>
+</rdf:Description>
+</rdf:RDF>

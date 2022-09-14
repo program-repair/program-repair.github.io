@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:bf="http://id.loc.gov/ontologies/bibframe/" xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:bibtex="http://purl.org/net/nknouf/ns/bibtex#" xmlns:cito="http://purl.org/spar/cito/" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dbo="http://dbpedia.org/ontology/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dct="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:litre="http://purl.org/spar/literal/" xmlns:locid="http://id.loc.gov/vocabulary/identifiers/" xmlns:locrel="http://id.loc.gov/vocabulary/relators/" xmlns:schema="https://schema.org/" xmlns:wd="http://www.wikidata.org/entity/" xmlns:wdt="http://www.wikidata.org/prop/direct/" xmlns:dblp="https://dblp.org/rdf/schema#">
+<dblp:Person rdf:about="https://dblp.org/pid/58/10309">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
+<rdfs:label>Matthew W. Pagano</rdfs:label>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>58/10309</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<dblp:primaryCreatorName>Matthew W. Pagano</dblp:primaryCreatorName>
+<dblp:creatorName>Matthew W. Pagano</dblp:creatorName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/software/KirbasWMKPSNWCB21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/jcs/Akinyele0HP14" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/jce/AkinyeleGMPR0R13" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/iacr/Akinyele0HP13" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ccs/Akinyele0HP12" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ccs/AkinyelePGLPR11" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/dim/CahillMPPR11" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/iacr/AkinyeleLGPPR10" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/19/10308" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/39/7630" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/138/1020" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/93/6557" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/129/9491" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/74/4531-1" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/69/3214" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/148/1056" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/81/1241" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/32/4511" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/60/305" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/39/9204" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/14/3739" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/295/7759" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/129/9500" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/223/9468" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/54/2978" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/138/1021" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/60/8264" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/r/ADRubin" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/129/9487" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/295/7729" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/295/7733" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/227/5399" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/47/2379" />
+</dblp:Person>
+<rdf:Description rdf:about="https://dblp.org/pid/58/10309.rdf">
+<rdfs:label>provenance information for RDF data of dblp person &apos;58/10309&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2021-07-14T22:06:26+0200</dct:modified>
+</rdf:Description>
+</rdf:RDF>

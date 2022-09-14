@@ -24,18 +24,25 @@
 <dblp:authoredBy rdf:resource="https://dblp.org/pid/04/5884" />
 <dblp:authoredBy rdf:resource="https://dblp.org/pid/82/2673" />
 <dblp:numberOfCreators rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</dblp:numberOfCreators>
-<dblp:orderedCreators>
-<rdf:List>
-<rdf:first rdf:resource="https://dblp.org/pid/04/5884" />
-<rdf:rest>
-<rdf:List>
-<rdf:first rdf:resource="https://dblp.org/pid/82/2673" />
-<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil" />
-</rdf:List>
-</rdf:rest>
-</rdf:List>
-</dblp:orderedCreators>
-<dblp:primaryElectronicEdition rdf:resource="https://doi.org/10.1007/s11432-019-9947-6" />
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Abhik Roychoudhury</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/04/5884" />
+<dblp:signatureOrcid rdf:resource="https://orcid.org/0000-0002-7127-1137" />
+<dblp:signatureOrdinal>1</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/journals/chinaf/RoychoudhuryX19" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Yingfei Xiong 0001</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/82/2673" />
+<dblp:signatureOrdinal>2</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/journals/chinaf/RoychoudhuryX19" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:primaryDocumentPage rdf:resource="https://doi.org/10.1007/s11432-019-9947-6" />
+<dblp:documentPage rdf:resource="https://doi.org/10.1007/s11432-019-9947-6" />
 <dblp:listedOnTocPage rdf:resource="https://dblp.org/db/journals/chinaf/chinaf62" />
 <dblp:pagination>200103:1-200103:3</dblp:pagination>
 <dblp:publishedIn>Sci. China Inf. Sci.</dblp:publishedIn>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:bf="http://id.loc.gov/ontologies/bibframe/" xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:bibtex="http://purl.org/net/nknouf/ns/bibtex#" xmlns:cito="http://purl.org/spar/cito/" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dbo="http://dbpedia.org/ontology/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dct="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:litre="http://purl.org/spar/literal/" xmlns:locid="http://id.loc.gov/vocabulary/identifiers/" xmlns:locrel="http://id.loc.gov/vocabulary/relators/" xmlns:schema="https://schema.org/" xmlns:wd="http://www.wikidata.org/entity/" xmlns:wdt="http://www.wikidata.org/prop/direct/" xmlns:dblp="https://dblp.org/rdf/schema#">
+<dblp:Person rdf:about="https://dblp.org/pid/92/9102">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
+<rdfs:label>Rongxin Wu</rdfs:label>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>92/9102</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<dblp:primaryCreatorName>Rongxin Wu</dblp:primaryCreatorName>
+<dblp:creatorName>Rongxin Wu</dblp:creatorName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/tse/WangWWWLCYXZ22" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/gecco/LuoZAJZIW022" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/CaoSBWLT22" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sp/HuangGSYWZ22" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2203-02660" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/tse/LeeWCK21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/tse/WenCTWHHC21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/issta/YaoHTSWZ21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/iwpc/LinOZCLW21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/kbse/LuoZAJZIW021" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/kbse/TangHFYWBWZ21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/pldi/ShiYWZ21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sigsoft/YaoHTSWZ21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/wcre/Wang000W21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2103-07845" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2107-03660" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2109-07923" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/tse/WenWC20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/ShiWFZ20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/issta/FanWW0SZ20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sp/HuangYWSZ20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2006-07633" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/FanWS0ZZ19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/WangWWLTZYC19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/WenLWXCS19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sigsoft/WenWLTXCS19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-1912-06878" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/ese/WuWCZ18" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/WenCWHC18" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/WuWCZ18" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/pldi/ShiXWZFZ18" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sigsoft/WangWLWWYYZC18" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/WenCWHC17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/kbse/WenWC16" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/popl/WuXCZZ16" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/issta/WuZCK14" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sigsoft/Wu14" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/ase/LiZWZ12" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/DangWZZN12" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/KimZWG11" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sigsoft/WuZKC11" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icsm/ZhangW10" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/86/7855" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/261/4979" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/227/9617" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/294/4368" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/191/6474" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/04/4498-3" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/c/SCCheung" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/47/10488" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/24/1495" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/28/7849" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/322/7631" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/23/3395" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/50/456" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/181/6623" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/78/7690" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/03/2671" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/22/3510" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/06/4939" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/k/SunghunKim" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/l/SeonahLee" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/89/6764-6" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/66/3387-57" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/l/MingLi5" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/37/3102-1" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/125/1824" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/29/4473-1" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/254/7944" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/82/8198" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/288/0001" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/145/3943" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/s/ZhendongSu" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/30/4077" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/16/9656" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/48/423" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/21/8904" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/180/5774" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/188/7759" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/240/2235" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/28/8740" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/06/2293" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/242/3891" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/94/3104-38" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/99/1109-1" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/89/6248-3" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/x/TaoXie" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/22/10184" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/97/2966-1" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/46/999" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/269/8140" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/22/4635-1" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/51/7008" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/87/461-1" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/29/2726-2" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/156/2793" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/50/10702" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/23/2644" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/57/9656" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/z/ZhiHuaZhou" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/55/1401-1" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/288/0270" />
+</dblp:Person>
+<rdf:Description rdf:about="https://dblp.org/pid/92/9102.rdf">
+<rdfs:label>provenance information for RDF data of dblp person &apos;92/9102&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2022-08-09T21:52:12+0200</dct:modified>
+</rdf:Description>
+</rdf:RDF>

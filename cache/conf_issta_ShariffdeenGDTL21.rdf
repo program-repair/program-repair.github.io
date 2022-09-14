@@ -28,38 +28,59 @@
 <dblp:authoredBy rdf:resource="https://dblp.org/pid/l/JuliaLLawall" />
 <dblp:authoredBy rdf:resource="https://dblp.org/pid/04/5884" />
 <dblp:numberOfCreators rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</dblp:numberOfCreators>
-<dblp:orderedCreators>
-<rdf:List>
-<rdf:first rdf:resource="https://dblp.org/pid/285/7422" />
-<rdf:rest>
-<rdf:List>
-<rdf:first rdf:resource="https://dblp.org/pid/14/3881-12" />
-<rdf:rest>
-<rdf:List>
-<rdf:first rdf:resource="https://dblp.org/pid/74/3123" />
-<rdf:rest>
-<rdf:List>
-<rdf:first rdf:resource="https://dblp.org/pid/16/9656" />
-<rdf:rest>
-<rdf:List>
-<rdf:first rdf:resource="https://dblp.org/pid/l/JuliaLLawall" />
-<rdf:rest>
-<rdf:List>
-<rdf:first rdf:resource="https://dblp.org/pid/04/5884" />
-<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil" />
-</rdf:List>
-</rdf:rest>
-</rdf:List>
-</rdf:rest>
-</rdf:List>
-</rdf:rest>
-</rdf:List>
-</rdf:rest>
-</rdf:List>
-</rdf:rest>
-</rdf:List>
-</dblp:orderedCreators>
-<dblp:primaryElectronicEdition rdf:resource="https://doi.org/10.1145/3460319.3464821" />
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Ridwan Shariffdeen</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/285/7422" />
+<dblp:signatureOrcid rdf:resource="https://orcid.org/0000-0001-5409-4864" />
+<dblp:signatureOrdinal>1</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/conf/issta/ShariffdeenGDTL21" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Xiang Gao 0012</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/14/3881-12" />
+<dblp:signatureOrdinal>2</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/conf/issta/ShariffdeenGDTL21" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Gregory J. Duck</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/74/3123" />
+<dblp:signatureOrdinal>3</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/conf/issta/ShariffdeenGDTL21" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Shin Hwei Tan</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/16/9656" />
+<dblp:signatureOrcid rdf:resource="https://orcid.org/0000-0001-8633-3372" />
+<dblp:signatureOrdinal>4</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/conf/issta/ShariffdeenGDTL21" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Julia Lawall</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/l/JuliaLLawall" />
+<dblp:signatureOrdinal>5</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/conf/issta/ShariffdeenGDTL21" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Abhik Roychoudhury</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/04/5884" />
+<dblp:signatureOrcid rdf:resource="https://orcid.org/0000-0002-7127-1137" />
+<dblp:signatureOrdinal>6</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/conf/issta/ShariffdeenGDTL21" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:primaryDocumentPage rdf:resource="https://doi.org/10.1145/3460319.3464821" />
+<dblp:documentPage rdf:resource="https://doi.org/10.1145/3460319.3464821" />
 <dblp:listedOnTocPage rdf:resource="https://dblp.org/db/conf/issta/issta2021" />
 <dblp:pagination>633-645</dblp:pagination>
 <dblp:publishedIn>ISSTA</dblp:publishedIn>

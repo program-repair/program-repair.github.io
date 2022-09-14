@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:bf="http://id.loc.gov/ontologies/bibframe/" xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:bibtex="http://purl.org/net/nknouf/ns/bibtex#" xmlns:cito="http://purl.org/spar/cito/" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dbo="http://dbpedia.org/ontology/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dct="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:litre="http://purl.org/spar/literal/" xmlns:locid="http://id.loc.gov/vocabulary/identifiers/" xmlns:locrel="http://id.loc.gov/vocabulary/relators/" xmlns:schema="https://schema.org/" xmlns:wd="http://www.wikidata.org/entity/" xmlns:wdt="http://www.wikidata.org/prop/direct/" xmlns:dblp="https://dblp.org/rdf/schema#">
+<dblp:Person rdf:about="https://dblp.org/pid/22/3870-2">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
+<owl:sameAs rdf:resource="https://orcid.org/0000-0002-7684-8388" />
+<rdfs:label>Zhen Huang 0002</rdfs:label>
+<dblp:orcid rdf:resource="https://orcid.org/0000-0002-7684-8388" />
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>22/3870-2</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/acm" />
+<litre:hasLiteralValue>81490641755</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/orcid" />
+<litre:hasLiteralValue>0000-0002-7684-8388</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<dblp:primaryCreatorName>Zhen Huang</dblp:primaryCreatorName>
+<dblp:creatorName>Zhen Huang</dblp:creatorName>
+<dblp:primaryAffiliation>DePaul University, Chicago, IL, USA</dblp:primaryAffiliation>
+<dblp:affiliation>DePaul University, Chicago, IL, USA</dblp:affiliation>
+<dblp:affiliation>University of Toronto, Department of Electrical and Computer Engineering, ON, Canada</dblp:affiliation>
+<dblp:primaryHomepage rdf:resource="https://facsrv.cs.depaul.edu/zhuang28/" />
+<dblp:homepage rdf:resource="https://facsrv.cs.depaul.edu/zhuang28/" />
+<dblp:webpage rdf:resource="https://dl.acm.org/profile/81490641755" />
+<dblp:webpage rdf:resource="https://www.scopus.com/authid/detail.uri?authorId=55613231945" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icmlc2/Aumpansub022" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/IEEEares/HuangY21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/eurosec/0002JT21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icmlc2/AumpansubH21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/usenix-login/HuangLTJ20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sp/0002LTJ19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-1711-00795" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-1711-00830" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-1711-03397" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-1711-04030" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-1711-11136" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/acsac/HuangHML16" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sp/HuangDML16" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/dsn/HuangL14" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ccs/AuZHL12" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ccs/AuZHGL11" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/119/7694" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/297/7967" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/184/6385" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/52/2893" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/81/6685-27" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/45/576" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/l/DavidLie" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/184/5986" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/91/6206" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/69/10144" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/119/7741" />
+<dblp:proxyAmbiguousCreator rdf:resource="https://dblp.org/pid/22/3870" />
+</dblp:Person>
+<rdf:Description rdf:about="https://dblp.org/pid/22/3870-2.rdf">
+<rdfs:label>provenance information for RDF data of dblp person &apos;22/3870-2&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2022-09-11T23:47:51+0200</dct:modified>
+</rdf:Description>
+</rdf:RDF>

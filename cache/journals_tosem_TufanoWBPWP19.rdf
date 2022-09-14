@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dct="http://purl.org/dc/terms/" xmlns:litre="http://purl.org/spar/literal/">
+<rdf:RDF xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:bf="http://id.loc.gov/ontologies/bibframe/" xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:bibtex="http://purl.org/net/nknouf/ns/bibtex#" xmlns:cito="http://purl.org/spar/cito/" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dbo="http://dbpedia.org/ontology/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dct="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:litre="http://purl.org/spar/literal/" xmlns:locid="http://id.loc.gov/vocabulary/identifiers/" xmlns:locrel="http://id.loc.gov/vocabulary/relators/" xmlns:schema="https://schema.org/" xmlns:wd="http://www.wikidata.org/entity/" xmlns:wdt="http://www.wikidata.org/prop/direct/" xmlns:dblp="https://dblp.org/rdf/schema#">
 <dblp:Article rdf:about="https://dblp.org/rec/journals/tosem/TufanoWBPWP19">
 <rdf:type rdf:resource="https://dblp.org/rdf/schema#Publication" />
 <owl:sameAs rdf:resource="https://doi.org/10.1145/3340544" />
 <owl:sameAs rdf:resource="http://dx.doi.org/10.1145/3340544" />
 <rdfs:label>Michele Tufano et al.: An Empirical Study on Learning Bug-Fixing Patches in the Wild via Neural Machine Translation. (2019)</rdfs:label>
 <dblp:doi rdf:resource="https://doi.org/10.1145/3340544" />
+<dblp:doi rdf:resource="http://dx.doi.org/10.1145/3340544" />
 <datacite:hasIdentifier>
 <datacite:ResourceIdentifier>
 <datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp-record" />
@@ -27,38 +28,57 @@
 <dblp:authoredBy rdf:resource="https://dblp.org/pid/56/1682" />
 <dblp:authoredBy rdf:resource="https://dblp.org/pid/02/320" />
 <dblp:numberOfCreators rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</dblp:numberOfCreators>
-<dblp:orderedCreators>
-<rdf:List>
-<rdf:first rdf:resource="https://dblp.org/pid/166/4957" />
-<rdf:rest>
-<rdf:List>
-<rdf:first rdf:resource="https://dblp.org/pid/201/7334" />
-<rdf:rest>
-<rdf:List>
-<rdf:first rdf:resource="https://dblp.org/pid/09/8523" />
-<rdf:rest>
-<rdf:List>
-<rdf:first rdf:resource="https://dblp.org/pid/d/MassimilianoDiPenta" />
-<rdf:rest>
-<rdf:List>
-<rdf:first rdf:resource="https://dblp.org/pid/56/1682" />
-<rdf:rest>
-<rdf:List>
-<rdf:first rdf:resource="https://dblp.org/pid/02/320" />
-<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil" />
-</rdf:List>
-</rdf:rest>
-</rdf:List>
-</rdf:rest>
-</rdf:List>
-</rdf:rest>
-</rdf:List>
-</rdf:rest>
-</rdf:List>
-</rdf:rest>
-</rdf:List>
-</dblp:orderedCreators>
-<dblp:primaryElectronicEdition rdf:resource="https://doi.org/10.1145/3340544" />
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Michele Tufano</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/166/4957" />
+<dblp:signatureOrcid rdf:resource="https://orcid.org/0000-0003-2225-2420" />
+<dblp:signatureOrdinal>1</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/journals/tosem/TufanoWBPWP19" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Cody Watson</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/201/7334" />
+<dblp:signatureOrdinal>2</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/journals/tosem/TufanoWBPWP19" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Gabriele Bavota</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/09/8523" />
+<dblp:signatureOrdinal>3</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/journals/tosem/TufanoWBPWP19" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Massimiliano Di Penta</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/d/MassimilianoDiPenta" />
+<dblp:signatureOrdinal>4</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/journals/tosem/TufanoWBPWP19" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Martin White</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/56/1682" />
+<dblp:signatureOrdinal>5</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/journals/tosem/TufanoWBPWP19" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Denys Poshyvanyk</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/02/320" />
+<dblp:signatureOrdinal>6</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/journals/tosem/TufanoWBPWP19" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:primaryDocumentPage rdf:resource="https://doi.org/10.1145/3340544" />
+<dblp:documentPage rdf:resource="https://doi.org/10.1145/3340544" />
 <dblp:listedOnTocPage rdf:resource="https://dblp.org/db/journals/tosem/tosem28" />
 <dblp:pagination>19:1-19:29</dblp:pagination>
 <dblp:publishedIn>ACM Trans. Softw. Eng. Methodol.</dblp:publishedIn>
@@ -72,6 +92,6 @@
 <dct:creator rdf:resource="https://dblp.org" />
 <dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
 <dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
-<dct:modified>2019-10-23T08:50:50+0200</dct:modified>
+<dct:modified>2022-01-08T02:21:53+0100</dct:modified>
 </rdf:Description>
 </rdf:RDF>

@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="US-ASCII"?>
-<rdf:RDF xmlns:dblp="https://dblp.org/rdf/schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dct="http://purl.org/dc/terms/" xmlns:litre="http://purl.org/spar/literal/">
+<rdf:RDF xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:bf="http://id.loc.gov/ontologies/bibframe/" xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:bibtex="http://purl.org/net/nknouf/ns/bibtex#" xmlns:cito="http://purl.org/spar/cito/" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dbo="http://dbpedia.org/ontology/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dct="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:litre="http://purl.org/spar/literal/" xmlns:locid="http://id.loc.gov/vocabulary/identifiers/" xmlns:locrel="http://id.loc.gov/vocabulary/relators/" xmlns:schema="https://schema.org/" xmlns:wd="http://www.wikidata.org/entity/" xmlns:wdt="http://www.wikidata.org/prop/direct/" xmlns:dblp="https://dblp.org/rdf/schema#">
 <dblp:Inproceedings rdf:about="https://dblp.org/rec/conf/cec/ArcuriY08">
 <rdf:type rdf:resource="https://dblp.org/rdf/schema#Publication" />
-<owl:sameAs rdf:resource="https://doi.org/10.1109/CEC.2008.4630793" />
-<owl:sameAs rdf:resource="http://dx.doi.org/10.1109/CEC.2008.4630793" />
+<owl:sameAs rdf:resource="https://doi.org/10.1109/cec.2008.4630793" />
+<owl:sameAs rdf:resource="http://dx.doi.org/10.1109/cec.2008.4630793" />
 <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q29395161" />
 <rdfs:label>Andrea Arcuri and Xin Yao: A novel co-evolutionary approach to automatic software bug fixing. (2008)</rdfs:label>
-<dblp:doi rdf:resource="https://doi.org/10.1109/CEC.2008.4630793" />
+<dblp:doi rdf:resource="https://doi.org/10.1109/cec.2008.4630793" />
+<dblp:doi rdf:resource="http://dx.doi.org/10.1109/cec.2008.4630793" />
 <dblp:wikidata rdf:resource="https://www.wikidata.org/entity/Q29395161" />
 <datacite:hasIdentifier>
 <datacite:ResourceIdentifier>
@@ -31,18 +32,25 @@
 <dblp:authoredBy rdf:resource="https://dblp.org/pid/59/2858" />
 <dblp:authoredBy rdf:resource="https://dblp.org/pid/26/3646" />
 <dblp:numberOfCreators rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</dblp:numberOfCreators>
-<dblp:orderedCreators>
-<rdf:List>
-<rdf:first rdf:resource="https://dblp.org/pid/59/2858" />
-<rdf:rest>
-<rdf:List>
-<rdf:first rdf:resource="https://dblp.org/pid/26/3646" />
-<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil" />
-</rdf:List>
-</rdf:rest>
-</rdf:List>
-</dblp:orderedCreators>
-<dblp:primaryElectronicEdition rdf:resource="https://doi.org/10.1109/CEC.2008.4630793" />
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Andrea Arcuri</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/59/2858" />
+<dblp:signatureOrdinal>1</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/conf/cec/ArcuriY08" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Xin Yao 0001</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/26/3646" />
+<dblp:signatureOrcid rdf:resource="https://orcid.org/0000-0001-8837-4442" />
+<dblp:signatureOrdinal>2</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/conf/cec/ArcuriY08" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:primaryDocumentPage rdf:resource="https://doi.org/10.1109/CEC.2008.4630793" />
+<dblp:documentPage rdf:resource="https://doi.org/10.1109/CEC.2008.4630793" />
 <dblp:listedOnTocPage rdf:resource="https://dblp.org/db/conf/cec/cec2008" />
 <dblp:pagination>162-168</dblp:pagination>
 <dblp:publishedIn>IEEE Congress on Evolutionary Computation</dblp:publishedIn>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:bf="http://id.loc.gov/ontologies/bibframe/" xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:bibtex="http://purl.org/net/nknouf/ns/bibtex#" xmlns:cito="http://purl.org/spar/cito/" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dbo="http://dbpedia.org/ontology/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dct="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:litre="http://purl.org/spar/literal/" xmlns:locid="http://id.loc.gov/vocabulary/identifiers/" xmlns:locrel="http://id.loc.gov/vocabulary/relators/" xmlns:schema="https://schema.org/" xmlns:wd="http://www.wikidata.org/entity/" xmlns:wdt="http://www.wikidata.org/prop/direct/" xmlns:dblp="https://dblp.org/rdf/schema#">
+<dblp:Person rdf:about="https://dblp.org/pid/165/8552">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
+<rdfs:label>Altino Dantas</rdfs:label>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>165/8552</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<dblp:primaryCreatorName>Altino Dantas</dblp:primaryCreatorName>
+<dblp:creatorName>Altino Dantas</dblp:creatorName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sac/Silva-JuniorJDC20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/bracis/AmorimFDCMM19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ictai/SampaioDC19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ijcnn/RoqueDC19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ssbse/DantasSSC19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ssci/SampaioDC19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ijcnn/AmorimFDSCM18" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-1809-07353" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/ase/AraujoPYDS17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/jbcs/SaraivaADYS17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/asc/FerreiraADS16" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ssbse/DreytonADSS16" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ssbse/RoqueADSS16" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ssbse/VelosoODS16" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ssbse/DreytonADFS15" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ssbse/DantasYAS15" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/228/1834" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/148/4956" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/227/2725" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/117/4557" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/165/8593" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/08/10067" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/165/8560" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/228/1563" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/07/4427" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/134/0939" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/23/2441" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/120/9618" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/177/3362" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/133/2120" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/186/1130" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/229/4114" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/186/1069" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/262/0777" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/186/1046" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/22/6985" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/186/1058" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/165/8554" />
+</dblp:Person>
+<rdf:Description rdf:about="https://dblp.org/pid/165/8552.rdf">
+<rdfs:label>provenance information for RDF data of dblp person &apos;165/8552&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2021-10-16T02:07:46+0200</dct:modified>
+</rdf:Description>
+</rdf:RDF>

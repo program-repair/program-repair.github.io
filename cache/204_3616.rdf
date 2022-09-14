@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:bf="http://id.loc.gov/ontologies/bibframe/" xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:bibtex="http://purl.org/net/nknouf/ns/bibtex#" xmlns:cito="http://purl.org/spar/cito/" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dbo="http://dbpedia.org/ontology/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dct="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:litre="http://purl.org/spar/literal/" xmlns:locid="http://id.loc.gov/vocabulary/identifiers/" xmlns:locrel="http://id.loc.gov/vocabulary/relators/" xmlns:schema="https://schema.org/" xmlns:wd="http://www.wikidata.org/entity/" xmlns:wdt="http://www.wikidata.org/prop/direct/" xmlns:dblp="https://dblp.org/rdf/schema#">
+<dblp:Person rdf:about="https://dblp.org/pid/204/3616">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
+<rdfs:label>Marko Vasic</rdfs:label>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>204/3616</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<dblp:primaryCreatorName>Marko Vasic</dblp:primaryCreatorName>
+<dblp:creatorName>Marko Vasic</dblp:creatorName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/nn/VasicPWNSK22" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2109-11422" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/nc/VasicSK20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/dna/VasicSK20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icml/VasicCKS20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/issre/SinghVK20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/pldi/0024WVWVK20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2003-13720" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/iclr/VasicKMBS19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-1904-01720" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-1906-06717" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-1912-06197" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-1912-11580" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/dna/VasicSK18" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-1809-07430" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sigsoft/CelikVMG17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sigsoft/VasicPMG17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icce-berlin/GrumicVKK15" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/200/8035" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/15/1842" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/149/2717" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/43/6015" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/221/2084" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/61/2636" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/67/8012" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/k/SarfrazKhurshid" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/k/JKovacevic" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/185/0975" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/m/PetrosManiatis" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/74/1958" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/37/7137" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/204/3765" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/179/6306" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/25/7056" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/249/8979" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/07/592" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/20/241-24" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/29/5328" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/193/4231" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/179/7420" />
+</dblp:Person>
+<rdf:Description rdf:about="https://dblp.org/pid/204/3616.rdf">
+<rdfs:label>provenance information for RDF data of dblp person &apos;204/3616&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2022-06-03T23:04:12+0200</dct:modified>
+</rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:bf="http://id.loc.gov/ontologies/bibframe/" xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:bibtex="http://purl.org/net/nknouf/ns/bibtex#" xmlns:cito="http://purl.org/spar/cito/" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dbo="http://dbpedia.org/ontology/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dct="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:litre="http://purl.org/spar/literal/" xmlns:locid="http://id.loc.gov/vocabulary/identifiers/" xmlns:locrel="http://id.loc.gov/vocabulary/relators/" xmlns:schema="https://schema.org/" xmlns:wd="http://www.wikidata.org/entity/" xmlns:wdt="http://www.wikidata.org/prop/direct/" xmlns:dblp="https://dblp.org/rdf/schema#">
+<dblp:Person rdf:about="https://dblp.org/pid/82/4670">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
+<rdfs:label>Vilas Jagannath</rdfs:label>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>82/4670</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<dblp:primaryCreatorName>Vilas Jagannath</dblp:primaryCreatorName>
+<dblp:creatorName>Vilas Jagannath</dblp:creatorName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/stvr/GligoricJLM13" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icst/JagannathKLM12" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/DanielDGJJMNTM11" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ipps/JagannathYB11" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/issta/JagannathLM11" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/kbse/AlvesGJd11" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sigsoft/JagannathGJLRM11" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/JagannathGJRM10" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/GligoricGJKKM10" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icst/GligoricJM10" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icst/JagannathGLMA10" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icst/SharmaGJM10" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/fase/JagannathLDM09" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/kbse/DanielJDM09" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/a/GulAAgha" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/18/10607" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/b/MihaiBudiu" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/16/608" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/04/5890" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/36/5445" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/43/6015" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/15/2242" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/67/9655" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/40/5278" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/k/SarfrazKhurshid" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/75/11465" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/k/ViktorKuncak" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/93/2152" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/99/1640" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/74/2577" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/17/7915" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/48/3911" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/43/9656" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/76/9656" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/r/GrigoreRosu" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/82/9299" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/16/9656" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/21/4635" />
+</dblp:Person>
+<rdf:Description rdf:about="https://dblp.org/pid/82/4670.rdf">
+<rdfs:label>provenance information for RDF data of dblp person &apos;82/4670&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2022-01-28T21:27:47+0100</dct:modified>
+</rdf:Description>
+</rdf:RDF>

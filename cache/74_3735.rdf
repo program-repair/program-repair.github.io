@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:bf="http://id.loc.gov/ontologies/bibframe/" xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:bibtex="http://purl.org/net/nknouf/ns/bibtex#" xmlns:cito="http://purl.org/spar/cito/" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dbo="http://dbpedia.org/ontology/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dct="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:litre="http://purl.org/spar/literal/" xmlns:locid="http://id.loc.gov/vocabulary/identifiers/" xmlns:locrel="http://id.loc.gov/vocabulary/relators/" xmlns:schema="https://schema.org/" xmlns:wd="http://www.wikidata.org/entity/" xmlns:wdt="http://www.wikidata.org/prop/direct/" xmlns:dblp="https://dblp.org/rdf/schema#">
+<dblp:Person rdf:about="https://dblp.org/pid/74/3735">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
+<rdfs:label>Xianglan Chen</rdfs:label>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>74/3735</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<dblp:primaryCreatorName>Xianglan Chen</dblp:primaryCreatorName>
+<dblp:creatorName>Xianglan Chen</dblp:creatorName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/date/XiaGWCZ21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/todaes/WanLZZCWZ19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/hpcc/YuZCCH019" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/pldi/LiLCGL19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/glvlsi/ChengWZCZL18" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/jsjkx/0003SWCZ17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/acm/ZhangCALLZ17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/apsec/WanLZLWCZ17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ccgrid/ZhouXCWZ17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/hpcc/WanLZLWCZ17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ispa/WangCLWCZ17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ispa/WanLLSWCZ17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ispa/LuoLWWCW17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ispa/WanLZZLWCZ17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/rtss/WanLLWCZ17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/ijpp/WangCC16" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/jsa/SunLWWZC16" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/trustcom/XuCCSZ16" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/jsjkx/LiCLL15" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sigcse/LiuCG07" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/64/3179" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/66/2271" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/220/6929" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/160/2167" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/01/805" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/11/4611" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/84/5664" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/60/727" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/198/2457" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/46/2311" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/46/2311-3" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/99/5152" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/35/5230" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/84/33" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/26/10474" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/03/2134" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/86/11477" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/31/5916-1" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/213/8289" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/160/2258" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/152/9252" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/86/4321" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/w/ChaoWang3" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/78/10184" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/78/6727" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/62/6251" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/297/4387" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/201/4891" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/84/8577" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/250/0639" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/36/2259" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/50/671-86" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/73/7697" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/229/2542" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/122/0269" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/148/6825" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/214/6979" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/53/2969" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/83/11300" />
+</dblp:Person>
+<rdf:Description rdf:about="https://dblp.org/pid/74/3735.rdf">
+<rdfs:label>provenance information for RDF data of dblp person &apos;74/3735&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2022-07-21T22:04:57+0200</dct:modified>
+</rdf:Description>
+</rdf:RDF>

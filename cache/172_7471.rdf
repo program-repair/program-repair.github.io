@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:bf="http://id.loc.gov/ontologies/bibframe/" xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:bibtex="http://purl.org/net/nknouf/ns/bibtex#" xmlns:cito="http://purl.org/spar/cito/" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dbo="http://dbpedia.org/ontology/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dct="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:litre="http://purl.org/spar/literal/" xmlns:locid="http://id.loc.gov/vocabulary/identifiers/" xmlns:locrel="http://id.loc.gov/vocabulary/relators/" xmlns:schema="https://schema.org/" xmlns:wd="http://www.wikidata.org/entity/" xmlns:wdt="http://www.wikidata.org/prop/direct/" xmlns:dblp="https://dblp.org/rdf/schema#">
+<dblp:Person rdf:about="https://dblp.org/pid/172/7471">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
+<rdfs:label>Tanvir Ahmed Khan</rdfs:label>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>172/7471</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<dblp:primaryCreatorName>Tanvir Ahmed Khan</dblp:primaryCreatorName>
+<dblp:creatorName>Tanvir Ahmed Khan</dblp:creatorName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/ojbd/NoorFKS22" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/sigops/UgurJEKK22" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/eurosys/JamilanKAKL22" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icsbt/HasanASKSH22" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/isca/SongKMSSSJLK22" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/fast/NealZSKKPK21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/isca/KhanZSDPLK21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/micro/SoundararajanBK21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/micro/KhanBSS0DSPLK21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/osdi/KhanNPMK21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sigsoft/KhanSW21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/iiswc/ChenZKK20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/micro/KhanSDPLK20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/winet/KhanI19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/pldi/KhanZPMK19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/mobisys/KhanI16" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/wimob/KhanHI15" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/325/7182" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/177/4860" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/90/1638" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/67/5841" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/155/2863" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/83/3984" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/324/3337" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/f/LeonidasFegaras" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/15/7130" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/320/3595" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/19/7206" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/20/9660" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/199/3535" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/15/11195" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/96/2151" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/31/11029" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/98/4371-3" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/94/8239" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/89/5432" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/216/7097" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/45/2495" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/223/0804" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/226/3934" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/43/3917" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/78/3196" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/299/3355" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/291/2814" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/325/7255" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/248/0375" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/40/231" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/178/3217" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/36/1380" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/148/1296" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/276/9652" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/324/3826" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/193/4231" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/24/4857" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/13/7050" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/279/2099" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/220/6764" />
+</dblp:Person>
+<rdf:Description rdf:about="https://dblp.org/pid/172/7471.rdf">
+<rdfs:label>provenance information for RDF data of dblp person &apos;172/7471&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2022-08-05T00:11:46+0200</dct:modified>
+</rdf:Description>
+</rdf:RDF>

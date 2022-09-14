@@ -35,73 +35,116 @@
 <dblp:authoredBy rdf:resource="https://dblp.org/pid/148/1056" />
 <dblp:authoredBy rdf:resource="https://dblp.org/pid/47/2379" />
 <dblp:numberOfCreators rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</dblp:numberOfCreators>
-<dblp:orderedCreators>
-<rdf:List>
-<rdf:first rdf:resource="https://dblp.org/pid/60/305" />
-<rdf:rest>
-<rdf:List>
-<rdf:first rdf:resource="https://dblp.org/pid/295/7733" />
-<rdf:rest>
-<rdf:List>
-<rdf:first rdf:resource="https://dblp.org/pid/295/7759" />
-<rdf:rest>
-<rdf:List>
-<rdf:first rdf:resource="https://dblp.org/pid/32/4511" />
-<rdf:rest>
-<rdf:List>
-<rdf:first rdf:resource="https://dblp.org/pid/58/10309" />
-<rdf:rest>
-<rdf:List>
-<rdf:first rdf:resource="https://dblp.org/pid/295/7729" />
-<rdf:rest>
-<rdf:List>
-<rdf:first rdf:resource="https://dblp.org/pid/223/9468" />
-<rdf:rest>
-<rdf:List>
-<rdf:first rdf:resource="https://dblp.org/pid/227/5399" />
-<rdf:rest>
-<rdf:List>
-<rdf:first rdf:resource="https://dblp.org/pid/93/6557" />
-<rdf:rest>
-<rdf:List>
-<rdf:first rdf:resource="https://dblp.org/pid/39/7630" />
-<rdf:rest>
-<rdf:List>
-<rdf:first rdf:resource="https://dblp.org/pid/69/3214" />
-<rdf:rest>
-<rdf:List>
-<rdf:first rdf:resource="https://dblp.org/pid/148/1056" />
-<rdf:rest>
-<rdf:List>
-<rdf:first rdf:resource="https://dblp.org/pid/47/2379" />
-<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil" />
-</rdf:List>
-</rdf:rest>
-</rdf:List>
-</rdf:rest>
-</rdf:List>
-</rdf:rest>
-</rdf:List>
-</rdf:rest>
-</rdf:List>
-</rdf:rest>
-</rdf:List>
-</rdf:rest>
-</rdf:List>
-</rdf:rest>
-</rdf:List>
-</rdf:rest>
-</rdf:List>
-</rdf:rest>
-</rdf:List>
-</rdf:rest>
-</rdf:List>
-</rdf:rest>
-</rdf:List>
-</rdf:rest>
-</rdf:List>
-</dblp:orderedCreators>
-<dblp:primaryElectronicEdition rdf:resource="https://doi.org/10.1109/MS.2021.3071086" />
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Serkan Kirbas</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/60/305" />
+<dblp:signatureOrdinal>1</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/journals/software/KirbasWMKPSNWCB21" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Etienne Windels</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/295/7733" />
+<dblp:signatureOrdinal>2</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/journals/software/KirbasWMKPSNWCB21" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Olayori McBello</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/295/7759" />
+<dblp:signatureOrdinal>3</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/journals/software/KirbasWMKPSNWCB21" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Kevin Kells</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/32/4511" />
+<dblp:signatureOrdinal>4</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/journals/software/KirbasWMKPSNWCB21" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Matthew W. Pagano</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/58/10309" />
+<dblp:signatureOrdinal>5</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/journals/software/KirbasWMKPSNWCB21" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Rafal Szalanski</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/295/7729" />
+<dblp:signatureOrdinal>6</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/journals/software/KirbasWMKPSNWCB21" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Vesna Nowack</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/223/9468" />
+<dblp:signatureOrdinal>7</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/journals/software/KirbasWMKPSNWCB21" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Emily Rowan Winter</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/227/5399" />
+<dblp:signatureOrcid rdf:resource="https://orcid.org/0000-0003-3314-7300" />
+<dblp:signatureOrdinal>8</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/journals/software/KirbasWMKPSNWCB21" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Steve Counsell</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/93/6557" />
+<dblp:signatureOrcid rdf:resource="https://orcid.org/0000-0002-2939-8919" />
+<dblp:signatureOrdinal>9</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/journals/software/KirbasWMKPSNWCB21" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>David Bowes</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/39/7630" />
+<dblp:signatureOrcid rdf:resource="https://orcid.org/0000-0001-7014-2811" />
+<dblp:signatureOrdinal>10</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/journals/software/KirbasWMKPSNWCB21" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Tracy Hall</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/69/3214" />
+<dblp:signatureOrcid rdf:resource="https://orcid.org/0000-0002-2728-9014" />
+<dblp:signatureOrdinal>11</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/journals/software/KirbasWMKPSNWCB21" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Saemundur Haraldsson</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/148/1056" />
+<dblp:signatureOrdinal>12</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/journals/software/KirbasWMKPSNWCB21" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>John R. Woodward</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/47/2379" />
+<dblp:signatureOrdinal>13</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/journals/software/KirbasWMKPSNWCB21" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:primaryDocumentPage rdf:resource="https://doi.org/10.1109/MS.2021.3071086" />
+<dblp:documentPage rdf:resource="https://doi.org/10.1109/MS.2021.3071086" />
 <dblp:listedOnTocPage rdf:resource="https://dblp.org/db/journals/software/software38" />
 <dblp:pagination>43-51</dblp:pagination>
 <dblp:publishedIn>IEEE Softw.</dblp:publishedIn>

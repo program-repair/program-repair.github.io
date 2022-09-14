@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:bf="http://id.loc.gov/ontologies/bibframe/" xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:bibtex="http://purl.org/net/nknouf/ns/bibtex#" xmlns:cito="http://purl.org/spar/cito/" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dbo="http://dbpedia.org/ontology/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dct="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:litre="http://purl.org/spar/literal/" xmlns:locid="http://id.loc.gov/vocabulary/identifiers/" xmlns:locrel="http://id.loc.gov/vocabulary/relators/" xmlns:schema="https://schema.org/" xmlns:wd="http://www.wikidata.org/entity/" xmlns:wdt="http://www.wikidata.org/prop/direct/" xmlns:dblp="https://dblp.org/rdf/schema#">
+<dblp:Person rdf:about="https://dblp.org/pid/182/1755">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
+<rdfs:label>Peter Amidon</rdfs:label>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>182/1755</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<dblp:primaryCreatorName>Peter Amidon</dblp:primaryCreatorName>
+<dblp:creatorName>Peter Amidon</dblp:creatorName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/post/VassenaSACRS19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sigsoft/LongAR17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/hpec/AmidonDSR15" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/51/9597" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/182/1728" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/55/3921" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/225/4819" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/r/MartinCRinard" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/37/1475" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/155/5767" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/91/6118" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/185/6272" />
+</dblp:Person>
+<rdf:Description rdf:about="https://dblp.org/pid/182/1755.rdf">
+<rdfs:label>provenance information for RDF data of dblp person &apos;182/1755&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2022-05-01T00:42:42+0200</dct:modified>
+</rdf:Description>
+</rdf:RDF>

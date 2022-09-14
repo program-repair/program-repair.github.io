@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:bf="http://id.loc.gov/ontologies/bibframe/" xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:bibtex="http://purl.org/net/nknouf/ns/bibtex#" xmlns:cito="http://purl.org/spar/cito/" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dbo="http://dbpedia.org/ontology/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dct="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:litre="http://purl.org/spar/literal/" xmlns:locid="http://id.loc.gov/vocabulary/identifiers/" xmlns:locrel="http://id.loc.gov/vocabulary/relators/" xmlns:schema="https://schema.org/" xmlns:wd="http://www.wikidata.org/entity/" xmlns:wdt="http://www.wikidata.org/prop/direct/" xmlns:dblp="https://dblp.org/rdf/schema#">
+<dblp:Person rdf:about="https://dblp.org/pid/233/7234">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
+<rdfs:label>Guolong Zheng</rdfs:label>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>233/7234</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<dblp:primaryCreatorName>Guolong Zheng</dblp:primaryCreatorName>
+<dblp:creatorName>Guolong Zheng</dblp:creatorName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/issta/ZhengNBRAFB22" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/ZhengNBRFAB21a" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/BridaRZBNAF21a" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/ZhengNBRFAB21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/BridaRZBNAF21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/kbse/BridaRZBNAF21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/kbse/ZhengNBRFAB21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2102-10152" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2103-00327" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/fase/ZhengBRW20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icsm/ZhengBN20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/pldi/LeZN19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-1903-09713" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/sigsoft/ZhengLNP18" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/69/610" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/88/2247" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/203/0017" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/13/1323" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/32/8098" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/135/6224" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/19/7057" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/30/9676" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/33/4870" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/25/6796" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/97/8389" />
+</dblp:Person>
+<rdf:Description rdf:about="https://dblp.org/pid/233/7234.rdf">
+<rdfs:label>provenance information for RDF data of dblp person &apos;233/7234&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2022-07-27T23:51:05+0200</dct:modified>
+</rdf:Description>
+</rdf:RDF>

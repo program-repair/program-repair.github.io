@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:bf="http://id.loc.gov/ontologies/bibframe/" xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:bibtex="http://purl.org/net/nknouf/ns/bibtex#" xmlns:cito="http://purl.org/spar/cito/" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dbo="http://dbpedia.org/ontology/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dct="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:litre="http://purl.org/spar/literal/" xmlns:locid="http://id.loc.gov/vocabulary/identifiers/" xmlns:locrel="http://id.loc.gov/vocabulary/relators/" xmlns:schema="https://schema.org/" xmlns:wd="http://www.wikidata.org/entity/" xmlns:wdt="http://www.wikidata.org/prop/direct/" xmlns:dblp="https://dblp.org/rdf/schema#">
+<dblp:Person rdf:about="https://dblp.org/pid/145/4396">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
+<rdfs:label>Eduardo Cunha Campos</rdfs:label>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>145/4396</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<dblp:primaryCreatorName>Eduardo Cunha Campos</dblp:primaryCreatorName>
+<dblp:creatorName>Eduardo Cunha Campos</dblp:creatorName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/infsof/SouzaCDPRM19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/smr/CamposM19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-1903-09174" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/esem/CamposM17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/smr/CamposSM16" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/cascon/CamposMM16" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/iwpc/SouzaCM14" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sac/CamposM14" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sbes/SouzaCM14" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/156/1916" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/97/4668" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/62/5292" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/60/4833" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/185/0262" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/238/0276" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/156/6322" />
+</dblp:Person>
+<rdf:Description rdf:about="https://dblp.org/pid/145/4396.rdf">
+<rdfs:label>provenance information for RDF data of dblp person &apos;145/4396&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2022-08-18T23:13:59+0200</dct:modified>
+</rdf:Description>
+</rdf:RDF>

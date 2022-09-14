@@ -2,7 +2,7 @@
 
 import datetime
 import os
-from os.path import join, basename
+from os.path import join
 import json
 import rdflib
 import xml.etree.ElementTree as ET
@@ -40,13 +40,13 @@ statistics_output_file = join(root_dir, 'statistics.html')
 dblp_schema = "https://dblp.org/rdf/schema"
 rdf_syntax = "http://www.w3.org/1999/02/22-rdf-syntax-ns"
 title_ref = rdflib.URIRef(dblp_schema + "#title")
-primaryFullPersonName_ref = rdflib.URIRef(dblp_schema + "#primaryFullCreatorName")
+primaryPersonName_ref = rdflib.URIRef(dblp_schema + "#primaryCreatorName")
 publishedInBook_ref = rdflib.URIRef(dblp_schema + "#publishedInBook")
 publishedInJournal_ref = rdflib.URIRef(dblp_schema + "#publishedInJournal")
 publishedInJournalVolume_ref = rdflib.URIRef(dblp_schema + "#publishedInJournalVolume")
 publishedInJournalVolumeIssue_ref = rdflib.URIRef(dblp_schema + "#publishedInJournalVolumeIssue")
 yearOfPublication_ref = rdflib.URIRef(dblp_schema + "#yearOfPublication")
-primaryElectronicEdition_ref = rdflib.URIRef(dblp_schema + "#primaryElectronicEdition")
+primaryDocumentPage_ref = rdflib.URIRef(dblp_schema + "#primaryDocumentPage")
 
 # year -> num
 publications_per_year = dict()
@@ -193,7 +193,7 @@ for bib_item in tqdm.tqdm(bib_items):
     if venue_id not in publications_per_venue:
         publications_per_venue[venue_id] = 0
     publications_per_venue[venue_id] += 1
-    primaryElectronicEdition = list(paper_graph.objects(None, primaryElectronicEdition_ref))[0]
+    primaryDocumentPage = list(paper_graph.objects(None, primaryDocumentPage_ref))[0]
     entry['title'] = title
     entry['anchor'] = bib_item.key.replace('/', '_')
     entry['scholar'] = "https://scholar.google.com/scholar?q={}".format(title.replace(' ', '+'))
@@ -213,14 +213,14 @@ for bib_item in tqdm.tqdm(bib_items):
         disassembled = urllib.parse.urlparse(author_uri)
         if str(disassembled.path) not in authors_per_year[yearOfPublication]:
             authors_per_year[yearOfPublication].add(str(disassembled.path))
-        author_file = join(cache_dir, basename(disassembled.path).replace(':','_') + ".rdf")
+        author_file = join(cache_dir, '_'.join(disassembled.path.split('/')[-2:]) + ".rdf")
         if not os.path.isfile(author_file):
             urllib.request.urlretrieve(author_uri + ".rdf", author_file)
         with open(author_file) as f:
             author_data = f.read()
         author_graph = rdflib.Graph()
         author_graph.parse(data=author_data, format='xml')
-        name = list(author_graph.objects(None, primaryFullPersonName_ref))[0]
+        name = list(author_graph.objects(None, primaryPersonName_ref))[0]
         authors.append(name.toPython())
         if str(disassembled.path) not in publications_per_author:
             publications_per_author[str(disassembled.path)] = (name, 0)
@@ -242,7 +242,7 @@ for bib_item in tqdm.tqdm(bib_items):
     entry['venue'] = venue_id
     entry['venue_details'] = venue_details
     entry['year'] = yearOfPublication
-    entry['url'] = primaryElectronicEdition
+    entry['url'] = primaryDocumentPage
 
     for tool in tools_data:
         if tool['dblp'] == bib_item.key:
@@ -288,7 +288,7 @@ top_authors_last_years = []
 for id in top_authors_last_years_ids:
     top_authors_last_years.append(publications_per_author_last_years[id])
 
-with open('top_authors_last_years.csv', 'w', newline='') as csvfile:
+with open('top_authors_last_years.csv', 'w', newline='', encoding='utf-8') as csvfile:
     spamwriter = csv.writer(csvfile)
     for (author, num_publications) in top_authors_last_years:
         spamwriter.writerow([author, num_publications])

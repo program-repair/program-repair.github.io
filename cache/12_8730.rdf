@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:bf="http://id.loc.gov/ontologies/bibframe/" xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:bibtex="http://purl.org/net/nknouf/ns/bibtex#" xmlns:cito="http://purl.org/spar/cito/" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dbo="http://dbpedia.org/ontology/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dct="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:litre="http://purl.org/spar/literal/" xmlns:locid="http://id.loc.gov/vocabulary/identifiers/" xmlns:locrel="http://id.loc.gov/vocabulary/relators/" xmlns:schema="https://schema.org/" xmlns:wd="http://www.wikidata.org/entity/" xmlns:wdt="http://www.wikidata.org/prop/direct/" xmlns:dblp="https://dblp.org/rdf/schema#">
+<dblp:Person rdf:about="https://dblp.org/pid/12/8730">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
+<rdfs:label>Etienne Kneuss</rdfs:label>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>12/8730</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<dblp:primaryCreatorName>Etienne Kneuss</dblp:primaryCreatorName>
+<dblp:creatorName>Etienne Kneuss</dblp:creatorName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/KoukoutosRKK17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/phd/ch/Kneuss16" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/KoukoutosKK16" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/cav/KneussKK15" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/pldi/VoirolKK15" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ecoop/BlancKKS13" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/oopsla/KneussKKS13" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/rv/KuncakKS13" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/vstte/KneussKS13" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-1304-5661" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/rv/KneussSK10" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sigsoft/KneussSK10" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/37/8883" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/165/2363" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/k/ViktorKuncak" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/129/1282" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/03/10548" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/21/7729" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/164/1429" />
+</dblp:Person>
+<rdf:Description rdf:about="https://dblp.org/pid/12/8730.rdf">
+<rdfs:label>provenance information for RDF data of dblp person &apos;12/8730&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2022-08-04T10:35:12+0200</dct:modified>
+</rdf:Description>
+</rdf:RDF>

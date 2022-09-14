@@ -26,28 +26,40 @@
 <dblp:authoredBy rdf:resource="https://dblp.org/pid/77/9770" />
 <dblp:authoredBy rdf:resource="https://dblp.org/pid/c/WeiNganChin" />
 <dblp:numberOfCreators rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</dblp:numberOfCreators>
-<dblp:orderedCreators>
-<rdf:List>
-<rdf:first rdf:resource="https://dblp.org/pid/207/0921" />
-<rdf:rest>
-<rdf:List>
-<rdf:first rdf:resource="https://dblp.org/pid/134/3046" />
-<rdf:rest>
-<rdf:List>
-<rdf:first rdf:resource="https://dblp.org/pid/77/9770" />
-<rdf:rest>
-<rdf:List>
-<rdf:first rdf:resource="https://dblp.org/pid/c/WeiNganChin" />
-<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil" />
-</rdf:List>
-</rdf:rest>
-</rdf:List>
-</rdf:rest>
-</rdf:List>
-</rdf:rest>
-</rdf:List>
-</dblp:orderedCreators>
-<dblp:primaryElectronicEdition rdf:resource="https://doi.org/10.1007/978-3-030-67067-2_17" />
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Thanh-Toan Nguyen</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/207/0921" />
+<dblp:signatureOrdinal>1</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/conf/vmcai/NguyenTSC21" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Quang-Trung Ta</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/134/3046" />
+<dblp:signatureOrdinal>2</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/conf/vmcai/NguyenTSC21" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Ilya Sergey</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/77/9770" />
+<dblp:signatureOrdinal>3</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/conf/vmcai/NguyenTSC21" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Wei-Ngan Chin</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/c/WeiNganChin" />
+<dblp:signatureOrdinal>4</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/conf/vmcai/NguyenTSC21" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:primaryDocumentPage rdf:resource="https://doi.org/10.1007/978-3-030-67067-2_17" />
+<dblp:documentPage rdf:resource="https://doi.org/10.1007/978-3-030-67067-2_17" />
 <dblp:listedOnTocPage rdf:resource="https://dblp.org/db/conf/vmcai/vmcai2021" />
 <dblp:pagination>376-400</dblp:pagination>
 <dblp:publishedIn>VMCAI</dblp:publishedIn>

@@ -1,4 +1,4 @@
-# program-repair.org #
+# program-repair.org [![build](https://github.com/program-repair/program-repair.github.io/actions/workflows/build.yml/badge.svg)](https://github.com/program-repair/program-repair.github.io/actions/workflows/build.yml)
 
 This website is a community-driven effort to provide up-to-date automated program repair bibliography, and links to publicly available tools and benchmarks.
 
@@ -30,9 +30,10 @@ To submit a new publication via GitHub issues, please provide its DBLP key. To g
 The website is automatically generated from data in the `data` directory. The HTML pages are rendered from the templates in `templates` directory.
 
 To update information on the website:
+1. Modify files in the `data` directory.
+2. Commit changes and create a pull request.
 
+If you want to verify your modifications locally:
 1. Install Python 3 and dependencies (e.g. `pip3 install -r requirements.txt`).
-2. Modify files in the `data` directory.
-3. Run build script (e.g. `python3 build.py`).
-4. Open `index.html` in your browser to verify your modifications.
-5. Commit changes and create a pull request.
+2. Run build script (e.g. `python3 build.py`).
+3. Open `index.html` in your browser to verify your modifications.

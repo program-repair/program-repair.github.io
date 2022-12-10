@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:bf="http://id.loc.gov/ontologies/bibframe/" xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:bibtex="http://purl.org/net/nknouf/ns/bibtex#" xmlns:cito="http://purl.org/spar/cito/" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dbo="http://dbpedia.org/ontology/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dct="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:litre="http://purl.org/spar/literal/" xmlns:locid="http://id.loc.gov/vocabulary/identifiers/" xmlns:locrel="http://id.loc.gov/vocabulary/relators/" xmlns:schema="https://schema.org/" xmlns:wd="http://www.wikidata.org/entity/" xmlns:wdt="http://www.wikidata.org/prop/direct/" xmlns:dblp="https://dblp.org/rdf/schema#">
+<dblp:Inproceedings rdf:about="https://dblp.org/rec/conf/fairware-ws/ZhangBMR22">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Publication" />
+<rdfs:label>Jiang Zhang et al.: Fair Decision Making via Automated Repair of Decision Trees. (2022)</rdfs:label>
+<datacite:hasIdentifier>
+<datacite:ResourceIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp-record" />
+<litre:hasLiteralValue>conf/fairware-ws/ZhangBMR22</litre:hasLiteralValue>
+</datacite:ResourceIdentifier>
+</datacite:hasIdentifier>
+<dblp:title>Fair Decision Making via Automated Repair of Decision Trees.</dblp:title>
+<dblp:bibtexType rdf:resource="http://purl.org/net/nknouf/ns/bibtex#Inproceedings" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/94/2739" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/98/5324" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/167/0202" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/04/5884" />
+<dblp:numberOfCreators rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</dblp:numberOfCreators>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Jiang Zhang</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/94/2739" />
+<dblp:signatureOrdinal>1</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/conf/fairware-ws/ZhangBMR22" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Ivan Beschastnikh</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/98/5324" />
+<dblp:signatureOrdinal>2</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/conf/fairware-ws/ZhangBMR22" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Sergey Mechtaev</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/167/0202" />
+<dblp:signatureOrdinal>3</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/conf/fairware-ws/ZhangBMR22" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Abhik Roychoudhury</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/04/5884" />
+<dblp:signatureOrdinal>4</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/conf/fairware-ws/ZhangBMR22" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:primaryDocumentPage rdf:resource="https://ieeexplore.ieee.org/document/9853586" />
+<dblp:documentPage rdf:resource="https://ieeexplore.ieee.org/document/9853586" />
+<dblp:listedOnTocPage rdf:resource="https://dblp.org/db/conf/fairware-ws/fairware2022" />
+<dblp:pagination>9-16</dblp:pagination>
+<dblp:publishedIn>FairWare@ICSE</dblp:publishedIn>
+<dblp:publishedInBook>FairWare@ICSE</dblp:publishedInBook>
+<dblp:yearOfEvent>2022</dblp:yearOfEvent>
+<dblp:yearOfPublication>2022</dblp:yearOfPublication>
+<dblp:publishedAsPartOf rdf:resource="https://dblp.org/rec/conf/fairware-ws/2022" />
+</dblp:Inproceedings>
+<rdf:Description rdf:about="https://dblp.org/rec/conf/fairware-ws/ZhangBMR22.rdf">
+<rdfs:label>provenance information for RDF data of dblp record &apos;conf/fairware-ws/ZhangBMR22&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2022-08-26T16:30:18+0200</dct:modified>
+</rdf:Description>
+</rdf:RDF>

@@ -57,7 +57,7 @@ publications_per_venue = dict()
 # author_id -> (name, num)
 publications_per_author = dict()
 
-NUM_LAST_YEARS_PER_AUTHOR=4
+NUM_LAST_YEARS_PER_AUTHOR=3
 # author_id -> (name, num)
 publications_per_author_last_years = dict()
 

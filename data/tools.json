@@ -2,7 +2,7 @@
 	{
 		"name": "CPR",
 		"description": "detecting and discarding over-fitting patches via systematic co-exploration of the patch space and input space",
-		"url": "cpr-tool.github.io",
+		"url": "https://cpr-tool.github.io",
 		"repo": "https://github.com/rshariffdeen/cpr",
 		"target": "C/C++",
 		"dblp": "conf/pldi/ShariffdeenNGR21"

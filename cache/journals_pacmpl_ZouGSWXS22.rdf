@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:bf="http://id.loc.gov/ontologies/bibframe/" xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:bibtex="http://purl.org/net/nknouf/ns/bibtex#" xmlns:cito="http://purl.org/spar/cito/" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dbo="http://dbpedia.org/ontology/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dct="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:litre="http://purl.org/spar/literal/" xmlns:locid="http://id.loc.gov/vocabulary/identifiers/" xmlns:locrel="http://id.loc.gov/vocabulary/relators/" xmlns:schema="https://schema.org/" xmlns:wd="http://www.wikidata.org/entity/" xmlns:wdt="http://www.wikidata.org/prop/direct/" xmlns:dblp="https://dblp.org/rdf/schema#">
+<dblp:Article rdf:about="https://dblp.org/rec/journals/pacmpl/ZouGSWXS22">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Publication" />
+<owl:sameAs rdf:resource="https://doi.org/10.1145/3563322" />
+<owl:sameAs rdf:resource="http://dx.doi.org/10.1145/3563322" />
+<rdfs:label>Daming Zou et al.: Oracle-free repair synthesis for floating-point programs. (2022)</rdfs:label>
+<dblp:doi rdf:resource="https://doi.org/10.1145/3563322" />
+<dblp:doi rdf:resource="http://dx.doi.org/10.1145/3563322" />
+<datacite:hasIdentifier>
+<datacite:ResourceIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp-record" />
+<litre:hasLiteralValue>journals/pacmpl/ZouGSWXS22</litre:hasLiteralValue>
+</datacite:ResourceIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:ResourceIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/doi" />
+<litre:hasLiteralValue>10.1145/3563322</litre:hasLiteralValue>
+</datacite:ResourceIdentifier>
+</datacite:hasIdentifier>
+<dblp:title>Oracle-free repair synthesis for floating-point programs.</dblp:title>
+<dblp:bibtexType rdf:resource="http://purl.org/net/nknouf/ns/bibtex#Article" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/167/0212" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/262/8056" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/270/7914" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/64/9796" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/82/2673" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/s/ZhendongSu" />
+<dblp:numberOfCreators rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</dblp:numberOfCreators>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Daming Zou</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/167/0212" />
+<dblp:signatureOrcid rdf:resource="https://orcid.org/0000-0001-9562-6492" />
+<dblp:signatureOrdinal>1</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/journals/pacmpl/ZouGSWXS22" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Yuchen Gu</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/262/8056" />
+<dblp:signatureOrcid rdf:resource="https://orcid.org/0000-0001-5805-2901" />
+<dblp:signatureOrdinal>2</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/journals/pacmpl/ZouGSWXS22" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Yuanfeng Shi</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/270/7914" />
+<dblp:signatureOrcid rdf:resource="https://orcid.org/0000-0002-3189-2713" />
+<dblp:signatureOrdinal>3</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/journals/pacmpl/ZouGSWXS22" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Mingzhe Wang</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/64/9796" />
+<dblp:signatureOrcid rdf:resource="https://orcid.org/0000-0003-4405-1494" />
+<dblp:signatureOrdinal>4</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/journals/pacmpl/ZouGSWXS22" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Yingfei Xiong 0001</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/82/2673" />
+<dblp:signatureOrcid rdf:resource="https://orcid.org/0000-0001-8991-747X" />
+<dblp:signatureOrdinal>5</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/journals/pacmpl/ZouGSWXS22" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Zhendong Su 0001</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/s/ZhendongSu" />
+<dblp:signatureOrcid rdf:resource="https://orcid.org/0000-0002-2970-1391" />
+<dblp:signatureOrdinal>6</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/journals/pacmpl/ZouGSWXS22" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:primaryDocumentPage rdf:resource="https://doi.org/10.1145/3563322" />
+<dblp:documentPage rdf:resource="https://doi.org/10.1145/3563322" />
+<dblp:listedOnTocPage rdf:resource="https://dblp.org/db/journals/pacmpl/pacmpl6" />
+<dblp:pagination>957-985</dblp:pagination>
+<dblp:publishedIn>Proc. ACM Program. Lang.</dblp:publishedIn>
+<dblp:publishedInJournal>Proc. ACM Program. Lang.</dblp:publishedInJournal>
+<dblp:publishedInJournalVolume>6</dblp:publishedInJournalVolume>
+<dblp:publishedInJournalVolumeIssue>OOPSLA2</dblp:publishedInJournalVolumeIssue>
+<dblp:yearOfPublication>2022</dblp:yearOfPublication>
+</dblp:Article>
+<rdf:Description rdf:about="https://dblp.org/rec/journals/pacmpl/ZouGSWXS22.rdf">
+<rdfs:label>provenance information for RDF data of dblp record &apos;journals/pacmpl/ZouGSWXS22&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2022-12-05T13:35:13+0100</dct:modified>
+</rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:bf="http://id.loc.gov/ontologies/bibframe/" xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:bibtex="http://purl.org/net/nknouf/ns/bibtex#" xmlns:cito="http://purl.org/spar/cito/" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dbo="http://dbpedia.org/ontology/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dct="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:litre="http://purl.org/spar/literal/" xmlns:locid="http://id.loc.gov/vocabulary/identifiers/" xmlns:locrel="http://id.loc.gov/vocabulary/relators/" xmlns:schema="https://schema.org/" xmlns:wd="http://www.wikidata.org/entity/" xmlns:wdt="http://www.wikidata.org/prop/direct/" xmlns:dblp="https://dblp.org/rdf/schema#">
+<dblp:Article rdf:about="https://dblp.org/rec/journals/tosem/AhmedFYAR22">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Publication" />
+<owl:sameAs rdf:resource="https://doi.org/10.1145/3510418" />
+<owl:sameAs rdf:resource="http://dx.doi.org/10.1145/3510418" />
+<rdfs:label>Umair Z. Ahmed et al.: Verifix: Verified Repair of Programming Assignments. (2022)</rdfs:label>
+<dblp:doi rdf:resource="https://doi.org/10.1145/3510418" />
+<dblp:doi rdf:resource="http://dx.doi.org/10.1145/3510418" />
+<datacite:hasIdentifier>
+<datacite:ResourceIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp-record" />
+<litre:hasLiteralValue>journals/tosem/AhmedFYAR22</litre:hasLiteralValue>
+</datacite:ResourceIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:ResourceIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/doi" />
+<litre:hasLiteralValue>10.1145/3510418</litre:hasLiteralValue>
+</datacite:ResourceIdentifier>
+</datacite:hasIdentifier>
+<dblp:title>Verifix: Verified Repair of Programming Assignments.</dblp:title>
+<dblp:bibtexType rdf:resource="http://purl.org/net/nknouf/ns/bibtex#Article" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/18/11031" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/158/8687" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/121/2697" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/27/8038" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/04/5884" />
+<dblp:numberOfCreators rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</dblp:numberOfCreators>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Umair Z. Ahmed</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/18/11031" />
+<dblp:signatureOrdinal>1</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/journals/tosem/AhmedFYAR22" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Zhiyu Fan</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/158/8687" />
+<dblp:signatureOrdinal>2</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/journals/tosem/AhmedFYAR22" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Jooyong Yi</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/121/2697" />
+<dblp:signatureOrcid rdf:resource="https://orcid.org/0000-0002-7215-0855" />
+<dblp:signatureOrdinal>3</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/journals/tosem/AhmedFYAR22" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Omar I. Al-Bataineh</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/27/8038" />
+<dblp:signatureOrdinal>4</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/journals/tosem/AhmedFYAR22" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Abhik Roychoudhury</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/04/5884" />
+<dblp:signatureOrcid rdf:resource="https://orcid.org/0000-0002-7127-1137" />
+<dblp:signatureOrdinal>5</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/journals/tosem/AhmedFYAR22" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:primaryDocumentPage rdf:resource="https://doi.org/10.1145/3510418" />
+<dblp:documentPage rdf:resource="https://doi.org/10.1145/3510418" />
+<dblp:listedOnTocPage rdf:resource="https://dblp.org/db/journals/tosem/tosem31" />
+<dblp:pagination>74:1-74:31</dblp:pagination>
+<dblp:publishedIn>ACM Trans. Softw. Eng. Methodol.</dblp:publishedIn>
+<dblp:publishedInJournal>ACM Trans. Softw. Eng. Methodol.</dblp:publishedInJournal>
+<dblp:publishedInJournalVolume>31</dblp:publishedInJournalVolume>
+<dblp:publishedInJournalVolumeIssue>4</dblp:publishedInJournalVolumeIssue>
+<dblp:yearOfPublication>2022</dblp:yearOfPublication>
+</dblp:Article>
+<rdf:Description rdf:about="https://dblp.org/rec/journals/tosem/AhmedFYAR22.rdf">
+<rdfs:label>provenance information for RDF data of dblp record &apos;journals/tosem/AhmedFYAR22&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2022-10-18T22:18:46+0200</dct:modified>
+</rdf:Description>
+</rdf:RDF>

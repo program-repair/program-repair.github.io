@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:bf="http://id.loc.gov/ontologies/bibframe/" xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:bibtex="http://purl.org/net/nknouf/ns/bibtex#" xmlns:cito="http://purl.org/spar/cito/" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dbo="http://dbpedia.org/ontology/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dct="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:litre="http://purl.org/spar/literal/" xmlns:locid="http://id.loc.gov/vocabulary/identifiers/" xmlns:locrel="http://id.loc.gov/vocabulary/relators/" xmlns:schema="https://schema.org/" xmlns:wd="http://www.wikidata.org/entity/" xmlns:wdt="http://www.wikidata.org/prop/direct/" xmlns:dblp="https://dblp.org/rdf/schema#">
+<dblp:Person rdf:about="https://dblp.org/pid/54/10407">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
+<rdfs:label>Kazuki Munakata</rdfs:label>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>54/10407</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<dblp:primaryCreatorName>Kazuki Munakata</dblp:primaryCreatorName>
+<dblp:creatorName>Kazuki Munakata</dblp:creatorName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/wcre/TokuiTYINMK22" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2203-00191" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2207-05902" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2110-01710" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2110-08512" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/seke/NakagawaTMY20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icsm/HosonoTMWHNSFMN19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/issre/NakagawaMY19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/software/YoshidaLKGRTMU17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/iwesep/ChiHWFMMUY17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/issre/HondaWFMMUY15" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/issta/MunakataTU13" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/apsec/TokumotoUMIEB12" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/apsec/MunakataFTU12" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/isse/FujiwaraMMKU11" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/127/0661" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/79/3898" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/79/496" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/199/8921" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/59/858" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/32/10407" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/95/4020" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/205/8742" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/46/6731" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/72/2302" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/241/8180" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/127/0735" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/03/2671" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/206/8963" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/42/10407" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/28/4909" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/90/5687" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/21/2715" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/20/10407" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/m/TimMenzies" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/197/4443" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/20/6837" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/175/2225" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/262/6149" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/254/7677" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/97/9814" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/17/7824" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/21/4708" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/222/2960" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/166/4289" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/254/7658" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/242/1948" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/121/0551" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/36/6593" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/130/9842" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/65/3507" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/43/3378" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/03/6049" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/32/1106" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/46/4605" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/24/9587" />
+</dblp:Person>
+<rdf:Description rdf:about="https://dblp.org/pid/54/10407.rdf">
+<rdfs:label>provenance information for RDF data of dblp person &apos;54/10407&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2022-07-27T23:45:53+0200</dct:modified>
+</rdf:Description>
+</rdf:RDF>

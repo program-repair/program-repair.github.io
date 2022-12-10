@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:bf="http://id.loc.gov/ontologies/bibframe/" xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:bibtex="http://purl.org/net/nknouf/ns/bibtex#" xmlns:cito="http://purl.org/spar/cito/" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dbo="http://dbpedia.org/ontology/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dct="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:litre="http://purl.org/spar/literal/" xmlns:locid="http://id.loc.gov/vocabulary/identifiers/" xmlns:locrel="http://id.loc.gov/vocabulary/relators/" xmlns:schema="https://schema.org/" xmlns:wd="http://www.wikidata.org/entity/" xmlns:wdt="http://www.wikidata.org/prop/direct/" xmlns:dblp="https://dblp.org/rdf/schema#">
+<dblp:Person rdf:about="https://dblp.org/pid/332/5784">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
+<rdfs:label>Abdurahman Atakishiyev</rdfs:label>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>332/5784</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<dblp:primaryCreatorName>Abdurahman Atakishiyev</dblp:primaryCreatorName>
+<dblp:creatorName>Abdurahman Atakishiyev</dblp:creatorName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sigsoft/WinterNBCHHWKWM22" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/39/7630" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/93/6557" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/69/3214" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/332/6529" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/32/4511" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/60/305" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/295/7759" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/223/9468" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/58/10309" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/295/7733" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/227/5399" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/47/2379" />
+</dblp:Person>
+<rdf:Description rdf:about="https://dblp.org/pid/332/5784.rdf">
+<rdfs:label>provenance information for RDF data of dblp person &apos;332/5784&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2022-11-12T01:27:03+0100</dct:modified>
+</rdf:Description>
+</rdf:RDF>

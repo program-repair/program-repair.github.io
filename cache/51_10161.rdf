@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:bf="http://id.loc.gov/ontologies/bibframe/" xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:bibtex="http://purl.org/net/nknouf/ns/bibtex#" xmlns:cito="http://purl.org/spar/cito/" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dbo="http://dbpedia.org/ontology/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dct="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:litre="http://purl.org/spar/literal/" xmlns:locid="http://id.loc.gov/vocabulary/identifiers/" xmlns:locrel="http://id.loc.gov/vocabulary/relators/" xmlns:schema="https://schema.org/" xmlns:wd="http://www.wikidata.org/entity/" xmlns:wdt="http://www.wikidata.org/prop/direct/" xmlns:dblp="https://dblp.org/rdf/schema#">
+<dblp:Person rdf:about="https://dblp.org/pid/51/10161">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
+<rdfs:label>Francisco Ribeiro</rdfs:label>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>51/10161</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<dblp:primaryCreatorName>Francisco Ribeiro</dblp:primaryCreatorName>
+<dblp:creatorName>Francisco Ribeiro</dblp:creatorName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse-apr/Ribeiro0S22" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/scp/PereiraCRRCFS21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/qrs/RibeiroAS21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sblp/RibeiroSP19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/IEEEcloud/FerrazRLS18" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sqamia/Pereira0RRS18" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sblp/0001PRRS17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sle/Pereira0RRCFS17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/lanoms/LimaRMCASM05" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/00/6243" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/59/3038" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/48/91" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/91/4569-1" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/44/1499" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/94/5770" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/226/3785" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/65/3690" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/226/3845" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/94/10160" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/91/6974" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/25/2955" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/32/6005" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/207/2335" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/226/3812" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/97/3668" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/02/4334" />
+</dblp:Person>
+<rdf:Description rdf:about="https://dblp.org/pid/51/10161.rdf">
+<rdfs:label>provenance information for RDF data of dblp person &apos;51/10161&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2022-10-04T23:07:52+0200</dct:modified>
+</rdf:Description>
+</rdf:RDF>

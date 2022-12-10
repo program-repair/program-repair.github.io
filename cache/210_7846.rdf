@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:bf="http://id.loc.gov/ontologies/bibframe/" xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:bibtex="http://purl.org/net/nknouf/ns/bibtex#" xmlns:cito="http://purl.org/spar/cito/" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dbo="http://dbpedia.org/ontology/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dct="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:litre="http://purl.org/spar/literal/" xmlns:locid="http://id.loc.gov/vocabulary/identifiers/" xmlns:locrel="http://id.loc.gov/vocabulary/relators/" xmlns:schema="https://schema.org/" xmlns:wd="http://www.wikidata.org/entity/" xmlns:wdt="http://www.wikidata.org/prop/direct/" xmlns:dblp="https://dblp.org/rdf/schema#">
+<dblp:Person rdf:about="https://dblp.org/pid/210/7846">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
+<rdfs:label>Nathan Cooper</rdfs:label>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>210/7846</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<dblp:primaryCreatorName>Nathan Cooper</dblp:primaryCreatorName>
+<dblp:creatorName>Nathan Cooper</dblp:creatorName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/tosem/WatsonCNMP22" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sp/AmiCKMPN22" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/wcre/ConnorHCP22" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2206-08574" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/HavranekBCCPM21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/CooperBCMP21a" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/MastropaoloSCNP21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/CooperBCMP21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/msr/CiniselliCPPPB21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2101-09194" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2102-02017" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2103-04531" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2103-07115" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2107-07065" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2108-01585" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/Bernal-Cardenas20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/iros/SchafferWCLTAW20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2005-09057" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2009-06520" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/ethicsit/CooperST14" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/200/9157" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/165/7553" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/186/6501" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/09/8523" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/133/8133" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/123/7738" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/288/0264" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/325/0719" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/158/9162" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/287/4336" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/222/2853" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/50/3402" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/m/AndrianMarcus" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/132/9621" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/151/7453" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/222/6190" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/136/8334" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/18/6986" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/202/1470" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/d/MassimilianoDiPenta" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/02/320" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/183/2560" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/255/8486" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/02/756" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/285/2962" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/210/8150" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/32/358" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/201/7334" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/244/2631" />
+</dblp:Person>
+<rdf:Description rdf:about="https://dblp.org/pid/210/7846.rdf">
+<rdfs:label>provenance information for RDF data of dblp person &apos;210/7846&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2022-12-08T22:07:00+0100</dct:modified>
+</rdf:Description>
+</rdf:RDF>

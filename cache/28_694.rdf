@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:bf="http://id.loc.gov/ontologies/bibframe/" xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:bibtex="http://purl.org/net/nknouf/ns/bibtex#" xmlns:cito="http://purl.org/spar/cito/" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dbo="http://dbpedia.org/ontology/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dct="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:litre="http://purl.org/spar/literal/" xmlns:locid="http://id.loc.gov/vocabulary/identifiers/" xmlns:locrel="http://id.loc.gov/vocabulary/relators/" xmlns:schema="https://schema.org/" xmlns:wd="http://www.wikidata.org/entity/" xmlns:wdt="http://www.wikidata.org/prop/direct/" xmlns:dblp="https://dblp.org/rdf/schema#">
+<dblp:AmbiguousCreator rdf:about="https://dblp.org/pid/28/694">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
+<rdfs:label>Wonseok Oh</rdfs:label>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>28/694</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<dblp:primaryCreatorName>Wonseok Oh</dblp:primaryCreatorName>
+<dblp:creatorName>Wonseok Oh</dblp:creatorName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sigsoft/OhO22" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icit2/ChoOOI18" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icit2/OhCIK18" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/ieiceee/OhKN13" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/jais/YangKOK13" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/ieiceee/OhN11" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/ieiceee/OhNK09" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/jcisd/KimCOLLJN09" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/jcisd/OhKJCN08" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/jcisd/JungKKCCOKN08" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/bmcsb/HanOJKN07" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/iam/OkoliO07" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/hicss/Oh05" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/ijecommerce/Oh02" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/140/9713" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/166/3469" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/140/9945" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/140/6623" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/244/5740" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/123/5855" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/145/6883" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/34/4450" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/140/6997" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/66/4686" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/207/7324-6" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/61/4563" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/140/9743" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/67/8507" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/51/8787" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/79/11468" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/145/6844" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/90/2774" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/13/7537" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/244/5793" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/32/3220" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/56/6835" />
+<dblp:possibleActualCreator rdf:resource="https://dblp.org/pid/28/694-1" />
+<dblp:possibleActualCreator rdf:resource="https://dblp.org/pid/28/694-2" />
+<dblp:possibleActualCreator rdf:resource="https://dblp.org/pid/28/694-3" />
+</dblp:AmbiguousCreator>
+<rdf:Description rdf:about="https://dblp.org/pid/28/694.rdf">
+<rdfs:label>provenance information for RDF data of dblp person &apos;28/694&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2022-11-12T01:45:32+0100</dct:modified>
+</rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:bf="http://id.loc.gov/ontologies/bibframe/" xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:bibtex="http://purl.org/net/nknouf/ns/bibtex#" xmlns:cito="http://purl.org/spar/cito/" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dbo="http://dbpedia.org/ontology/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dct="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:litre="http://purl.org/spar/literal/" xmlns:locid="http://id.loc.gov/vocabulary/identifiers/" xmlns:locrel="http://id.loc.gov/vocabulary/relators/" xmlns:schema="https://schema.org/" xmlns:wd="http://www.wikidata.org/entity/" xmlns:wdt="http://www.wikidata.org/prop/direct/" xmlns:dblp="https://dblp.org/rdf/schema#">
+<dblp:Person rdf:about="https://dblp.org/pid/204/3711">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
+<rdfs:label>Jos&#233; Cambronero</rdfs:label>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>204/3711</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/google-scholar" />
+<litre:hasLiteralValue>yaQYc_wAAAAJ</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<dblp:primaryCreatorName>Jos&#233; Cambronero</dblp:primaryCreatorName>
+<dblp:creatorName>Jos&#233; Cambronero</dblp:creatorName>
+<dblp:creatorName>Jos&#233; Pablo Cambronero</dblp:creatorName>
+<dblp:creatorName>Jos&#233; Pablo Cambronero S&#225;nchez</dblp:creatorName>
+<dblp:primaryHomepage rdf:resource="https://www.josecambronero.com/" />
+<dblp:homepage rdf:resource="https://www.josecambronero.com/" />
+<dblp:webpage rdf:resource="https://scholar.google.com/citations?user=yaQYc_wAAAAJ" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/pacmpl/BavishiJCFGLRT22" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2205-00618" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2207-11765" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2208-06032" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2208-11640" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2209-14876" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/phd/us/Sanchez21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/pvldb/ZogajCRC21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2104-09669" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2110-05638" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sigsoft/CambroneroCR20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/pacmpl/CambroneroR19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/oopsla/CambroneroDV0WR19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sigsoft/CambroneroLKS019" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/vl/Cambronero0CGR19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-1905-03813" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-1907-06535" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-1803-08420" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/pvldb/CambroneroFSM17" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/187/9669" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/c/SatishChandra" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/150/6416" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/139/6635" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/29/11192" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/163/3156" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/118/6231" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/g/SumitGulwani" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/278/8163" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/184/0314-1" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/00/2651-2" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/47/5535" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/72/2639" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/m/SamuelMadden" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/276/1629" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/p/RuzicaPiskac" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/143/7369" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/12/6960" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/r/MartinCRinard" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/141/0429" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/04/418" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/160/0554" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/291/1609" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/213/1802" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/66/9641" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/72/4861" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/177/9377" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/t/AshishTiwari" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/70/2619" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/211/8137" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/220/3931" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/128/6903" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/38/1392-2" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/163/2100" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/300/4421" />
+</dblp:Person>
+<rdf:Description rdf:about="https://dblp.org/pid/204/3711.rdf">
+<rdfs:label>provenance information for RDF data of dblp person &apos;204/3711&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2022-12-06T21:58:44+0100</dct:modified>
+</rdf:Description>
+</rdf:RDF>

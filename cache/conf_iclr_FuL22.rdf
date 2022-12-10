@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:bf="http://id.loc.gov/ontologies/bibframe/" xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:bibtex="http://purl.org/net/nknouf/ns/bibtex#" xmlns:cito="http://purl.org/spar/cito/" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dbo="http://dbpedia.org/ontology/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dct="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:litre="http://purl.org/spar/literal/" xmlns:locid="http://id.loc.gov/vocabulary/identifiers/" xmlns:locrel="http://id.loc.gov/vocabulary/relators/" xmlns:schema="https://schema.org/" xmlns:wd="http://www.wikidata.org/entity/" xmlns:wdt="http://www.wikidata.org/prop/direct/" xmlns:dblp="https://dblp.org/rdf/schema#">
+<dblp:Inproceedings rdf:about="https://dblp.org/rec/conf/iclr/FuL22">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Publication" />
+<rdfs:label>Feisi Fu and Wenchao Li: Sound and Complete Neural Network Repair with Minimality and Locality Guarantees. (2022)</rdfs:label>
+<datacite:hasIdentifier>
+<datacite:ResourceIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp-record" />
+<litre:hasLiteralValue>conf/iclr/FuL22</litre:hasLiteralValue>
+</datacite:ResourceIdentifier>
+</datacite:hasIdentifier>
+<dblp:title>Sound and Complete Neural Network Repair with Minimality and Locality Guarantees.</dblp:title>
+<dblp:bibtexType rdf:resource="http://purl.org/net/nknouf/ns/bibtex#Inproceedings" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/304/3147" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/23/5721-1" />
+<dblp:numberOfCreators rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</dblp:numberOfCreators>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Feisi Fu</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/304/3147" />
+<dblp:signatureOrdinal>1</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/conf/iclr/FuL22" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Wenchao Li 0001</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/23/5721-1" />
+<dblp:signatureOrdinal>2</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/conf/iclr/FuL22" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:primaryDocumentPage rdf:resource="https://openreview.net/forum?id=xS8AMYiEav3" />
+<dblp:documentPage rdf:resource="https://openreview.net/forum?id=xS8AMYiEav3" />
+<dblp:listedOnTocPage rdf:resource="https://dblp.org/db/conf/iclr/iclr2022" />
+<dblp:publishedIn>ICLR</dblp:publishedIn>
+<dblp:publishedInBook>ICLR</dblp:publishedInBook>
+<dblp:yearOfEvent>2022</dblp:yearOfEvent>
+<dblp:yearOfPublication>2022</dblp:yearOfPublication>
+<dblp:publishedAsPartOf rdf:resource="https://dblp.org/rec/conf/iclr/2022" />
+</dblp:Inproceedings>
+<rdf:Description rdf:about="https://dblp.org/rec/conf/iclr/FuL22.rdf">
+<rdfs:label>provenance information for RDF data of dblp record &apos;conf/iclr/FuL22&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2022-11-04T11:52:40+0100</dct:modified>
+</rdf:Description>
+</rdf:RDF>

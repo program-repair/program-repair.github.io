@@ -1,5 +1,21 @@
 [
 	{
+		"name": "Vul4J",
+		"description": "a dataset of reproducible Java vulnerabilities",
+		"url": "https://github.com/tuhh-softsec/vul4j",
+		"repo": "https://github.com/tuhh-softsec/vul4j",
+		"target": "Java",
+		"dblp": "conf/msr/BuiSF22"
+	},
+	{
+		"name": "FixJS",
+		"description": "a dataset of bug-fixing JavaScript commits",
+		"url": "https://github.com/RGAI-USZ/FixJS",
+		"repo": "https://github.com/RGAI-USZ/FixJS",
+		"target": "JavaScript",
+		"dblp": "conf/msr/CsuvikV22"
+	},
+	{
 		"name": "ITSP",
 		"description": "a parallel corpus of 661 buggy-repaired program pairs submitted by CS-1 students for 74 unique assignments spread across 10 course weeks",
 		"url": "https://github.com/jyi/ITSP#dataset-student-programs",

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:bf="http://id.loc.gov/ontologies/bibframe/" xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:bibtex="http://purl.org/net/nknouf/ns/bibtex#" xmlns:cito="http://purl.org/spar/cito/" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dbo="http://dbpedia.org/ontology/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dct="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:litre="http://purl.org/spar/literal/" xmlns:locid="http://id.loc.gov/vocabulary/identifiers/" xmlns:locrel="http://id.loc.gov/vocabulary/relators/" xmlns:schema="https://schema.org/" xmlns:wd="http://www.wikidata.org/entity/" xmlns:wdt="http://www.wikidata.org/prop/direct/" xmlns:dblp="https://dblp.org/rdf/schema#">
+<dblp:Person rdf:about="https://dblp.org/pid/181/7780">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
+<rdfs:label>Hohyeon Jeong</rdfs:label>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>181/7780</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<dblp:primaryCreatorName>Hohyeon Jeong</dblp:primaryCreatorName>
+<dblp:creatorName>Hohyeon Jeong</dblp:creatorName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sigsoft/KimKJHKCL22" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/jise/JangLJJL20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/tits/ShenLJJLD18" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sac/KimJL17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/tvt/JeongJLOD16" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/fcc/JeongLJL14" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/332/6399" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/d/DHCDu" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/197/9144" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/221/5917" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/241/4772" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/23/6885" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/00/10823" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/221/1657" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/142/0292" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/219/4400" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/16/3590" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/62/757" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/40/3016" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/241/4770" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/198/2158" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/147/1381" />
+</dblp:Person>
+<rdf:Description rdf:about="https://dblp.org/pid/181/7780.rdf">
+<rdfs:label>provenance information for RDF data of dblp person &apos;181/7780&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2022-11-12T01:43:45+0100</dct:modified>
+</rdf:Description>
+</rdf:RDF>

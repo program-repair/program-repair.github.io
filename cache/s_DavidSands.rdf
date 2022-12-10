@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:bf="http://id.loc.gov/ontologies/bibframe/" xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:bibtex="http://purl.org/net/nknouf/ns/bibtex#" xmlns:cito="http://purl.org/spar/cito/" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dbo="http://dbpedia.org/ontology/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dct="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:litre="http://purl.org/spar/literal/" xmlns:locid="http://id.loc.gov/vocabulary/identifiers/" xmlns:locrel="http://id.loc.gov/vocabulary/relators/" xmlns:schema="https://schema.org/" xmlns:wd="http://www.wikidata.org/entity/" xmlns:wdt="http://www.wikidata.org/prop/direct/" xmlns:dblp="https://dblp.org/rdf/schema#">
+<dblp:Person rdf:about="https://dblp.org/pid/s/DavidSands">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
+<owl:sameAs rdf:resource="https://orcid.org/0000-0001-6221-0503" />
+<rdfs:label>David Sands 0001</rdfs:label>
+<dblp:orcid rdf:resource="https://orcid.org/0000-0001-6221-0503" />
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>s/DavidSands</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/google-scholar" />
+<litre:hasLiteralValue>HmGjQd8AAAAJ</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/orcid" />
+<litre:hasLiteralValue>0000-0001-6221-0503</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<dblp:primaryCreatorName>David Sands</dblp:primaryCreatorName>
+<dblp:creatorName>David Sands</dblp:creatorName>
+<dblp:primaryAffiliation>Chalmers University of Technology, Gothenburg, Sweden</dblp:primaryAffiliation>
+<dblp:affiliation>Chalmers University of Technology, Gothenburg, Sweden</dblp:affiliation>
+<dblp:primaryHomepage rdf:resource="http://www.cs.chalmers.se/~dave/" />
+<dblp:homepage rdf:resource="http://www.cs.chalmers.se/~dave/" />
+<dblp:webpage rdf:resource="https://scholar.google.com/citations?user=HmGjQd8AAAAJ" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/GissurarsonAPDS22" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2211-10099" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/csfw/Hunt021" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/birthday/Hunt015" />
+<dblp:editorOf rdf:resource="https://dblp.org/rec/conf/post/2019" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/PinisettySS18" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-1801-02484" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/jcs/BrobergDS17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sec/AntignacSS17" />
+<dblp:editorOf rdf:resource="https://dblp.org/rec/conf/lpar/2017iwil" />
+<dblp:editorOf rdf:resource="https://dblp.org/rec/conf/lpar/2017" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/jpc/EbadiS16" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/csfw/TedescoSR16" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/pst/EbadiAS16" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/AntignacSS16" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/csfw/BrobergDS15" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/popl/EbadiSS15" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/post/DelftHS15" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/DelftHS15" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/BrobergDS15" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/EbadiS15" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ecoop/BrobergDS14" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/essos/TedescoRS14" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/series/natosec/DelftBS14" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/TedescoSR14" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/aplas/BrobergDS13" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/pldi/Sands13" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/stm/DelftBS12" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/csfw/MantelSS11" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/esop/HuntS11" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/iciss/TedescoHS11" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-1109-6914" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/nordsec/TedescoRS10" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/nordsec/MagaziniusPS10" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/popl/BrobergS10" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/jcs/SabelfeldS09" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ccs/PhungSC09" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/esop/DemangeS09" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ifip1-7/BrobergS09" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ifip1-7/SvenningssonS09" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/pldi/BrobergS09" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-0910-4056" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-0912-2952" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/compsac/PhungS08" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/esop/HuntS08" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/esorics/AskarovHSS08" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/csfw/HedinS06" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/esop/BrobergS06" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/popl/HuntS06" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/entcs/HedinS05" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/csfw/SabelfeldS05" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/spc/DarvasHS05" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/aplas/MantelS04" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/scp/MoranSC03" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/birthday/SandsGM02" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/papm/Sands02" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/lisp/SabelfeldS01" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icfp/GustavssonS01" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/csfw/SabelfeldS00" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/asian/ClaessenS99" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/coordination/MoranSC99" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/esop/SabelfeldS99" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/popl/MoranS99" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/entcs/GustavssonS99" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/tcs/HankinMS98" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/popl/Sands97" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/tcs/Sands96" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/logcom/Sands95" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/pepm/Sands95" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/plilp/HengleinS95" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/popl/Sands95" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/tapsoft/Sands95" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ershov/Sands93" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/parle/HankinMS93" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/lcpc/HankinMS92" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sas/HankinMS92" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/pepm/HuntS91" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/phd/ethos/Sands90" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/145/2503" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/308/8630" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/24/2197" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/55/1793" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/16/2371" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/94/3130" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/74/2610" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/75/1181" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/118/1541" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/61/4445" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/d/ArievanDeursen" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/26/7132" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/e/TEiter" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/231/5143" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/57/705" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/h/ReinerHahnle" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/h/ChrisHankin" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/37/1881" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/h/FritzHenglein" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/58/4785" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/30/7986" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/m/HeikoMantel" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/73/4987" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/07/1173" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/n/FlemmingNielson" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/90/7547" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/69/608" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/125/1160" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/48/5534" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/s/AndreiSabelfeld" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/01/1333" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/147/8375" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/43/4026" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/s/GeoffSutcliffe" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/85/6934" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/41/645" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/v/AndreiVoronkov" />
+<dblp:proxyAmbiguousCreator rdf:resource="https://dblp.org/pid/231/0300" />
+</dblp:Person>
+<rdf:Description rdf:about="https://dblp.org/pid/s/DavidSands.rdf">
+<rdfs:label>provenance information for RDF data of dblp person &apos;s/DavidSands&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2022-11-25T20:55:02+0100</dct:modified>
+</rdf:Description>
+</rdf:RDF>

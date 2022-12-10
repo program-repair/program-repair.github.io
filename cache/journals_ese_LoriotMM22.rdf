@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:bf="http://id.loc.gov/ontologies/bibframe/" xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:bibtex="http://purl.org/net/nknouf/ns/bibtex#" xmlns:cito="http://purl.org/spar/cito/" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dbo="http://dbpedia.org/ontology/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dct="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:litre="http://purl.org/spar/literal/" xmlns:locid="http://id.loc.gov/vocabulary/identifiers/" xmlns:locrel="http://id.loc.gov/vocabulary/relators/" xmlns:schema="https://schema.org/" xmlns:wd="http://www.wikidata.org/entity/" xmlns:wdt="http://www.wikidata.org/prop/direct/" xmlns:dblp="https://dblp.org/rdf/schema#">
+<dblp:Article rdf:about="https://dblp.org/rec/journals/ese/LoriotMM22">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Publication" />
+<owl:sameAs rdf:resource="https://doi.org/10.1007/s10664-021-10107-0" />
+<owl:sameAs rdf:resource="http://dx.doi.org/10.1007/s10664-021-10107-0" />
+<rdfs:label>Benjamin Loriot et al.: Styler: learning formatting conventions to repair Checkstyle violations. (2022)</rdfs:label>
+<dblp:doi rdf:resource="https://doi.org/10.1007/s10664-021-10107-0" />
+<dblp:doi rdf:resource="http://dx.doi.org/10.1007/s10664-021-10107-0" />
+<datacite:hasIdentifier>
+<datacite:ResourceIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp-record" />
+<litre:hasLiteralValue>journals/ese/LoriotMM22</litre:hasLiteralValue>
+</datacite:ResourceIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:ResourceIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/doi" />
+<litre:hasLiteralValue>10.1007/s10664-021-10107-0</litre:hasLiteralValue>
+</datacite:ResourceIdentifier>
+</datacite:hasIdentifier>
+<dblp:title>Styler: learning formatting conventions to repair Checkstyle violations.</dblp:title>
+<dblp:bibtexType rdf:resource="http://purl.org/net/nknouf/ns/bibtex#Article" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/183/1106" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/156/1916" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/62/5292" />
+<dblp:numberOfCreators rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</dblp:numberOfCreators>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Benjamin Loriot</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/183/1106" />
+<dblp:signatureOrdinal>1</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/journals/ese/LoriotMM22" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Fernanda Madeiral</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/156/1916" />
+<dblp:signatureOrcid rdf:resource="https://orcid.org/0000-0003-2048-7648" />
+<dblp:signatureOrdinal>2</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/journals/ese/LoriotMM22" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Martin Monperrus</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/62/5292" />
+<dblp:signatureOrcid rdf:resource="https://orcid.org/0000-0003-3505-3383" />
+<dblp:signatureOrdinal>3</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/journals/ese/LoriotMM22" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:primaryDocumentPage rdf:resource="https://doi.org/10.1007/s10664-021-10107-0" />
+<dblp:documentPage rdf:resource="https://doi.org/10.1007/s10664-021-10107-0" />
+<dblp:listedOnTocPage rdf:resource="https://dblp.org/db/journals/ese/ese27" />
+<dblp:pagination>149</dblp:pagination>
+<dblp:publishedIn>Empir. Softw. Eng.</dblp:publishedIn>
+<dblp:publishedInJournal>Empir. Softw. Eng.</dblp:publishedInJournal>
+<dblp:publishedInJournalVolume>27</dblp:publishedInJournalVolume>
+<dblp:publishedInJournalVolumeIssue>6</dblp:publishedInJournalVolumeIssue>
+<dblp:yearOfPublication>2022</dblp:yearOfPublication>
+</dblp:Article>
+<rdf:Description rdf:about="https://dblp.org/rec/journals/ese/LoriotMM22.rdf">
+<rdfs:label>provenance information for RDF data of dblp record &apos;journals/ese/LoriotMM22&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2022-10-24T20:51:22+0200</dct:modified>
+</rdf:Description>
+</rdf:RDF>

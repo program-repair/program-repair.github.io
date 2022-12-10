@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:bf="http://id.loc.gov/ontologies/bibframe/" xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:bibtex="http://purl.org/net/nknouf/ns/bibtex#" xmlns:cito="http://purl.org/spar/cito/" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dbo="http://dbpedia.org/ontology/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dct="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:litre="http://purl.org/spar/literal/" xmlns:locid="http://id.loc.gov/vocabulary/identifiers/" xmlns:locrel="http://id.loc.gov/vocabulary/relators/" xmlns:schema="https://schema.org/" xmlns:wd="http://www.wikidata.org/entity/" xmlns:wdt="http://www.wikidata.org/prop/direct/" xmlns:dblp="https://dblp.org/rdf/schema#">
+<dblp:Person rdf:about="https://dblp.org/pid/69/3516">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
+<owl:sameAs rdf:resource="https://orcid.org/0000-0002-4049-1954" />
+<owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q62051620" />
+<rdfs:label>Pedro Ad&#227;o</rdfs:label>
+<dblp:orcid rdf:resource="https://orcid.org/0000-0002-4049-1954" />
+<dblp:wikidata rdf:resource="https://www.wikidata.org/entity/Q62051620" />
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>69/3516</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/orcid" />
+<litre:hasLiteralValue>0000-0002-4049-1954</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:Identifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/wikidata" />
+<litre:hasLiteralValue>Q62051620</litre:hasLiteralValue>
+</datacite:Identifier>
+</datacite:hasIdentifier>
+<dblp:primaryCreatorName>Pedro Ad&#227;o</dblp:primaryCreatorName>
+<dblp:creatorName>Pedro Ad&#227;o</dblp:creatorName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/darts/MarquesS0A22" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ecoop/MarquesS0A22" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/issta/PinconschiB0AS22" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/issre/PinconschiAA21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/birthday/RibeiroAM20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/eurosys/MatosPASC18" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/csfw/AdaoFGL16" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/pr/CarvalhoAM14" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/tcs/AdaoMV14" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/csfw/AdaoBRFL14" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/SoutoMAP14" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/entropy/CarvalhoAM13" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/csfw/AdaoFL13" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/iacr/AdaoFL13" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/fsttcs/BanaAS12" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/iacr/BanaAS12" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/jcs/AdaoBHS09" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/entcs/AdaoM07" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/entcs/AdaoMRV06" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icalp/AdaoF06" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/csfw/AdaoBS05" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/esorics/AdaoBHS05" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/00/6243" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/24/3911" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/154/7950" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/287/6699" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/68/5595" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/64/2768-1" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/f/RiccardoFocardi" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/f/CedricFournet" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/91/7024" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/51/4889" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/l/FLLuccio" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/53/207" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/38/6335" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/191/4609" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/77/8922" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/143/7316" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/313/5979" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/85/34" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/203/8117" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/154/7981" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/34/1807" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/121/5552" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/07/967-1" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/82/5205" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/39/3354" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/s/AntonioRitoSilva" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/98/2804" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/93/2273" />
+</dblp:Person>
+<rdf:Description rdf:about="https://dblp.org/pid/69/3516.rdf">
+<rdfs:label>provenance information for RDF data of dblp person &apos;69/3516&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2022-10-04T22:56:25+0200</dct:modified>
+</rdf:Description>
+</rdf:RDF>

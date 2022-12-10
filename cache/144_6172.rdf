@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:bf="http://id.loc.gov/ontologies/bibframe/" xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:bibtex="http://purl.org/net/nknouf/ns/bibtex#" xmlns:cito="http://purl.org/spar/cito/" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dbo="http://dbpedia.org/ontology/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dct="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:litre="http://purl.org/spar/literal/" xmlns:locid="http://id.loc.gov/vocabulary/identifiers/" xmlns:locrel="http://id.loc.gov/vocabulary/relators/" xmlns:schema="https://schema.org/" xmlns:wd="http://www.wikidata.org/entity/" xmlns:wdt="http://www.wikidata.org/prop/direct/" xmlns:dblp="https://dblp.org/rdf/schema#">
+<dblp:Person rdf:about="https://dblp.org/pid/144/6172">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
+<owl:sameAs rdf:resource="https://orcid.org/0000-0002-0879-4015" />
+<owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q57415924" />
+<rdfs:label>Alcides Fonseca</rdfs:label>
+<dblp:orcid rdf:resource="https://orcid.org/0000-0002-0879-4015" />
+<dblp:wikidata rdf:resource="https://www.wikidata.org/entity/Q57415924" />
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>144/6172</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/orcid" />
+<litre:hasLiteralValue>0000-0002-0879-4015</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:Identifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/wikidata" />
+<litre:hasLiteralValue>Q57415924</litre:hasLiteralValue>
+</datacite:Identifier>
+</datacite:hasIdentifier>
+<dblp:primaryCreatorName>Alcides Fonseca</dblp:primaryCreatorName>
+<dblp:creatorName>Alcides Fonseca</dblp:creatorName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/gpce/EspadaICBF22" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse-apr/FonsecaO22" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2205-15211" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2210-04826" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/sqj/BarbosaFA21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sbst/SantosCTF21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2110-05444" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/gecco/SantosSF20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ppsn/FonsecaSS20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/ijccbs/CerveiraFBM19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/software/FonsecaKL19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/books/sp/19/FonsecaC19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/pc/FonsecaC18" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/suscom/FonsecaC18" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/tsusc/FonsecaCCB18" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/edcc/CerveiraFBM18" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/greens/MelfeFF18" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sblp/MelfeFF18" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/bdr/FonsecaC17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/evoW/FonsecaLC17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/ijpp/FonsecaCRC16" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/jocs/FonsecaC16" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/vecpar/FonsecaC16" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/FonsecaCRC16" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/FonsecaB16" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/prdc/CabralFMA15" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/toplas/StorkNSMFMA14" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/europar/FonsecaRC14" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/europar/RafaelCFC14" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/pldi/StorkNSMFMA14" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/haw/FonsecaC12" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/FonsecaC12" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/67/6837" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/18/5512" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/146/5163" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/19/5720" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/12/337" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/120/0755" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/331/0605" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/174/2172" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/155/4979" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/321/3862" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/94/5770" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/304/2171" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/327/4159" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/90/3774" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/40/5357" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/31/9867-2" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/33/2879" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/24/2923" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/180/7268" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/82/9655" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/40/9656" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/324/0681" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/155/4996" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/50/6474" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/304/2431" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/37/4200" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/92/7473" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/24/7473" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/205/1113" />
+</dblp:Person>
+<rdf:Description rdf:about="https://dblp.org/pid/144/6172.rdf">
+<rdfs:label>provenance information for RDF data of dblp person &apos;144/6172&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2022-12-08T21:58:30+0100</dct:modified>
+</rdf:Description>
+</rdf:RDF>

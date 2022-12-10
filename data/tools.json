@@ -1,5 +1,13 @@
 [
 	{
+		"name": "SOSRepair",
+		"description": "expressive semantic search-based technique for real-world program repair",
+		"url": "https://github.com/squaresLab/SOSRepair",
+		"repo": "https://github.com/squaresLab/SOSRepair",
+		"target": "C/C++",
+		"dblp": "journals/tse/AfzalMSBG21"
+	},
+	{
 		"name": "CPR",
 		"description": "detecting and discarding over-fitting patches via systematic co-exploration of the patch space and input space",
 		"url": "https://cpr-tool.github.io",

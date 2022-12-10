@@ -1,5 +1,13 @@
 [
 	{
+		"name": "JaRFly",
+		"description": "a Java repair framework for implementing automated repair tools for Java programs",
+		"url": "https://github.com/squaresLab/genprog4java/",
+		"repo": "https://github.com/squaresLab/genprog4java/",
+		"target": "Java",
+		"dblp": "journals/tse/MotwaniSBJG22"
+	},
+	{
 		"name": "SOSRepair",
 		"description": "expressive semantic search-based technique for real-world program repair",
 		"url": "https://github.com/squaresLab/SOSRepair",

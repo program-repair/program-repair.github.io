@@ -4,9 +4,9 @@ This website is a community-driven effort to provide up-to-date [automated progr
 
 ## Content Policy ##
 
-The bibliography section lists publications on automated program repair that
+The bibliography section lists publications on automated program repair that are
 
-* are peer-reviewed;
+* peer-reviewed;
 * designed/evaluated for program repair.
 
 The bibliographic records on this website are automatically extracted from dblp.org.
@@ -14,8 +14,8 @@ The bibliographic records on this website are automatically extracted from dblp.
 The tools/benchmarks sections list only tools/benchmarks that
 
 * have corresponding publications in the bibliography section;
-* publicly available;
-* designed/evaluated for program repair.
+* are publicly available;
+* are designed/evaluated for program repair.
 
 The website hosts community pages &mdash; static webpages that present some useful information about program repair, e.g. visualise experiments. If you would like to maintain a community page under program-repair.org, please create an issue.
 
@@ -23,11 +23,11 @@ The website hosts community pages &mdash; static webpages that present some usef
 
 The easiest way to contribute is to submit a new publication/tool/benchmark via GitHub issues. When submitting an issue, please provide the puiblication's DBLP key. To obtain the DBLP key, find the publication on dblp.org, and hover your mouse over "export record". To submit a new tool or benchmark, please provide the DBLP key of its corresponding publication. Note that publications appear on DBLP with a delay. 
 
-Typically, your contribution will be accepted faster if you create a pull request. For that, you need to add your data into program-repair.org's database stored in the `data` directory, and then generate the website. Note that when making simple changes, you can skip regenerating the website, because it will be done automatically by GitHub actions, but generally we recommend regenerating website to test your changes before create an PR. If you want to verify your modifications locally:
+Alternatively, you can create a pull request. For that, you need to add your data into program-repair.org's database stored in the `data` directory, and then regenerate the website. Note that when making simple changes, you can skip regenerating the website, because it will be done automatically by GitHub actions, but generally we recommend regenerating website to test your changes before creating a PR. If you want to verify your modifications locally, please:
 
-1. Install Python 3 and dependencies (e.g. `pip3 install -r requirements.txt`).
-2. Run build script (e.g. `python3 build.py`).
-3. Open `index.html` in your browser to verify your modifications.
+1. install Python 3 and dependencies (e.g. `pip3 install -r requirements.txt`);
+2. run build script (e.g. `python3 build.py`);
+3. open `index.html` in your browser to verify your modifications.
 
 ## Maintenance ##
 

@@ -31,7 +31,7 @@ Alternatively, you can create a pull request. For that, you need to add your dat
 
 ## Maintenance ##
 
-Check routinary check for new program repair papers that appear in the venues below:
+Mainteners routinary check for new program repair papers that appear in the venues below:
 
 SE journals:
 

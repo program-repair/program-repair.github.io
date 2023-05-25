@@ -85,7 +85,7 @@
 	"repo": "https://github.com/bugs-dot-jar/bugs-dot-jar",
 	"target": "Java",
 	"dblp": "conf/msr/SahaLLYP18"
-    },    
+    },
     {
 	"name": "QuixBugs",
 	"description": "a parallel corpus of 40 programs in both Python and Java, each with a bug on one line",
@@ -103,12 +103,12 @@
 	"repo": "https://github.com/dbgbench/dbgbench.github.io"
     },
     {
-	"name": "Defects4Cpp",
-	"description": "A benchmark/infrastructure for C/C++ defects providing easy-to-use interfaces similar to Defects4J",
-	"url": "https://github.com/Suresoft-GLaDOS/defects4cpp",
-	"target": "C/C++",
-	"repo": "https://github.com/Suresoft-GLaDOS/defects4cpp"
-    },    
+		"name": "Bugs-C++ (pronounced Bugsy)",
+		"description": "A dockerized benchmark/infrastructure for C/C++ defects providing easy-to-use interfaces similar to Defects4J",
+		"url": "https://github.com/Suresoft-GLaDOS/bugscpp",
+		"target": "C/C++",
+		"repo": "https://github.com/Suresoft-GLaDOS/bugscpp"
+    },
     {
 	"name": "Codeflaws",
 	"description": "3902 bugs from Codeforces programming competition for evaluating program repair tools across different defect classes",

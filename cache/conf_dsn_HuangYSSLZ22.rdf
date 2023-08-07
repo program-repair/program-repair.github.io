@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:bf="http://id.loc.gov/ontologies/bibframe/" xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:bibtex="http://purl.org/net/nknouf/ns/bibtex#" xmlns:cito="http://purl.org/spar/cito/" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dbo="http://dbpedia.org/ontology/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dct="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:litre="http://purl.org/spar/literal/" xmlns:locid="http://id.loc.gov/vocabulary/identifiers/" xmlns:locrel="http://id.loc.gov/vocabulary/relators/" xmlns:schema="https://schema.org/" xmlns:wd="http://www.wikidata.org/entity/" xmlns:wdt="http://www.wikidata.org/prop/direct/" xmlns:dblp="https://dblp.org/rdf/schema#">
+<dblp:Inproceedings rdf:about="https://dblp.org/rec/conf/dsn/HuangYSSLZ22">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Publication" />
+<owl:sameAs rdf:resource="https://doi.org/10.1109/dsn-w54100.2022.00027" />
+<owl:sameAs rdf:resource="http://dx.doi.org/10.1109/dsn-w54100.2022.00027" />
+<rdfs:label>Kai Huang et al.: Repairing Security Vulnerabilities Using Pre-trained Programming Language Models. (2022)</rdfs:label>
+<dblp:doi rdf:resource="https://doi.org/10.1109/dsn-w54100.2022.00027" />
+<dblp:doi rdf:resource="http://dx.doi.org/10.1109/dsn-w54100.2022.00027" />
+<datacite:hasIdentifier>
+<datacite:ResourceIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp-record" />
+<litre:hasLiteralValue>conf/dsn/HuangYSSLZ22</litre:hasLiteralValue>
+</datacite:ResourceIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:ResourceIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/doi" />
+<litre:hasLiteralValue>10.1109/DSN-W54100.2022.00027</litre:hasLiteralValue>
+</datacite:ResourceIdentifier>
+</datacite:hasIdentifier>
+<dblp:title>Repairing Security Vulnerabilities Using Pre-trained Programming Language Models.</dblp:title>
+<dblp:bibtexType rdf:resource="http://purl.org/net/nknouf/ns/bibtex#Inproceedings" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/86/489" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/41/4905" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/33/2079" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/04/2717" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/35/5230" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/83/6530-1" />
+<dblp:numberOfCreators rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</dblp:numberOfCreators>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Kai Huang</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/86/489" />
+<dblp:signatureOrdinal>1</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/conf/dsn/HuangYSSLZ22" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Su Yang</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/41/4905" />
+<dblp:signatureOrdinal>2</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/conf/dsn/HuangYSSLZ22" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Hongyu Sun</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/33/2079" />
+<dblp:signatureOrdinal>3</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/conf/dsn/HuangYSSLZ22" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Chengyi Sun</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/04/2717" />
+<dblp:signatureOrdinal>4</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/conf/dsn/HuangYSSLZ22" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Xuejun Li</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/35/5230" />
+<dblp:signatureOrdinal>5</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/conf/dsn/HuangYSSLZ22" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Yuqing Zhang 0001</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/83/6530-1" />
+<dblp:signatureOrdinal>6</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/conf/dsn/HuangYSSLZ22" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:primaryDocumentPage rdf:resource="https://doi.org/10.1109/DSN-W54100.2022.00027" />
+<dblp:documentPage rdf:resource="https://doi.org/10.1109/DSN-W54100.2022.00027" />
+<dblp:listedOnTocPage rdf:resource="https://dblp.org/db/conf/dsn/dsn2022w" />
+<dblp:pagination>111-116</dblp:pagination>
+<dblp:publishedIn>DSN Workshops</dblp:publishedIn>
+<dblp:publishedInBook>DSN Workshops</dblp:publishedInBook>
+<dblp:yearOfEvent>2022</dblp:yearOfEvent>
+<dblp:yearOfPublication>2022</dblp:yearOfPublication>
+<dblp:publishedAsPartOf rdf:resource="https://dblp.org/rec/conf/dsn/2022w" />
+</dblp:Inproceedings>
+<rdf:Description rdf:about="https://dblp.org/rec/conf/dsn/HuangYSSLZ22.rdf">
+<rdfs:label>provenance information for RDF data of dblp record &apos;conf/dsn/HuangYSSLZ22&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2022-08-18T16:04:01+0200</dct:modified>
+</rdf:Description>
+</rdf:RDF>

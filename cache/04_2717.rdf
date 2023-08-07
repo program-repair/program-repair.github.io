@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:bf="http://id.loc.gov/ontologies/bibframe/" xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:bibtex="http://purl.org/net/nknouf/ns/bibtex#" xmlns:cito="http://purl.org/spar/cito/" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dbo="http://dbpedia.org/ontology/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dct="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:litre="http://purl.org/spar/literal/" xmlns:locid="http://id.loc.gov/vocabulary/identifiers/" xmlns:locrel="http://id.loc.gov/vocabulary/relators/" xmlns:schema="https://schema.org/" xmlns:wd="http://www.wikidata.org/entity/" xmlns:wdt="http://www.wikidata.org/prop/direct/" xmlns:dblp="https://dblp.org/rdf/schema#">
+<dblp:Person rdf:about="https://dblp.org/pid/04/2717">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
+<rdfs:label>Chengyi Sun</rdfs:label>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>04/2717</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<dblp:primaryCreatorName>Chengyi Sun</dblp:primaryCreatorName>
+<dblp:creatorName>Chengyi Sun</dblp:creatorName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/dsn/HuangYSSLZ22" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2210-07482" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/cec/ZhouMSL08" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/cec/XiuLingCNW07" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icnc/ZhouMLS07" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/smc/ZhouSG06" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/smc/ZhouS04" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/smc/SunQL03" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/smc/ZhouS03" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/smc/SunSW02" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/fuzzIEEE/SunZWJ01" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/smc/ZhangSW01" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/smc/SunWZ01" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/smc/SunSS00" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/72/371" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/247/8132" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/86/489" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/08/1374" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/261/3198" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/25/4235" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/19/2518" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/35/5230" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/163/6525" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/51/3710-3" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/41/575" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/128/6422" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/33/2079" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/181/2323" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/62/3689" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/82/179" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/263/2316" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/41/4905" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/29/2597" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/83/6530-1" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/19/6821" />
+</dblp:Person>
+<rdf:Description rdf:about="https://dblp.org/pid/04/2717.rdf">
+<rdfs:label>provenance information for RDF data of dblp person &apos;04/2717&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2023-08-05T22:12:47+0200</dct:modified>
+</rdf:Description>
+</rdf:RDF>

@@ -1,5 +1,13 @@
 [
 	{
+		"name": "HIPPODROME",
+		"description": "statically detects and fixes data race conditions for small to large scale Java programs",
+		"url": "https://github.com/verse-lab/hippodrome",
+		"repo": "https://github.com/verse-lab/hippodrome",
+		"target": "Java",
+		"dblp": "journals/tosem/CosteaTCRRS23"
+},
+	{
 		"name": "JaRFly",
 		"description": "a Java repair framework for implementing automated repair tools for Java programs",
 		"url": "https://github.com/squaresLab/genprog4java/",

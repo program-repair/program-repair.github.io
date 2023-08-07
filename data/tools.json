@@ -260,6 +260,14 @@
 		"url": "http://groups.csail.mit.edu/pac/patchgen/",
 		"target": "Java",
 		"dblp": "conf/sigsoft/LongAR17"
+	},
+	{
+		"name": "CETI",
+		"description": "fixing C program errors using the KLEE input generation tool",
+		  "url": "https://github.com/dynaroars/ceti",
+      "repo": "https://github.com/dynaroars/ceti",
+		"target": "C/C++",
+		"dblp": "conf/tacas/NguyenWKF17"
 		},	
     {
 	"name": "CoderAssist",

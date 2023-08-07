@@ -6,6 +6,13 @@
 		"repo": "https://github.com/squaresLab/genprog4java/",
 		"target": "Java",
 		"dblp": "journals/tse/MotwaniSBJG22"
+},
+	{
+		"name": "Dare",
+		"description": "repair deep neural networks for defending against diverse adversarial attacks",
+		"url": "https://doi.org/10.5281/zenodo.7018397",
+		"target": "Neural networks",
+		"dblp": "conf/kbse/ZhangWJYC22"
 	},
 	{
 		"name": "SOSRepair",

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:bf="http://id.loc.gov/ontologies/bibframe/" xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:bibtex="http://purl.org/net/nknouf/ns/bibtex#" xmlns:cito="http://purl.org/spar/cito/" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dbo="http://dbpedia.org/ontology/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dct="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:litre="http://purl.org/spar/literal/" xmlns:locid="http://id.loc.gov/vocabulary/identifiers/" xmlns:locrel="http://id.loc.gov/vocabulary/relators/" xmlns:schema="https://schema.org/" xmlns:wd="http://www.wikidata.org/entity/" xmlns:wdt="http://www.wikidata.org/prop/direct/" xmlns:dblp="https://dblp.org/rdf/schema#">
+<dblp:Inproceedings rdf:about="https://dblp.org/rec/conf/icse/ParasaramBM23">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Publication" />
+<owl:sameAs rdf:resource="https://doi.org/10.1109/icse48619.2023.00112" />
+<owl:sameAs rdf:resource="http://dx.doi.org/10.1109/icse48619.2023.00112" />
+<rdfs:label>Nikhil Parasaram et al.: Rete: Learning Namespace Representation for Program Repair. (2023)</rdfs:label>
+<dblp:doi rdf:resource="https://doi.org/10.1109/icse48619.2023.00112" />
+<dblp:doi rdf:resource="http://dx.doi.org/10.1109/icse48619.2023.00112" />
+<datacite:hasIdentifier>
+<datacite:ResourceIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp-record" />
+<litre:hasLiteralValue>conf/icse/ParasaramBM23</litre:hasLiteralValue>
+</datacite:ResourceIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:ResourceIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/doi" />
+<litre:hasLiteralValue>10.1109/ICSE48619.2023.00112</litre:hasLiteralValue>
+</datacite:ResourceIdentifier>
+</datacite:hasIdentifier>
+<dblp:title>Rete: Learning Namespace Representation for Program Repair.</dblp:title>
+<dblp:bibtexType rdf:resource="http://purl.org/net/nknouf/ns/bibtex#Inproceedings" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/336/7988" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/47/1088" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/167/0202" />
+<dblp:numberOfCreators rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</dblp:numberOfCreators>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Nikhil Parasaram</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/336/7988" />
+<dblp:signatureOrdinal>1</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/conf/icse/ParasaramBM23" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Earl T. Barr</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/47/1088" />
+<dblp:signatureOrdinal>2</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/conf/icse/ParasaramBM23" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Sergey Mechtaev</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/167/0202" />
+<dblp:signatureOrdinal>3</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/conf/icse/ParasaramBM23" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:primaryDocumentPage rdf:resource="https://doi.org/10.1109/ICSE48619.2023.00112" />
+<dblp:documentPage rdf:resource="https://doi.org/10.1109/ICSE48619.2023.00112" />
+<dblp:listedOnTocPage rdf:resource="https://dblp.org/db/conf/icse/icse2023" />
+<dblp:pagination>1264-1276</dblp:pagination>
+<dblp:publishedIn>ICSE</dblp:publishedIn>
+<dblp:publishedInBook>ICSE</dblp:publishedInBook>
+<dblp:yearOfEvent>2023</dblp:yearOfEvent>
+<dblp:yearOfPublication>2023</dblp:yearOfPublication>
+<dblp:publishedAsPartOf rdf:resource="https://dblp.org/rec/conf/icse/2023" />
+</dblp:Inproceedings>
+<rdf:Description rdf:about="https://dblp.org/rec/conf/icse/ParasaramBM23.rdf">
+<rdfs:label>provenance information for RDF data of dblp record &apos;conf/icse/ParasaramBM23&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2023-07-19T10:09:11+0200</dct:modified>
+</rdf:Description>
+</rdf:RDF>

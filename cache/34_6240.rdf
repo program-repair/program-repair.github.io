@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:bf="http://id.loc.gov/ontologies/bibframe/" xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:bibtex="http://purl.org/net/nknouf/ns/bibtex#" xmlns:cito="http://purl.org/spar/cito/" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dbo="http://dbpedia.org/ontology/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dct="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:litre="http://purl.org/spar/literal/" xmlns:locid="http://id.loc.gov/vocabulary/identifiers/" xmlns:locrel="http://id.loc.gov/vocabulary/relators/" xmlns:schema="https://schema.org/" xmlns:wd="http://www.wikidata.org/entity/" xmlns:wdt="http://www.wikidata.org/prop/direct/" xmlns:dblp="https://dblp.org/rdf/schema#">
+<dblp:Person rdf:about="https://dblp.org/pid/34/6240">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
+<rdfs:label>Shinji Itoh</rdfs:label>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>34/6240</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<dblp:primaryCreatorName>Shinji Itoh</dblp:primaryCreatorName>
+<dblp:creatorName>Shinji Itoh</dblp:creatorName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse-apr/HuyenYI23" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/apsec/YasudaIMJN19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icfem/HoangIOMKS15" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/spw/YoshiuraMITS02" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/spw/SasakiYI02" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/spw/YoshiuraMITS01" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ijcnn/MurataIH99" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/65/4910" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/38/3500" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/172/0347" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/256/1924" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/50/7043" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/48/5863" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/89/2235" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/29/5635" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/256/1984" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/172/1450" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/89/5851" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/94/5331" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/98/2520" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/156/0305" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/11/1899" />
+</dblp:Person>
+<rdf:Description rdf:about="https://dblp.org/pid/34/6240.rdf">
+<rdfs:label>provenance information for RDF data of dblp person &apos;34/6240&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2023-09-27T22:45:08+0200</dct:modified>
+</rdf:Description>
+</rdf:RDF>

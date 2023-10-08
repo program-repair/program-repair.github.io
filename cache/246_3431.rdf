@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:bf="http://id.loc.gov/ontologies/bibframe/" xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:bibtex="http://purl.org/net/nknouf/ns/bibtex#" xmlns:cito="http://purl.org/spar/cito/" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dbo="http://dbpedia.org/ontology/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dct="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:litre="http://purl.org/spar/literal/" xmlns:locid="http://id.loc.gov/vocabulary/identifiers/" xmlns:locrel="http://id.loc.gov/vocabulary/relators/" xmlns:schema="https://schema.org/" xmlns:wd="http://www.wikidata.org/entity/" xmlns:wdt="http://www.wikidata.org/prop/direct/" xmlns:dblp="https://dblp.org/rdf/schema#">
+<dblp:Person rdf:about="https://dblp.org/pid/246/3431">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
+<rdfs:label>Jos&#233; Nuno Macedo</rdfs:label>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>246/3431</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<dblp:primaryCreatorName>Jos&#233; Nuno Macedo</dblp:primaryCreatorName>
+<dblp:creatorName>Jos&#233; Nuno Macedo</dblp:creatorName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse-apr/RibeiroMT23" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/pepm/MacedoRVS23" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/flops/MacedoVS22" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2110-07902" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/iccsa/MacedoS20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sac/MacedoS20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/cibse/MacedoMCS19" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/44/1499" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/52/10194" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/51/10161" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/337/5508" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/97/3668" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/141/3118" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/34/5491" />
+</dblp:Person>
+<rdf:Description rdf:about="https://dblp.org/pid/246/3431.rdf">
+<rdfs:label>provenance information for RDF data of dblp person &apos;246/3431&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2023-09-27T22:50:46+0200</dct:modified>
+</rdf:Description>
+</rdf:RDF>

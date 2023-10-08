@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:bf="http://id.loc.gov/ontologies/bibframe/" xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:bibtex="http://purl.org/net/nknouf/ns/bibtex#" xmlns:cito="http://purl.org/spar/cito/" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dbo="http://dbpedia.org/ontology/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dct="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:litre="http://purl.org/spar/literal/" xmlns:locid="http://id.loc.gov/vocabulary/identifiers/" xmlns:locrel="http://id.loc.gov/vocabulary/relators/" xmlns:schema="https://schema.org/" xmlns:wd="http://www.wikidata.org/entity/" xmlns:wdt="http://www.wikidata.org/prop/direct/" xmlns:dblp="https://dblp.org/rdf/schema#">
+<dblp:Person rdf:about="https://dblp.org/pid/141/3118">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
+<rdfs:label>Kanae Tsushima</rdfs:label>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>141/3118</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<dblp:primaryCreatorName>Kanae Tsushima</dblp:primaryCreatorName>
+<dblp:creatorName>Kanae Tsushima</dblp:creatorName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse-apr/RibeiroMT23" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ruleml/HayashiMTTSBGPS23" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/ngc/Fungwacharakorn22" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/jsai/FungwacharakornTS22" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/jurix/Fungwacharakorn22" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/ail/Fungwacharakorn21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icail/Fungwacharakorn21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/flops/TsushimaTGH20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/jsai/Fungwacharakorn20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ifl/TsushimaCS19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/flops/TsushimaC18" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-1803-06674" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-1809-10357" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ifl/TsushimaA12" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/64/3126" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/59/1643" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/05/5583" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/49/854" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/251/2648" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/g/JGGanascia" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/g/RobertGluck" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/70/5313" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/56/1483" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/24/5199" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/28/2411" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/67/1744" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/60/985" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/246/3431" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/213/4983" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/32/3049-1" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/19/3497" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/24/2942" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/51/10161" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/37/3076-1" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/s/KenSatoh" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/52/8623" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/238/2965" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/08/5787" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/352/5832" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/227/2745" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/273/7757" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/y/MasatoshiYoshikawa" />
+</dblp:Person>
+<rdf:Description rdf:about="https://dblp.org/pid/141/3118.rdf">
+<rdfs:label>provenance information for RDF data of dblp person &apos;141/3118&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2023-09-27T22:42:02+0200</dct:modified>
+</rdf:Description>
+</rdf:RDF>

@@ -63,6 +63,14 @@
 		"dblp": "conf/issta/ShariffdeenGDTL21"
 	},
 	{
+		"name": "CoCoNut",
+		"description": "combining context-aware neural translation models using ensemble for program repair",
+		"url": "https://github.com/lin-tan/CoCoNut-Artifact",
+		"repo": "https://github.com/lin-tan/CoCoNut-Artifact",
+		"target": "Multilingual",
+		"dblp": "conf/issta/LutellierPPLW020"
+},
+	{
 		"name": "ARJA",
 		"description": "multi-objective genetic programming for automated repair of Java",
 		"url": "https://github.com/yyxhdy/arja",

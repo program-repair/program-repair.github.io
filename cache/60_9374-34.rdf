@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:bf="http://id.loc.gov/ontologies/bibframe/" xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:bibtex="http://purl.org/net/nknouf/ns/bibtex#" xmlns:cito="http://purl.org/spar/cito/" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dbo="http://dbpedia.org/ontology/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dct="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:litre="http://purl.org/spar/literal/" xmlns:locid="http://id.loc.gov/vocabulary/identifiers/" xmlns:locrel="http://id.loc.gov/vocabulary/relators/" xmlns:schema="https://schema.org/" xmlns:wd="http://www.wikidata.org/entity/" xmlns:wdt="http://www.wikidata.org/prop/direct/" xmlns:dblp="https://dblp.org/rdf/schema#">
+<dblp:Person rdf:about="https://dblp.org/pid/60/9374-34">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
+<owl:sameAs rdf:resource="https://orcid.org/0000-0002-4272-3448" />
+<rdfs:label>Yue Wang 0034</rdfs:label>
+<dblp:orcid rdf:resource="https://orcid.org/0000-0002-4272-3448" />
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>60/9374-34</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/orcid" />
+<litre:hasLiteralValue>0000-0002-4272-3448</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<dblp:primaryCreatorName>Yue Wang</dblp:primaryCreatorName>
+<dblp:creatorName>Yue Wang</dblp:creatorName>
+<dblp:creatorName>&#29579;&#27198;</dblp:creatorName>
+<dblp:primaryAffiliation>Chinese University of Hong Kong, Department of Computer Science and Engineering, Hong Kong</dblp:primaryAffiliation>
+<dblp:affiliation>Chinese University of Hong Kong, Department of Computer Science and Engineering, Hong Kong</dblp:affiliation>
+<dblp:primaryHomepage rdf:resource="https://yuewang-cuhk.github.io/" />
+<dblp:homepage rdf:resource="https://yuewang-cuhk.github.io/" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/emnlp/Wang0HJ23" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sigsoft/Wang0JH23" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2305-07922" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2309-06057" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/emnlp/Bui0H22" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/nips/Le0GSH22" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2207-01780" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/emnlp/0034WJH21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/naacl/WangHF21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2109-00859" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/emnlp/WangLLK20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/emnlp/WangJLKXH20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2004-13278" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2011-01565" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/acl/WangLCKLS19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/naacl/WangLKLS19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-1905-07584" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-1906-03889" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ijcai/LiWLK18" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-1711-09573" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/coinco/WangZL15" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/321/0737" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/207/7870" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/178/3691" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/f/MarcelloFederico" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/156/0933" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/96/489" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/h/StevenCHHoi" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/62/2078" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/k/IrwinKing" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/45/466" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/33/5448-54" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/181/2820-49" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/193/6773-1" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/l/MichaelRLyu" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/50/3578" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/s/ShumingShi-1" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/276/6542" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/80/7282" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/z/ZibinZheng" />
+<dblp:proxyAmbiguousCreator rdf:resource="https://dblp.org/pid/33/4822" />
+</dblp:Person>
+<rdf:Description rdf:about="https://dblp.org/pid/60/9374-34.rdf">
+<rdfs:label>provenance information for RDF data of dblp person &apos;60/9374-34&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2024-01-03T20:26:07+0100</dct:modified>
+</rdf:Description>
+</rdf:RDF>

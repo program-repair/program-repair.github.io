@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:bf="http://id.loc.gov/ontologies/bibframe/" xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:bibtex="http://purl.org/net/nknouf/ns/bibtex#" xmlns:cito="http://purl.org/spar/cito/" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dbo="http://dbpedia.org/ontology/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dct="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:litre="http://purl.org/spar/literal/" xmlns:locid="http://id.loc.gov/vocabulary/identifiers/" xmlns:locrel="http://id.loc.gov/vocabulary/relators/" xmlns:schema="https://schema.org/" xmlns:wd="http://www.wikidata.org/entity/" xmlns:wdt="http://www.wikidata.org/prop/direct/" xmlns:dblp="https://dblp.org/rdf/schema#">
+<dblp:Person rdf:about="https://dblp.org/pid/84/6103">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
+<rdfs:label>Matthew Jin</rdfs:label>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>84/6103</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<dblp:primaryCreatorName>Matthew Jin</dblp:primaryCreatorName>
+<dblp:creatorName>Matthew Jin</dblp:creatorName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ictir/RosJLZ23" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sigsoft/JinSTSLSS23" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2301-00345" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2303-07263" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2305-03036" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/KharkarMJLSCS22" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/nips/QuesadaSLAJAXLJ22" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2203-09907" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ISCApdcs/JinK03" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/136/6029" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/281/8371" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/56/2174" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/241/5448" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/64/8509" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/346/0959" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/06/5843-1" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/337/1974" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/48/5254" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/136/5159" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/15/3399" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/213/8141" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/354/1391" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/337/2085" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/65/2726" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/78/6195" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/62/2062" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/86/914" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/136/9808" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/201/7447" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/129/9138" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/228/0561" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/312/5571" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/342/4506" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/70/4115" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/s/NeelSundaresan" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/198/0454" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/166/4957" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/322/6279" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/228/7757" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/z/ChengXiangZhai" />
+</dblp:Person>
+<rdf:Description rdf:about="https://dblp.org/pid/84/6103.rdf">
+<rdfs:label>provenance information for RDF data of dblp person &apos;84/6103&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2023-12-05T20:23:51+0100</dct:modified>
+</rdf:Description>
+</rdf:RDF>

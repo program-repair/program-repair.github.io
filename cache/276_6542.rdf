@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:bf="http://id.loc.gov/ontologies/bibframe/" xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:bibtex="http://purl.org/net/nknouf/ns/bibtex#" xmlns:cito="http://purl.org/spar/cito/" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dbo="http://dbpedia.org/ontology/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dct="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:litre="http://purl.org/spar/literal/" xmlns:locid="http://id.loc.gov/vocabulary/identifiers/" xmlns:locrel="http://id.loc.gov/vocabulary/relators/" xmlns:schema="https://schema.org/" xmlns:wd="http://www.wikidata.org/entity/" xmlns:wdt="http://www.wikidata.org/prop/direct/" xmlns:dblp="https://dblp.org/rdf/schema#">
+<dblp:Person rdf:about="https://dblp.org/pid/276/6542">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
+<rdfs:label>Weishi Wang</rdfs:label>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>276/6542</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<dblp:primaryCreatorName>Weishi Wang</dblp:primaryCreatorName>
+<dblp:creatorName>Weishi Wang</dblp:creatorName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/emnlp/ZhaoCWJLQDGLLJ23" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/emnlp/Wang0HJ23" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sigsoft/Wang0JH23" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2303-03004" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2303-10868" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2309-06057" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/remotesensing/ZhaoZSLW21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/emnlp/0034WJH21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2109-00859" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/emnlp/WangHJ20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/uv/ChenGGLFWFWLFTN20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/uv/ZhangRYYWGCZTZC20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2010-07785" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/241/6155" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/36/8249" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/09/3666" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/235/9036" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/25/8839" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/277/9378" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/329/5870" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/10/6012" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/140/3282" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/292/5686" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/292/5853" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/26/2190" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/251/3532" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/246/5846" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/h/StevenCHHoi" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/264/9981" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/62/2078" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/342/1624" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/116/1011" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/318/1020" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/183/5226" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/222/9407" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/61/500" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/317/0657" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/140/2988" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/180/3830" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/195/2732" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/292/5405" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/165/5587" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/292/5585" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/292/6172" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/60/9374-34" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/119/6681" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/02/8125-4" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/92/867" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/94/4087" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/37/1629-9" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/75/6090" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/253/2147" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/191/6532" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/181/2882" />
+</dblp:Person>
+<rdf:Description rdf:about="https://dblp.org/pid/276/6542.rdf">
+<rdfs:label>provenance information for RDF data of dblp person &apos;276/6542&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2023-12-14T21:22:59+0100</dct:modified>
+</rdf:Description>
+</rdf:RDF>

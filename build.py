@@ -166,8 +166,16 @@ for bib_item in tqdm.tqdm(bib_items):
         venue_details = volume
         issue_results = list(paper_graph.objects(None, publishedInJournalVolumeIssue_ref))
         if len(issue_results) > 0:
-            venue_details = venue_details + " (" + issue_results[0] + ")"
-        venue_details = venue_details + " " + yearOfPublication
+            if str(issue_results[0]) == 'OOPSLA' or str(issue_results[0]) == 'OOPSLA2':
+                venue = 'OPPSLA'
+                venue_details = yearOfPublication
+            elif str(issue_results[0]) == 'POPL':
+                venue = 'POPL'
+                venue_details = yearOfPublication
+            else:
+                venue_details = venue_details + " (" + issue_results[0] + ")" + " " + yearOfPublication
+        else:
+            venue_details = venue_details + " " + yearOfPublication
     if bib_item.venue:
         venue_id = bib_item.venue
     else:
@@ -183,10 +191,7 @@ for bib_item in tqdm.tqdm(bib_items):
         "Empirical Software Engineering": "EMSE",
         "Empir. Softw. Eng.": "EMSE",
         "ICSE (1)": "ICSE",
-        "Proc. ACM Program. Lang. 3 (OOPSLA)": "OOPSLA",
-        "Proc. ACM Program. Lang. 3 (POPL)": "POPL",
         "Sci. China Inf. Sci.": "SCI",
-        "Proc. ACM Program. Lang. 2 (OOPSLA)": "OOPSLA"
     }
     if venue_id in venue_short_id:
         venue_id = venue_short_id[venue_id]

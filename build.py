@@ -151,7 +151,7 @@ for bib_item in tqdm.tqdm(bib_items):
     paper_graph = rdflib.Graph()
     paper_graph.parse(data=data, format='xml')
     title = list(paper_graph.objects(None, title_ref))[0].rstrip('.')
-    yearOfPublication = list(paper_graph.objects(None, yearOfPublication_ref))[0]
+    yearOfPublication = str(list(paper_graph.objects(None, yearOfPublication_ref))[0])
     if yearOfPublication not in publications_per_year:
         publications_per_year[yearOfPublication] = 0
     publications_per_year[yearOfPublication] += 1
@@ -193,7 +193,7 @@ for bib_item in tqdm.tqdm(bib_items):
     if venue_id not in publications_per_venue:
         publications_per_venue[venue_id] = 0
     publications_per_venue[venue_id] += 1
-    primaryDocumentPage = list(paper_graph.objects(None, primaryDocumentPage_ref))[0]
+    primaryDocumentPage = str(list(paper_graph.objects(None, primaryDocumentPage_ref))[0])
     entry['title'] = title
     entry['anchor'] = bib_item.key.replace('/', '_')
     entry['scholar'] = "https://scholar.google.com/scholar?q={}".format(title.replace(' ', '+'))
@@ -274,8 +274,8 @@ statistics = dict()
 all_years = sorted(publications_per_year.keys())
 all_authors = set()
 
-NUM_TOP_VENUES=10
-NUM_TOP_AUTHORS=10
+NUM_TOP_VENUES=15
+NUM_TOP_AUTHORS=15
 
 top_venues = list(k for (k,v) in sorted(publications_per_venue.items(), key=itemgetter(1), reverse=True)[:NUM_TOP_VENUES])
 top_authors_ids = list(k for (k,v) in sorted(publications_per_author.items(), key=(lambda x: x[1][1]), reverse=True)[:NUM_TOP_AUTHORS])

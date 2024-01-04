@@ -93,7 +93,7 @@
               <canvas id="newAuthorsPerYear" width="400" height="300"></canvas>
           </div>
           <div class="col col-lg-6 col-md-12">
-              <h6 class="text-center">Top ten most prolific authors</h6>
+              <h6 class="text-center">Top fifteen most prolific authors</h6>
               <canvas id="publicationsPerAuthor" width="400" height="300"></canvas>
           </div>
         </div>
@@ -106,7 +106,7 @@
       <div class="container">
         <div class="row">
           <div class="col col-lg-6 col-md-12 margin-0 padding-0">
-              <h6 class="text-center">Top ten most popular venues</h6>
+              <h6 class="text-center">Top fifteen most popular venues</h6>
               <canvas id="publicationsPerVenue" width="400" height="300"></canvas>
           </div>
           <div class="col col-lg-6 col-md-12">
@@ -135,10 +135,10 @@
     var publicationsPerYear = new Chart(ctx, {
         type: 'bar',
         data: {
-            labels: [2023,2024,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023],
+            labels: [2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024],
             datasets: [{
                 label: '# of publications',
-                data: [14,2,2,2,1,4,7,7,6,8,13,19,22,25,40,51,57,25,54,69,47,14,2,2,2,1,4,7,7,6,8,13,19,22,25,40,51,57,25,54,69,47],
+                data: [2,2,1,4,7,7,6,8,13,19,22,25,40,51,57,25,54,69,61,2,2,2,1,4,7,7,6,8,13,19,22,25,40,51,57,25,54,69,61,2],
                 backgroundColor: 'rgba(0,130,200,0.5)',
                 borderWidth: 0
             }]
@@ -159,10 +159,10 @@
     var authorsPerYear = new Chart(ctx, {
         type: 'bar',
         data: {
-            labels: [2023,2024,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023],
+            labels: [2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024],
             datasets: [{
                 label: '# of authors',
-                data: [59,12,4,4,3,8,32,22,18,23,35,58,64,77,141,144,178,105,191,252,184],
+                data: [4,4,3,8,32,22,18,23,35,58,64,77,141,144,178,105,191,252,229,12],
                 backgroundColor: 'rgba(0,130,200,0.5)',
                 borderWidth: 0
             }]
@@ -183,10 +183,10 @@
     var newAuthorsPerYear = new Chart(ctx, {
         type: 'bar',
         data: {
-            labels: [2023,2024,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023],
+            labels: [2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024],
             datasets: [{
                 label: '# of new authors',
-                data: [59,12,4,2,3,5,31,16,12,17,24,39,43,50,95,80,110,63,105,125,88],
+                data: [4,2,3,5,31,16,12,17,27,40,46,50,96,84,113,63,108,137,126,3],
                 backgroundColor: 'rgba(0,130,200,0.5)',
                 borderWidth: 0
             }]
@@ -207,10 +207,10 @@
   var publicationsPerAuthor = new Chart(ctx, {
       type: 'horizontalBar',
       data: {
-          labels: ["Martin Monperrus","Abhik Roychoudhury","Claire Le Goues","Westley Weimer","Kui Liu","Tegawendé F. Bissyandé","Matias Martinez","Yingfei Xiong","Stephanie Forrest","Dongsun Kim"],
+          labels: ["Martin Monperrus","Abhik Roychoudhury","Claire Le Goues","Westley Weimer","Kui Liu","Tegawendé F. Bissyandé","Matias Martinez","Yingfei Xiong","Stephanie Forrest","Dongsun Kim","Xiaoguang Mao","Sergey Mechtaev","Anil Koyuncu","Jacques Klein","David Lo"],
           datasets: [{
               label: '# of publications',
-              data: [34,32,32,24,18,18,18,17,17,16],
+              data: [34,32,32,24,18,18,18,17,17,16,15,15,14,12,12],
               backgroundColor: 'rgba(0,130,200,0.5)',
               borderWidth: 0
           }]
@@ -231,10 +231,10 @@
     var publicationsPerVenue = new Chart(ctx, {
         type: 'horizontalBar',
         data: {
-            labels: ["ICSE","FSE","ISSTA","ASE","TSE","APR@ICSE","SANER","TOSEM","ICST","EMSE"],
+            labels: ["ICSE","FSE","ISSTA","ASE","TSE","APR@ICSE","SANER","TOSEM","ICST","EMSE","PLDI","ICSME","CAV","GI@ICSE","Proc. ACM Program. Lang."],
             datasets: [{
                 label: '# of publications',
-                data: [72,45,41,34,30,26,19,17,16,15],
+                data: [72,45,41,34,30,26,19,17,16,15,13,10,10,9,7],
                 backgroundColor: 'rgba(0,130,200,0.5)',
                 borderWidth: 0
             }]

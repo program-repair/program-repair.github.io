@@ -146,5 +146,13 @@
 	"repo": "https://github.com/rjust/defects4j",
 	"target": "Java",
 	"dblp": "conf/issta/JustJE14"
+    },
+    {
+	"name": "GitBug-Java",
+	"description": "A Reproducible Benchmark of Recent Java Bugs (199 bugs from 2023)",
+	"url": "https://github.com/gitbugactions/gitbug-java",
+	"repo": "https://github.com/gitbugactions/gitbug-java",
+	"target": "Java",
+	"dblp": "journals/corr/abs-2402-02961"
     }
 ]

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:bf="http://id.loc.gov/ontologies/bibframe/" xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:bibtex="http://purl.org/net/nknouf/ns/bibtex#" xmlns:cito="http://purl.org/spar/cito/" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dbo="http://dbpedia.org/ontology/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dct="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:litre="http://purl.org/spar/literal/" xmlns:locid="http://id.loc.gov/vocabulary/identifiers/" xmlns:locrel="http://id.loc.gov/vocabulary/relators/" xmlns:schema="https://schema.org/" xmlns:wd="http://www.wikidata.org/entity/" xmlns:wdt="http://www.wikidata.org/prop/direct/" xmlns:dblp="https://dblp.org/rdf/schema#">
+<dblp:Person rdf:about="https://dblp.org/pid/140/7942">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
+<rdfs:label>Van-Thuan Pham</rdfs:label>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>140/7942</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<dblp:primaryCreatorName>Van-Thuan Pham</dblp:primaryCreatorName>
+<dblp:creatorName>Van-Thuan Pham</dblp:creatorName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/PanCMP24" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/tse/GeethalBP23" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/fairware-ws/LeePH23" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/fuzzing/GaoPLCMR23" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/Pham23" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse-deeptest/GaoHP23" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2301-09258" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2311-16396" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/issta/KapugamaPAB22" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/wcre/LiuPEMR22" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/tse/PhamBSCR21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/issta/NatellaP21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/kbse/PhamNTMR21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2101-05102" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2112-15498" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icst/BohmeGP20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icst/PhamBR20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/tse/BohmePR19" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-1912-07758" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-1811-09447" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ccs/BohmePNR17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/fase/PhamKRR17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ccs/BohmePR16" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/kbse/PhamBR16" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/PhamNRR15" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/rtss/ChongBPCR13" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ucma/NguyenPM11" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/61/7634" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/59/4983" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/91/7541" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/230/8131" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/300/7297" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/43/11009" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/21/7660-1" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/123/2930" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/170/3520" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/19/1202" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/221/7259" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/255/6114" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/119/5963-2" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/197/3578" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/353/1856" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/259/1631" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/70/541" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/31/6289" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/63/8166" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/167/0230" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/207/6583" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/125/5365" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/338/5981" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/95/621" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/04/5884" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/04/9045" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/90/1092" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/49/6998" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/134/3046" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/138/8517" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/29/1074" />
+</dblp:Person>
+<rdf:Description rdf:about="https://dblp.org/pid/140/7942.rdf">
+<rdfs:label>provenance information for RDF data of dblp person &apos;140/7942&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2024-04-25T05:54:01+0200</dct:modified>
+</rdf:Description>
+</rdf:RDF>

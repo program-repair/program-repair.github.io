@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:bf="http://id.loc.gov/ontologies/bibframe/" xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:bibtex="http://purl.org/net/nknouf/ns/bibtex#" xmlns:cito="http://purl.org/spar/cito/" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dbo="http://dbpedia.org/ontology/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dct="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:litre="http://purl.org/spar/literal/" xmlns:locid="http://id.loc.gov/vocabulary/identifiers/" xmlns:locrel="http://id.loc.gov/vocabulary/relators/" xmlns:schema="https://schema.org/" xmlns:wd="http://www.wikidata.org/entity/" xmlns:wdt="http://www.wikidata.org/prop/direct/" xmlns:dblp="https://dblp.org/rdf/schema#">
+<dblp:Article rdf:about="https://dblp.org/rec/journals/tosem/ZhangFMSC24">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Publication" />
+<owl:sameAs rdf:resource="https://doi.org/10.1145/3631974" />
+<owl:sameAs rdf:resource="http://dx.doi.org/10.1145/3631974" />
+<rdfs:label>Quanjun Zhang et al.: A Survey of Learning-based Automated Program Repair. (2024)</rdfs:label>
+<dblp:doi rdf:resource="https://doi.org/10.1145/3631974" />
+<datacite:hasIdentifier>
+<datacite:ResourceIdentifier>
+<rdf:type rdf:resource="http://purl.org/spar/datacite/Identifier" />
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp-record" />
+<litre:hasLiteralValue>journals/tosem/ZhangFMSC24</litre:hasLiteralValue>
+</datacite:ResourceIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:ResourceIdentifier>
+<rdf:type rdf:resource="http://purl.org/spar/datacite/Identifier" />
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/doi" />
+<litre:hasLiteralValue>10.1145/3631974</litre:hasLiteralValue>
+</datacite:ResourceIdentifier>
+</datacite:hasIdentifier>
+<dblp:title>A Survey of Learning-based Automated Program Repair.</dblp:title>
+<dblp:bibtexType rdf:resource="http://purl.org/net/nknouf/ns/bibtex#Article" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/231/4867" />
+<dblp:createdBy rdf:resource="https://dblp.org/pid/231/4867" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/124/0310" />
+<dblp:createdBy rdf:resource="https://dblp.org/pid/124/0310" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/171/1001" />
+<dblp:createdBy rdf:resource="https://dblp.org/pid/171/1001" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/183/2642" />
+<dblp:createdBy rdf:resource="https://dblp.org/pid/183/2642" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/86/541-1" />
+<dblp:createdBy rdf:resource="https://dblp.org/pid/86/541-1" />
+<dblp:numberOfCreators rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</dblp:numberOfCreators>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Signature" />
+<dblp:signatureDblpName>Quanjun Zhang</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/231/4867" />
+<dblp:signatureOrcid rdf:resource="https://orcid.org/0000-0002-2495-3805" />
+<dblp:signatureOrdinal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/journals/tosem/ZhangFMSC24" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Signature" />
+<dblp:signatureDblpName>Chunrong Fang</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/124/0310" />
+<dblp:signatureOrcid rdf:resource="https://orcid.org/0000-0002-9930-7111" />
+<dblp:signatureOrdinal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/journals/tosem/ZhangFMSC24" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Signature" />
+<dblp:signatureDblpName>Yuxiang Ma</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/171/1001" />
+<dblp:signatureOrcid rdf:resource="https://orcid.org/0009-0007-6841-8410" />
+<dblp:signatureOrdinal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/journals/tosem/ZhangFMSC24" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Signature" />
+<dblp:signatureDblpName>Weisong Sun</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/183/2642" />
+<dblp:signatureOrcid rdf:resource="https://orcid.org/0000-0001-9236-8264" />
+<dblp:signatureOrdinal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/journals/tosem/ZhangFMSC24" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Signature" />
+<dblp:signatureDblpName>Zhenyu Chen 0001</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/86/541-1" />
+<dblp:signatureOrcid rdf:resource="https://orcid.org/0000-0002-9592-7022" />
+<dblp:signatureOrdinal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/journals/tosem/ZhangFMSC24" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:primaryDocumentPage rdf:resource="https://doi.org/10.1145/3631974" />
+<dblp:documentPage rdf:resource="https://doi.org/10.1145/3631974" />
+<dblp:listedOnTocPage rdf:resource="https://dblp.org/db/journals/tosem/tosem33" />
+<dblp:publishedInStream rdf:resource="https://dblp.org/streams/journals/tosem" />
+<dblp:pagination>55:1-55:69</dblp:pagination>
+<dblp:publishedIn>ACM Trans. Softw. Eng. Methodol.</dblp:publishedIn>
+<dblp:publishedInJournal>ACM Trans. Softw. Eng. Methodol.</dblp:publishedInJournal>
+<dblp:publishedInJournalVolume>33</dblp:publishedInJournalVolume>
+<dblp:publishedInJournalVolumeIssue>2</dblp:publishedInJournalVolumeIssue>
+<dblp:yearOfPublication rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2024</dblp:yearOfPublication>
+<dblp:monthOfPublication rdf:datatype="http://www.w3.org/2001/XMLSchema#gMonth">--02</dblp:monthOfPublication>
+</dblp:Article>
+<rdf:Description rdf:about="https://dblp.org/rec/journals/tosem/ZhangFMSC24.rdf">
+<rdfs:label>provenance information for RDF data of dblp record &apos;journals/tosem/ZhangFMSC24&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2024-02-10T18:05:32+0100</dct:modified>
+</rdf:Description>
+</rdf:RDF>

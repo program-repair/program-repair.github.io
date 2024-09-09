@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:bf="http://id.loc.gov/ontologies/bibframe/" xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:bibtex="http://purl.org/net/nknouf/ns/bibtex#" xmlns:cito="http://purl.org/spar/cito/" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dbo="http://dbpedia.org/ontology/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dct="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:litre="http://purl.org/spar/literal/" xmlns:locid="http://id.loc.gov/vocabulary/identifiers/" xmlns:locrel="http://id.loc.gov/vocabulary/relators/" xmlns:schema="https://schema.org/" xmlns:wd="http://www.wikidata.org/entity/" xmlns:wdt="http://www.wikidata.org/prop/direct/" xmlns:dblp="https://dblp.org/rdf/schema#">
+<dblp:Article rdf:about="https://dblp.org/rec/journals/tosem/GaoYYXS24">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Publication" />
+<owl:sameAs rdf:resource="https://doi.org/10.1145/3641846" />
+<owl:sameAs rdf:resource="http://dx.doi.org/10.1145/3641846" />
+<rdfs:label>Cuifeng Gao et al.: sGuard+: Machine Learning Guided Rule-Based Automated Vulnerability Repair on Smart Contracts. (2024)</rdfs:label>
+<dblp:doi rdf:resource="https://doi.org/10.1145/3641846" />
+<datacite:hasIdentifier>
+<datacite:ResourceIdentifier>
+<rdf:type rdf:resource="http://purl.org/spar/datacite/Identifier" />
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp-record" />
+<litre:hasLiteralValue>journals/tosem/GaoYYXS24</litre:hasLiteralValue>
+</datacite:ResourceIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:ResourceIdentifier>
+<rdf:type rdf:resource="http://purl.org/spar/datacite/Identifier" />
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/doi" />
+<litre:hasLiteralValue>10.1145/3641846</litre:hasLiteralValue>
+</datacite:ResourceIdentifier>
+</datacite:hasIdentifier>
+<dblp:title>sGuard+: Machine Learning Guided Rule-Based Automated Vulnerability Repair on Smart Contracts.</dblp:title>
+<dblp:bibtexType rdf:resource="http://purl.org/net/nknouf/ns/bibtex#Article" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/378/3506" />
+<dblp:createdBy rdf:resource="https://dblp.org/pid/378/3506" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/375/6376" />
+<dblp:createdBy rdf:resource="https://dblp.org/pid/375/6376" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/242/6241" />
+<dblp:createdBy rdf:resource="https://dblp.org/pid/242/6241" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/73/7055" />
+<dblp:createdBy rdf:resource="https://dblp.org/pid/73/7055" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/s/JunSun1" />
+<dblp:createdBy rdf:resource="https://dblp.org/pid/s/JunSun1" />
+<dblp:numberOfCreators rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</dblp:numberOfCreators>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Signature" />
+<dblp:signatureDblpName>Cuifeng Gao</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/378/3506" />
+<dblp:signatureOrcid rdf:resource="https://orcid.org/0000-0003-0672-1485" />
+<dblp:signatureOrdinal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/journals/tosem/GaoYYXS24" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Signature" />
+<dblp:signatureDblpName>Wenzhang Yang</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/375/6376" />
+<dblp:signatureOrcid rdf:resource="https://orcid.org/0009-0006-7836-1246" />
+<dblp:signatureOrdinal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/journals/tosem/GaoYYXS24" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Signature" />
+<dblp:signatureDblpName>Jiaming Ye</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/242/6241" />
+<dblp:signatureOrcid rdf:resource="https://orcid.org/0000-0001-6111-3090" />
+<dblp:signatureOrdinal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/journals/tosem/GaoYYXS24" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Signature" />
+<dblp:signatureDblpName>Yinxing Xue</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/73/7055" />
+<dblp:signatureOrcid rdf:resource="https://orcid.org/0000-0002-2979-7151" />
+<dblp:signatureOrdinal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/journals/tosem/GaoYYXS24" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Signature" />
+<dblp:signatureDblpName>Jun Sun 0001</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/s/JunSun1" />
+<dblp:signatureOrcid rdf:resource="https://orcid.org/0000-0002-3545-1392" />
+<dblp:signatureOrdinal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/journals/tosem/GaoYYXS24" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:primaryDocumentPage rdf:resource="https://doi.org/10.1145/3641846" />
+<dblp:documentPage rdf:resource="https://doi.org/10.1145/3641846" />
+<dblp:listedOnTocPage rdf:resource="https://dblp.org/db/journals/tosem/tosem33" />
+<dblp:publishedInStream rdf:resource="https://dblp.org/streams/journals/tosem" />
+<dblp:pagination>114:1-114:55</dblp:pagination>
+<dblp:publishedIn>ACM Trans. Softw. Eng. Methodol.</dblp:publishedIn>
+<dblp:publishedInJournal>ACM Trans. Softw. Eng. Methodol.</dblp:publishedInJournal>
+<dblp:publishedInJournalVolume>33</dblp:publishedInJournalVolume>
+<dblp:publishedInJournalVolumeIssue>5</dblp:publishedInJournalVolumeIssue>
+<dblp:yearOfPublication rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2024</dblp:yearOfPublication>
+<dblp:monthOfPublication rdf:datatype="http://www.w3.org/2001/XMLSchema#gMonth">--06</dblp:monthOfPublication>
+</dblp:Article>
+<rdf:Description rdf:about="https://dblp.org/rec/journals/tosem/GaoYYXS24.rdf">
+<rdfs:label>provenance information for RDF data of dblp record &apos;journals/tosem/GaoYYXS24&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2024-07-04T22:03:34+0200</dct:modified>
+</rdf:Description>
+</rdf:RDF>

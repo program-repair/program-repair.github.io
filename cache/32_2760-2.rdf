@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:bf="http://id.loc.gov/ontologies/bibframe/" xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:bibtex="http://purl.org/net/nknouf/ns/bibtex#" xmlns:cito="http://purl.org/spar/cito/" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dbo="http://dbpedia.org/ontology/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dct="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:litre="http://purl.org/spar/literal/" xmlns:locid="http://id.loc.gov/vocabulary/identifiers/" xmlns:locrel="http://id.loc.gov/vocabulary/relators/" xmlns:schema="https://schema.org/" xmlns:wd="http://www.wikidata.org/entity/" xmlns:wdt="http://www.wikidata.org/prop/direct/" xmlns:dblp="https://dblp.org/rdf/schema#">
+<dblp:Person rdf:about="https://dblp.org/pid/32/2760-2">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
+<owl:sameAs rdf:resource="https://orcid.org/0000-0001-5016-7296" />
+<rdfs:label>Chenyang Yang 0002</rdfs:label>
+<dblp:orcid rdf:resource="https://orcid.org/0000-0001-5016-7296" />
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<rdf:type rdf:resource="http://purl.org/spar/datacite/Identifier" />
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>32/2760-2</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<rdf:type rdf:resource="http://purl.org/spar/datacite/Identifier" />
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/orcid" />
+<litre:hasLiteralValue>0000-0001-5016-7296</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<dblp:primaryCreatorName>Chenyang Yang</dblp:primaryCreatorName>
+<dblp:creatorName>Chenyang Yang</dblp:creatorName>
+<dblp:primaryAffiliation>Carnegie Mellon University, Pittsburgh, PA, USA</dblp:primaryAffiliation>
+<dblp:affiliation>Carnegie Mellon University, Pittsburgh, PA, USA</dblp:affiliation>
+<dblp:affiliation>Peking University, Beijing, China</dblp:affiliation>
+<dblp:affiliation>Peking University, Beijing, China</dblp:affiliation>
+<dblp:primaryHomepage rdf:resource="https://www.cs.cmu.edu/~cyang3/" />
+<dblp:homepage rdf:resource="https://www.cs.cmu.edu/~cyang3/" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/tse/XiaoYWX24" />
+<dblp:creatorOf rdf:resource="https://dblp.org/rec/journals/tse/XiaoYWX24" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/cain/Ma0K24" />
+<dblp:creatorOf rdf:resource="https://dblp.org/rec/conf/cain/Ma0K24" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/Liang0M24" />
+<dblp:creatorOf rdf:resource="https://dblp.org/rec/conf/icse/Liang0M24" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/aaai/0002BLKW23" />
+<dblp:creatorOf rdf:resource="https://dblp.org/rec/conf/aaai/0002BLKW23" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/emnlp/0002RBLKW23" />
+<dblp:creatorOf rdf:resource="https://dblp.org/rec/conf/emnlp/0002RBLKW23" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/kbse/XiaoYWX23" />
+<dblp:creatorOf rdf:resource="https://dblp.org/rec/conf/kbse/XiaoYWX23" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2303-17125" />
+<dblp:creatorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2303-17125" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2305-03955" />
+<dblp:creatorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2305-03955" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2307-10168" />
+<dblp:creatorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2307-10168" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2310-09668" />
+<dblp:creatorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2310-09668" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2311-11123" />
+<dblp:creatorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2311-11123" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/kbse/YangBLK22" />
+<dblp:creatorOf rdf:resource="https://dblp.org/rec/conf/kbse/YangBLK22" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2209-03345" />
+<dblp:creatorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2209-03345" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2211-06409" />
+<dblp:creatorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2211-06409" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/kbse/YangZGK21" />
+<dblp:creatorOf rdf:resource="https://dblp.org/rec/conf/kbse/YangZGK21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/sas/ChenYZXTWZ21" />
+<dblp:creatorOf rdf:resource="https://dblp.org/rec/conf/sas/ChenYZXTWZ21" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/352/5581" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/314/7698" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/305/7615" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/329/4324" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/52/295" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/276/5094" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/327/3236" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/352/5570" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/73/4155-4" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/321/0493" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/85/3873" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/226/2466" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/51/1171" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/315/0300" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/268/6720" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/330/3138" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/352/5487" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/305/5943" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/54/1970" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/348/9029" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/352/5645" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/352/5855" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/240/7627" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/352/5396" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/07/5751" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/167/9691" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/348/8968" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/352/5498" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/72/6811-50" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/31/6028" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/179/3791" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/95/6985" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/13/7027" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/296/2070" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/82/2673" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/z/LuZhang1" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/76/1584-35" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/166/5038" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/95/9539" />
+</dblp:Person>
+<rdf:Description rdf:about="https://dblp.org/pid/32/2760-2.rdf">
+<rdfs:label>provenance information for RDF data of dblp person &apos;32/2760-2&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2024-08-17T23:40:43+0200</dct:modified>
+</rdf:Description>
+</rdf:RDF>

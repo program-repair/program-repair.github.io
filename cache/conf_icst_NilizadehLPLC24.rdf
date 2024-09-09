@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:bf="http://id.loc.gov/ontologies/bibframe/" xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:bibtex="http://purl.org/net/nknouf/ns/bibtex#" xmlns:cito="http://purl.org/spar/cito/" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dbo="http://dbpedia.org/ontology/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dct="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:litre="http://purl.org/spar/literal/" xmlns:locid="http://id.loc.gov/vocabulary/identifiers/" xmlns:locrel="http://id.loc.gov/vocabulary/relators/" xmlns:schema="https://schema.org/" xmlns:wd="http://www.wikidata.org/entity/" xmlns:wdt="http://www.wikidata.org/prop/direct/" xmlns:dblp="https://dblp.org/rdf/schema#">
+<dblp:Inproceedings rdf:about="https://dblp.org/rec/conf/icst/NilizadehLPLC24">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Publication" />
+<owl:sameAs rdf:resource="https://doi.org/10.1109/ICST60714.2024.00033" />
+<owl:sameAs rdf:resource="http://dx.doi.org/10.1109/ICST60714.2024.00033" />
+<rdfs:label>Amirfarhad Nilizadeh et al.: Does Going Beyond Branch Coverage Make Program Repair Tools More Reliable? (2024)</rdfs:label>
+<dblp:doi rdf:resource="https://doi.org/10.1109/ICST60714.2024.00033" />
+<datacite:hasIdentifier>
+<datacite:ResourceIdentifier>
+<rdf:type rdf:resource="http://purl.org/spar/datacite/Identifier" />
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp-record" />
+<litre:hasLiteralValue>conf/icst/NilizadehLPLC24</litre:hasLiteralValue>
+</datacite:ResourceIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:ResourceIdentifier>
+<rdf:type rdf:resource="http://purl.org/spar/datacite/Identifier" />
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/doi" />
+<litre:hasLiteralValue>10.1109/ICST60714.2024.00033</litre:hasLiteralValue>
+</datacite:ResourceIdentifier>
+</datacite:hasIdentifier>
+<dblp:title>Does Going Beyond Branch Coverage Make Program Repair Tools More Reliable?</dblp:title>
+<dblp:bibtexType rdf:resource="http://purl.org/net/nknouf/ns/bibtex#Inproceedings" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/205/3917" />
+<dblp:createdBy rdf:resource="https://dblp.org/pid/205/3917" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/66/2755" />
+<dblp:createdBy rdf:resource="https://dblp.org/pid/66/2755" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/03/4368" />
+<dblp:createdBy rdf:resource="https://dblp.org/pid/03/4368" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/304/2501" />
+<dblp:createdBy rdf:resource="https://dblp.org/pid/304/2501" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/28/6872" />
+<dblp:createdBy rdf:resource="https://dblp.org/pid/28/6872" />
+<dblp:numberOfCreators rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</dblp:numberOfCreators>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Signature" />
+<dblp:signatureDblpName>Amirfarhad Nilizadeh</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/205/3917" />
+<dblp:signatureOrdinal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/conf/icst/NilizadehLPLC24" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Signature" />
+<dblp:signatureDblpName>Gary T. Leavens</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/66/2755" />
+<dblp:signatureOrdinal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/conf/icst/NilizadehLPLC24" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Signature" />
+<dblp:signatureDblpName>Corina S. Pasareanu</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/03/4368" />
+<dblp:signatureOrdinal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/conf/icst/NilizadehLPLC24" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Signature" />
+<dblp:signatureDblpName>Xuan-Bach Dinh Le</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/304/2501" />
+<dblp:signatureOrdinal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/conf/icst/NilizadehLPLC24" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Signature" />
+<dblp:signatureDblpName>David R. Cok</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/28/6872" />
+<dblp:signatureOrdinal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/conf/icst/NilizadehLPLC24" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:primaryDocumentPage rdf:resource="https://doi.org/10.1109/ICST60714.2024.00033" />
+<dblp:documentPage rdf:resource="https://doi.org/10.1109/ICST60714.2024.00033" />
+<dblp:listedOnTocPage rdf:resource="https://dblp.org/db/conf/icst/icst2024" />
+<dblp:publishedInStream rdf:resource="https://dblp.org/streams/conf/icst" />
+<dblp:pagination>281-292</dblp:pagination>
+<dblp:publishedIn>ICST</dblp:publishedIn>
+<dblp:publishedInBook>ICST</dblp:publishedInBook>
+<dblp:yearOfEvent rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2024</dblp:yearOfEvent>
+<dblp:yearOfPublication rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2024</dblp:yearOfPublication>
+<dblp:publishedAsPartOf rdf:resource="https://dblp.org/rec/conf/icst/2024" />
+</dblp:Inproceedings>
+<rdf:Description rdf:about="https://dblp.org/rec/conf/icst/NilizadehLPLC24.rdf">
+<rdfs:label>provenance information for RDF data of dblp record &apos;conf/icst/NilizadehLPLC24&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2024-09-05T16:02:11+0200</dct:modified>
+</rdf:Description>
+</rdf:RDF>

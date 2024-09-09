@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:bf="http://id.loc.gov/ontologies/bibframe/" xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:bibtex="http://purl.org/net/nknouf/ns/bibtex#" xmlns:cito="http://purl.org/spar/cito/" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dbo="http://dbpedia.org/ontology/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dct="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:litre="http://purl.org/spar/literal/" xmlns:locid="http://id.loc.gov/vocabulary/identifiers/" xmlns:locrel="http://id.loc.gov/vocabulary/relators/" xmlns:schema="https://schema.org/" xmlns:wd="http://www.wikidata.org/entity/" xmlns:wdt="http://www.wikidata.org/prop/direct/" xmlns:dblp="https://dblp.org/rdf/schema#">
+<dblp:Article rdf:about="https://dblp.org/rec/journals/tosem/ZhuWTLCWSZS24">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Publication" />
+<owl:sameAs rdf:resource="https://doi.org/10.1145/3617171" />
+<owl:sameAs rdf:resource="http://dx.doi.org/10.1145/3617171" />
+<rdfs:label>Hengcheng Zhu et al.: StubCoder: Automated Generation and Repair of Stub Code for Mock Objects. (2024)</rdfs:label>
+<dblp:doi rdf:resource="https://doi.org/10.1145/3617171" />
+<datacite:hasIdentifier>
+<datacite:ResourceIdentifier>
+<rdf:type rdf:resource="http://purl.org/spar/datacite/Identifier" />
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp-record" />
+<litre:hasLiteralValue>journals/tosem/ZhuWTLCWSZS24</litre:hasLiteralValue>
+</datacite:ResourceIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:ResourceIdentifier>
+<rdf:type rdf:resource="http://purl.org/spar/datacite/Identifier" />
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/doi" />
+<litre:hasLiteralValue>10.1145/3617171</litre:hasLiteralValue>
+</datacite:ResourceIdentifier>
+</datacite:hasIdentifier>
+<dblp:title>StubCoder: Automated Generation and Repair of Stub Code for Mock Objects.</dblp:title>
+<dblp:bibtexType rdf:resource="http://purl.org/net/nknouf/ns/bibtex#Article" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/262/9474" />
+<dblp:createdBy rdf:resource="https://dblp.org/pid/262/9474" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/47/5973" />
+<dblp:createdBy rdf:resource="https://dblp.org/pid/47/5973" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/167/0208" />
+<dblp:createdBy rdf:resource="https://dblp.org/pid/167/0208" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/125/1824" />
+<dblp:createdBy rdf:resource="https://dblp.org/pid/125/1824" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/c/SCCheung" />
+<dblp:createdBy rdf:resource="https://dblp.org/pid/c/SCCheung" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/12/10490" />
+<dblp:createdBy rdf:resource="https://dblp.org/pid/12/10490" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/76/3036" />
+<dblp:createdBy rdf:resource="https://dblp.org/pid/76/3036" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/74/2272" />
+<dblp:createdBy rdf:resource="https://dblp.org/pid/74/2272" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/32/8539" />
+<dblp:createdBy rdf:resource="https://dblp.org/pid/32/8539" />
+<dblp:numberOfCreators rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</dblp:numberOfCreators>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Signature" />
+<dblp:signatureDblpName>Hengcheng Zhu</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/262/9474" />
+<dblp:signatureOrcid rdf:resource="https://orcid.org/0000-0002-3082-5957" />
+<dblp:signatureOrdinal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/journals/tosem/ZhuWTLCWSZS24" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Signature" />
+<dblp:signatureDblpName>Lili Wei</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/47/5973" />
+<dblp:signatureOrcid rdf:resource="https://orcid.org/0000-0002-2428-4111" />
+<dblp:signatureOrdinal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/journals/tosem/ZhuWTLCWSZS24" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Signature" />
+<dblp:signatureDblpName>Valerio Terragni</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/167/0208" />
+<dblp:signatureOrcid rdf:resource="https://orcid.org/0000-0001-5885-9297" />
+<dblp:signatureOrdinal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/journals/tosem/ZhuWTLCWSZS24" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Signature" />
+<dblp:signatureDblpName>Yepang Liu 0001</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/125/1824" />
+<dblp:signatureOrcid rdf:resource="https://orcid.org/0000-0001-8147-8126" />
+<dblp:signatureOrdinal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/journals/tosem/ZhuWTLCWSZS24" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Signature" />
+<dblp:signatureDblpName>Shing-Chi Cheung</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/c/SCCheung" />
+<dblp:signatureOrcid rdf:resource="https://orcid.org/0000-0002-3508-7172" />
+<dblp:signatureOrdinal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/journals/tosem/ZhuWTLCWSZS24" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Signature" />
+<dblp:signatureDblpName>Jiarong Wu</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/12/10490" />
+<dblp:signatureOrcid rdf:resource="https://orcid.org/0000-0001-6126-303X" />
+<dblp:signatureOrdinal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/journals/tosem/ZhuWTLCWSZS24" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Signature" />
+<dblp:signatureDblpName>Qin Sheng</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/76/3036" />
+<dblp:signatureOrcid rdf:resource="https://orcid.org/0009-0004-8527-9297" />
+<dblp:signatureOrdinal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/journals/tosem/ZhuWTLCWSZS24" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Signature" />
+<dblp:signatureDblpName>Bing Zhang</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/74/2272" />
+<dblp:signatureOrcid rdf:resource="https://orcid.org/0009-0007-5862-136X" />
+<dblp:signatureOrdinal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/journals/tosem/ZhuWTLCWSZS24" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Signature" />
+<dblp:signatureDblpName>Lihong Song</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/32/8539" />
+<dblp:signatureOrcid rdf:resource="https://orcid.org/0009-0004-9452-4741" />
+<dblp:signatureOrdinal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/journals/tosem/ZhuWTLCWSZS24" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:primaryDocumentPage rdf:resource="https://doi.org/10.1145/3617171" />
+<dblp:documentPage rdf:resource="https://doi.org/10.1145/3617171" />
+<dblp:listedOnTocPage rdf:resource="https://dblp.org/db/journals/tosem/tosem33" />
+<dblp:publishedInStream rdf:resource="https://dblp.org/streams/journals/tosem" />
+<dblp:pagination>16:1-16:31</dblp:pagination>
+<dblp:publishedIn>ACM Trans. Softw. Eng. Methodol.</dblp:publishedIn>
+<dblp:publishedInJournal>ACM Trans. Softw. Eng. Methodol.</dblp:publishedInJournal>
+<dblp:publishedInJournalVolume>33</dblp:publishedInJournalVolume>
+<dblp:publishedInJournalVolumeIssue>1</dblp:publishedInJournalVolumeIssue>
+<dblp:yearOfPublication rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2024</dblp:yearOfPublication>
+<dblp:monthOfPublication rdf:datatype="http://www.w3.org/2001/XMLSchema#gMonth">--01</dblp:monthOfPublication>
+</dblp:Article>
+<rdf:Description rdf:about="https://dblp.org/rec/journals/tosem/ZhuWTLCWSZS24.rdf">
+<rdfs:label>provenance information for RDF data of dblp record &apos;journals/tosem/ZhuWTLCWSZS24&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2024-02-10T18:05:32+0100</dct:modified>
+</rdf:Description>
+</rdf:RDF>

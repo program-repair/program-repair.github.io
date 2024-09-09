@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:bf="http://id.loc.gov/ontologies/bibframe/" xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:bibtex="http://purl.org/net/nknouf/ns/bibtex#" xmlns:cito="http://purl.org/spar/cito/" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dbo="http://dbpedia.org/ontology/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dct="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:litre="http://purl.org/spar/literal/" xmlns:locid="http://id.loc.gov/vocabulary/identifiers/" xmlns:locrel="http://id.loc.gov/vocabulary/relators/" xmlns:schema="https://schema.org/" xmlns:wd="http://www.wikidata.org/entity/" xmlns:wdt="http://www.wikidata.org/prop/direct/" xmlns:dblp="https://dblp.org/rdf/schema#">
+<dblp:Person rdf:about="https://dblp.org/pid/39/6911">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
+<rdfs:label>Katsuhisa Maruyama</rdfs:label>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<rdf:type rdf:resource="http://purl.org/spar/datacite/Identifier" />
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>39/6911</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<dblp:primaryCreatorName>Katsuhisa Maruyama</dblp:primaryCreatorName>
+<dblp:creatorName>Katsuhisa Maruyama</dblp:creatorName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/wcre/HaradaM24" />
+<dblp:creatorOf rdf:resource="https://dblp.org/rec/conf/wcre/HaradaM24" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/apsec/HaradaM22" />
+<dblp:creatorOf rdf:resource="https://dblp.org/rec/conf/apsec/HaradaM22" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/ieicetd/OmoriMO21" />
+<dblp:creatorOf rdf:resource="https://dblp.org/rec/journals/ieicetd/OmoriMO21" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/ieicetd/MaruyamaHO20" />
+<dblp:creatorOf rdf:resource="https://dblp.org/rec/journals/ieicetd/MaruyamaHO20" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/ieicet/OmoriM18" />
+<dblp:creatorOf rdf:resource="https://dblp.org/rec/journals/ieicet/OmoriM18" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/wcre/MaruyamaHO18" />
+<dblp:creatorOf rdf:resource="https://dblp.org/rec/conf/wcre/MaruyamaHO18" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/MaruyamaH17" />
+<dblp:creatorOf rdf:resource="https://dblp.org/rec/conf/icse/MaruyamaH17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/wcre/MaruyamaHYC17" />
+<dblp:creatorOf rdf:resource="https://dblp.org/rec/conf/wcre/MaruyamaHYC17" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/ieicet/MaruyamaOH16" />
+<dblp:creatorOf rdf:resource="https://dblp.org/rec/journals/ieicet/MaruyamaOH16" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ecoop/SuzukiKM16" />
+<dblp:creatorOf rdf:resource="https://dblp.org/rec/conf/ecoop/SuzukiKM16" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icsoft/TrangM16" />
+<dblp:creatorOf rdf:resource="https://dblp.org/rec/conf/icsoft/TrangM16" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/wcre/NishimuraM16" />
+<dblp:creatorOf rdf:resource="https://dblp.org/rec/conf/wcre/NishimuraM16" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/imt/OmoriKM15" />
+<dblp:creatorOf rdf:resource="https://dblp.org/rec/journals/imt/OmoriKM15" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/wcre/HayashiHMSOM15" />
+<dblp:creatorOf rdf:resource="https://dblp.org/rec/conf/wcre/HayashiHMSOM15" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/ieicet/AkbarOM14" />
+<dblp:creatorOf rdf:resource="https://dblp.org/rec/journals/ieicet/AkbarOM14" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/iwpc/MaruyamaOH14" />
+<dblp:creatorOf rdf:resource="https://dblp.org/rec/conf/iwpc/MaruyamaOH14" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/apsec/KitsuOM13" />
+<dblp:creatorOf rdf:resource="https://dblp.org/rec/conf/apsec/KitsuOM13" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icsm/OmoriKM12" />
+<dblp:creatorOf rdf:resource="https://dblp.org/rec/conf/icsm/OmoriKM12" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icsm/HayashiOZMS12" />
+<dblp:creatorOf rdf:resource="https://dblp.org/rec/conf/icsm/HayashiOZMS12" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/jckbse/AkbarOM12" />
+<dblp:creatorOf rdf:resource="https://dblp.org/rec/conf/jckbse/AkbarOM12" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/kbse/MaruyamaKOH12" />
+<dblp:creatorOf rdf:resource="https://dblp.org/rec/conf/kbse/MaruyamaKOH12" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/MaruyamaO11" />
+<dblp:creatorOf rdf:resource="https://dblp.org/rec/conf/icse/MaruyamaO11" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/iwpse/OmoriM11" />
+<dblp:creatorOf rdf:resource="https://dblp.org/rec/conf/iwpse/OmoriM11" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/apsec/OmoriM09" />
+<dblp:creatorOf rdf:resource="https://dblp.org/rec/conf/apsec/OmoriM09" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/dexaw/WashizakiFMKY09" />
+<dblp:creatorOf rdf:resource="https://dblp.org/rec/conf/dexaw/WashizakiFMKY09" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/apsec/MaruyamaT08" />
+<dblp:creatorOf rdf:resource="https://dblp.org/rec/conf/apsec/MaruyamaT08" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/msr/OmoriM08" />
+<dblp:creatorOf rdf:resource="https://dblp.org/rec/conf/msr/OmoriM08" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icsoft/Maruyama07" />
+<dblp:creatorOf rdf:resource="https://dblp.org/rec/conf/icsoft/Maruyama07" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/ieicet/MaruyamaY06" />
+<dblp:creatorOf rdf:resource="https://dblp.org/rec/journals/ieicet/MaruyamaY06" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/apsec/Maruyama06" />
+<dblp:creatorOf rdf:resource="https://dblp.org/rec/conf/apsec/Maruyama06" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/kbse/MaruyamaMY06" />
+<dblp:creatorOf rdf:resource="https://dblp.org/rec/conf/kbse/MaruyamaMY06" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/apsec/OmoriM05" />
+<dblp:creatorOf rdf:resource="https://dblp.org/rec/conf/apsec/OmoriM05" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/iwpc/MaruyamaY05" />
+<dblp:creatorOf rdf:resource="https://dblp.org/rec/conf/iwpc/MaruyamaY05" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/scam/MaruyamaY04" />
+<dblp:creatorOf rdf:resource="https://dblp.org/rec/conf/scam/MaruyamaY04" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ssr/Maruyama01" />
+<dblp:creatorOf rdf:resource="https://dblp.org/rec/conf/ssr/Maruyama01" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/tse/MaruyamaS00" />
+<dblp:creatorOf rdf:resource="https://dblp.org/rec/journals/tse/MaruyamaS00" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icse/MaruyamaS99" />
+<dblp:creatorOf rdf:resource="https://dblp.org/rec/conf/icse/MaruyamaS99" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/icsr/MaruyamaS98" />
+<dblp:creatorOf rdf:resource="https://dblp.org/rec/conf/icsr/MaruyamaS98" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/ssr/MaruyamaS97" />
+<dblp:creatorOf rdf:resource="https://dblp.org/rec/conf/ssr/MaruyamaS97" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/scjapan/OnoMF96" />
+<dblp:creatorOf rdf:resource="https://dblp.org/rec/journals/scjapan/OnoMF96" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/apsec/MaruyamaS96" />
+<dblp:creatorOf rdf:resource="https://dblp.org/rec/conf/apsec/MaruyamaS96" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/120/2835" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/21/10488" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/f/EBFernandez" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/129/0031" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/341/0975" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/73/5681" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/141/7896" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/53/1111" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/120/0744" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/83/2519" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/33/6242" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/161/1099" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/65/4134" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/180/7281" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/58/1400" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/58/4409" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/12/5611" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/85/2861" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/12/5800" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/10/5186" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/18/644" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/185/4800" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/65/3507" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/82/4016" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/85/877" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/12/2475" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/05/4640" />
+</dblp:Person>
+<rdf:Description rdf:about="https://dblp.org/pid/39/6911.rdf">
+<rdfs:label>provenance information for RDF data of dblp person &apos;39/6911&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2024-08-27T22:02:01+0200</dct:modified>
+</rdf:Description>
+</rdf:RDF>

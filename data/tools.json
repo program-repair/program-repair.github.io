@@ -428,7 +428,7 @@
 	"repo": "https://github.com/squaresLab/genprog-code",
 	"target": "C/C++",
 	"dblp": "conf/icse/GouesDFW12"
-    }
+    },
     {
 	"name": "Rete",
 	"description": "learning namespace representation for program repair",

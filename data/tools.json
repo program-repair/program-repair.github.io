@@ -429,4 +429,13 @@
 	"target": "C/C++",
 	"dblp": "conf/icse/GouesDFW12"
     }
+    {
+	"name": "Rete",
+	"description": "learning namespace representation for program repair",
+	"url": "https://github.com/norhh/Rete",
+	"repo": "https://github.com/norhh/Rete",
+	"target": "Python/C",
+	"dblp": "conf/icse/ParasaramBM23"
+    }
+
 ]

@@ -1,12 +1,36 @@
 [
-	{
-		"name": "HIPPODROME",
-		"description": "statically detects and fixes data race conditions for small to large scale Java programs",
-		"url": "https://github.com/verse-lab/hippodrome",
-		"repo": "https://github.com/verse-lab/hippodrome",
-		"target": "Java",
-		"dblp": "journals/tosem/CosteaTCRRS23"
-},
+        {
+                "name": "Gin",
+                "description": "a tool for experimentation with GI",
+                "url": "https://github.com/gintool/gin",
+                "repo": "https://github.com/gintool/gin",
+                "target": "Java",
+                "dblp": "conf/gecco/BrownleePABWW19"
+        },
+        {
+                "name": "PyGGI",
+                "description": "a Python general framework for genetic improvement",
+                "url": "https://github.com/coinse/pyggi",
+                "repo": "https://github.com/coinse/pyggi",
+                "target": "Multilingual",
+                "dblp": "conf/sigsoft/AnBPY19"
+        },
+        {
+                "name": "ExpressAPR",
+                "description": "efficient patch validation for Java APR systems",
+                "url": "https://github.com/ExpressAPR/ExpressAPR",
+                "repo": "https://github.com/ExpressAPR/ExpressAPR",
+                "target": "Java",
+                "dblp": "conf/kbse/XiaoYWX23"
+        },
+        {
+                "name": "HIPPODROME",
+                "description": "statically detects and fixes data race conditions for small to large scale Java programs",
+                "url": "https://github.com/verse-lab/hippodrome",
+                "repo": "https://github.com/verse-lab/hippodrome",
+                "target": "Java",
+                "dblp": "journals/tosem/CosteaTCRRS23"
+        },
 	{
 		"name": "JaRFly",
 		"description": "a Java repair framework for implementing automated repair tools for Java programs",

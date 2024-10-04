@@ -1,4 +1,28 @@
 [
+        {
+                "name": "BugsPHP",
+                "description": "a dataset for automated program repair in PHP",
+                "target": "PHP",
+                "dblp": "conf/msr/PramodSTSW24",
+                "url": "https://github.com/bugsphp/bugsPHP",
+                "repo": "https://github.com/bugsphp/bugsPHP"
+        },
+        {
+                "name": "Minecraft",
+                "description": "a benchmark with C/C++, Java, and Python programs constructed via automated mining of software bug fixes with precise code context",
+                "target": "Multilingual",
+                "dblp": "conf/kbse/AvulaVM23",
+                "url": "https://github.com/SET-IITGN/Minecraft",
+                "repo": "https://github.com/SET-IITGN/Minecraft"
+        },
+        {
+                "name": "growingBugs",
+                "description": "a benchmark for Java defects providing easy-to-use interfaces similar to Defects4J",
+                "target": "Java",
+                "dblp": "journals/tse/JiangLLZCNZHBZ23",
+                "url": "https://github.com/liuhuigmail/GrowingBugRepository",
+                "repo": "https://github.com/liuhuigmail/GrowingBugRepository"
+        },
 	{
 		"name": "Vul4J",
 		"description": "a dataset of reproducible Java vulnerabilities",

@@ -428,13 +428,13 @@
 	"repo": "https://github.com/squaresLab/genprog-code",
 	"target": "C/C++",
 	"dblp": "conf/icse/GouesDFW12"
-    }
+    },
     {
 	"name": "Rete",
-	"description": "learning namespace representation for program repair",
+	"description": "a repair tool for Python and C programs that selects relevant variables by learning namespace representation",
 	"url": "https://github.com/norhh/Rete",
 	"repo": "https://github.com/norhh/Rete",
-	"target": "Python/C",
+	"target": "Multilingual",
 	"dblp": "conf/icse/ParasaramBM23"
     }
 

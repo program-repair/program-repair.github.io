@@ -1,5 +1,13 @@
 [
         {
+                "name": "ExtractFix",
+                "description": "repairs program vulnerabilities via crash constraint extraction",
+                "url": "https://extractfix.github.io/",
+                "repo": "https://github.com/nus-apr/extractfix-benchmark",
+                "target": "C/C++",
+                "dblp": "journals/tosem/GaoWDJXR21"
+        },
+        {
                 "name": "Gin",
                 "description": "a tool for experimentation with GI",
                 "url": "https://github.com/gintool/gin",

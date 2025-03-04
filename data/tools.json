@@ -1,4 +1,12 @@
 [
+         {
+                "name": "EvoRepair",
+                "description": "co-evolution based repair for Java",
+                "url": "https://github.com/nus-apr/evorepair",
+                "repo": "https://github.com/nus-apr/evorepair",
+                "target": "Java",
+                "dblp": "conf/icst/RuanNSNR24"
+        },
         {
                 "name": "ExtractFix",
                 "description": "repairs program vulnerabilities via crash constraint extraction",

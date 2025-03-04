@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:bf="http://id.loc.gov/ontologies/bibframe/" xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:bibtex="http://purl.org/net/nknouf/ns/bibtex#" xmlns:cito="http://purl.org/spar/cito/" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dbo="http://dbpedia.org/ontology/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dct="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:litre="http://purl.org/spar/literal/" xmlns:locid="http://id.loc.gov/vocabulary/identifiers/" xmlns:locrel="http://id.loc.gov/vocabulary/relators/" xmlns:schema="https://schema.org/" xmlns:wd="http://www.wikidata.org/entity/" xmlns:wdt="http://www.wikidata.org/prop/direct/" xmlns:dblp="https://dblp.org/rdf/schema#">
+<dblp:Person rdf:about="https://dblp.org/pid/255/0664">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Creator" />
+<rdfs:label>Jyoti Prakash</rdfs:label>
+<datacite:hasIdentifier>
+<datacite:PersonalIdentifier>
+<rdf:type rdf:resource="http://purl.org/spar/datacite/Identifier" />
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp" />
+<litre:hasLiteralValue>255/0664</litre:hasLiteralValue>
+</datacite:PersonalIdentifier>
+</datacite:hasIdentifier>
+<dblp:primaryCreatorName>Jyoti Prakash</dblp:primaryCreatorName>
+<dblp:creatorName>Jyoti Prakash</dblp:creatorName>
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/fm/TiwariPDF24" />
+<dblp:creatorOf rdf:resource="https://dblp.org/rec/conf/fm/TiwariPDF24" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/issre/TiwariPH23" />
+<dblp:creatorOf rdf:resource="https://dblp.org/rec/conf/issre/TiwariPH23" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/mobilesoft/TiwariPRH23" />
+<dblp:creatorOf rdf:resource="https://dblp.org/rec/conf/mobilesoft/TiwariPRH23" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2305-03916" />
+<dblp:creatorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2305-03916" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2208-01968" />
+<dblp:creatorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2208-01968" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/fase/PrakashT021" />
+<dblp:creatorOf rdf:resource="https://dblp.org/rec/conf/fase/PrakashT021" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/jss/TiwariPG020" />
+<dblp:creatorOf rdf:resource="https://dblp.org/rec/journals/jss/TiwariPG020" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2008-01725" />
+<dblp:creatorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-2008-01725" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/conf/scam/TiwariPG019" />
+<dblp:creatorOf rdf:resource="https://dblp.org/rec/conf/scam/TiwariPG019" />
+<dblp:authorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-1912-00429" />
+<dblp:creatorOf rdf:resource="https://dblp.org/rec/journals/corr/abs-1912-00429" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/60/1749" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/78/6422" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/218/8864" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/h/ChristianHammer1" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/326/0115" />
+<dblp:coCreatorWith rdf:resource="https://dblp.org/pid/91/1861-1" />
+</dblp:Person>
+<rdf:Description rdf:about="https://dblp.org/pid/255/0664.rdf">
+<rdfs:label>provenance information for RDF data of dblp person &apos;255/0664&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2024-12-10T20:40:53+0100</dct:modified>
+</rdf:Description>
+</rdf:RDF>
